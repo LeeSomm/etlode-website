@@ -1,0 +1,227 @@
+<script>
+  import { onMount, onDestroy } from 'svelte';
+  import { fade } from 'svelte/transition';
+
+  let canvas;
+  let animationId;
+  let resizeObserver; // Declare resizeObserver
+  
+  onMount(() => {
+    if (!canvas) return;
+
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    // Set canvas dimensions with device pixel ratio for sharp rendering
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+
+    canvas.width = rect.width * dpr;
+    canvas.height = rect.height * dpr;
+    ctx.scale(dpr, dpr);
+
+    // Set canvas size in CSS
+    canvas.style.width = `${rect.width}px`;
+    canvas.style.height = `${rect.height}px`;
+
+    // Constants
+    const width = rect.width;
+    const height = rect.height;
+    const centerX = width / 2;
+    const centerY = height / 2;
+
+    // Draw the main circular AI core
+    const drawCore = () => {
+      // Outer glow
+      const gradient = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, 100);
+      gradient.addColorStop(0, "rgba(45, 212, 191, 0.8)"); // teal-400
+      gradient.addColorStop(0.7, "rgba(45, 212, 191, 0.2)");
+      gradient.addColorStop(1, "rgba(45, 212, 191, 0)");
+
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, 100, 0, Math.PI * 2);
+      ctx.fillStyle = gradient;
+      ctx.fill();
+
+      // Inner core
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, 60, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(17, 24, 39, 0.9)"; // gray-900
+      ctx.strokeStyle = "rgba(45, 212, 191, 0.8)"; // teal-400
+      ctx.lineWidth = 2;
+      ctx.fill();
+      ctx.stroke();
+
+      // Center dot
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, 10, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(45, 212, 191, 1)"; // teal-400
+      ctx.fill();
+    };
+
+    // Draw orbiting elements representing languages and data
+    const drawOrbitingElements = (time) => {
+      const languages = ["EN", "ES", "FR", "DE", "ZH", "JA", "AR", "RU"];
+      const orbitRadius = 180;
+
+      languages.forEach((lang, i) => {
+        const angle = (i / languages.length) * Math.PI * 2 + time / 5000;
+        const x = centerX + Math.cos(angle) * orbitRadius;
+        const y = centerY + Math.sin(angle) * orbitRadius;
+
+        // Draw connecting line
+        ctx.beginPath();
+        ctx.moveTo(centerX, centerY);
+        ctx.lineTo(x, y);
+        ctx.strokeStyle = `rgba(45, 212, 191, ${0.2 + Math.sin(time / 5000 + i) * 0.1})`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        // Draw language node
+        ctx.beginPath();
+        ctx.arc(x, y, 20, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(17, 24, 39, 0.9)"; // gray-900
+        ctx.strokeStyle = "rgba(45, 212, 191, 0.8)"; // teal-400
+        ctx.lineWidth = 1.5;
+        ctx.fill();
+        ctx.stroke();
+
+        // Draw language text
+        ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
+        ctx.font = "10px Arial";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText(lang, x, y);
+      });
+    };
+
+    // Draw data streams
+    const drawDataStreams = (time) => {
+      const streamCount = 24;
+
+      for (let i = 0; i < streamCount; i++) {
+        const angle = (i / streamCount) * Math.PI * 2;
+        const length = 40 + Math.sin(time / 5000 + i * 0.5) * 20;
+        const innerRadius = 70;
+        const outerRadius = innerRadius + length;
+
+        const startX = centerX + Math.cos(angle) * innerRadius;
+        const startY = centerY + Math.sin(angle) * innerRadius;
+        const endX = centerX + Math.cos(angle) * outerRadius;
+        const endY = centerY + Math.sin(angle) * outerRadius;
+
+        const gradient = ctx.createLinearGradient(startX, startY, endX, endY);
+        gradient.addColorStop(0, "rgba(45, 212, 191, 0.9)");
+        gradient.addColorStop(1, "rgba(45, 212, 191, 0)");
+
+        ctx.beginPath();
+        ctx.moveTo(startX, startY);
+        ctx.lineTo(endX, endY);
+        ctx.strokeStyle = gradient;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+      }
+    };
+
+    // Draw binary/data particles
+    const drawDataParticles = (time) => {
+      const particleCount = 50;
+
+      for (let i = 0; i < particleCount; i++) {
+        const angle = (i / particleCount) * Math.PI * 2;
+        const distance = 80 + Math.sin(time / 5000 + i) * 30;
+        const x = centerX + Math.cos(angle + time / 2000) * distance;
+        const y = centerY + Math.sin(angle + time / 2000) * distance;
+
+        ctx.fillStyle = `rgba(45, 212, 191, ${0.4 + Math.sin(time / 5000 + i) * 0.2})`;
+        ctx.font = "8px monospace";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+
+        // Alternate between 1 and 0 for binary effect
+        const text = i % 2 === 0 ? "1" : "0";
+        ctx.fillText(text, x, y);
+      }
+    };
+
+    // Draw network connections between languages
+    const drawNetworkConnections = (time) => {
+      const languages = 8;
+      const orbitRadius = 130;
+
+      for (let i = 0; i < languages; i++) {
+        const angle1 = (i / languages) * Math.PI * 2 + time / 5000;
+        const x1 = centerX + Math.cos(angle1) * orbitRadius;
+        const y1 = centerY + Math.sin(angle1) * orbitRadius;
+
+        for (let j = i + 1; j < languages; j++) {
+          if (Math.random() > 0.7) continue; // Only draw some connections
+
+          const angle2 = (j / languages) * Math.PI * 2 + time / 5000;
+          const x2 = centerX + Math.cos(angle2) * orbitRadius;
+          const y2 = centerY + Math.sin(angle2) * orbitRadius;
+
+          const distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+          const opacity = Math.max(0, 1 - distance / 300);
+
+          ctx.beginPath();
+          ctx.moveTo(x1, y1);
+          ctx.lineTo(x2, y2);
+          ctx.strokeStyle = `rgba(45, 212, 191, ${opacity * 0.3})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    };
+
+    // Animation loop
+    const animate = (time) => {
+      ctx.clearRect(0, 0, width, height);
+
+      drawCore();
+      drawDataStreams(time);
+      drawOrbitingElements(time);
+      drawDataParticles(time);
+      drawNetworkConnections(time);
+
+      animationId = requestAnimationFrame(animate);
+    };
+
+    animate(0);
+
+    // Handle window resizing
+    resizeObserver = new ResizeObserver(() => {
+      const rect = canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      ctx.scale(dpr, dpr);
+      
+      canvas.style.width = `${rect.width}px`;
+      canvas.style.height = `${rect.height}px`;
+    });
+    
+    resizeObserver.observe(canvas);
+  });
+
+  onDestroy(() => {
+    if (animationId) {
+      cancelAnimationFrame(animationId);
+    }
+    if (resizeObserver) {
+      resizeObserver.disconnect();
+    }
+  });
+</script>
+
+<div 
+  class="relative w-full aspect-square md:aspect-[4/3]" 
+  in:fade={{ duration: 5000 }}
+>
+  <canvas
+    bind:this={canvas}
+    class="w-full h-full"
+    style="filter: drop-shadow(0 0 10px rgba(45, 212, 191, 0.3));"
+  ></canvas>
+</div>

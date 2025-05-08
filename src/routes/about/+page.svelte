@@ -33,15 +33,16 @@
         description: "Managed production planning across multiple facilities and facilitated transitions to new production sites."
       },
       {
+        year: "2018",
+        title: "Graduated from Washington & Lee University",
+        description: "Earned dual degrees in Business Administration and Japanese with honors."
+      },
+      {
         year: "2016-2017",
         title: "Study in Japan",
         description: "Completed intensive Japanese language program at International Christian University in Tokyo."
       },
-      {
-        year: "2018",
-        title: "Graduated from Washington & Lee University",
-        description: "Earned dual degrees in Business Administration and Japanese with honors."
-      }
+
     ];
   </script>
   
@@ -65,7 +66,7 @@
         <div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
           <h2 class="text-3xl font-bold mb-6">Our Story</h2>
           <p class="mb-4">
-            ET-Lode was founded by Lee Sommerfeldt, combining expertise in business process management, data science, and multilingual communication to create a unique AI automation consultancy.
+            ET-Lode was founded by Lee Sommerfeldt, combining expertise in business process management, machine learning, and multilingual communication to create a boutique AI automation consultancy.
           </p>
           <p class="mb-4">
             The name "ET-Lode" is a play on the data engineering term "Extract, Transform, Load" (ETL) – reflecting our mission to extract value from your data, transform it through AI, and load it into systems that drive business growth.
@@ -87,7 +88,7 @@
       
       <div class="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden">
         <div class="md:w-1/3">
-          <img src="/images/founder-photo.jpg" alt="Lee Sommerfeldt" class="w-full h-full object-cover" />
+          <img src="/images/leesomm_headshot.jpg" alt="Lee Sommerfeldt" class="w-full h-full object-cover" />
         </div>
         <div class="md:w-2/3 p-8">
           <h3 class="text-2xl font-bold mb-4">Lee Sommerfeldt</h3>

@@ -4,9 +4,9 @@
       id: 1,
       title: "Multilingual AI Chatbots",
       icon: "chat-bubble",
-      description: "Custom AI chatbots that communicate fluently in both English and Japanese, providing immediate customer support, product recommendations, and answers to frequently asked questions.",
+      description: "Custom AI chatbots that communicate fluently in multiple target languages, providing immediate customer support, product recommendations, and answers to frequently asked questions.",
       features: [
-        "Natural language understanding in English and Japanese",
+        "Semantic understanding via natural language processing",
         "Integration with your product database and knowledge base",
         "Custom personality and tone matching your brand",
         "Analytics dashboard to track user interactions",
@@ -36,7 +36,7 @@
         "Document processing and data extraction",
         "Custom ETL (Extract, Transform, Load) processes",
         "Business process analysis and optimization",
-        "Integration with existing ERP and CRM systems"
+        "Integration with legacy systems"
       ]
     },
     {
@@ -75,7 +75,6 @@
         "Marketing content localization",
         "Product description translation",
         "UI/UX text translation",
-        "Quality assurance by native speakers"
       ]
     }
   ];

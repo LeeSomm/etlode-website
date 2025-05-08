@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    
+    import AIAutomationGraphic from '$lib/components/ai-automation-graphic.svelte';
     let showScrollToTop = false;
     
     const scrollToTop = () => {
@@ -25,7 +25,7 @@
             AI Automation for <span class="text-teal-400">Global</span> Business
           </h1>
           <p class="text-xl mb-8">
-            Multilingual AI solutions that streamline operations and enhance customer experiences.
+            AI solutions that streamline multilingual operations and enhance customer experiences.
           </p>
           <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a href="/services" class="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-lg text-center">
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="md:w-1/2 flex justify-center">
-          <img src="/images/ai-illustration.svg" alt="AI Automation Illustration" class="max-w-full h-auto" />
+            <AIAutomationGraphic />
         </div>
       </div>
     </div>
@@ -172,12 +172,12 @@
       <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
         <div class="flex flex-col md:flex-row">
           <div class="md:w-1/2">
-            <img src="/images/ecommerce-case-study.jpg" alt="eCommerce AI Chatbot" class="w-full h-full object-cover" />
+            <img src="/images/chatbot-demo.gif" alt="eCommerce AI Chatbot" class="w-full h-full object-contain" />
           </div>
           <div class="md:w-1/2 p-8">
             <h3 class="text-2xl font-bold mb-4">Multilingual eCommerce AI Chatbot</h3>
             <p class="text-gray-600 mb-6">
-              Developed an AI-powered chatbot for a Japanese eCommerce business that answers customer queries in both Japanese and English, providing personalized product recommendations based on a database of products and customer preferences.
+                Developed an AI-powered chatbot for Japanese eCommerce businesses that delivers multilingual, on-demand customer support and personalized recommendations. Leveraging a RAG-enabled framework, it requires no pre-translation of product data simplifying master data maintainence.
             </p>
             <div class="mb-6">
               <h4 class="font-bold text-teal-600 mb-2">Results:</h4>
@@ -186,13 +186,13 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>85% reduction in customer service response time</span>
+                  <span>Multilingual customer responses in seconds</span>
                 </li>
                 <li class="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>32% increase in conversion rate from international customers</span>
+                  <span>Uncover customer insights with translated database of queries</span>
                 </li>
                 <li class="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -202,9 +202,6 @@
                 </li>
               </ul>
             </div>
-            <a href="/case-studies" class="inline-block text-teal-600 font-medium hover:text-teal-800">
-              View More Case Studies →
-            </a>
           </div>
         </div>
       </div>
@@ -215,7 +212,7 @@
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-8">Ready to Transform Your Business with AI?</h2>
       <p class="text-xl mb-8 max-w-2xl mx-auto">
-        Let's discuss how our multilingual AI solutions can enhance your customer experience and streamline your operations.
+        Let's discuss how our AI solutions can enhance your customer experience and streamline your operations.
       </p>
       <a href="/contact" class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-8 rounded-lg">
         Contact Us Today

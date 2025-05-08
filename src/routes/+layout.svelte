@@ -28,7 +28,7 @@
   <header class="bg-black text-white">
 	<div class="container mx-auto px-4 py-4 flex justify-between items-center">
 	  <div class="flex items-center">
-		<img src="/images/etlode-logo.svg" alt="ET-Lode Logo" class="h-12 mr-3" />
+		<img src="/images/etlode-logo-only.png" alt="ET-Lode Logo" class="h-12 mr-3" />
 		<span class="text-xl font-bold">ET-Lode</span>
 	  </div>
 	  
@@ -95,11 +95,11 @@
 	<div class="container mx-auto px-4">
 	  <div class="flex flex-col md:flex-row justify-between">
 		<div class="mb-6 md:mb-0">
-		  <img src="/images/etlode-logo.svg" alt="ET-Lode Logo" class="h-10 mb-3" />
+		  <img src="/images/etlode-logo-only.png" alt="ET-Lode Logo" class="h-10 mb-3" />
 		  <p class="text-sm text-gray-400">ET-Lode: Extract, Transform, Load. Enabling AI automation for global businesses.</p>
 		</div>
 		
-		<div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
+		<div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 md:pr-8">
 		  <div>
 			<h3 class="font-bold mb-3 text-teal-400">Quick Links</h3>
 			<nav class="flex flex-col space-y-2">
@@ -111,15 +111,15 @@
 		  </div>
 		  
 		  <div>
-			<h3 class="font-bold mb-3 text-teal-400">Contact</h3>
+			<h3 class="font-bold mb-3 text-teal-400 justify-left">Contact</h3>
 			<p class="text-sm">Email: <a href="mailto:lee@etlode.com" class="hover:text-teal-400">lee@etlode.com</a></p>
-			<p class="text-sm">Phone: (775) 391-8120</p>
+			<p class="text-sm">Phone: +1 (775) 391-8120</p>
 		  </div>
 		</div>
 	  </div>
 	  
 	  <div class="border-t border-gray-800 mt-8 pt-6 text-sm text-gray-500">
-		<p>&copy; {new Date().getFullYear()} ET-Lode. All rights reserved.</p>
+		<p>&copy; {new Date().getFullYear()} ET-Lode, LLC. All rights reserved.</p>
 	  </div>
 	</div>
   </footer>
