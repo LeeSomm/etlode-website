@@ -1,56 +1,25 @@
-<script>
+<script lang="ts">
     import { onMount } from 'svelte';
     import {t} from '$lib/i18n'
     import EtlodeAboutPageGraphic from '$lib/components/etlode-about-page-graphic.svelte';
 
     // Skills data
-    const skills = {
-      programming: ["Python", "SQL (T-SQL, PostgreSQL, SQLite)", "TypeScript", "R"],
-      webDev: ["SvelteKit", "FastAPI", "Tailwind CSS"],
-      ai: ["LangChain", "OpenAI API", "Retrieval-Augmented Generation", "Prompt Engineering"],
-      languages: ["English (Native)", "Japanese (Professional)"],
-      other: ["Git", "Linux (Ubuntu, Proxmox)", "Office365 Automation"]
+    const skills =    {
+      programming: $t.about.techSkills.programming,
+      webDev: $t.about.techSkills.webDev,
+      ai: $t.about.techSkills.ai,
+      languages: $t.about.techSkills.languages,
+      other: $t.about.techSkills.other
     };
     
     // Timeline data
-    const timeline = [
-      {
-        year: "2024",
-        title: "Founded ET-Lode",
-        description: "Established ET-Lode to provide custom AI automation solutions with a focus on Retrieval Augmented Generation."
-      },
-      {
-        year: "2020-2024",
-        title: "Manager of Business Process & Technology",
-        description: "Led ERP migration and developed data analysis platform improving operational efficiency."
-      },
-      {
-        year: "2019-2020",
-        title: "Sourcing Analyst",
-        description: "Achieved significant cost savings and developed reports to extract actionable insights from spend data."
-      },
-      {
-        year: "2018-2019",
-        title: "Bilingual Production Planner",
-        description: "Managed production planning across multiple facilities and facilitated transitions to new production sites."
-      },
-      {
-        year: "2018",
-        title: "Graduated from Washington & Lee University",
-        description: "Earned dual degrees in Business Administration and Japanese with honors."
-      },
-      {
-        year: "2016-2017",
-        title: "Full Year Abroad in Japan",
-        description: "Completed intensive Japanese language program at International Christian University in Tokyo."
-      },
+    const timeline = $t.about.journey.timeline;
 
-    ];
   </script>
   
   <svelte:head>
-    <title>About | ET-Lode</title>
-    <meta name="description" content="Learn about ET-Lode's expertise in AI automation, multilingual solutions, and business process improvement." />
+    <title>{$t.about.headerTitle}</title>
+    <meta name="description" content={$t.about.metaDescription} />
   </svelte:head>
   
   <section class="bg-black text-white py-16">
@@ -66,13 +35,8 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
-          <h2 class="text-3xl font-bold mb-6">Our Story</h2>
-          <p class="mb-4">
-            ET-Lode was founded by Lee Sommerfeldt, combining expertise in business process management, machine learning, and multilingual communication to create a boutique AI automation consultancy.
-          </p>
-          <p class="mb-4">
-            The name "ET-Lode" is a play on the data engineering term "Extract, Transform, Load" (ETL) – reflecting our mission to extract value from your data, transform it through AI, and load it into systems that drive business growth.
-          </p>
+          <h2 class="text-3xl font-bold mb-6">{$t.about.storyTitle}</h2>
+          {@html $t.about.storyDescription}
         </div>
         <div class="md:w-1/2">
           <EtlodeAboutPageGraphic />
@@ -83,25 +47,25 @@
   
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Meet the Founder</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">{$t.about.founderTitle}</h2>
       
       <div class="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden">
         <div class="md:w-1/3">
           <img src="/images/leesomm_headshot.jpg" alt="Lee Sommerfeldt" class="w-full h-full object-cover" />
         </div>
         <div class="md:w-2/3 p-8">
-          <h3 class="text-2xl font-bold mb-4">Lee Sommerfeldt</h3>
+          <h3 class="text-2xl font-bold mb-4">{$t.about.founderName}</h3>
           <p class="text-gray-700 mb-6">
-            Lee combines a unique background in business process management, machine learning, and Japanese language to deliver AI solutions that work across cultural and linguistic boundaries. With experience at Panasonic and Sumitomo, Lee understands the unique challenges of globalized business environments.
+            {$t.about.founderDescription}
           </p>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h4 class="font-bold text-teal-600 mb-2">Education</h4>
+              <h4 class="font-bold text-teal-600 mb-2">{$t.about.founderEducation.title}</h4>
               <ul class="text-gray-600 space-y-1">
-                <li>MS in Information Systems, University of Nevada</li>
-                <li>BS in Business Administration, Washington & Lee University</li>
-                <li>BA in East Asian Languages & Literature (Japanese)</li>
+                <li>{$t.about.founderEducation.degree1}</li>
+                <li>{$t.about.founderEducation.degree2}</li>
+                <li>{$t.about.founderEducation.degree3}</li>
               </ul>
             </div>
           </div>
@@ -112,11 +76,11 @@
   
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Technical Expertise</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">{$t.about.techSkills.title}</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold mb-4 text-teal-600">Programming</h3>
+          <h3 class="text-xl font-bold mb-4 text-teal-600">{$t.about.techSkills.programmingTitle}</h3>
           <ul class="space-y-2">
             {#each skills.programming as skill}
               <li class="flex items-center">
@@ -130,7 +94,7 @@
         </div>
         
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold mb-4 text-yellow-500">Web Development</h3>
+          <h3 class="text-xl font-bold mb-4 text-yellow-500">{$t.about.techSkills.webDevTitle}</h3>
           <ul class="space-y-2">
             {#each skills.webDev as skill}
               <li class="flex items-center">
@@ -141,8 +105,10 @@
               </li>
             {/each}
           </ul>
-          
-          <h3 class="text-xl font-bold mb-4 mt-6 text-orange-500">AI & Machine Learning</h3>
+        </div>
+        
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold mb-4 text-orange-500">{$t.about.techSkills.aiTitle}</h3>
           <ul class="space-y-2">
             {#each skills.ai as skill}
               <li class="flex items-center">
@@ -156,7 +122,7 @@
         </div>
         
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold mb-4 text-purple-600">Languages</h3>
+          <h3 class="text-xl font-bold mb-4 text-purple-600">{$t.about.techSkills.languagesTitle}</h3>
           <ul class="space-y-2">
             {#each skills.languages as skill}
               <li class="flex items-center">
@@ -167,8 +133,10 @@
               </li>
             {/each}
           </ul>
-          
-          <h3 class="text-xl font-bold mb-4 mt-6 text-blue-600">Other Skills</h3>
+        </div>
+        
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md">  
+          <h3 class="text-xl font-bold mb-4 text-blue-600">{$t.about.techSkills.otherTitle}</h3>
           <ul class="space-y-2">
             {#each skills.other as skill}
               <li class="flex items-center">
@@ -186,7 +154,7 @@
   
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Professional Journey</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">{$t.about.journey.title}</h2>
       
       <div class="relative">
         <!-- Timeline Line -->

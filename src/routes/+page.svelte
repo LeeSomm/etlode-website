@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte';
     import AIAutomationGraphic from '$lib/components/ai-automation-graphic.svelte';
+    import {t} from '$lib/i18n'
     let showScrollToTop = false;
     
     const scrollToTop = () => {
@@ -17,22 +18,28 @@
     });
   </script>
   
+  <svelte:head>
+    <title>{$t.home.headerTitle}</title>
+    <meta name="description" content={$t.home.metaDescription} />
+  </svelte:head>
+  
   <section class="bg-gradient-to-r from-black to-gray-900 text-white py-20">
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-10 md:mb-0">
           <h1 class="text-4xl md:text-5xl font-bold mb-6">
-            AI Automation for <span class="text-teal-400">Global</span> Business
+            <!-- AI Automation for <span class="text-teal-400">Global</span> Business -->
+            {@html $t.home.hero.title}
           </h1>
           <p class="text-xl mb-8">
-            AI solutions that streamline multilingual operations and enhance customer experiences.
+            {$t.home.hero.subtitle}
           </p>
           <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a href="/services" class="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-lg text-center">
-              Explore Services
+              {$t.cta.services}
             </a>
             <a href="/contact" class="border border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-black font-medium py-3 px-6 rounded-lg text-center">
-              Get in Touch
+              {$t.cta.contact}
             </a>
           </div>
         </div>
@@ -45,7 +52,7 @@
   
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Our AI Automation Services</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">{$t.home.aiServices}</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -54,9 +61,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Multilingual AI Chatbots</h3>
+          <h3 class="text-xl font-bold mb-2">{$t.services.chatbots.title}</h3>
           <p class="text-gray-600">
-            Custom AI chatbots that can communicate in English and Japanese, providing immediate customer support and product recommendations.
+            {$t.services.chatbots.description}
           </p>
         </div>
         
@@ -66,9 +73,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">RAG-Enabled LLM Solutions</h3>
+          <h3 class="text-xl font-bold mb-2">{$t.services.rag.title}</h3>
           <p class="text-gray-600">
-            AI systems that can reference your business data, FAQs, and product catalogs to provide accurate and contextual responses.
+            {$t.services.rag.description}
           </p>
         </div>
         
@@ -78,16 +85,16 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Workflow Automation</h3>
+          <h3 class="text-xl font-bold mb-2">{$t.services.automation.title}</h3>
           <p class="text-gray-600">
-            Custom automation solutions that streamline your business processes, reducing manual tasks and improving efficiency.
+            {$t.services.automation.description}
           </p>
         </div>
       </div>
       
       <div class="text-center mt-12">
         <a href="/services" class="inline-block bg-black hover:bg-gray-800 text-white font-medium py-3 px-6 rounded-lg">
-          View All Services
+          {$t.cta.allServices}
         </a>
       </div>
     </div>
@@ -95,7 +102,7 @@
   
   <section class="py-16 bg-gray-100">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Why Choose ET-Lode?</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">{$t.home.whyETLode.title}</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div class="flex">
@@ -107,9 +114,9 @@
             </div>
           </div>
           <div>
-            <h3 class="text-xl font-bold mb-2">Multilingual Expertise</h3>
+            <h3 class="text-xl font-bold mb-2">{$t.home.whyETLode.skills.multilingual.title}</h3>
             <p class="text-gray-600">
-              With fluency in both English and Japanese, we bridge communication gaps and deliver AI solutions that truly speak your language.
+              {$t.home.whyETLode.skills.multilingual.description}
             </p>
           </div>
         </div>
@@ -123,9 +130,9 @@
             </div>
           </div>
           <div>
-            <h3 class="text-xl font-bold mb-2">Technical Excellence</h3>
+            <h3 class="text-xl font-bold mb-2">{$t.home.whyETLode.skills.technicalExcellence.title}</h3>
             <p class="text-gray-600">
-              Our team brings extensive experience in AI, data engineering, and web development to deliver robust, scalable solutions.
+              {$t.home.whyETLode.skills.technicalExcellence.description}
             </p>
           </div>
         </div>
@@ -139,9 +146,9 @@
             </div>
           </div>
           <div>
-            <h3 class="text-xl font-bold mb-2">Business Process Knowledge</h3>
+            <h3 class="text-xl font-bold mb-2">{$t.home.whyETLode.skills.businessProcess.title}</h3>
             <p class="text-gray-600">
-              With experience managing ERP migrations and business processes, we understand how to integrate AI into your existing workflows.
+              {$t.home.whyETLode.skills.businessProcess.description}
             </p>
           </div>
         </div>
@@ -155,9 +162,9 @@
             </div>
           </div>
           <div>
-            <h3 class="text-xl font-bold mb-2">Proven Results</h3>
+            <h3 class="text-xl font-bold mb-2">{$t.home.whyETLode.skills.results.title}</h3>
             <p class="text-gray-600">
-              Our solutions have helped businesses achieve significant efficiency improvements and cost savings.
+              {$t.home.whyETLode.skills.results.description}
             </p>
           </div>
         </div>
@@ -167,7 +174,7 @@
   
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Featured Case Study</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">{$t.home.caseStudy.title}</h2>
       
       <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
         <div class="flex flex-col md:flex-row">
@@ -175,30 +182,30 @@
             <img src="/images/chatbot-demo.gif" alt="eCommerce AI Chatbot" class="w-full h-full object-contain" />
           </div>
           <div class="md:w-1/2 p-8">
-            <h3 class="text-2xl font-bold mb-4">Multilingual eCommerce AI Chatbot</h3>
+            <h3 class="text-2xl font-bold mb-4">{$t.home.caseStudy.ecChatbot.title}</h3>
             <p class="text-gray-600 mb-6">
-                Developed an AI-powered chatbot for Japanese eCommerce businesses that delivers multilingual, on-demand customer support and personalized recommendations. Leveraging a RAG-enabled framework, it requires no pre-translation of product data simplifying master data maintainence.
+                {$t.home.caseStudy.ecChatbot.description}
             </p>
             <div class="mb-6">
-              <h4 class="font-bold text-teal-600 mb-2">Results:</h4>
+              <h4 class="font-bold text-teal-600 mb-2">{$t.home.caseStudy.ecChatbot.results.title}</h4>
               <ul class="text-gray-600 space-y-2">
                 <li class="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Multilingual customer responses in seconds</span>
+                  <span>{$t.home.caseStudy.ecChatbot.results[1]}</span>
                 </li>
                 <li class="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Uncover customer insights with translated database of queries</span>
+                  <span>{$t.home.caseStudy.ecChatbot.results[2]}</span>
                 </li>
                 <li class="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>24/7 customer service coverage without additional staffing</span>
+                  <span>{$t.home.caseStudy.ecChatbot.results[3]}</span>
                 </li>
               </ul>
             </div>
@@ -210,12 +217,12 @@
   
   <section class="py-16 bg-black text-white">
     <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-8">Ready to Transform Your Business with AI?</h2>
+      <h2 class="text-3xl font-bold mb-8">{$t.cta.consultation.title}</h2>
       <p class="text-xl mb-8 max-w-2xl mx-auto">
-        Let's discuss how our AI solutions can enhance your customer experience and streamline your operations.
+        {$t.cta.consultation.description}
       </p>
       <a href="/contact" class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-8 rounded-lg">
-        Contact Us Today
+        {$t.cta.contact}
       </a>
     </div>
   </section>

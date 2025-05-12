@@ -26,8 +26,10 @@
 <header class="bg-black text-white">
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
     <div class="flex items-center">
-      <img src="/images/etlode-logo-only.png" alt="ET-Lode Logo" class="h-12 mr-3" />
-      <span class="text-xl font-bold">ET-Lode</span>
+      <a href="/" class="flex items-center">
+        <img src="/images/etlode-logo-only.png" alt="ET-Lode Logo" class="h-12 mr-3" />
+        <span class="text-xl font-bold">ET-Lode</span>
+      </a>  
     </div>
     
     <div class="hidden md:flex space-x-6">

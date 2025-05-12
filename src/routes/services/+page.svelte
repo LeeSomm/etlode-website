@@ -1,85 +1,92 @@
-<script>
+<script lang="ts">
+  import {t} from '$lib/i18n'
+      
   let services = [
     {
       id: 1,
-      title: "Multilingual AI Chatbots",
       icon: "chat-bubble",
-      description: "Custom AI chatbots that communicate fluently in multiple target languages, providing immediate customer support, product recommendations, and answers to frequently asked questions.",
+      title: $t.services.chatbots.title,
+      description: $t.services.chatbots.description,
       features: [
-        "Semantic understanding via natural language processing",
-        "Integration with your product database and knowledge base",
-        "Custom personality and tone matching your brand",
-        "Analytics dashboard to track user interactions",
-        "Continuous improvement based on chat logs"
+        $t.services.chatbots.features[1],
+        $t.services.chatbots.features[2],
+        $t.services.chatbots.features[3],
+        $t.services.chatbots.features[4],
+        $t.services.chatbots.features[5],
       ]
     },
     {
       id: 2,
-      title: "RAG-Enabled LLM Solutions",
       icon: "database",
-      description: "Large Language Models with Retrieval-Augmented Generation capabilities that can access and reference your business data to provide accurate, context-aware responses.",
+      title: $t.services.rag.title,
+      description: $t.services.rag.description,
       features: [
-        "Integration with your existing databases and documents",
-        "Real-time information retrieval and processing",
-        "Customized knowledge base creation and maintenance",
-        "Multi-document query capability",
-        "Secure handling of sensitive information"
+        $t.services.rag.features[1],
+        $t.services.rag.features[2],
+        $t.services.rag.features[3],
+        $t.services.rag.features[4],
+        $t.services.rag.features[5],
       ]
     },
     {
       id: 3,
-      title: "Workflow Automation",
       icon: "automation",
-      description: "Custom automation solutions that streamline your business processes, reducing manual tasks and improving operational efficiency.",
+      title: $t.services.automation.title,
+      description: $t.services.automation.description,
       features: [
-        "Office365 integration and automation",
-        "Document processing and data extraction",
-        "Custom ETL (Extract, Transform, Load) processes",
-        "Business process analysis and optimization",
-        "Integration with legacy systems"
+        $t.services.automation.features[1],
+        $t.services.automation.features[2],
+        $t.services.automation.features[3],
+        $t.services.automation.features[4],
+        $t.services.automation.features[5],
       ]
     },
     {
       id: 4,
-      title: "Web Development",
       icon: "web",
-      description: "Modern, responsive web applications built with cutting-edge technologies like SvelteKit and integrated with your AI solutions.",
+      title: $t.services.webdev.title,
+      description: $t.services.webdev.description,
       features: [
-        "SvelteKit and TypeScript development",
-        "Responsive, mobile-first design",
-        "AI integration for personalized user experiences",
-        "Performance optimization",
-        "Multilingual support"
+        $t.services.webdev.features[1],
+        $t.services.webdev.features[2],
+        $t.services.webdev.features[3],
+        $t.services.webdev.features[4],
+        $t.services.webdev.features[5],
       ]
     },
     {
       id: 5,
-      title: "English Social Media Management",
       icon: "social",
-      description: "Professional management of your English-language social media presence to engage with international customers.",
+      title: $t.services.socialMedia.title,
+      description: $t.services.socialMedia.description,
       features: [
-        "Content strategy development",
-        "Regular posting and engagement",
-        "Analytics and performance reporting",
-        "AI-assisted content creation",
-        "Cross-platform management"
+        $t.services.socialMedia.features[1],
+        $t.services.socialMedia.features[2],
+        $t.services.socialMedia.features[3],
+        $t.services.socialMedia.features[4],
+        $t.services.socialMedia.features[5],
       ]
     },
     {
       id: 6,
-      title: "Japanese/English Translation",
       icon: "translate",
-      description: "Professional translation services for your content, product descriptions, and marketing materials between Japanese and English.",
+      title: $t.services.translation.title,
+      description: $t.services.translation.description,
       features: [
-        "Technical documentation translation",
-        "Marketing content localization",
-        "Product description translation",
-        "UI/UX text translation",
+        $t.services.translation.features[1],
+        $t.services.translation.features[2],
+        $t.services.translation.features[3],
+        $t.services.translation.features[4],
+        // $t.services.translation.features[5],
       ]
     }
   ];
   
-  let icons = {
+  type IconDictionary = {
+    [key: string]: string;
+  }
+  
+  let icons: IconDictionary = {
     "chat-bubble": `<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
     </svg>`,
@@ -102,15 +109,15 @@
 </script>
 
 <svelte:head>
-  <title>Services | ET-Lode</title>
-  <meta name="description" content="AI automation services including multilingual chatbots, RAG-enabled LLMs, workflow automation, and more." />
+    <title>{$t.services.headerTitle}</title>
+    <meta name="description" content={$t.services.metaDescription} />
 </svelte:head>
 
 <section class="bg-black text-white py-16">
   <div class="container mx-auto px-4 text-center">
-    <h1 class="text-4xl font-bold mb-4">Our Services</h1>
+    <h1 class="text-4xl font-bold mb-4">{$t.services.title}</h1>
     <p class="text-xl max-w-2xl mx-auto">
-      Comprehensive AI automation solutions designed to help your business operate more efficiently in multiple languages.
+      {$t.services.description}
     </p>
   </div>
 </section>
@@ -134,7 +141,7 @@
             <p class="text-gray-600 mb-6">{service.description}</p>
             
             <div>
-              <h3 class="font-bold text-teal-600 mb-3">Key Features:</h3>
+              <h3 class="font-bold text-teal-600 mb-3">{$t.services.keyFeatures}</h3>
               <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
                 {#each service.features as feature}
                   <li class="flex items-start">
@@ -155,12 +162,12 @@
 
 <section class="py-16 bg-teal-50">
   <div class="container mx-auto px-4 text-center">
-    <h2 class="text-3xl font-bold mb-8">Custom Solutions</h2>
+    <h2 class="text-3xl font-bold mb-8">{$t.services.customSolutions}</h2>
     <p class="text-xl mb-8 max-w-2xl mx-auto">
-      Don't see exactly what you need? We specialize in creating custom AI automation solutions tailored to your specific business requirements.
+      {$t.services.customSolutionsDescription}
     </p>
     <a href="/contact" class="inline-block bg-black hover:bg-gray-800 text-white font-medium py-3 px-8 rounded-lg">
-      Request a Consultation
+      {$t.cta.consultation.button}
     </a>
   </div>
 </section>
