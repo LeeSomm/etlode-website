@@ -1,9 +1,11 @@
 <script>
     import { onMount } from 'svelte';
-    
+    import {t} from '$lib/i18n'
+    import EtlodeAboutPageGraphic from '$lib/components/etlode-about-page-graphic.svelte';
+
     // Skills data
     const skills = {
-      programming: ["Python", "R", "SQL (T-SQL, PostgreSQL, SQLite)", "VBA", "TypeScript"],
+      programming: ["Python", "SQL (T-SQL, PostgreSQL, SQLite)", "TypeScript", "R"],
       webDev: ["SvelteKit", "FastAPI", "Tailwind CSS"],
       ai: ["LangChain", "OpenAI API", "Retrieval-Augmented Generation", "Prompt Engineering"],
       languages: ["English (Native)", "Japanese (Professional)"],
@@ -15,16 +17,16 @@
       {
         year: "2024",
         title: "Founded ET-Lode",
-        description: "Established ET-Lode to provide custom AI automation solutions with a focus on multilingual capabilities."
+        description: "Established ET-Lode to provide custom AI automation solutions with a focus on Retrieval Augmented Generation."
       },
       {
         year: "2020-2024",
         title: "Manager of Business Process & Technology",
-        description: "Led ERP migration and developed data analysis solutions that improved operational efficiency."
+        description: "Led ERP migration and developed data analysis platform improving operational efficiency."
       },
       {
         year: "2019-2020",
-        title: "Sourcing Analyst at Panasonic",
+        title: "Sourcing Analyst",
         description: "Achieved significant cost savings and developed reports to extract actionable insights from spend data."
       },
       {
@@ -39,7 +41,7 @@
       },
       {
         year: "2016-2017",
-        title: "Study in Japan",
+        title: "Full Year Abroad in Japan",
         description: "Completed intensive Japanese language program at International Christian University in Tokyo."
       },
 
@@ -53,9 +55,9 @@
   
   <section class="bg-black text-white py-16">
     <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl font-bold mb-4">About ET-Lode</h1>
+      <h1 class="text-4xl font-bold mb-4">{$t.about.title}</h1>
       <p class="text-xl max-w-2xl mx-auto">
-        Extract, Transform, Load – Empowering businesses with multilingual AI solutions.
+        {$t.about.subTitle}
       </p>
     </div>
   </section>
@@ -71,12 +73,9 @@
           <p class="mb-4">
             The name "ET-Lode" is a play on the data engineering term "Extract, Transform, Load" (ETL) – reflecting our mission to extract value from your data, transform it through AI, and load it into systems that drive business growth.
           </p>
-          <p>
-            With experience working in both American and Japanese business environments, we specialize in creating AI solutions that bridge language barriers and cultural differences, enabling businesses to provide seamless service to customers worldwide.
-          </p>
         </div>
         <div class="md:w-1/2">
-          <img src="/images/about-illustration.svg" alt="About ET-Lode" class="w-full rounded-lg shadow-lg" />
+          <EtlodeAboutPageGraphic />
         </div>
       </div>
     </div>
@@ -93,7 +92,7 @@
         <div class="md:w-2/3 p-8">
           <h3 class="text-2xl font-bold mb-4">Lee Sommerfeldt</h3>
           <p class="text-gray-700 mb-6">
-            Lee combines a unique background in business process management, data science, and Japanese language to deliver AI solutions that work across cultural and linguistic boundaries. With experience at companies like Panasonic and Sumitomo, Lee understands both American and Japanese business environments.
+            Lee combines a unique background in business process management, machine learning, and Japanese language to deliver AI solutions that work across cultural and linguistic boundaries. With experience at Panasonic and Sumitomo, Lee understands the unique challenges of globalized business environments.
           </p>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -103,14 +102,6 @@
                 <li>MS in Information Systems, University of Nevada</li>
                 <li>BS in Business Administration, Washington & Lee University</li>
                 <li>BA in East Asian Languages & Literature (Japanese)</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="font-bold text-teal-600 mb-2">Achievements</h4>
-              <ul class="text-gray-600 space-y-1">
-                <li>UNR College of Business Outstanding Graduate Student Award</li>
-                <li>Achieved $682,000 in realized cost savings at Panasonic</li>
-                <li>Pro Translator for Amazon Japan and Fanatics Japan</li>
               </ul>
             </div>
           </div>

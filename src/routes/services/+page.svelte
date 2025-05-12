@@ -118,11 +118,14 @@
 <section class="py-16 bg-white">
   <div class="container mx-auto px-4">
     <div class="grid grid-cols-1 gap-12">
-      {#each services as service}
+      {#each services as service, index}
         <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
           <div class="p-8">
             <div class="flex items-center mb-6">
-              <div class="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center mr-4">
+              <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-4"
+                class:bg-teal-500={index % 3 === 0}
+                class:bg-yellow-400={index % 3 === 1}
+                class:bg-orange-500={index % 3 === 2}>
                 {@html icons[service.icon]}
               </div>
               <h2 class="text-2xl font-bold">{service.title}</h2>
