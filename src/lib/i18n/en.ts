@@ -13,9 +13,19 @@ export default {
     contactHeading: "Contact",
     allRightsReserved: "All rights reserved."
   },
+  terms: {
+    extract: "Extract",
+    transform: "Transform",
+    load: "Load",
+    rawData: "Raw Data",
+    aiProcessing: "AI Processing",
+    businessGrowth: "Business Growth",
+    tagline: "Extract value • Transform with AI • Load for growth",
+  },
   cta: {
     services: "Explore Services", // Call to action button text
     contact: "Connect with Us",
+    extLinks: "Follow Us",
     allServices: "View All Services",
     consultation: {
       title: "Ready to Transform Your Business with AI?",
@@ -23,7 +33,6 @@ export default {
       button: "Request a Consultation",
     },
   },
-
   home: {
     headerTitle: "ET-Lode",
     metaDescription: "ET-Lode - AI Automation for Global Business",

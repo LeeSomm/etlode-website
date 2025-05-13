@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import {t} from '$lib/i18n'
+    import { t } from '$lib/i18n'
     import EtlodeAboutPageGraphic from '$lib/components/etlode-about-page-graphic.svelte';
 
     // Skills data
@@ -38,7 +38,7 @@
           <h2 class="text-3xl font-bold mb-6">{$t.about.storyTitle}</h2>
           {@html $t.about.storyDescription}
         </div>
-        <div class="md:w-1/2">
+        <div class="w-full lg:w-1/2">
           <EtlodeAboutPageGraphic />
         </div>
       </div>

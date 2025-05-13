@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import {t} from '$lib/i18n'
 
     let formData = {
@@ -13,10 +13,17 @@
     
     let submitted = false;
     let loading = false;
-    let errors = {};
+    let errors: FormErrors = {};
     
+    type FormErrors = {
+      name?: string;
+      email?: string;
+      message?: string;
+      service?: string;
+    };
+
     const validateForm = () => {
-      errors = {};
+      const errors: FormErrors = {};
       
       if (!formData.name.trim()) {
         errors.name = 'Name is required';
@@ -288,7 +295,7 @@
           </div>
           
           <div class="mt-12">
-            <h3 class="text-xl font-bold mb-4">{$t.cta.contact}</h3>
+            <h3 class="text-xl font-bold mb-4">{$t.cta.extLinks}</h3>
             <div class="flex space-x-4">
               <a href="https://www.linkedin.com/company/etlode/" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white hover:bg-blue-700" aria-label="LinkedIn">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">

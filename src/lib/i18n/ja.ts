@@ -11,9 +11,19 @@ export default {
     contactHeading: "お問い合わせ",
     allRightsReserved: "全著作権所有",
   },
+  terms: {
+    extract: "抽出",
+    transform: "変換",
+    load: "ロード",
+    rawData: "未加工データ",
+    aiProcessing: "AI処理",
+    businessGrowth: "事業成長",
+    tagline: "価値の抽出 - AIによる変革 - 成長へのロード",
+  },
   cta: {
     services: "サービスを見る",
     contact: "お問い合わせはこちら",
+    extLinks: "つながりましょう",
     allServices: "すべてのサービスを見る",
     consultation: {
       title: "AIでビジネスを変革しませんか？",
