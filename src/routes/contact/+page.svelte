@@ -187,7 +187,7 @@
               </div>
               
               <div>
-                <label class="block text-gray-700 font-medium mb-2">{$t.contact.form.language}</label>
+                <label for="language" class="block text-gray-700 font-medium mb-2">{$t.contact.form.language}</label>
                 <div class="flex space-x-6">
                   <label class="inline-flex items-center">
                     <input type="radio" class="form-radio" name="language" value="english" bind:group={formData.language}>
