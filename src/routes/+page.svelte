@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { base } from '$app/paths';
     import AIAutomationGraphic from '$lib/components/ai-automation-graphic.svelte';
     import {t} from '$lib/i18n'
     let showScrollToTop = false;
@@ -35,10 +36,10 @@
             {$t.home.hero.subtitle}
           </p>
           <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="/services" class="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-lg text-center">
+            <a href="{base}/services" class="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-lg text-center">
               {$t.cta.services}
             </a>
-            <a href="/contact" class="border border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-black font-medium py-3 px-6 rounded-lg text-center">
+            <a href="{base}/contact" class="border border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-black font-medium py-3 px-6 rounded-lg text-center">
               {$t.cta.contact}
             </a>
           </div>
@@ -93,7 +94,7 @@
       </div>
       
       <div class="text-center mt-12">
-        <a href="/services" class="inline-block bg-black hover:bg-gray-800 text-white font-medium py-3 px-6 rounded-lg">
+        <a href="{base}/services" class="inline-block bg-black hover:bg-gray-800 text-white font-medium py-3 px-6 rounded-lg">
           {$t.cta.allServices}
         </a>
       </div>
@@ -179,7 +180,7 @@
       <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
         <div class="flex flex-col md:flex-row">
           <div class="md:w-1/2">
-            <img src="/images/chatbot-demo.gif" alt="eCommerce AI Chatbot" class="w-full h-full object-contain" />
+            <img src="{base}/images/chatbot-demo.gif" alt="eCommerce AI Chatbot" class="w-full h-full object-contain" />
           </div>
           <div class="md:w-1/2 p-8">
             <h3 class="text-2xl font-bold mb-4">{$t.home.caseStudy.ecChatbot.title}</h3>
@@ -221,7 +222,7 @@
       <p class="text-xl mb-8 max-w-2xl mx-auto">
         {$t.cta.consultation.description}
       </p>
-      <a href="/contact" class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-8 rounded-lg">
+      <a href="{base}/contact" class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-8 rounded-lg">
         {$t.cta.contact}
       </a>
     </div>

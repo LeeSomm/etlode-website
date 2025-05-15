@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import { base } from '$app/paths';
     import { t } from '$lib/i18n'
     import EtlodeAboutPageGraphic from '$lib/components/etlode-about-page-graphic.svelte';
 
@@ -51,7 +52,7 @@
       
       <div class="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden">
         <div class="md:w-1/3">
-          <img src="/images/leesomm_headshot.jpg" alt="Lee Sommerfeldt" class="w-full h-full object-cover" />
+          <img src="{base}/images/leesomm_headshot.jpg" alt="Lee Sommerfeldt" class="w-full h-full object-cover" />
         </div>
         <div class="md:w-2/3 p-8">
           <h3 class="text-2xl font-bold mb-4">{$t.about.founderName}</h3>

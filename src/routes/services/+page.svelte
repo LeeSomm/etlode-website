@@ -1,7 +1,10 @@
 <script lang="ts">
   import {t} from '$lib/i18n'
+  import { derived } from 'svelte/store';
+  import { base } from '$app/paths';
       
-  let services = [
+  // Make services reactive by deriving it from the $t store
+  const services = derived(t, ($t) => [
     {
       id: 1,
       icon: "chat-bubble",
@@ -80,7 +83,7 @@
         // $t.services.translation.features[5],
       ]
     }
-  ];
+  ]);
   
   type IconDictionary = {
     [key: string]: string;
@@ -125,7 +128,7 @@
 <section class="py-16 bg-white">
   <div class="container mx-auto px-4">
     <div class="grid grid-cols-1 gap-12">
-      {#each services as service, index}
+      {#each $services as service, index}
         <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
           <div class="p-8">
             <div class="flex items-center mb-6">
@@ -166,7 +169,7 @@
     <p class="text-xl mb-8 max-w-2xl mx-auto">
       {$t.services.customSolutionsDescription}
     </p>
-    <a href="/contact" class="inline-block bg-black hover:bg-gray-800 text-white font-medium py-3 px-8 rounded-lg">
+    <a href="{base}/contact" class="inline-block bg-black hover:bg-gray-800 text-white font-medium py-3 px-8 rounded-lg">
       {$t.cta.consultation.button}
     </a>
   </div>
