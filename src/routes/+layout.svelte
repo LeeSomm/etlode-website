@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/state';
+  import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { language, setLanguage, t, type LanguageKey } from '$lib/i18n';
 
@@ -27,16 +28,16 @@
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
     <div class="flex items-center">
       <a href="/" class="flex items-center">
-        <img src="/images/etlode-logo-only.png" alt="ET-Lode Logo" class="h-12 mr-3" />
+        <img src="{base}/images/etlode-logo-only.png" alt="ET-Lode Logo" class="h-12 mr-3" />
         <span class="text-xl font-bold">ET-Lode</span>
       </a>  
     </div>
     
     <div class="hidden md:flex space-x-6">
-      <a href="/" class="hover:text-teal-400 {page.url.pathname === '/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
-      <a href="/services" class="hover:text-teal-400 {page.url.pathname === '/services' ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
-      <a href="/about" class="hover:text-teal-400 {page.url.pathname === '/about' ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
-      <a href="/contact" class="hover:text-teal-400 {page.url.pathname === '/contact' ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
+      <a href="{base}/" class="hover:text-teal-400 {page.url.pathname === '/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
+      <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname === '/services' ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
+      <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname === '/about' ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
+      <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname === '/contact' ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
     </div>
     
     <div class="hidden md:flex items-center space-x-4">
