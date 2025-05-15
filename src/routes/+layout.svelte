@@ -16,7 +16,21 @@
 		setLanguage(lang);
 	};
   
-  	$: currentLanguage = $language;
+  $: currentLanguage = $language;
+
+  let showScrollToTop = false;
+  const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+    
+  onMount(() => {
+      const handleScroll = () => {
+        showScrollToTop = window.scrollY > 500;
+      };
+      
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+  });
 
 </script>
   
@@ -90,6 +104,17 @@
   
 <main>
 	<slot />
+  {#if showScrollToTop}
+    <button 
+      on:click={scrollToTop}
+      class="fixed bottom-6 right-6 bg-black text-white p-3 rounded-full shadow-lg hover:bg-gray-800 transition-colors"
+      aria-label="Scroll to top"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+      </svg>
+    </button>
+  {/if}
 </main>
   
 <footer class="bg-black text-white py-8">

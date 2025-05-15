@@ -8,11 +8,12 @@
       phone: '',
       message: '',
       service: 'Select a service',
-      language: 'english'
+      // language: 'english'
     };
     
     let submitted = false;
     let loading = false;
+    let error = false;
     let errors: FormErrors = {};
     
     type FormErrors = {
@@ -43,39 +44,51 @@
         errors.service = 'Please select a service';
       }
       
-      return Object.keys(errors).length === 0;
+      return { isValid: Object.keys(errors).length === 0, errors };
     };
     
-    const handleSubmit = () => {
-      if (!validateForm()) return;
+    const handleSubmit = async () => {
+      const { isValid, errors: formErrors } = validateForm();
+      errors = formErrors;
+      
+      if (!isValid) return;
       
       loading = true;
+      error = false;
       
-      // In a real application, you would send data to your backend
-      // fetch('/api/contact', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify(formData),
-      // })
-      
-      // For demo purposes, simulate form submission
-      setTimeout(() => {
-        submitted = true;
-        loading = false;
+      try {
+        // Send form data to Formspree
+        // Replace 'YOUR_FORMSPREE_ID' with your actual Formspree form ID
+        const response = await fetch('https://formspree.io/f/xwpoagaz', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        });
         
-        // Reset form for potential new submission
-        formData = {
-          name: '',
-          email: '',
-          company: '',
-          phone: '',
-          message: '',
-          service: 'Select a service',
-          language: 'english'
-        };
-      }, 1500);
+        if (response.ok) {
+          submitted = true;
+          
+          // Reset form for potential new submission
+          formData = {
+            name: '',
+            email: '',
+            company: '',
+            phone: '',
+            message: '',
+            service: 'Select a service',
+            // language: 'english'
+          };
+        } else {
+          error = true;
+        }
+      } catch (e) {
+        error = true;
+      } finally {
+        loading = false;
+      }
     };
   </script>
   
@@ -112,12 +125,19 @@
             </div>
           {:else}
             <form on:submit|preventDefault={handleSubmit} class="space-y-6">
+              {#if error}
+                <div class="bg-red-50 border border-red-200 text-red-700 p-4 rounded-lg">
+                  <p>{$t.contact.form.error || 'There was an error submitting your form. Please try again.'}</p>
+                </div>
+              {/if}
+              
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label for="name" class="block text-gray-700 font-medium mb-2">{$t.contact.form.name}</label>
                   <input 
                     type="text" 
                     id="name" 
+                    name="name"
                     bind:value={formData.name} 
                     class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                     class:border-red-500={errors.name}
@@ -132,6 +152,7 @@
                   <input 
                     type="email" 
                     id="email" 
+                    name="email"
                     bind:value={formData.email} 
                     class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                     class:border-red-500={errors.email}
@@ -148,6 +169,7 @@
                   <input 
                     type="text" 
                     id="company" 
+                    name="company"
                     bind:value={formData.company}
                     class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   />
@@ -158,6 +180,7 @@
                   <input 
                     type="tel" 
                     id="phone" 
+                    name="phone"
                     bind:value={formData.phone}
                     class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   />
@@ -168,6 +191,7 @@
                 <label for="service" class="block text-gray-700 font-medium mb-2">{$t.contact.form.serviceOfInterest}</label>
                 <select 
                   id="service" 
+                  name="service"
                   bind:value={formData.service}
                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   class:border-red-500={errors.service}
@@ -186,7 +210,7 @@
                 {/if}
               </div>
               
-              <div>
+              <!-- <div>
                 <label for="language" class="block text-gray-700 font-medium mb-2">{$t.contact.form.language}</label>
                 <div class="flex space-x-6">
                   <label class="inline-flex items-center">
@@ -198,12 +222,13 @@
                     <span class="ml-2">{$t.contact.form.japanese}</span>
                   </label>
                 </div>
-              </div>
+              </div> -->
               
               <div>
                 <label for="message" class="block text-gray-700 font-medium mb-2">{$t.contact.form.message}</label>
                 <textarea 
                   id="message" 
+                  name="message"
                   bind:value={formData.message}
                   rows="5"
                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
@@ -261,7 +286,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-bold mb-1">{$t.contact.info.phone}</h3>
-                <p><a href="tel:+19794720345" class="text-teal-600 hover:text-teal-800">+1 (775) 391-8120</a></p>
+                <p><a href="tel:+17753918120" class="text-teal-600 hover:text-teal-800">+1 (775) 391-8120</a></p>
               </div>
             </div>
             

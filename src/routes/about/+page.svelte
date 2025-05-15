@@ -1,20 +1,21 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { base } from '$app/paths';
+    import { derived } from 'svelte/store';
     import { t } from '$lib/i18n'
     import EtlodeAboutPageGraphic from '$lib/components/etlode-about-page-graphic.svelte';
 
     // Skills data
-    const skills =    {
+    const skills = derived(t, ($t) => ({
       programming: $t.about.techSkills.programming,
       webDev: $t.about.techSkills.webDev,
       ai: $t.about.techSkills.ai,
       languages: $t.about.techSkills.languages,
       other: $t.about.techSkills.other
-    };
+    }));
     
     // Timeline data
-    const timeline = $t.about.journey.timeline;
+    const timeline = derived(t, ($t) => $t.about.journey.timeline);
 
   </script>
   
@@ -83,7 +84,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4 text-teal-600">{$t.about.techSkills.programmingTitle}</h3>
           <ul class="space-y-2">
-            {#each skills.programming as skill}
+            {#each $skills.programming as skill}
               <li class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -97,7 +98,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4 text-yellow-500">{$t.about.techSkills.webDevTitle}</h3>
           <ul class="space-y-2">
-            {#each skills.webDev as skill}
+            {#each $skills.webDev as skill}
               <li class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -111,7 +112,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4 text-orange-500">{$t.about.techSkills.aiTitle}</h3>
           <ul class="space-y-2">
-            {#each skills.ai as skill}
+            {#each $skills.ai as skill}
               <li class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -125,7 +126,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4 text-purple-600">{$t.about.techSkills.languagesTitle}</h3>
           <ul class="space-y-2">
-            {#each skills.languages as skill}
+            {#each $skills.languages as skill}
               <li class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -139,7 +140,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-md">  
           <h3 class="text-xl font-bold mb-4 text-blue-600">{$t.about.techSkills.otherTitle}</h3>
           <ul class="space-y-2">
-            {#each skills.other as skill}
+            {#each $skills.other as skill}
               <li class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
@@ -163,7 +164,7 @@
         
         <!-- Timeline Items -->
         <div class="space-y-12">
-          {#each timeline as item, i}
+          {#each $timeline as item, i}
             <div class="relative flex items-center justify-between flex-col {i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}">
               <!-- Timeline Dot -->
               <div class="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-teal-500 rounded-full z-10"></div>
