@@ -22,6 +22,53 @@
   <svelte:head>
     <title>{$t.about.headerTitle}</title>
     <meta name="description" content={$t.about.metaDescription} />
+    
+    <!-- Brand-specific keywords -->
+    <meta name="keywords" content="etlode founder, et-lode lee sommerfeldt, etlode company, etlode about, AI automation consultancy, Lee Sommerfeldt, multilingual AI expert" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="About ET-Lode | AI Automation Consultancy" />
+    <meta property="og:description" content="Learn about ET-Lode's expertise in AI automation, multilingual solutions, and business process improvement. Founded by Lee Sommerfeldt." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://etlode.com/about" />
+    <meta property="og:image" content="https://etlode.com/images/leesomm_headshot.jpg" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="About ET-Lode | AI Automation Consultancy" />
+    <meta name="twitter:description" content="Learn about ET-Lode's expertise in AI automation and multilingual solutions." />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Lee Sommerfeldt",
+      "jobTitle": "Founder & CEO",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "ET-Lode, LLC",
+        "url": "https://etlode.com"
+      },
+      "description": "AI automation consultant specializing in multilingual solutions for global businesses",
+      "knowsLanguage": ["English", "Japanese"],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Washington & Lee University"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Dual degrees in Business Administration and Japanese"
+        }
+      ],
+      "image": "https://etlode.com/images/leesomm_headshot.jpg",
+      "url": "https://etlode.com/about",
+      "sameAs": [
+        "https://www.linkedin.com/company/etlode/"
+      ]
+    }
+    </script>
   </svelte:head>
   
   <section class="bg-black text-white py-16">

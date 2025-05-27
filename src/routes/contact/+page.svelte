@@ -95,6 +95,45 @@
   <svelte:head>
     <title>{$t.contact.headerTitle}</title>
     <meta name="description" content={$t.contact.metaDescription} />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Contact ET-Lode | AI Automation Consultation" />
+    <meta property="og:description" content="Connect with ET-Lode for AI automation solutions, multilingual chatbots, and business process improvement. Get your free consultation today." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://etlode.com/contact" />
+    <meta property="og:image" content="https://etlode.com/images/etlode-logo-w-name.png" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contact ET-Lode | AI Automation Consultation" />
+    <meta name="twitter:description" content="Connect with ET-Lode for AI automation solutions and multilingual business support." />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "ET-Lode, LLC",
+        "url": "https://etlode.com",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-775-391-8120",
+            "contactType": "Customer Service",
+            "email": "lee@etlode.com",
+            "availableLanguage": ["English", "Japanese"],
+            "areaServed": "Worldwide"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "US"
+        }
+      }
+    }
+    </script>
   </svelte:head>
   
   <section class="bg-black text-white py-16">

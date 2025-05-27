@@ -35,7 +35,7 @@ export default {
   },
   home: {
     headerTitle: "ET-Lode",
-    metaDescription: "ET-Lode - AI Automation for Global Business",
+    metaDescription: "ET-Lode (etlode) - AI Automation for Global Business. Multilingual chatbots, RAG-enabled LLM solutions, and workflow automation.",
     hero: {
       title: 'AI Automation for <span class="text-teal-400">Global</span> Business',//"AI Automation for Global Business",
       subtitle: "AI solutions that streamline multilingual operations and enhance customer experiences."

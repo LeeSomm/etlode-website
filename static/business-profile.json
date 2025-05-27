@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ET-Lode, LLC",
+  "alternateName": ["etlode", "ET-Lode", "etlode ai", "etlode llc"],
+  "description": "AI automation consultancy specializing in multilingual solutions for global businesses",
+  "url": "https://etlode.com",
+  "logo": "https://etlode.com/images/etlode-logo-w-name.png",
+  "image": "https://etlode.com/images/etlode-logo-w-name.png",
+  "founder": {
+    "@type": "Person",
+    "name": "Lee Sommerfeldt",
+    "jobTitle": "Founder & CEO",
+    "url": "https://etlode.com/about"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-775-391-8120",
+    "contactType": "Customer Service",
+    "email": "lee@etlode.com",
+    "availableLanguage": ["English", "Japanese"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US"
+  },
+  "serviceArea": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AI Automation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Multilingual AI Chatbots",
+          "description": "Custom AI chatbots that communicate fluently in multiple languages"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "RAG-Enabled LLM Solutions",
+          "description": "Large Language Models with Retrieval-Augmented Generation capabilities"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Workflow Automation",
+          "description": "Custom automation solutions that streamline business processes"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/etlode/"
+  ],
+  "keywords": [
+    "etlode",
+    "et-lode", 
+    "AI automation",
+    "multilingual chatbots",
+    "business automation",
+    "artificial intelligence consulting"
+  ]
+}

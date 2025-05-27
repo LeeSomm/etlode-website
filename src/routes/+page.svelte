@@ -9,6 +9,133 @@
   <svelte:head>
     <title>{$t.home.headerTitle}</title>
     <meta name="description" content={$t.home.metaDescription} />
+    
+    <!-- Brand-specific keywords for "etlode" searches -->
+    <meta name="keywords" content="etlode, et-lode, ET-Lode, etlode ai, etlode llc, AI automation, multilingual chatbots, global business solutions" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="ET-Lode - AI Automation for Global Business" />
+    <meta property="og:description" content="AI solutions that streamline multilingual operations and enhance customer experiences. Specializing in multilingual chatbots, RAG-enabled LLM solutions, and workflow automation." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://etlode.com/" />
+    <meta property="og:image" content="https://etlode.com/images/etlode-logo-w-name.png" />
+    <meta property="og:image:alt" content="ET-Lode Logo - AI Automation for Global Business" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    
+    <!-- Structured Data for Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ET-Lode",
+      "alternateName": ["etlode", "ET-Lode LLC", "ET-Lode, LLC"],
+      "url": "https://etlode.com",
+      "logo": "https://etlode.com/images/etlode-logo-w-name.png",
+      "description": "AI automation consultancy specializing in multilingual solutions for global businesses",
+      "foundingDate": "2024",
+      "slogan": "Extract, Transform, Load - AI Automation for Global Business",
+      "keywords": ["etlode", "AI automation", "multilingual chatbots", "business automation"],
+      "founder": {
+        "@type": "Person",
+        "name": "Lee Sommerfeldt"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-775-391-8120",
+        "contactType": "Customer Service",
+        "email": "lee@etlode.com",
+        "availableLanguage": ["English", "Japanese"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/etlode/"
+      ],
+      "serviceArea": {
+        "@type": "Place",
+        "name": "Global"
+      },
+      "knowsAbout": [
+        "AI automation",
+        "Multilingual chatbots", 
+        "RAG-enabled LLM solutions",
+        "Workflow automation",
+        "Japanese-English translation",
+        "Business process optimization"
+      ]
+    }
+    </script>
+    <meta property="og:site_name" content="ET-Lode" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ET-Lode - AI Automation for Global Business" />
+    <meta name="twitter:description" content="AI solutions that streamline multilingual operations and enhance customer experiences." />
+    <meta name="twitter:image" content="https://etlode.com/images/etlode-logo-w-name.png" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ET-Lode, LLC",
+      "url": "https://etlode.com",
+      "logo": "https://etlode.com/images/etlode-logo-w-name.png",
+      "description": "AI automation consultancy specializing in multilingual solutions for global businesses",
+      "foundingDate": "2024",
+      "founder": {
+        "@type": "Person",
+        "name": "Lee Sommerfeldt"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-775-391-8120",
+        "contactType": "Customer Service",
+        "email": "lee@etlode.com",
+        "availableLanguage": ["English", "Japanese"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/etlode/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Automation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Multilingual AI Chatbots",
+              "description": "Custom AI chatbots that communicate fluently in multiple languages"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RAG-Enabled LLM Solutions",
+              "description": "Large Language Models with Retrieval-Augmented Generation capabilities"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Workflow Automation",
+              "description": "Custom automation solutions that streamline business processes"
+            }
+          }
+        ]
+      }
+    }
+    </script>
   </svelte:head>
   
   <section class="bg-gradient-to-r from-black to-gray-900 text-white py-20">

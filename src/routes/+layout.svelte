@@ -36,6 +36,11 @@
   
 <svelte:head>
 	<meta name="language" content={$language}/>
+	
+	<!-- Hreflang tags for multilingual SEO -->
+	<link rel="alternate" hreflang="en" href="https://etlode.com{page.url.pathname}" />
+	<link rel="alternate" hreflang="ja" href="https://etlode.com{page.url.pathname}?lang=ja" />
+	<link rel="alternate" hreflang="x-default" href="https://etlode.com{page.url.pathname}" />
 </svelte:head>
 
 <header class="bg-black text-white">
@@ -51,6 +56,7 @@
       <a href="{base}/" class="hover:text-teal-400 {page.url.pathname === '/' || page.url.pathname === base+'/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
       <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname.includes('/services') ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
       <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname.includes('/about') ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
+      <a href="{base}/faq" class="hover:text-teal-400 {page.url.pathname.includes('/faq') ? 'text-teal-400' : ''}">FAQ</a>
       <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
     </div>
     
@@ -82,6 +88,7 @@
         <a href="{base}/" class="hover:text-teal-400 {page.url.pathname === '/' || page.url.pathname === base+'/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
         <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname.includes('/services') ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
         <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname.includes('/about') ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
+        <a href="{base}/faq" class="hover:text-teal-400 {page.url.pathname.includes('/faq') ? 'text-teal-400' : ''}">FAQ</a>
         <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
         <div class="flex space-x-4 pt-2">
           <button 

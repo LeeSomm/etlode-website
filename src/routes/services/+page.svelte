@@ -114,6 +114,86 @@
 <svelte:head>
     <title>{$t.services.headerTitle}</title>
     <meta name="description" content={$t.services.metaDescription} />
+    
+    <!-- Brand-specific keywords -->
+    <meta name="keywords" content="etlode services, et-lode ai automation, etlode chatbots, etlode LLM, etlode workflow automation, AI automation services, multilingual chatbots, RAG-enabled LLM" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="AI Automation Services | ET-Lode" />
+    <meta property="og:description" content="Comprehensive AI automation solutions including multilingual chatbots, RAG-enabled LLM solutions, workflow automation, web development, and translation services." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://etlode.com/services" />
+    <meta property="og:image" content="https://etlode.com/images/etlode-logo-w-name.png" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="AI Automation Services | ET-Lode" />
+    <meta name="twitter:description" content="Comprehensive AI automation solutions for global businesses." />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "AI Automation Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "ET-Lode, LLC",
+        "url": "https://etlode.com"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Automation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Multilingual AI Chatbots",
+              "description": "Custom AI chatbots that communicate fluently in multiple target languages, providing immediate customer support, product recommendations, and answers to frequently asked questions.",
+              "category": "AI Solutions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RAG-Enabled LLM Solutions",
+              "description": "Large Language Models with Retrieval-Augmented Generation capabilities that can access and reference your business data to provide accurate, context-aware responses.",
+              "category": "AI Solutions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Workflow Automation",
+              "description": "Custom automation solutions that streamline your business processes, reducing manual tasks and improving operational efficiency.",
+              "category": "Business Automation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web Development",
+              "description": "Modern, responsive web applications built with cutting-edge technologies like SvelteKit and integrated with your AI solutions.",
+              "category": "Web Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Translation Services",
+              "description": "Professional translation services for your content, product descriptions, and marketing materials between Japanese and English.",
+              "category": "Translation"
+            }
+          }
+        ]
+      }
+    }
+    </script>
 </svelte:head>
 
 <section class="bg-black text-white py-16">

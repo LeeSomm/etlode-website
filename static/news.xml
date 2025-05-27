@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ET-Lode News and Updates</title>
+    <description>Latest news and updates from ET-Lode - AI automation for global business</description>
+    <link>https://etlode.com</link>
+    <atom:link href="https://etlode.com/news.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2025 00:00:00 +0000</lastBuildDate>
+    <managingEditor>lee@etlode.com (Lee Sommerfeldt)</managingEditor>
+    <webMaster>lee@etlode.com (Lee Sommerfeldt)</webMaster>
+    
+    <item>
+      <title>ET-Lode Launches Advanced Multilingual AI Chatbot Solutions</title>
+      <description>ET-Lode announces the launch of cutting-edge multilingual AI chatbot solutions designed to help global businesses automate customer interactions across multiple languages.</description>
+      <link>https://etlode.com</link>
+      <guid>https://etlode.com/news/multilingual-chatbot-launch-2025</guid>
+      <pubDate>Mon, 27 May 2025 00:00:00 +0000</pubDate>
+      <category>AI Automation</category>
+      <category>Multilingual Solutions</category>
+    </item>
+    
+    <item>
+      <title>ET-Lode Expands RAG-Enabled LLM Services for Enterprise Clients</title>
+      <description>ET-Lode enhances its portfolio with advanced RAG-enabled LLM solutions, providing businesses with context-aware AI responses based on their proprietary data.</description>
+      <link>https://etlode.com/services</link>
+      <guid>https://etlode.com/news/rag-llm-expansion-2025</guid>
+      <pubDate>Mon, 20 May 2025 00:00:00 +0000</pubDate>
+      <category>RAG LLM</category>
+      <category>Enterprise Solutions</category>
+    </item>
+  </channel>
+</rss>
