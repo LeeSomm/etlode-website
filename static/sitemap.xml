@@ -42,14 +42,5 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- FAQ Page - English -->
-  <url>
-    <loc>https://etlode.com/faq</loc>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://etlode.com/faq?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://etlode.com/faq" />
-    <lastmod>2025-05-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
+
 </urlset>

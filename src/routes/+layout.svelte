@@ -56,7 +56,6 @@
       <a href="{base}/" class="hover:text-teal-400 {page.url.pathname === '/' || page.url.pathname === base+'/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
       <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname.includes('/services') ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
       <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname.includes('/about') ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
-      <a href="{base}/faq" class="hover:text-teal-400 {page.url.pathname.includes('/faq') ? 'text-teal-400' : ''}">FAQ</a>
       <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
     </div>
     

@@ -1,8 +1,0 @@
-Contact: lee@etlode.com
-Expires: 2026-12-31T23:59:59.000Z
-Encryption: https://etlode.com/pgp-key.txt
-Preferred-Languages: en, ja
-Canonical: https://etlode.com/.well-known/security.txt
-
-# Security contact for ET-Lode (etlode.com)
-# For security vulnerabilities, please contact lee@etlode.com
