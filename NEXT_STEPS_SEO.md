@@ -3,8 +3,8 @@
 ## Immediate Actions (This Week) 🚀
 
 ### 1. Search Engine Submission
-- [ ] **Google Search Console**: Add https://etlode.com and submit sitemap.xml
-- [ ] **Bing Webmaster Tools**: Submit website and sitemap
+- [X] **Google Search Console**: Add https://etlode.com and submit sitemap.xml
+- [X] **Bing Webmaster Tools**: Submit website and sitemap
 - [ ] **Google Business Profile**: Create/claim profile for "ET-Lode, LLC"
 
 ### 2. Monitor Brand Keywords

@@ -279,5 +279,141 @@ export default {
       languages: "対応言語",
       languagesDescription: "英語・日本語での対応が可能です",
     }
+  },
+  zamami: {
+    headerTitle: "座間味フェリー予約システムデモ | ET-Lode",
+    metaDescription: "座間味島向けモダンなフェリー予約システムのデザインをご体験ください。予約システムの近代化をお手伝いします。",
+    title: "フェリー予約システム",
+    subtitle: "座間味島への現代的な予約体験",
+    demo: {
+      notice: "デモのお知らせ",
+      description: "これは現代的なフェリー予約システムのデザインデモです。実際の予約は処理されません。"
+    },
+    form: {
+      step: "ステップ",
+      of: "/",
+      next: "次へ",
+      previous: "戻る", 
+      book: "予約を完了",
+      booking: "処理中...",
+      steps: {
+        1: "航路・日付",
+        2: "フェリー選択",
+        3: "乗船者情報",
+        4: "決済・確認"
+      },
+      route: {
+        title: "航路と乗船日を選択",
+        from: "出発港",
+        to: "到着地",
+        date: "乗船日",
+        passengers: "乗船者数",
+        adult: "大人",
+        child: "子供（6-11歳）",
+        infant: "幼児（0-5歳）",
+        roundTrip: "往復",
+        oneWay: "片道",
+        returnDate: "復路日",
+        ports: {
+          naha: "那覇（泊港）",
+          zamami: "座間味島",
+          aka: "阿嘉島"
+        }
+      },
+      ferry: {
+        title: "フェリーと出発時刻を選択",
+        vessel: "船舶",
+        departure: "出発",
+        arrival: "到着",
+        duration: "所要時間",
+        price: "料金",
+        capacity: "空席数",
+        select: "選択",
+        queenZamami: "クイーンざまみ3（高速船）",
+        ferryZamami: "フェリーざまみ（普通船）",
+        mins: "分"
+      },
+      passenger: {
+        title: "乗船者情報",
+        representative: "予約代表者",
+        passengers: "乗船者詳細",
+        firstName: "お名前（名）*",
+        lastName: "お名前（姓）*",
+        firstNameKana: "お名前（名・カナ）",
+        lastNameKana: "お名前（姓・カナ）",
+        gender: "性別",
+        male: "男性",
+        female: "女性",
+        other: "その他",
+        birthDate: "生年月日",
+        phone: "電話番号 *",
+        email: "メールアドレス *",
+        emergency: "緊急連絡先",
+        emergencyName: "緊急連絡先氏名",
+        emergencyPhone: "緊急連絡先電話番号",
+        specialRequests: "特別なご要望",
+        wheelchair: "車椅子での介助が必要",
+        pet: "ペット同伴",
+        luggage: "大型荷物（自転車等）",
+        addPassenger: "乗船者を追加",
+        removePassenger: "削除"
+      },
+      payment: {
+        title: "決済・確認",
+        summary: "予約内容確認",
+        outbound: "往路",
+        return: "復路",
+        subtotal: "小計",
+        fees: "手数料",
+        total: "合計金額",
+        method: "決済方法",
+        creditCard: "クレジットカード",
+        paypal: "PayPal",
+        applePay: "Apple Pay",
+        cardNumber: "カード番号",
+        expiry: "MM/YY",
+        cvv: "CVV",
+        cardName: "カード名義",
+        terms: "利用規約",
+        termsText: "利用規約およびキャンセルポリシーに同意します",
+        privacy: "プライバシーポリシー",
+        privacyText: "個人情報の収集・利用についてプライバシーポリシーに同意します"
+      },
+      success: {
+        title: "予約が完了しました！",
+        description: "フェリーの予約が確定いたしました。確認メールをお送りしております。",
+        bookingRef: "予約番号",
+        downloadPDF: "乗船券をダウンロード",
+        newBooking: "新規予約"
+      },
+      validation: {
+        required: "この項目は必須です",
+        email: "有効なメールアドレスを入力してください",
+        phone: "有効な電話番号を入力してください",
+        minPassengers: "最低1名の乗船者が必要です",
+        futureDate: "未来の日付を選択してください",
+        returnAfterOutbound: "復路日は往路日より後の日付を選択してください"
+      }
+    },
+    features: {
+      title: "実装されたモダン機能",
+      realtime: "リアルタイム在庫",
+      realtimeDesc: "フェリーの空席状況とスケジュールのライブ更新",
+      mobile: "モバイル最適化",
+      mobileDesc: "全デバイス対応のレスポンシブデザイン",
+      multilingual: "多言語対応",
+      multilingualDesc: "日本語、英語、韓国語、中国語",
+      secure: "安全な決済",
+      secureDesc: "PCI DSS準拠の決済処理",
+      weather: "天気情報連携",
+      weatherDesc: "天候を考慮した予約と通知システム",
+      qr: "デジタル乗船",
+      qrDesc: "QRコード乗船券とチェックイン"
+    },
+    contact: {
+      title: "予約システムの近代化にご興味はありませんか？",
+      description: "ET-Lodeまでご連絡ください。モダン技術と改善されたユーザー体験で予約システムを変革する方法をご提案します。",
+      button: "お見積もり依頼"
+    }
   }
 };

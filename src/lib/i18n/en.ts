@@ -268,5 +268,141 @@ export default {
       languages: "Languages",
       languagesDescription: "Services available in English and Japanese",
     },
+  },
+  zamami: {
+    headerTitle: "Zamami Ferry Reservation Demo | ET-Lode",
+    metaDescription: "Experience our modern ferry reservation system design for Zamami Island, Okinawa. See how we can modernize your booking systems.",
+    title: "Ferry Reservation System",
+    subtitle: "Modern Booking Experience for Zamami Island",
+    demo: {
+      notice: "Demo Notice",
+      description: "This is a demonstration of our modern ferry reservation system design. No actual bookings will be processed."
+    },
+    form: {
+      step: "Step",
+      of: "of",
+      next: "Next",
+      previous: "Previous",
+      book: "Complete Booking",
+      booking: "Processing...",
+      steps: {
+        1: "Route & Date",
+        2: "Ferry Selection", 
+        3: "Passenger Details",
+        4: "Payment & Confirmation"
+      },
+      route: {
+        title: "Select Route and Travel Date",
+        from: "Departure Port",
+        to: "Destination",
+        date: "Travel Date",
+        passengers: "Number of Passengers",
+        adult: "Adult",
+        child: "Child (6-11)",
+        infant: "Infant (0-5)",
+        roundTrip: "Round Trip",
+        oneWay: "One Way",
+        returnDate: "Return Date",
+        ports: {
+          naha: "Naha (Tomari Port)",
+          zamami: "Zamami Island",
+          aka: "Aka Island"
+        }
+      },
+      ferry: {
+        title: "Select Ferry and Departure Time",
+        vessel: "Vessel",
+        departure: "Departure",
+        arrival: "Arrival", 
+        duration: "Duration",
+        price: "Price",
+        capacity: "Available Seats",
+        select: "Select",
+        queenZamami: "Queen Zamami III (High-speed)",
+        ferryZamami: "Ferry Zamami (Regular)",
+        mins: "mins"
+      },
+      passenger: {
+        title: "Passenger Information",
+        representative: "Booking Representative",
+        passengers: "Passenger Details",
+        firstName: "First Name *",
+        lastName: "Last Name *", 
+        firstNameKana: "First Name (Kana)",
+        lastNameKana: "Last Name (Kana)",
+        gender: "Gender",
+        male: "Male",
+        female: "Female",
+        other: "Other",
+        birthDate: "Birth Date",
+        phone: "Phone Number *",
+        email: "Email Address *",
+        emergency: "Emergency Contact",
+        emergencyName: "Emergency Contact Name",
+        emergencyPhone: "Emergency Contact Phone",
+        specialRequests: "Special Requests",
+        wheelchair: "Wheelchair assistance required",
+        pet: "Traveling with pet",
+        luggage: "Large luggage (bicycle, etc.)",
+        addPassenger: "Add Passenger",
+        removePassenger: "Remove"
+      },
+      payment: {
+        title: "Payment & Confirmation",
+        summary: "Booking Summary",
+        outbound: "Outbound Journey",
+        return: "Return Journey",
+        subtotal: "Subtotal",
+        fees: "Service Fees",
+        total: "Total Amount",
+        method: "Payment Method",
+        creditCard: "Credit Card",
+        paypal: "PayPal",
+        applePay: "Apple Pay",
+        cardNumber: "Card Number",
+        expiry: "MM/YY",
+        cvv: "CVV",
+        cardName: "Name on Card",
+        terms: "Terms and Conditions",
+        termsText: "I agree to the terms and conditions and cancellation policy",
+        privacy: "Privacy Policy",
+        privacyText: "I agree to the collection and use of my personal information as described in the privacy policy"
+      },
+      success: {
+        title: "Booking Confirmed!",
+        description: "Your ferry reservation has been confirmed. A confirmation email has been sent to your email address.",
+        bookingRef: "Booking Reference",
+        downloadPDF: "Download Boarding Pass",
+        newBooking: "Make New Booking"
+      },
+      validation: {
+        required: "This field is required",
+        email: "Please enter a valid email address",
+        phone: "Please enter a valid phone number",
+        minPassengers: "At least one passenger is required",
+        futureDate: "Please select a future date",
+        returnAfterOutbound: "Return date must be after outbound date"
+      }
+    },
+    features: {
+      title: "Modern Features Demonstrated",
+      realtime: "Real-time Availability",
+      realtimeDesc: "Live ferry capacity and schedule updates",
+      mobile: "Mobile Optimized",
+      mobileDesc: "Responsive design for all devices",
+      multilingual: "Multilingual Support", 
+      multilingualDesc: "Japanese, English, Korean, Chinese",
+      secure: "Secure Payments",
+      secureDesc: "PCI DSS compliant payment processing",
+      weather: "Weather Integration",
+      weatherDesc: "Weather-aware booking and notifications",
+      qr: "Digital Boarding",
+      qrDesc: "QR code boarding passes and check-in"
+    },
+    contact: {
+      title: "Interested in Modernizing Your Booking System?",
+      description: "Contact ET-Lode to discuss how we can transform your reservation system with modern technology and improved user experience.",
+      button: "Get a Quote"
+    }
   }
 };
