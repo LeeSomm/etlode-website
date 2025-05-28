@@ -1,0 +1,371 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Sun, 10 Jan 1990 01:01:01 GMT" />
+<meta name="Author" content="Zamami Village" />
+<meta name="Description" content="座間味村" />
+<meta name="copyright" content="Copyright Zamami Village all rights reserved" />
+<meta name="keywords" content="座間味村アイランダーズネットワーク">
+<link type="text/css" rel="stylesheet" href="css/reset_yui3.css" />
+<link type="text/css" rel="stylesheet" href="css/zamamiweb.css?20130604001" />
+<link type="text/css" rel="stylesheet" href="css/com0101.css?20120427001" />
+<link type="text/css" rel="stylesheet" href="css/com0102.css?2012060401" />
+<link type="text/css" rel="stylesheet" href="js/jquery/ui/css/jquery-ui-1.8.16.custom.css" />
+<link type="text/css" rel="stylesheet" href="js/jquery/jqTableKit/jqTableKit.css" />
+<link type="text/css" rel="stylesheet" href="js/superTables/css/superTables.css" />
+<script type="text/javascript" src="js/commonfunc.js?20130704001"></script>
+<script type="text/javascript" src="js/constant.js?20121024008"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery/ui/i18n/jquery.ui.datepicker-ja.js"></script>
+<script type="text/javascript" src="js/jquery/timers/jquery.timers.js"></script>
+<script type="text/javascript" src="js/jquery/jqTableKit/jqTableKit.js"></script>
+<script type="text/javascript" src="js/superTables/superTables.js"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+        window.name = const_SYSTEMID();
+    //]]>
+    </script>
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var language = "ja";
+        var waitMsg = "Please wait.";
+        var windowName = window.name;
+        windowName = windowName.substr(0, 6);
+        if(windowName != "zamami"){
+            location.href = "ZamamiErr104.jsp";
+        }
+    //]]>
+    </script>
+
+    
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYR1KJ2Q3V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-NYR1KJ2Q3V');
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        // onpageshow時イベント指定
+        window.onpageshow = fn_onpageshowEvent;
+        // onload時イベント指定
+        window.onload = fn_onloadEvent;
+
+        /*****************************
+         * 画面ロード時のイベント
+         *****************************/
+        function fn_onloadEvent() {
+            
+            if ($.mobile) {
+                
+                //$("input[type='checkbox']").checkboxradio({
+                //    mini : "true"
+                //});
+                
+                $("[name='DUMMY_INPUT']").parent("div")
+                    .css("border", "0")
+                    .css("margin", "0");
+            }
+
+            
+            fn_changeFieldColor();
+            
+            if(typeof fn_onloadScriptCom0101 == "function") {
+                fn_onloadScriptCom0101();
+            }
+            
+            fn_onloadScript();
+            
+            fn_popupmsg();
+
+            
+            
+        }
+
+        /*****************************
+         * 画面表示時のイベント
+         *****************************/
+        function fn_onpageshowEvent() {
+            
+            cf_unblockUI();
+        }
+
+        /*****************************
+         * エラーメッセージ表示
+         *****************************/
+        function fn_popupmsg(){
+            var msg = '';
+
+
+            if(msg.length != 0){
+                alert(msg);
+            }
+        }
+
+        /*****************************
+         * エラー項目の背景色変更
+         *****************************/
+        function fn_changeFieldColor(){
+            for (var i=0; i < document.forms.length; i++) {
+                form = document.forms[i];
+            
+            }
+        }
+    //]]>
+    </script>
+
+    
+    <link type="text/css" rel="stylesheet" href="nonmem/css/nmnu0101.css?20130606002" />
+
+    <title>Zamami Village General Reservation Menu</title>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        
+        function fn_onloadScript() {
+        }
+
+        /*****************************
+         * windowリサイズ処理（機能個別）
+         *****************************/
+        
+        function fn_windowResize() { }
+
+        /*****************************
+         * 機能個別処理
+         *****************************/
+        
+        function fn_logout() {
+            location.href = "indexen.html";
+        }
+        
+        function fn_reserve() {
+            cf_submitNoValidate('doReserve');
+        }
+        
+        function fn_confirm() {
+            cf_submitNoValidate('doConfirm');
+        }
+        
+        function fn_availability() {
+            cf_submitNoValidate('doAvailability');
+        }
+
+        
+        function fn_kiyaku() {
+            cf_openNewWindow("enwrg0101!doFormOpen.action", "Acceptable_Use_Policy", 900, 450, null);
+        }
+        
+    //]]>
+    </script>
+</head>
+<body onunload="">
+    <form id="ennmnu0101" name="ennmnu0101" action="/zamami_web/ennmnu0101.action" method="POST">
+        
+        
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        function fn_onloadScriptCom0101() {
+        }
+
+        
+        function fn_japanese() {
+            location.href = "index.html";
+        }
+
+        
+        function fn_spec() {
+            cf_openNewWindow("enspe0101!doFormOpen.action", "Act_on_Specified_Commercial_Transactions", 900, 450, null);
+        }
+
+        
+        function fn_kiyaku() {
+            cf_openNewWindow("enwrg0101!doFormOpen.action", "Acceptable_Use_Policy", 900, 450, null);
+        }
+        
+    //]]>
+    </script>
+
+        
+
+
+    <input type="text" name="DUMMY_INPUT" style="display: none;">
+    <input type="hidden" name="TOKEN_INFO" value="" id="TOKEN_INFO"/>
+    <input type="hidden" name="IS_MOBILE" value="false" id="IS_MOBILE"/>
+    <input type="hidden" name="IS_SMARTPHONE" value="false" id="IS_SMARTPHONE"/>
+    <input type="hidden" name="request_locale" value="ja" id="REQUEST_LOCALE"/>
+
+
+        
+        <div class="headerContainer">
+            <div class="headerContainerSpec">
+                <a href="javascript:void(0);" onclick="fn_japanese();">■&nbsp;日本語</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_spec();">■&nbsp;Page based on the Act on Specified Commercial Transactions</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_kiyaku();">■&nbsp;Zamami Village General Reservation</a>&nbsp;&nbsp;
+            </div>
+            <div class="headerContainerCenter">
+                
+            </div>
+        </div>
+        
+
+        
+
+        
+        <div id="contentsContainer" class="contentsContainer">
+            
+            <div class="nmnu0101_div_menuTitleContainer">
+                <div class="nmnu0101_div_menuTitle menu">
+                    <span class="nmnu0101_span_menuTitle boldSpan">Boarding Reservations</span>
+                </div>
+                <br class="clears"/>
+                <div class="menu">
+                    <ul class="nmnu0101_ul_menu">
+                        <li>
+                            <span class="nmnu0101_span_shipMenu linkSpan" onclick="fn_reserve();">Reservation Form</span>
+                        </li>
+                        <li>
+                            <span class="nmnu0101_span_shipMenu linkSpan" onclick="fn_confirm();">Reservation Confirmation</span>
+                        </li>
+                        <li>
+                            <span class="nmnu0101_span_shipMenu linkSpan" onclick="fn_availability();">Confirm Seat Availability</span>
+                        </li>
+                        <li>
+                            <span class="mnu0101_span_mainMenu linkSpan" onclick="fn_logout();">Log-In Screen</span>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" onclick="fn_kiyaku();">Zamami Village General Reservation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <br class="clears"/>
+            <br/>
+            <br/>
+            
+            <div class="nmnu0101_div_infoContainer">
+                <span class="underSpan">Notice</span>
+                <br/>
+                <br/>
+                <div><span class="label_red">※１</span></div>
+                <div>
+                    <span class="label_red">Reservations with credit cards issued outside of Japan can only be made 23 days prior to departure.</span>
+                    <br/>
+                    <span class="label_red">&#51068;&#48376; &#51060;&#50808;&#51032; &#44397;&#44032;&#50640;&#49436; &#48156;&#54665;&#46108; &#49888;&#50857;&#52852;&#46300;&#47484; &#49324;&#50857;&#54620; &#50696;&#50557; &#49888;&#52397;&#51008;, &#49849;&#49440;&#51068; 23&#51068; &#51204;&#48512;&#53552; &#51217;&#49688;&#48155;&#44256; &#51080;&#49845;&#45768;&#45796;.</span>
+                    <br/>
+                    <span class="label_red">&#20351;&#29992;&#22312;&#26085;&#26412;&#20197;&#22806;&#30340;&#22269;&#23478;&#25152;&#21457;&#34892;&#30340;&#20449;&#29992;&#21345;&#30340;&#39044;&#32422;&#30003;&#35831;, &#23558;&#20110;&#20056;&#33337;&#26085;&#30340;23&#22825;&#21069;&#24320;&#22987;&#21463;&#29702;。</span>
+                    <br/>
+                    <span class="label_red">&#20351;&#29992;&#22283;&#22806;&#30332;&#34892;&#30340;&#20449;&#29992;&#21345;&#38928;&#32004;&#26178;, &#24478;&#30331;&#33337;&#26085;&#30340;23&#22825;&#21069;&#38283;&#22987;&#21463;&#29702;。</span>
+                </div>
+                <br class="clears" /><br/>
+                <div>※２</div>
+                <div>
+                    The return ticket of a round trip reservation (and its accompanying discounts) can only be made<br/>within 14 days of the outbound trip.
+                    <br/>
+                    E.g. If the outbound trip was on 6/1, a return trip ticket (and any applicable discounts) may be booked until 6/14.
+                </div>
+            </div>
+            
+            <div class="nmnu0101_div_infoContainer">
+                <br/>
+                We ask for your understanding with regards to the following points:
+                <ul class="nmnu0101_ul_restriction">
+                    <li>Payment by credit card is required when making a reservation through this system.</li>
+                    <li>
+                        There is a limited number of seats on each vessel. Please make your reservation after verifying the availability of seats on your desired day of travel.
+                        <br/>
+                        Seats may become available as your date of boarding approaches due to canceled reservations.
+                    </li>
+                    <li>
+                        When booking a round trip ticket, the outbound and inbound trips cannot be made on different vessels.
+                        <br/>
+                        When vessels differ, you must reserve and purchase two one-way tickets.
+                    </li>
+                    <li>
+                        Due to system limitations, it is not possible to reserve boarding tickets before the ship's schedule is announced.
+                        <br/>
+                        There may be delays in determining the ship's schedule.
+                        <br/>
+                        Please wait until the ship schedule is announced.
+                    </li>
+                    <li>
+                        Please purchase your boarding ticket at least 30 minutes prior to boarding.
+                    </li>
+                    <li>
+                        After credit card payment registration, it is possible to cancel on this site until the day before boarding (23:59 in Japan Standard Time).
+                        <br/>
+                        <br/>
+                        <span class="boldSpan">Zamami Village Office Naha Branch Office (10:00-17:00)</span>
+                        <br/>
+                        <span class="boldSpan">Tel. 098-868-4567</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </form>
+
+
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    //]]>
+    </script>
+    
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+            
+            /*****************************
+             * 共通処理（フッタエリア）
+             *****************************/
+
+            
+        //]]>
+        </script>
+
+    
+</body>
+</html>
+

@@ -1,0 +1,421 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Sun, 10 Jan 1990 01:01:01 GMT" />
+<meta name="Author" content="Zamami Village" />
+<meta name="Description" content="座間味村" />
+<meta name="copyright" content="Copyright Zamami Village all rights reserved" />
+<meta name="keywords" content="座間味村アイランダーズネットワーク">
+<link type="text/css" rel="stylesheet" href="css/reset_yui3.css" />
+<link type="text/css" rel="stylesheet" href="css/zamamiweb.css?20130604001" />
+<link type="text/css" rel="stylesheet" href="css/com0101.css?20120427001" />
+<link type="text/css" rel="stylesheet" href="css/com0102.css?2012060401" />
+<link type="text/css" rel="stylesheet" href="js/jquery/ui/css/jquery-ui-1.8.16.custom.css" />
+<link type="text/css" rel="stylesheet" href="js/jquery/jqTableKit/jqTableKit.css" />
+<link type="text/css" rel="stylesheet" href="js/superTables/css/superTables.css" />
+<script type="text/javascript" src="js/commonfunc.js?20130704001"></script>
+<script type="text/javascript" src="js/constant.js?20121024008"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery/ui/i18n/jquery.ui.datepicker-ja.js"></script>
+<script type="text/javascript" src="js/jquery/timers/jquery.timers.js"></script>
+<script type="text/javascript" src="js/jquery/jqTableKit/jqTableKit.js"></script>
+<script type="text/javascript" src="js/superTables/superTables.js"></script>
+
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var language = "ja";
+        var waitMsg = "Please wait.";
+        var windowName = window.name;
+        windowName = windowName.substr(0, 6);
+        if(windowName != "zamami"){
+            location.href = "ZamamiErr104.jsp";
+        }
+    //]]>
+    </script>
+
+    
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYR1KJ2Q3V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-NYR1KJ2Q3V');
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        // onpageshow時イベント指定
+        window.onpageshow = fn_onpageshowEvent;
+        // onload時イベント指定
+        window.onload = fn_onloadEvent;
+
+        /*****************************
+         * 画面ロード時のイベント
+         *****************************/
+        function fn_onloadEvent() {
+            
+            if ($.mobile) {
+                
+                //$("input[type='checkbox']").checkboxradio({
+                //    mini : "true"
+                //});
+                
+                $("[name='DUMMY_INPUT']").parent("div")
+                    .css("border", "0")
+                    .css("margin", "0");
+            }
+
+            
+            fn_changeFieldColor();
+            
+            if(typeof fn_onloadScriptCom0101 == "function") {
+                fn_onloadScriptCom0101();
+            }
+            
+            fn_onloadScript();
+            
+            fn_popupmsg();
+
+            
+            
+        }
+
+        /*****************************
+         * 画面表示時のイベント
+         *****************************/
+        function fn_onpageshowEvent() {
+            
+            cf_unblockUI();
+        }
+
+        /*****************************
+         * エラーメッセージ表示
+         *****************************/
+        function fn_popupmsg(){
+            var msg = '';
+
+
+            if(msg.length != 0){
+                alert(msg);
+            }
+        }
+
+        /*****************************
+         * エラー項目の背景色変更
+         *****************************/
+        function fn_changeFieldColor(){
+            for (var i=0; i < document.forms.length; i++) {
+                form = document.forms[i];
+            
+            }
+        }
+    //]]>
+    </script>
+
+    
+    <link type="text/css" rel="stylesheet" href="nonmem/css/nres0103.css?20130304001" />
+
+    <title>Zamami Village General Boarding Ticket Reservation Form: Step three (outbound vessel selection)</title>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        
+        function fn_onloadScript() {
+            
+            $.ajaxSetup({cache: false});
+            $("#information").load("./winteren.html", function(response, status, xhr) {
+                $("#information").show();
+                if (status == "error") {
+                    var msg = "<br/>There is no news.<br/><br/>";
+                    $("#information").html(msg);
+                }
+            });
+        }
+
+        /*****************************
+         * windowリサイズ処理（機能個別）
+         *****************************/
+        
+        function fn_windowResize() { }
+
+        /*****************************
+         * 機能個別処理
+         *****************************/
+        
+        function fn_menu() {
+            location.href = "ennmnu0101!doFormOpen.action";
+        }
+
+        
+        function fn_back() {
+            fn_checkSubmitNoValidate();
+            cf_submitNoValidate('doBack');
+        }
+
+        
+        function fn_next() {
+            var ticketCd = '1';
+            var harborCdFromDep = '1';
+            var number = '1';
+            var age = '22';
+            var isBarcodeDisp = 'true';
+            // if (ticketCd == '1' && harborCdFromDep == '1' && number == 1 && age >= 16 && isBarcodeDisp == 'true') {
+            if (ticketCd == '1' && harborCdFromDep == '1' && number == 1 && age >= 16) {
+                // 片道、かつ、泊出発、かつ、1人、かつ、16歳以上は、メッセージ表示(English Page)
+                // 出発地と往路乗船日付により、自動発券のバーコード表示可否制御（美ら島税対象も）を追加(2020/01/07)
+                // 出発地と往路乗船日により、バーコード表示開始日付を設定する。
+                // 往路出発の港によりバーコード表示開始乗船日付を制御しているが、
+                // バーコード表示開始乗船日付が未来であっても、環境税をWEBで自動徴収するように変更(2021/03/15)
+                alert("We ask for your cooperation with Zamami Village's \"Environmental Protection Tax\"(100 yen).");
+            }
+            cf_submit('doNext');
+        }
+
+        
+        function fn_checkSubmitNoValidate() {
+        }
+        
+    //]]>
+    </script>
+</head>
+<body onunload="">
+    <form id="ennres0103" name="ennres0103" action="/zamami_web/ennres0103.action" method="POST">
+        
+        
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        function fn_onloadScriptCom0101() {
+        }
+
+        
+        function fn_japanese() {
+            location.href = "index.html";
+        }
+
+        
+        function fn_spec() {
+            cf_openNewWindow("enspe0101!doFormOpen.action", "Act_on_Specified_Commercial_Transactions", 900, 450, null);
+        }
+
+        
+        function fn_kiyaku() {
+            cf_openNewWindow("enwrg0101!doFormOpen.action", "Acceptable_Use_Policy", 900, 450, null);
+        }
+        
+    //]]>
+    </script>
+
+        
+
+
+    <input type="text" name="DUMMY_INPUT" style="display: none;">
+    <input type="hidden" name="TOKEN_INFO" value="" id="TOKEN_INFO"/>
+    <input type="hidden" name="IS_MOBILE" value="false" id="IS_MOBILE"/>
+    <input type="hidden" name="IS_SMARTPHONE" value="false" id="IS_SMARTPHONE"/>
+    <input type="hidden" name="request_locale" value="ja" id="REQUEST_LOCALE"/>
+
+
+        
+        <div class="headerContainer">
+            <div class="headerContainerSpec">
+                <a href="javascript:void(0);" onclick="fn_japanese();">■&nbsp;日本語</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_spec();">■&nbsp;Page based on the Act on Specified Commercial Transactions</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_kiyaku();">■&nbsp;Zamami Village General Reservation</a>&nbsp;&nbsp;
+            </div>
+            <div class="headerContainerCenter">
+                
+            </div>
+        </div>
+        
+
+        
+
+        
+        <div id="contentsContainer" class="contentsContainer">
+            
+            <div class="nres0103_div_reserveContainer">
+                
+                <div class="nres0103_div_screenTitle">Boarding Ticket Reservation Form</div>
+                <br/>
+                <div class="nres0103_div_line nres0103_div_center">
+                    <div class="nres0103_div_enrouteBox">
+                        <div class="nres0103_div_enroute nres0103_div_center">Departure</div>
+                        <div class="nres0103_div_enroute nres0103_div_center">&nbsp;</div>
+                        <div class="nres0103_div_enroute nres0103_div_center">Arrival</div>
+                        <div class="nres0103_div_enroute nres0103_div_center clears">
+                            <span class="nres0103_span_route">Tomari</span>
+                        </div>
+                        <div class="nres0103_div_enroute nres0103_div_center">
+                            <span class="nres0103_span_route">－</span>
+                        </div>
+                        <div class="nres0103_div_enroute nres0103_div_center">
+                            <span class="nres0103_span_route">Zamami Port</span>
+                        </div>
+                    </div>
+                </div>
+                <br class="clears" />
+                <hr/>
+                <br/>
+                <div class="nres0103_div_line nres0103_div_center">
+                    Please select your desired vessel, then click the "Next" button.
+                </div>
+                <br/>
+                <div class="nres0103_div_line nres0103_div_center">
+                    <button type="button" class="basicButton" onclick="fn_menu();">Menu</button>
+                    <button type="button" class="basicButton" onclick="fn_back();">Back</button>
+                    <button type="button" class="basicButton" onclick="fn_next();">Next</button>
+                </div>
+                <br/>
+                <div class="nres0103_div_line nres0103_div_center">◎：Vacant Seats  ▲：Some Vacant Seats Remaining  ×：All Seats Occupied  －：Reservation Period Closed</div>
+                <div class="nres0103_div_line nres0103_div_center">
+                    <table id="nres0103_table_shipSchedule" class="nres0103_table_shipSchedule">
+                        <colgroup>
+                            <col width="15%" />
+                            <col width="15%" />
+                            <col width="30%" />
+                            <col width="15%" />
+                            <col width="5%" />
+                        </colgroup>
+                        <tr id="shipScheduleListHeader" class="shipScheduleListHeader">
+                            <th>Date</th>
+                            <th>Departure<br/>Timetable</th>
+                            <th>Name of Vessel</th>
+                            <th>Number of Vacant Seats</th>
+                            <th>Selection</th>
+                        </tr>
+
+                        <tr id="travelCd_1112">
+
+                            <td align="center" rowspan="3">05/31(Sat)</td>
+
+                            <td align="center">09:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">▲</td>
+                            <td align="center">
+
+
+
+
+                                <input type="radio" name="Ennres0103Form.shipScheduleList[0].selectedTravelCd" id="ennres0103_Ennres0103Form_shipScheduleList_0__selectedTravelCd1112" value="1112" onclick="cf_selectListRadio(this);"/><label for="ennres0103_Ennres0103Form_shipScheduleList_0__selectedTravelCd1112"></label>
+
+
+                            </td>
+                        </tr>
+
+                        <tr id="travelCd_2412">
+
+                            <td align="center">10:00</td>
+                            <td align="left">Ferry Zamami</td>
+                            <td align="center">◎</td>
+                            <td align="center">
+
+
+
+
+                                <input type="radio" name="Ennres0103Form.shipScheduleList[1].selectedTravelCd" id="ennres0103_Ennres0103Form_shipScheduleList_1__selectedTravelCd2412" value="2412" onclick="cf_selectListRadio(this);"/><label for="ennres0103_Ennres0103Form_shipScheduleList_1__selectedTravelCd2412"></label>
+
+
+                            </td>
+                        </tr>
+
+                        <tr id="travelCd_1212">
+
+                            <td align="center">16:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">◎</td>
+                            <td align="center">
+
+
+
+
+                                <input type="radio" name="Ennres0103Form.shipScheduleList[2].selectedTravelCd" id="ennres0103_Ennres0103Form_shipScheduleList_2__selectedTravelCd1212" value="1212" onclick="cf_selectListRadio(this);"/><label for="ennres0103_Ennres0103Form_shipScheduleList_2__selectedTravelCd1212"></label>
+
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <br/>
+                <div class="nres0103_div_screenTitle nres0103_div_center">
+            		<div class="log0101_div_infoContainer" id="information"></div>
+                </div>
+                <br/>
+                <div class="nres0103_div_line nres0103_div_center">
+                    <button type="button" class="basicButton" onclick="fn_menu();">Menu</button>
+                    <button type="button" class="basicButton" onclick="fn_back();">Back</button>
+                    <button type="button" class="basicButton" onclick="fn_next();">Next</button>
+                </div>
+                <br/>
+                <div class="nres0103_div_line nres0103_div_center">
+                    <span class="nres0103_span_notice">Please reserve seats (even marked with ◎) as soon as possible as there is a limited number of seats on each vessel.</span><br/>
+                    <span class="nres0103_span_notice">Furthermore,  seats may become vacant one month prior to boarding due to customers and travel companies canceling their reservations.</span>
+                </div>
+                <br/>
+                <hr/>
+            </div>
+            
+        </div>
+        
+    </form>
+
+
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    //]]>
+    </script>
+    
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+            
+            /*****************************
+             * 共通処理（フッタエリア）
+             *****************************/
+
+            
+        //]]>
+        </script>
+
+    
+</body>
+</html>
+

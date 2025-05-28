@@ -1,0 +1,595 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Sun, 10 Jan 1990 01:01:01 GMT" />
+<meta name="Author" content="Zamami Village" />
+<meta name="Description" content="座間味村" />
+<meta name="copyright" content="Copyright Zamami Village all rights reserved" />
+<meta name="keywords" content="座間味村アイランダーズネットワーク">
+<link type="text/css" rel="stylesheet" href="css/reset_yui3.css" />
+<link type="text/css" rel="stylesheet" href="css/zamamiweb.css?20130604001" />
+<link type="text/css" rel="stylesheet" href="css/com0101.css?20120427001" />
+<link type="text/css" rel="stylesheet" href="css/com0102.css?2012060401" />
+<link type="text/css" rel="stylesheet" href="js/jquery/ui/css/jquery-ui-1.8.16.custom.css" />
+<link type="text/css" rel="stylesheet" href="js/jquery/jqTableKit/jqTableKit.css" />
+<link type="text/css" rel="stylesheet" href="js/superTables/css/superTables.css" />
+<script type="text/javascript" src="js/commonfunc.js?20130704001"></script>
+<script type="text/javascript" src="js/constant.js?20121024008"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery/ui/i18n/jquery.ui.datepicker-ja.js"></script>
+<script type="text/javascript" src="js/jquery/timers/jquery.timers.js"></script>
+<script type="text/javascript" src="js/jquery/jqTableKit/jqTableKit.js"></script>
+<script type="text/javascript" src="js/superTables/superTables.js"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+        window.name = const_SYSTEMID();
+    //]]>
+    </script>
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var language = "ja";
+        var waitMsg = "Please wait.";
+        var windowName = window.name;
+        windowName = windowName.substr(0, 6);
+        if(windowName != "zamami"){
+            location.href = "ZamamiErr104.jsp";
+        }
+    //]]>
+    </script>
+
+    
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYR1KJ2Q3V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-NYR1KJ2Q3V');
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        // onpageshow時イベント指定
+        window.onpageshow = fn_onpageshowEvent;
+        // onload時イベント指定
+        window.onload = fn_onloadEvent;
+
+        /*****************************
+         * 画面ロード時のイベント
+         *****************************/
+        function fn_onloadEvent() {
+            
+            if ($.mobile) {
+                
+                //$("input[type='checkbox']").checkboxradio({
+                //    mini : "true"
+                //});
+                
+                $("[name='DUMMY_INPUT']").parent("div")
+                    .css("border", "0")
+                    .css("margin", "0");
+            }
+
+            
+            fn_changeFieldColor();
+            
+            if(typeof fn_onloadScriptCom0101 == "function") {
+                fn_onloadScriptCom0101();
+            }
+            
+            fn_onloadScript();
+            
+            fn_popupmsg();
+
+            
+            
+        }
+
+        /*****************************
+         * 画面表示時のイベント
+         *****************************/
+        function fn_onpageshowEvent() {
+            
+            cf_unblockUI();
+        }
+
+        /*****************************
+         * エラーメッセージ表示
+         *****************************/
+        function fn_popupmsg(){
+            var msg = '';
+
+
+            if(msg.length != 0){
+                alert(msg);
+            }
+        }
+
+        /*****************************
+         * エラー項目の背景色変更
+         *****************************/
+        function fn_changeFieldColor(){
+            for (var i=0; i < document.forms.length; i++) {
+                form = document.forms[i];
+            
+            }
+        }
+    //]]>
+    </script>
+
+    
+    <link type="text/css" rel="stylesheet" href="css/res0301.css?20130304001" />
+
+    <title>Zamami Village Passenger Seating Availability</title>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        
+        function fn_onloadScript() {
+        }
+
+        /*****************************
+         * windowリサイズ処理（機能個別）
+         *****************************/
+        
+        function fn_windowResize() { }
+
+        /*****************************
+         * 機能個別処理
+         *****************************/
+        
+        function fn_menu() {
+            fn_checkSubmitNoValidate();
+            cf_submitNoValidate('doMenu');
+        }
+
+        
+        function fn_back() {
+            fn_checkSubmitNoValidate();
+            cf_submitNoValidate('doBack');
+        }
+
+        
+        function fn_close() {
+            window.close();
+        }
+
+        
+        function fn_changeMonth(idx) {
+            $("#enres0301_Enres0301Form_displayMonthIndex").val(idx);
+            fn_checkSubmitNoValidate();
+            cf_submitNoValidate('doChangeMonth');
+        }
+
+        
+        function fn_checkSubmitNoValidate() {
+        }
+        
+    //]]>
+    </script>
+</head>
+<body onunload="">
+    <form id="enres0301" name="enres0301" action="/zamami_web/enres0301.action" method="POST">
+        
+        <input type="hidden" name="Enres0301Form.displayMonthIndex" value="0" id="enres0301_Enres0301Form_displayMonthIndex"/>
+
+        
+        
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        function fn_onloadScriptCom0101() {
+        }
+
+        
+        function fn_japanese() {
+            location.href = "index.html";
+        }
+
+        
+        function fn_spec() {
+            cf_openNewWindow("enspe0101!doFormOpen.action", "Act_on_Specified_Commercial_Transactions", 900, 450, null);
+        }
+
+        
+        function fn_kiyaku() {
+            cf_openNewWindow("enwrg0101!doFormOpen.action", "Acceptable_Use_Policy", 900, 450, null);
+        }
+        
+    //]]>
+    </script>
+
+        
+
+
+    <input type="text" name="DUMMY_INPUT" style="display: none;">
+    <input type="hidden" name="TOKEN_INFO" value="" id="TOKEN_INFO"/>
+    <input type="hidden" name="IS_MOBILE" value="false" id="IS_MOBILE"/>
+    <input type="hidden" name="IS_SMARTPHONE" value="false" id="IS_SMARTPHONE"/>
+    <input type="hidden" name="request_locale" value="ja" id="REQUEST_LOCALE"/>
+
+
+        
+        <div class="headerContainer">
+            <div class="headerContainerSpec">
+                <a href="javascript:void(0);" onclick="fn_japanese();">■&nbsp;日本語</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_spec();">■&nbsp;Page based on the Act on Specified Commercial Transactions</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_kiyaku();">■&nbsp;Zamami Village General Reservation</a>&nbsp;&nbsp;
+            </div>
+            <div class="headerContainerCenter">
+                
+            </div>
+        </div>
+        
+
+        
+
+        
+        <div id="contentsContainer" class="contentsContainer">
+            
+            <div class="res0301_div_reserveContainer">
+                
+                <div class="res0301_div_screenTitle">Seat Availability</div>
+                <br/>
+                <div class="res0301_div_line res0301_div_center">
+                    Please select your <span class="boldSpan">departure </span>and <span class="boldSpan">arrival locations</span>, and click the year and month buttons.
+                </div>
+                <div class="res0301_div_line res0301_div_center">
+                    <span class="res0301_span_note">It is possible to check seating availability from today to 55 days from now.</span>
+                </div>
+                <br/>
+                <div class="res0301_div_line res0301_div_center">
+                    <span class="label_red">The "Seating Availability" status listed below is dependent upon reservations
+                    <br/>
+                    (i.e. seats may suddenly become available if customers cancel their reservations).</span>
+                    <br/>
+                    <span class="label_red">Please direct inquiries to the Zamami Village Naha Ticket Office in Tomari Port.</span>
+                    <br/><br/>
+                    <span class="label_red">Reservations by phone are possible beginning at 10:00AM, 1 month prior to the day of travel.</span>
+                    <br/><br/>
+                    <span class="boldSpan">Zamami Village Office Naha Branch Office (10:00-17:00)</span>
+                    <br/>
+                    <span class="boldSpan">Tel. 098-868-4567</span>
+                    <br/><br/>
+                </div>
+                <div class="res0301_div_line res0301_div_center">
+                    Departure：<select name="Enres0301Form.harborCdDep" id="enres0301_Enres0301Form_harborCdDep">
+    <option value="1" selected="selected">Tomari</option>
+    <option value="2">Zamami Port</option>
+    <option value="3">Aka Port</option>
+
+
+</select>
+
+
+                    Arrival：<select name="Enres0301Form.harborCdArr" id="enres0301_Enres0301Form_harborCdArr">
+    <option value="1">Tomari</option>
+    <option value="2" selected="selected">Zamami Port</option>
+    <option value="3">Aka Port</option>
+
+
+</select>
+
+
+                </div>
+                <br/>
+                <div class="res0301_div_line res0301_div_center">
+                    <button type="button" class="basicButton" onclick="fn_back();">Back</button>
+                </div>
+                <div class="res0301_div_line res0301_div_center">
+
+                    <button type="button" class="basicButton" onclick="fn_changeMonth(0);" value='0'>May 2025</button>
+
+                    <button type="button" class="basicButton" onclick="fn_changeMonth(1);" value='1'>Jun 2025</button>
+
+                    <button type="button" class="basicButton" onclick="fn_changeMonth(2);" value='2'>Jul 2025</button>
+
+                </div>
+                <br/>
+                <hr/>
+                <br/>
+                <div class="res0301_div_line res0301_div_center">◎：Vacant Seats  ▲：Some Vacant Seats Remaining  ×：All Seats Occupied  －：Reservation Period Closed
+                </div>
+                <div class="res0301_div_line res0301_div_center">
+                    <table id="res0301_table_shipSchedule" class="res0301_table_shipSchedule">
+                        <tr id="shipScheduleListHeader" class="shipScheduleListHeader">
+                            <th style="width: 100px;">Date</th>
+                            <th style="width: 100px;">Departure<br/>Timetable</th>
+                            <th style="width: 200px;">Name of Vessel</th>
+                            <th style="width: 100px;">Stopping at</th>
+                            <th style="width: 80px;">Seat<br/>Availability</th>
+                        </tr>
+
+                        <tr class="res0301_tr_week4">
+
+                            <td align="center" rowspan="3">05/28(Wed)</td>
+
+                            <td align="center">09:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center"></td>
+                            <td align="center">
+
+
+
+
+                                &times;
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week4">
+
+                            <td align="center">10:00</td>
+                            <td align="left">Ferry Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week4">
+
+                            <td align="center">16:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week5">
+
+                            <td align="center" rowspan="3">05/29(Thu)</td>
+
+                            <td align="center">09:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center"></td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week5">
+
+                            <td align="center">10:00</td>
+                            <td align="left">Ferry Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week5">
+
+                            <td align="center">16:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week6">
+
+                            <td align="center" rowspan="3">05/30(Fri)</td>
+
+                            <td align="center">09:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center"></td>
+                            <td align="center">
+
+
+
+
+                                ▲
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week6">
+
+                            <td align="center">10:00</td>
+                            <td align="left">Ferry Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week6">
+
+                            <td align="center">16:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week7">
+
+                            <td align="center" rowspan="3">05/31(Sat)</td>
+
+                            <td align="center">09:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center"></td>
+                            <td align="center">
+
+
+
+
+                                ▲
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week7">
+
+                            <td align="center">10:00</td>
+                            <td align="left">Ferry Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                        <tr class="res0301_tr_week7">
+
+                            <td align="center">16:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">Aka Port</td>
+                            <td align="center">
+
+
+
+
+                                ◎
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <br/>
+                <div class="res0301_div_line res0301_div_center">
+
+                    <button type="button" class="basicButton" onclick="fn_changeMonth(0);" value="0">May 2025</button>
+
+                    <button type="button" class="basicButton" onclick="fn_changeMonth(1);" value="1">Jun 2025</button>
+
+                    <button type="button" class="basicButton" onclick="fn_changeMonth(2);" value="2">Jul 2025</button>
+
+                </div>
+                <div class="res0301_div_line res0301_div_center">
+                    <button type="button" class="basicButton" onclick="fn_back();">Back</button>
+                </div>
+
+                <br/>
+                <hr/>
+                <br/>
+                
+                <div class="res0301_div_noticeBox">
+                    <div class="res0301_div_line res0301_div_noticeTitle"><span class="res0301_span_notice label_red boldSpan">Note:</span></div>
+                    <div class="res0301_div_line">
+                        <ul class="res0301_ul_notice">
+                            <li>Reception for cargo items on the Ferry Zamami closes 30 minutes prior to departure.</li>
+                            <li>Passengers are limited to one hand-carried item of luggage per person.</li>
+                            <li>We ask for your understanding that departure time maybe changed or ferries canceled due to rough sea conditions or other unforseen circumstances.</li>
+                            <li>About the symbols displayed in the "Seating Availability" column:
+                                <ul>
+                                    <li>◎→ Vacant Seats</li>
+                                    <li>▲→ Some Vacant Seats Remaining</li>
+                                    <li>×→ All Seats Occupied</li>
+                                    <li>－→ Reservation Period Closed</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br/>
+                <hr/>
+            </div>
+            
+        </div>
+        
+    </form>
+
+
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    //]]>
+    </script>
+    
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+            
+            /*****************************
+             * 共通処理（フッタエリア）
+             *****************************/
+
+            
+        //]]>
+        </script>
+
+    
+</body>
+</html>
+

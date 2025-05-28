@@ -1,0 +1,441 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Sun, 10 Jan 1990 01:01:01 GMT" />
+<meta name="Author" content="Zamami Village" />
+<meta name="Description" content="座間味村" />
+<meta name="copyright" content="Copyright Zamami Village all rights reserved" />
+<meta name="keywords" content="座間味村アイランダーズネットワーク">
+<link type="text/css" rel="stylesheet" href="css/reset_yui3.css" />
+<link type="text/css" rel="stylesheet" href="css/zamamiweb.css?20130604001" />
+<link type="text/css" rel="stylesheet" href="css/com0101.css?20120427001" />
+<link type="text/css" rel="stylesheet" href="css/com0102.css?2012060401" />
+<link type="text/css" rel="stylesheet" href="js/jquery/ui/css/jquery-ui-1.8.16.custom.css" />
+<link type="text/css" rel="stylesheet" href="js/jquery/jqTableKit/jqTableKit.css" />
+<link type="text/css" rel="stylesheet" href="js/superTables/css/superTables.css" />
+<script type="text/javascript" src="js/commonfunc.js?20130704001"></script>
+<script type="text/javascript" src="js/constant.js?20121024008"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery/ui/i18n/jquery.ui.datepicker-ja.js"></script>
+<script type="text/javascript" src="js/jquery/timers/jquery.timers.js"></script>
+<script type="text/javascript" src="js/jquery/jqTableKit/jqTableKit.js"></script>
+<script type="text/javascript" src="js/superTables/superTables.js"></script>
+
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var language = "ja";
+        var waitMsg = "Please wait.";
+        var windowName = window.name;
+        windowName = windowName.substr(0, 6);
+        if(windowName != "zamami"){
+            location.href = "ZamamiErr104.jsp";
+        }
+    //]]>
+    </script>
+
+    
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYR1KJ2Q3V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-NYR1KJ2Q3V');
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        // onpageshow時イベント指定
+        window.onpageshow = fn_onpageshowEvent;
+        // onload時イベント指定
+        window.onload = fn_onloadEvent;
+
+        /*****************************
+         * 画面ロード時のイベント
+         *****************************/
+        function fn_onloadEvent() {
+            
+            if ($.mobile) {
+                
+                //$("input[type='checkbox']").checkboxradio({
+                //    mini : "true"
+                //});
+                
+                $("[name='DUMMY_INPUT']").parent("div")
+                    .css("border", "0")
+                    .css("margin", "0");
+            }
+
+            
+            fn_changeFieldColor();
+            
+            if(typeof fn_onloadScriptCom0101 == "function") {
+                fn_onloadScriptCom0101();
+            }
+            
+            fn_onloadScript();
+            
+            fn_popupmsg();
+
+            
+            
+        }
+
+        /*****************************
+         * 画面表示時のイベント
+         *****************************/
+        function fn_onpageshowEvent() {
+            
+            cf_unblockUI();
+        }
+
+        /*****************************
+         * エラーメッセージ表示
+         *****************************/
+        function fn_popupmsg(){
+            var msg = '';
+
+
+            if(msg.length != 0){
+                alert(msg);
+            }
+        }
+
+        /*****************************
+         * エラー項目の背景色変更
+         *****************************/
+        function fn_changeFieldColor(){
+            for (var i=0; i < document.forms.length; i++) {
+                form = document.forms[i];
+            
+            }
+        }
+    //]]>
+    </script>
+
+    
+    <link type="text/css" rel="stylesheet" href="nonmem/css/nres0101.css?20130304001" />
+
+    <title>Zamami Village General Boarding Ticket Reservation Form: Step one (representative information, number of passengers, ticket type)</title>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        
+        function fn_onloadScript() {
+            
+            $.ajaxSetup({cache: false});
+            $("#information").load("./winteren.html", function(response, status, xhr) {
+                $("#information").show();
+                if (status == "error") {
+                    var msg = "<br/>There is no news.<br/><br/>";
+                    $("#information").html(msg);
+                }
+            });
+        }
+
+        /*****************************
+         * windowリサイズ処理（機能個別）
+         *****************************/
+        
+        function fn_windowResize() { }
+
+        /*****************************
+         * 機能個別処理
+         *****************************/
+        
+        function fn_availability() {
+            fn_checkSubmitNoValidate();
+            cf_submitNoValidate('doAvailability');
+        }
+
+        
+        function fn_menu() {
+            location.href = "ennmnu0101!doFormOpen.action";
+        }
+
+        
+        function fn_next() {
+            cf_submit('doNext');
+        }
+
+        
+        function fn_checkSubmitNoValidate() {
+        }
+        
+    //]]>
+    </script>
+</head>
+<body onunload="">
+    <form id="ennres0101" name="ennres0101" action="/zamami_web/ennres0101.action" method="POST">
+        
+        
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        function fn_onloadScriptCom0101() {
+        }
+
+        
+        function fn_japanese() {
+            location.href = "index.html";
+        }
+
+        
+        function fn_spec() {
+            cf_openNewWindow("enspe0101!doFormOpen.action", "Act_on_Specified_Commercial_Transactions", 900, 450, null);
+        }
+
+        
+        function fn_kiyaku() {
+            cf_openNewWindow("enwrg0101!doFormOpen.action", "Acceptable_Use_Policy", 900, 450, null);
+        }
+        
+    //]]>
+    </script>
+
+        
+
+
+    <input type="text" name="DUMMY_INPUT" style="display: none;">
+    <input type="hidden" name="TOKEN_INFO" value="" id="TOKEN_INFO"/>
+    <input type="hidden" name="IS_MOBILE" value="false" id="IS_MOBILE"/>
+    <input type="hidden" name="IS_SMARTPHONE" value="false" id="IS_SMARTPHONE"/>
+    <input type="hidden" name="request_locale" value="ja" id="REQUEST_LOCALE"/>
+
+
+        
+        <div class="headerContainer">
+            <div class="headerContainerSpec">
+                <a href="javascript:void(0);" onclick="fn_japanese();">■&nbsp;日本語</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_spec();">■&nbsp;Page based on the Act on Specified Commercial Transactions</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_kiyaku();">■&nbsp;Zamami Village General Reservation</a>&nbsp;&nbsp;
+            </div>
+            <div class="headerContainerCenter">
+                
+            </div>
+        </div>
+        
+
+        
+
+        
+        <div id="contentsContainer" class="contentsContainer">
+            
+            <div class="nres0101_div_reserveContainer">
+                
+                <div class="nres0101_div_screenTitle">Boarding Ticket Reservation Form</div>
+                <br/>
+                <div class="nres0101_div_line nres0101_div_center">
+                    Reservations are being excepted for remaining seats on vessels from today until <span class="boldSpan">06/20/2025</span>.<br/>
+                    Please enter your desired vessel after checking the <a href="javascript:void(0);" onclick="fn_availability();">availability of seats</a>.
+                </div>
+                <br/>
+                
+                <div class="nres0101_div_noticeBox">
+                    <div class="nres0101_div_line nres0101_div_noticeTitle"><span class="nres0101_span_notice label_red boldSpan">Notice:</span></div>
+                    <div class="nres0101_div_line">
+                        <ul class="nres0101_ul_notice">
+                            <li>Please input the phone number to get of the communication.</li>
+                            <li>
+                                This system can make reservations for the representative passenger and a maximum of four additional passengers to board the same vessel.<br/>
+                                When a total of 6 passengers or more will be travelling at different times or on different vessels, please call one month in advance to complete your reservation by phone.<br/>
+                                Tel. 098-868-4567
+                            </li>
+                            <li>Round trip reservations departing from Zamami Village may only be made by Zamami Village residents.</li>
+                            <li>Only one-way and discounted round-trip reservations can be made in Zamami Village.</li>
+                            <li>
+                                Passengers, who travel to Zamami Village, are kindly requested to pay a "Beautiful Island Tax" of 100 Yen per person.<br/>
+                                Target person: off-island persons, who want to travel to Zamami Village, and citizens of Zamami Village.<br/>
+                                Free of charge: children under 13 years old (until junior high school) and disabled persons.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nres0101_div_line nres0101_div_center">
+                        <span class="nres0101_span_notice boldSpan">Zamami Village Office Naha Branch Office (10:00-17:00)</span><br/>
+                        <span class="nres0101_span_notice boldSpan">Tel. 098-868-4567</span>
+                    </div>
+                </div>
+                
+                <div class="nres0101_div_line">
+                    『<img src="images/reserve/BallCyan.gif" alt="mandatory field"/>』Required information.<br/>
+                    『<img src="images/reserve/BallYellow.gif" alt="choice"/>』Please select and fill out one option.<br/>
+                    『<img src="images/reserve/BallGray.gif" alt="optional item"/>』Optional information.
+                </div>
+                <hr/>
+                
+                <div class="nres0101_div_line">
+                    <span class="boldSpan">■Contact Information: Passenger one</span>
+                </div>
+                <div class="nres0101_div_line">
+                    <div class="nres0101_div_lineInputBlock_img"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Name</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <input type="text" name="Ennres0101Form.nameKana" size="46" maxlength="40" value="" id="ennres0101_Ennres0101Form_nameKana" class="keyControlHankaku"/>
+                        Please type using half-width characters.
+                    </div>
+
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Nationality</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <select name="Ennres0101Form.nationality" id="ennres0101_Ennres0101Form_nationality">
+    <option value="1" selected="selected">Japan</option>
+    <option value="2">Taiwan</option>
+    <option value="3">South Korea</option>
+    <option value="4">China</option>
+    <option value="5">Hong Kong</option>
+    <option value="6">Thailand</option>
+    <option value="7">Singapore</option>
+    <option value="8">Vietnam</option>
+    <option value="9">Malaysia</option>
+    <option value="10">Philippines</option>
+    <option value="11">United States of America</option>
+    <option value="12">Australia</option>
+    <option value="13">United Kingdom</option>
+    <option value="14">Germany</option>
+    <option value="15">France</option>
+    <option value="16">Italy</option>
+    <option value="99">Other</option>
+
+
+</select>
+
+
+                    </div>
+
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Age</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <input type="text" name="Ennres0101Form.age" size="4" maxlength="3" value="" id="ennres0101_Ennres0101Form_age" class="keyControlHankaku"/>
+                    </div>
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Email Address</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <input type="text" name="Ennres0101Form.email" size="60" maxlength="255" value="" id="ennres0101_Ennres0101Form_email" class="keyControlHankaku"/>
+                    </div>
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Address</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <input type="text" name="Ennres0101Form.homeAddress" size="60" maxlength="50" value="" id="ennres0101_Ennres0101Form_homeAddress" class="keyControlHankaku"/>
+                        Please type using half-width characters.
+                    </div>
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Phone Number</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <input type="text" name="Ennres0101Form.homeTel" size="17" maxlength="15" value="" id="ennres0101_Ennres0101Form_homeTel" class="keyControlHankaku"/>
+                        Without hyphens, parenthesis, or any other symbols (numbers only).
+                    </div>
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Type of Ticket</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <select name="Ennres0101Form.calCd" id="ennres0101_Ennres0101Form_calCd">
+    <option value="1" selected="selected">General</option>
+
+
+</select>
+
+
+                    </div>
+                    <hr class="clears"/>
+                </div>
+                <div class="nres0101_div_line">
+                    <span class="boldSpan">■Boarding Vessel Information</span>
+                </div>
+                <div class="nres0101_div_line clears">
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Number of Passengers</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <select name="Ennres0101Form.number" id="ennres0101_Ennres0101Form_number">
+    <option value="1" selected="selected">1 </option>
+    <option value="2">2 </option>
+    <option value="3">3 </option>
+    <option value="4">4 </option>
+    <option value="5">5 </option>
+
+
+</select>
+
+
+                    </div>
+                    <div class="nres0101_div_lineInputBlock_img clears"><img src="images/reserve/BallCyan.gif" alt="mandatory field"/></div>
+                    <div class="nres0101_div_lineInputBlock_title">Type of Ticket</div>
+                    <div class="nres0101_div_lineInputBlock_value">
+                        <input type="radio" name="Ennres0101Form.ticketCd" id="ennres0101_Ennres0101Form_ticketCd1" checked="checked" value="1"/><label for="ennres0101_Ennres0101Form_ticketCd1">One way</label>
+<input type="radio" name="Ennres0101Form.ticketCd" id="ennres0101_Ennres0101Form_ticketCd2" value="2"/><label for="ennres0101_Ennres0101Form_ticketCd2">Round Trip</label>
+
+                    </div>
+                    <hr class="clears"/>
+                </div>
+                <br/>
+                <div class="nres0101_div_screenTitle nres0101_div_center">
+            		<div class="log0101_div_infoContainer" id="information"></div>
+                </div>
+                <br/>
+                <div class="nres0101_div_line nres0101_div_center">
+                    <button type="button" class="basicButton" onclick="fn_menu();">Menu</button>
+                    <button type="button" class="basicButton" onclick="fn_next();">Next</button>
+                </div>
+                <br/>
+            </div>
+            
+        </div>
+        
+    </form>
+
+
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    //]]>
+    </script>
+    
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+            
+            /*****************************
+             * 共通処理（フッタエリア）
+             *****************************/
+
+            
+        //]]>
+        </script>
+
+    
+</body>
+</html>
+

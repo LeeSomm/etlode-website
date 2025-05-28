@@ -1,0 +1,462 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=Shift-JIS" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Sun, 10 Jan 1990 01:01:01 GMT" />
+<meta name="Author" content="Zamami Village" />
+<meta name="Description" content="座間味村" />
+<meta name="copyright" content="Copyright Zamami Village all rights reserved" />
+<meta name="keywords" content="座間味村アイランダーズネットワーク">
+<link type="text/css" rel="stylesheet" href="css/reset_yui3.css" />
+<link type="text/css" rel="stylesheet" href="css/zamamiweb.css?20130301001" />
+<link type="text/css" rel="stylesheet" href="css/com0101.css?20120427001" />
+<link type="text/css" rel="stylesheet" href="css/com0102.css?2012060401" />
+<link type="text/css" rel="stylesheet" href="js/jquery/ui/css/jquery-ui-1.8.16.custom.css" />
+<link type="text/css" rel="stylesheet" href="js/jquery/jqTableKit/jqTableKit.css" />
+<link type="text/css" rel="stylesheet" href="js/superTables/css/superTables.css" />
+<script type="text/javascript" src="js/commonfunc.js?20130325006"></script>
+<script type="text/javascript" src="js/constant.js?20121024008"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery/ui/i18n/jquery.ui.datepicker-ja.js"></script>
+<script type="text/javascript" src="js/jquery/timers/jquery.timers.js"></script>
+<script type="text/javascript" src="js/jquery/jqTableKit/jqTableKit.js"></script>
+<script type="text/javascript" src="js/superTables/superTables.js"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+        window.name = const_SYSTEMID();
+    //]]>
+    </script>
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var language = "ja";
+        var waitMsg = "Please wait.";
+        var windowName = window.name;
+        windowName = windowName.substr(0, 6);
+        if(windowName != "zamami"){
+            location.href = "ZamamiErr104.jsp";
+        }
+    //]]>
+    </script>
+
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        // onpageshow時イベント指定
+        window.onpageshow = fn_onpageshowEvent;
+        // onload時イベント指定
+        window.onload = fn_onloadEvent;
+
+        /*****************************
+         * 画面ロード時のイベント
+         *****************************/
+        function fn_onloadEvent() {
+            
+            if ($.mobile) {
+                
+                //$("input[type='checkbox']").checkboxradio({
+                //    mini : "true"
+                //});
+                
+                $("[name='DUMMY_INPUT']").parent("div")
+                    .css("border", "0")
+                    .css("margin", "0");
+            }
+
+            
+            fn_changeFieldColor();
+            
+            if(typeof fn_onloadScriptCom0101 == "function") {
+                fn_onloadScriptCom0101();
+            }
+            
+            fn_onloadScript();
+            
+            fn_popupmsg();
+
+            
+            
+        }
+
+        /*****************************
+         * 画面表示時のイベント
+         *****************************/
+        function fn_onpageshowEvent() {
+            
+            cf_unblockUI();
+        }
+
+        /*****************************
+         * エラーメッセージ表示
+         *****************************/
+        function fn_popupmsg(){
+            var msg = '';
+
+
+            if(msg.length != 0){
+                alert(msg);
+            }
+        }
+
+        /*****************************
+         * エラー項目の背景色変更
+         *****************************/
+        function fn_changeFieldColor(){
+            for (var i=0; i < document.forms.length; i++) {
+                form = document.forms[i];
+            
+            }
+        }
+    //]]>
+    </script>
+
+    
+    <link type="text/css" rel="stylesheet" href="nonmem/css/nres0106.css?20130424001" />
+
+    <title>Zamami Village General Boarding Ticket Reservation Form: Step six (reservation contents and payment confirmation)</title>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        
+        function fn_onloadScript() {
+            
+            $.ajaxSetup({cache: false});
+            $("#information").load("./winteren.html", function(response, status, xhr) {
+                $("#information").show();
+                if (status == "error") {
+                    var msg = "<br/>There is no news.<br/><br/>";
+                    $("#information").html(msg);
+                }
+            });
+
+            $("#jcbnotice").load("./jcben.html", function(response, status, xhr) {
+                $("#jcbnotice").show();
+                if (status == "error") {
+                    var msg = "<br/>There is no news.<br/><br/>";
+                    $("#jcbnotice").html(msg);
+                }
+            });
+
+            var creditAblFlag = '';
+            if (creditAblFlag == 'true') {
+                
+                cf_openNewWindow("enexplain.html", "English explanation", 900, 700, null);
+                $("#creditForm").submit();
+            }
+        }
+
+        /*****************************
+         * windowリサイズ処理（機能個別）
+         *****************************/
+        
+        function fn_windowResize() { }
+
+        /*****************************
+         * 機能個別処理
+         *****************************/
+        
+        function fn_menu() {
+            location.href = "ennmnu0101!doFormOpen.action";
+        }
+
+        
+        function fn_back() {
+            fn_checkSubmitNoValidate();
+            cf_submitNoValidate('doBack');
+        }
+
+        
+        function fn_credit() {
+            var response = cf_submit('doCredit');
+        }
+
+        
+        function fn_checkSubmitNoValidate() {
+        }
+        
+    //]]>
+    </script>
+</head>
+<body onunload="">
+    <form id="ennres0106" name="ennres0106" action="/zamami_web/ennres0106.action" method="POST">
+        
+        
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        function fn_onloadScriptCom0101() {
+        }
+
+        
+        function fn_japanese() {
+            location.href = "index.html";
+        }
+
+        
+        function fn_spec() {
+            cf_openNewWindow("enspe0101!doFormOpen.action", "Act_on_Specified_Commercial_Transactions", 900, 450, null);
+        }
+
+        
+    //]]>
+    </script>
+
+        
+
+
+    <input type="text" name="DUMMY_INPUT" style="display: none;">
+    <input type="hidden" name="TOKEN_INFO" value="" id="TOKEN_INFO"/>
+    <input type="hidden" name="IS_MOBILE" value="false" id="IS_MOBILE"/>
+    <input type="hidden" name="IS_SMARTPHONE" value="false" id="IS_SMARTPHONE"/>
+    <input type="hidden" name="request_locale" value="ja" id="REQUEST_LOCALE"/>
+
+
+        
+        <div class="headerContainer">
+            <div class="headerContainerSpec">
+                <a href="javascript:void(0);" onclick="fn_japanese();">■&nbsp;日本語</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_spec();">■&nbsp;Page based on the Act on Specified Commercial Transactions</a>&nbsp;
+            </div>
+            <div class="headerContainerCenter">
+                
+            </div>
+        </div>
+        
+
+        
+
+        
+        <div id="contentsContainer" class="contentsContainer">
+            
+            <div class="nres0106_div_reserveContainer">
+                
+                <div class="nres0106_div_screenTitle">Boarding Ticket Reservation Form</div>
+                <br/>
+                <div class="nres0106_div_line nres0106_div_center">
+                    Your reservation will be processed according to the information below.
+                    <br/>
+                    Please confirm the payment amount, then click the "To Credit Card Payment" button below.
+                </div>
+                <br/>
+                
+                <div class="nres0106_div_noticeBox">
+                    <div class="nres0106_div_line nres0106_div_noticeTitle"><span class="nres0106_span_notice label_red boldSpan">Notice:</span></div>
+                    <div class="nres0106_div_line">
+                        <ul class="nres0106_ul_notice">
+                            <li>You will be transferred to the PAYGENT site. Your reservation will not be processed until you complete the credit payment registration.</li>
+                            <li>
+                                <span class="label_red">Reservations with credit cards issued outside of Japan can only be made 23 days prior to departure.</span><br/>
+                                <span class="label_red">&#51068;&#48376; &#51060;&#50808;&#51032; &#44397;&#44032;&#50640;&#49436; &#48156;&#54665;&#46108; &#49888;&#50857;&#52852;&#46300;&#47484; &#49324;&#50857;&#54620; &#50696;&#50557; &#49888;&#52397;&#51008;, &#49849;&#49440;&#51068; 23&#51068; &#51204;&#48512;&#53552; &#51217;&#49688;&#48155;&#44256; &#51080;&#49845;&#45768;&#45796;.</span><br/>
+                                <span class="label_red">&#20351;&#29992;&#22312;&#26085;&#26412;&#20197;&#22806;&#30340;&#22269;&#23478;&#25152;&#21457;&#34892;&#30340;&#20449;&#29992;&#21345;&#30340;&#39044;&#32422;&#30003;&#35831;, &#23558;&#20110;&#20056;&#33337;&#26085;&#30340;23&#22825;&#21069;&#24320;&#22987;&#21463;&#29702;。</span><br/>
+                                <span class="label_red">&#20351;&#29992;&#22283;&#22806;&#30332;&#34892;&#30340;&#20449;&#29992;&#21345;&#38928;&#32004;&#26178;, &#24478;&#30331;&#33337;&#26085;&#30340;23&#22825;&#21069;&#38283;&#22987;&#21463;&#29702;。</span>
+                            </li>
+                            <li>In the case that the vessel you reserved is canceled due to poor sea conditions, your credit card payment will be canceled, and you will not be charged any fees.</li>
+                            <li>After completing your credit payment registration, if we do not receive contact and do not issue your ticket on your day of travel (i.e. you didn't board the vessel), we will not be able to provide you with a refund.</li>
+                        </ul>
+                    </div>
+                    <div class="nres0106_div_line nres0106_div_center">
+                        <span class="nres0106_span_notice boldSpan">Zamami Village Office Naha Branch Office (10:00-17:00)</span><br/>
+                        <span class="nres0106_span_notice boldSpan">Tel. 098-868-4567</span>
+                    </div>
+                </div>
+                <br/>
+                <div class="nres0106_div_line nres0106_div_center">
+                    <button type="button" class="basicButton" onclick="fn_menu();">Menu</button>
+                    <button type="button" class="basicButton" onclick="fn_back();">Back</button>
+                    <button type="button" class="basicButton" onclick="fn_credit();">To Credit Card Payment</button>
+                </div>
+                <div class="nres0106_div_noticeBox">
+                    <div class="nres0106_div_line">
+                    <span class="label_red">The credit payment registration screen is in Japanese.  After clicking the "To Credit Card Payment" button, an English explanation window will simultaneously open.  Please refer to the English explanation window while filling out your credit payment registration information.</span>
+                    </div>
+                </div>
+                <br/>
+                <div class="nres0106_div_line">■Trip</div>
+                <div class="nres0106_div_line nres0106_div_center">
+                    <table id="nres0106_table_shipSchedule" class="nres0106_table_shipSchedule">
+                        <colgroup>
+                            <col width="10%" />
+                            <col width="10%" />
+                            <col width="10%" />
+                            <col width="30%" />
+                            <col width="10%" />
+                            <col width="10%" />
+                            <col width="10%" />
+                        </colgroup>
+                        <tr id="shipScheduleListHeader" class="shipScheduleListHeader">
+                            <th>&nbsp;</th>
+                            <th>Date</th>
+                            <th>Departure<br/>Timetable</th>
+                            <th>Name of Vessel</th>
+                            <th>Departure</th>
+                            <th>Arrival</th>
+                            <th>Type of Ticket</th>
+                        </tr>
+
+                        <tr>
+
+                            <td align="center" class="nres0106_td_head">Outbound Segment</td>
+
+
+                            <td align="center">05/31/2025</td>
+                            <td align="center">09:00</td>
+                            <td align="left">High-Speed Queen Zamami</td>
+                            <td align="center">Tomari</td>
+                            <td align="center">Zamami Port</td>
+                            <td align="center">One way</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <br/>
+                <div class="nres0106_div_line">■Passenger Contact Information</div>
+                <div class="nres0106_div_line nres0106_div_center">
+                    <table id="nres0106_table_passengers" class="nres0106_table_passengers">
+                        <colgroup>
+                            <col width="10px" />
+                            <col width="150px" />
+                            <col width="40px" />
+                            <col width="200px" />
+                            <col width="200px" />
+                            <col width="80px" />
+                            <col width="80px" />
+                        </colgroup>
+                        <tr id="passengersListHeader" class="passengersListHeader">
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Address</th>
+                            <th>Email Address</th>
+                            <th>Phone Number</th>
+                            <th>Type of Ticket</th>
+                        </tr>
+
+                        <tr>
+                            <td align="center" class="nres0106_td_head">1</td>
+                            <td align="left">dfadfasdf</td>
+                            <td align="center">22</td>
+                            <td align="left">ddafdsfasddsfdsa</td>
+                            <td align="left">dfadsfdsaf@gmail.com</td>
+                            <td align="left">132432143241</td>
+                            <td align="center">General</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <br/>
+                <div class="nres0106_div_line">■Total Amount</div>
+                <div class="nres0106_div_line nres0106_div_center">
+                    <span class="nres0106_span_pay">3,300 Yen</span>
+                </div>
+                <br/>
+                <div class="nres0106_div_screenTitle nres0106_div_center">
+            		<div class="log0101_div_infoContainer" id="information"></div>
+                </div>
+                <br/>
+                <div class="nres0106_div_jcbNotice nres0106_div_center">
+            		<div class="log0101_div_infoContainer" id="jcbnotice"></div>
+                </div>
+                <br/>
+                <div class="nres0106_div_line nres0106_div_center">
+                    <button type="button" class="basicButton" onclick="fn_menu();">Menu</button>
+                    <button type="button" class="basicButton" onclick="fn_back();">Back</button>
+                    <button type="button" class="basicButton" onclick="fn_credit();">To Credit Card Payment</button>
+                </div>
+                <div class="nres0106_div_noticeBox">
+                    <div class="nres0106_div_line">
+                    <span class="label_red">The credit payment registration screen is in Japanese.  After clicking the "To Credit Card Payment" button, an English explanation window will simultaneously open.  Please refer to the English explanation window while filling out your credit payment registration information.</span>
+                    </div>
+                </div>
+                <br/>
+                <hr/>
+            </div>
+            
+        </div>
+        
+    </form>
+
+
+
+    
+    <form id="creditForm" name="creditForm" action="https://sl.paygent.co.jp/WB0101/create/1" target="_self" method="POST">
+        <input type="hidden" name="in_kamei_id" value="60047000" id="creditForm_in_kamei_id"/>
+        <input type="hidden" name="in_n" value="60001000" id="creditForm_in_n"/>
+        <input type="hidden" name="in_shori_kbn" value="101" id="creditForm_in_shori_kbn"/>
+        <input type="hidden" name="in_moushikomi_kbn01" value="111" id="creditForm_in_moushikomi_kbn01"/>
+        <input type="hidden" name="in_kingaku" value="3300" id="creditForm_in_kingaku"/>
+        <input type="hidden" name="in_mallact_kbn" value="1" id="creditForm_in_mallact_kbn"/>
+
+        
+        <input type="hidden" name="in_redirecturl_ok" value="https://yoyaku.vill.zamami.okinawa.jp/zamami_web/ennres0110!doFormOpenOk.action" id="creditForm_in_redirecturl_ok"/>
+        
+        <input type="hidden" name="in_redirecturl_ng" value="https://yoyaku.vill.zamami.okinawa.jp/zamami_web/ennres0110!doFormOpenNg.action" id="creditForm_in_redirecturl_ng"/>
+        
+        <input type="hidden" name="in_redirecturl_can" value="https://yoyaku.vill.zamami.okinawa.jp/zamami_web/ennres0110!doFormOpenCan.action" id="creditForm_in_redirecturl_can"/>
+
+        <input type="hidden" name="in_kokyaku_id" value="20250528073024" id="creditForm_in_kokyaku_id"/>
+        <input type="hidden" name="in_chumon_no" value="250531_0000_000022_1" id="creditForm_in_chumon_no"/>
+        <input type="hidden" name="in_tokushu1" value="dfadfasdf" id="creditForm_in_tokushu1"/>
+        <input type="hidden" name="in_tokushu2" value="250531" id="creditForm_in_tokushu2"/>
+        <input type="hidden" name="in_tokushu3" value="1:Tomari-&gt;Zamami Port" id="creditForm_in_tokushu3"/>
+        <input type="hidden" name="in_shohin_mei" value="座間味村船舶乗船券" id="creditForm_in_shohin_mei"/>
+    </form>
+
+
+
+    
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    //]]>
+    </script>
+    
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+            
+            /*****************************
+             * 共通処理（フッタエリア）
+             *****************************/
+
+            
+        //]]>
+        </script>
+
+    
+</body>
+</html>
+

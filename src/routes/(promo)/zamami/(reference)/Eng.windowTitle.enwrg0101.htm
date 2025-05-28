@@ -1,0 +1,369 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-script-Type" content="text/javascript" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="Sun, 10 Jan 1990 01:01:01 GMT" />
+<meta name="Author" content="Zamami Village" />
+<meta name="Description" content="座間味村" />
+<meta name="copyright" content="Copyright Zamami Village all rights reserved" />
+<meta name="keywords" content="座間味村アイランダーズネットワーク">
+<link type="text/css" rel="stylesheet" href="css/reset_yui3.css" />
+<link type="text/css" rel="stylesheet" href="css/zamamiweb.css?20130604001" />
+<link type="text/css" rel="stylesheet" href="css/com0101.css?20120427001" />
+<link type="text/css" rel="stylesheet" href="css/com0102.css?2012060401" />
+<link type="text/css" rel="stylesheet" href="js/jquery/ui/css/jquery-ui-1.8.16.custom.css" />
+<link type="text/css" rel="stylesheet" href="js/jquery/jqTableKit/jqTableKit.css" />
+<link type="text/css" rel="stylesheet" href="js/superTables/css/superTables.css" />
+<script type="text/javascript" src="js/commonfunc.js?20130704001"></script>
+<script type="text/javascript" src="js/constant.js?20121024008"></script>
+<script type="text/javascript" src="js/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery/blockUI/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery/ui/i18n/jquery.ui.datepicker-ja.js"></script>
+<script type="text/javascript" src="js/jquery/timers/jquery.timers.js"></script>
+<script type="text/javascript" src="js/jquery/jqTableKit/jqTableKit.js"></script>
+<script type="text/javascript" src="js/superTables/superTables.js"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+        window.name = const_SYSTEMID();
+    //]]>
+    </script>
+    
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var language = "ja";
+        var waitMsg = "Please wait.";
+        var windowName = window.name;
+        windowName = windowName.substr(0, 6);
+        if(windowName != "zamami"){
+            location.href = "ZamamiErr104.jsp";
+        }
+    //]]>
+    </script>
+
+    
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYR1KJ2Q3V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-NYR1KJ2Q3V');
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        // onpageshow時イベント指定
+        window.onpageshow = fn_onpageshowEvent;
+        // onload時イベント指定
+        window.onload = fn_onloadEvent;
+
+        /*****************************
+         * 画面ロード時のイベント
+         *****************************/
+        function fn_onloadEvent() {
+            
+            if ($.mobile) {
+                
+                //$("input[type='checkbox']").checkboxradio({
+                //    mini : "true"
+                //});
+                
+                $("[name='DUMMY_INPUT']").parent("div")
+                    .css("border", "0")
+                    .css("margin", "0");
+            }
+
+            
+            fn_changeFieldColor();
+            
+            if(typeof fn_onloadScriptCom0101 == "function") {
+                fn_onloadScriptCom0101();
+            }
+            
+            fn_onloadScript();
+            
+            fn_popupmsg();
+
+            
+            
+        }
+
+        /*****************************
+         * 画面表示時のイベント
+         *****************************/
+        function fn_onpageshowEvent() {
+            
+            cf_unblockUI();
+        }
+
+        /*****************************
+         * エラーメッセージ表示
+         *****************************/
+        function fn_popupmsg(){
+            var msg = '';
+
+
+            if(msg.length != 0){
+                alert(msg);
+            }
+        }
+
+        /*****************************
+         * エラー項目の背景色変更
+         *****************************/
+        function fn_changeFieldColor(){
+            for (var i=0; i < document.forms.length; i++) {
+                form = document.forms[i];
+            
+            }
+        }
+    //]]>
+    </script>
+
+    
+    <link type="text/css" rel="stylesheet" href="./css/wrg0101.css?20130423001" />
+
+    <title>Eng.windowTitle.enwrg0101</title>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        
+        function fn_onloadScript() {
+            
+            $(".headerContainerSpec").hide();
+        }
+
+        /*****************************
+         * windowリサイズ処理（機能個別）
+         *****************************/
+        
+        function fn_windowResize() { }
+
+        /*****************************
+         * 機能個別処理
+         *****************************/
+        
+        function fn_close() {
+            window.close();
+        }
+
+        
+    //]]>
+    </script>
+</head>
+<body onunload="">
+    <form id="enwrg0101" name="enwrg0101" action="/zamami_web/enwrg0101.action" method="POST">
+        
+        
+
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        
+        /*****************************
+         * オンロード処理
+         *****************************/
+        function fn_onloadScriptCom0101() {
+        }
+
+        
+        function fn_japanese() {
+            location.href = "index.html";
+        }
+
+        
+        function fn_spec() {
+            cf_openNewWindow("enspe0101!doFormOpen.action", "Act_on_Specified_Commercial_Transactions", 900, 450, null);
+        }
+
+        
+        function fn_kiyaku() {
+            cf_openNewWindow("enwrg0101!doFormOpen.action", "Acceptable_Use_Policy", 900, 450, null);
+        }
+        
+    //]]>
+    </script>
+
+        
+
+
+    <input type="text" name="DUMMY_INPUT" style="display: none;">
+    <input type="hidden" name="TOKEN_INFO" value="" id="TOKEN_INFO"/>
+    <input type="hidden" name="IS_MOBILE" value="false" id="IS_MOBILE"/>
+    <input type="hidden" name="IS_SMARTPHONE" value="false" id="IS_SMARTPHONE"/>
+    <input type="hidden" name="request_locale" value="ja" id="REQUEST_LOCALE"/>
+
+
+        
+        <div class="headerContainer">
+            <div class="headerContainerSpec">
+                <a href="javascript:void(0);" onclick="fn_japanese();">■&nbsp;日本語</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_spec();">■&nbsp;Page based on the Act on Specified Commercial Transactions</a>&nbsp;&nbsp;
+                <a href="javascript:void(0);" onclick="fn_kiyaku();">■&nbsp;Zamami Village General Reservation</a>&nbsp;&nbsp;
+            </div>
+            <div class="headerContainerCenter">
+                
+            </div>
+        </div>
+        
+
+        
+
+        
+        <div id="contentsContainer" class="contentsContainer">
+            
+            <div class="wrg0101_div_menuTitleContainer">
+                <div class="wrg0101_div_menuTitle menu">
+                    <span class="wrg0101_span_menuTitle boldSpan">Zamami Village Ferry Web Reservation General</span>
+                </div>
+                <br/>
+                <textarea name="comments" cols="110" rows="20" wrap="hard" readonly="readonly" id="enwrg0101_comments" style="white-space:pre-wrap;">
+【Zamami Village Ferry Web Reservation General User Terms &amp; Conditions】
+
+Zamami Village Ferry Web Reservation General User (&quot;General User&quot;) terms and conditions are established as follows.
+
+Section 1.) General Rules
+Article 1.) Application of Terms and Conditions
+     The Zamami Village Ferry Web General User Terms and Conditions will be defined below and hereby be referred to as &quot;the Terms.&quot;
+The following services will be herewith offered.
+  (1) The boarding ticket reservation service for the Queen Zamami and Ferry Zamami which are operated by Zamami Village (&quot;Boarding Reservation Service&quot;)
+  (2) Additional services that complement the Boarding Reservation Service
+The Terms are comprised of separately defined provisions.
+
+Article 2.) Changes to the Terms
+Zamami Village may alter the Terms without obtaining an agreement to such changes from General User.  The altered General User Terms and Conditions are based on newly introduced provisions.
+
+Section 2.) Service Contents
+Article 3.) Use of Services
+    General User may use the services defined in Section 1 Article 1 of the Terms.
+
+Article 4.) Commencement of Services
+The services commence the moment the General User completes the online reservation form and payment registration.
+
+Section 3.) Boarding Reservation Service
+Article 5.) Beginning and End of Reservation Acceptance Period
+   The period during which reservation requests are accepted (&quot;Reservation Acceptance Period&quot;) begins 55 days prior to the intended date of embarkation and ends 1 day before the intended date of embarkation.
+
+Article 6.) Reservation Restrictions
+   The following restrictions apply to the Boarding Reservation Service.
+ (1) General User may register a maximum of 5 passengers (including his or herself) per reservation.  When making a reservation for 6 or more passengers, General User must directly call the ticket office 1 month prior to their desired date of travel.
+ (2) Reservations can only be processed for a single one-way trip or a single round trip.
+ (3) Reservation Acceptance Period ends 20 minutes prior to the vessel intended for embarkation's departure.
+
+Article 7.) Credit Card Payments
+    When making a boarding ticket reservation through Boarding Reservation Service, General User also agrees to pay the prescribed boarding fare by credit card transaction when the boarding tickets are issued on the date of travel.
+2   The Outer-Island Discounted Fare limited to Zamami Village residents cannot be paid for by credit card transaction.
+3   Credit card payments are processed on the EC Card Payment Service Site provided by PAYGENT Co., Ltd..
+4   When paying with a credit card, General User may only make one payment per credit card.
+
+Article 8.) Reservation Alterations Prior to Departure
+   To make alterations to a reservation, General User must directly call the Zamami Village Naha Ticket Office in Tomari Port.  The Zamami Village Naha Ticket Office will satisfy a request to alter a reservation if there are available seats on the requestor's desired vessel.
+2    When responding to a request for a change in reservation as outlined in the preceding provision, differences in total cost of fare may arise in certain situations.  If there is a balance due, then the Naha Ticket Office will charge the customer for the remaining amount, and if there is an excess in balance, the Naha Ticket Office will refund the excess amount.
+3   In the case of post-reservation alterations, the payment method will be changed to payment at the ticket office, and the originally registered credit card payment will not be processed.
+4   The aforementioned &quot;payment at the ticket office&quot; payment method will take the form of either cash or credit payment directly at the ticket office.
+5   If the ticket office does not receive a request for cancellation of reservation before the intended vessel departs, boarding fare will not be refunded.
+
+Article 9.) Cancellation Refund
+   In any of the following cases, the ticket office will refund the amounts defined in the corresponding provisions.
+2   If the customer decides to cancel their ticket, a 30% handling charge will be withdrawn from the total before repaying the customer the remainder.  However, no amount will be refunded after the intended vessel departs.
+3   If a ferry is canceled due to various troubles, the customer will be refunded the full cost of their boarding ticket.
+
+Section 4.) Suspension and Banning of Service
+Article 10.) Suspension of Service
+   Zamami Village may suspend service under the following circumstances.
+ (1) System maintenance or unavoidable construction work.
+ (2) Type I Telecommunication Carriers suspend telecommunication services.
+2   When service is suspended, a notification for General Users will be announced on the Zamami Village Home Page in advance.
+However, this provision will not apply during unavoidable emergency situations.
+
+Article 11.) Banning of Service
+   Zamami Village will ban service to General User in the case that any of the following situations arise.
+ (1) If it is revealed that General User submitted false information.
+ (2) General User violates any of the rules outlined in Article 16 (Restrictions).
+ (3) General User's actions fall under Zamami Village's definition of inappropriate actions.
+2 When Zamami Village bans service as described in the preceding item, General User will be notified of the ban in advance. However, this provision will not apply during unavoidable emergency situations.
+
+Section 5.) Damages
+Article 12.) Damages
+In the event of a force majeure, or unavoidable accident, Zamami village will not hold the customer (General User) accountable for the outcome.
+2  If General User incurs damages at the responsibility of Type I Telecommunication Carriers or other Telecommunication Carriers, Zamami Village will bear no responsibility for the outcome.
+3  If service could not be provided due to a force majeure, act of God,  or any other unavoidable accident, Zamami Village will bear no responsibility for the outcome.
+4  If General User receives damage due to the actions of another user or third party accompanying General User's use of service, and said General User or any third party files a claim or any kind of lawsuit against Zamami Village, General User must resolve the conflict for one's self at one's own responsibility and expense.  Zamami Village will bear no responsibility whatsoever with regards to the issue or any of its outcomes.
+
+Section 6.) Maintenance
+Article 13.) Zamami Village Ferry Web Reservation System Maintenance
+   If the installed Web Reservation Service system yields an error or system failure, Zamami Village will repair and restore said system upon detecting the malfunction.
+
+Article 14.) General User's Responsibility
+   It is General User's responsibility to maintain a proper operating environement on their computer terminal in order to avoid being faced with hindrances and errors when using the offered services.
+
+Section 7.) Cautions for Use
+Article 15.) Notifications
+   Zamami Village will carry out notifications to General User according to the provisions in this article.
+2   If any of the following defined events should occur, Zamami Village will notify General User accordingly.  In order to guarantee that General User has access to said notification, Zamami Village will post the details of the notification on the Zamami Village Home Page.
+ (1) Changes to the Terms.
+ (2) Addition of new features or services.
+ (3) Suspension of services.
+ (4) Additional changes to the provisions defining the services offered.
+
+Article 16.) Restrictions
+When using the services, General User must not violate any of the following restrictions.
+ (1) Use of the offered services with the intent of making a profit.
+ (2) Attempting to transmit or embed harmful computer programs or malicious software.
+ (3) Actions on the Internet Home Page Bulletin Board System that infringe upon other General Users' or Third Parties' copyright or Intellectual Property Rights.
+(4) Actions on the Internet Home Page Bulletin Board System that may slander, abuse, or defame any other General Users and Third Parties including the use of derogatory remarks and statements.
+(5) Actions on the Internet Home Page Bulletin Board System that impinge on other General Users' or Third Parties' property or privacy.
+(6) Election campaigning and other similar actions.
+(7) Actions on the Internet Home Page Bulletin Board System that involve openly disclosing to the public through writing or visual representations content matter that is offensive to public order and morals or inappropriate for adolescents.
+(8) Actions that interfere with the operation of the Zamami Village Ferry Web Reservation System.
+(9) Actions that violate the law.
+(10) Actions that involve the sending of spam emails and or emails to the general public coercing the general public to read said email, fill out forms and surveys, or requiring other General Users and Third Parties to forward said email.
+
+Section 10.) Miscellaneous
+Article 17.) Non-Disclosure Agreement
+   Zamami Village will not disclose confidential information gathered about General User through the related offered services to any third parties.  However, in the case of a court-issued warrant, the preceding agreement no longer applies.
+
+Article 18.) Exclusively Agreed Jurisdictional Court
+   In the case of a disagreement with General User requiring legal action, Zamami Village and General User's Exclusively Agreed Jurisdictional Court will be a court with direct jurisdiction over Zamami Village.
+
+Supplementary Provisions
+The Terms are in effect as of July 11, 2013.</textarea>
+            </div>
+            
+
+            <br/>
+            <br/>
+        </div>
+        
+    </form>
+
+
+
+</body>
+</html>
+

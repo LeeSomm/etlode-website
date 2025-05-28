@@ -1,0 +1,6995 @@
+[
+    {
+        "City": "Nagoya",
+        "Japanese": "名古屋市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Toyohashi",
+        "Japanese": "豊橋市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Okazaki",
+        "Japanese": "岡崎市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Ichinomiya",
+        "Japanese": "一宮市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Seto",
+        "Japanese": "瀬戸市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Handa",
+        "Japanese": "半田市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Kasugai",
+        "Japanese": "春日井市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Toyokawa",
+        "Japanese": "豊川市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Tsushima",
+        "Japanese": "津島市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Hekinan",
+        "Japanese": "碧南市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Kariya",
+        "Japanese": "刈谷市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Toyota",
+        "Japanese": "豊田市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Anjō",
+        "Japanese": "安城市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Nishio",
+        "Japanese": "西尾市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Gamagōri",
+        "Japanese": "蒲郡市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Inuyama",
+        "Japanese": "犬山市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Tokoname",
+        "Japanese": "常滑市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Kōnan",
+        "Japanese": "江南市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Komaki",
+        "Japanese": "小牧市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Inazawa",
+        "Japanese": "稲沢市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Tōkai",
+        "Japanese": "東海市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Ōbu",
+        "Japanese": "大府市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Chita",
+        "Japanese": "知多市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Chiryū",
+        "Japanese": "知立市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Owariasahi",
+        "Japanese": "尾張旭市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Takahama",
+        "Japanese": "高浜市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Iwakura",
+        "Japanese": "岩倉市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Toyoake",
+        "Japanese": "豊明市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Nisshin",
+        "Japanese": "日進市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Tahara",
+        "Japanese": "田原市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Aisai",
+        "Japanese": "愛西市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Kiyosu",
+        "Japanese": "清須市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Shinshiro",
+        "Japanese": "新城市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Kitanagoya",
+        "Japanese": "北名古屋市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Yatomi",
+        "Japanese": "弥富市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Miyoshi",
+        "Japanese": "みよし市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Ama",
+        "Japanese": "あま市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Nagakute",
+        "Japanese": "長久手市",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Akita",
+        "Japanese": "秋田市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Ōdate",
+        "Japanese": "大館市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Kazuno",
+        "Japanese": "鹿角市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Daisen",
+        "Japanese": "大仙市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Katagami",
+        "Japanese": "潟上市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Kitaakita",
+        "Japanese": "北秋田市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Oga",
+        "Japanese": "男鹿市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Yurihonjō",
+        "Japanese": "由利本荘市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Yuzawa",
+        "Japanese": "湯沢市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Semboku",
+        "Japanese": "仙北市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Yokote",
+        "Japanese": "横手市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Nikaho",
+        "Japanese": "にかほ市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Noshiro",
+        "Japanese": "能代市",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Hachinohe",
+        "Japanese": "八戸市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Kuroishi",
+        "Japanese": "黒石市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Misawa",
+        "Japanese": "三沢市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Mutsu",
+        "Japanese": "むつ市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Towada",
+        "Japanese": "十和田市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Tsugaru",
+        "Japanese": "つがる市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Goshogawara",
+        "Japanese": "五所川原市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Aomori",
+        "Japanese": "青森市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Hirakawa",
+        "Japanese": "平川市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Hirosaki",
+        "Japanese": "弘前市",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Chiba",
+        "Japanese": "千葉市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Chōshi",
+        "Japanese": "銚子市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Ichikawa",
+        "Japanese": "市川市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Funabashi",
+        "Japanese": "船橋市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Tateyama",
+        "Japanese": "館山市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Kisarazu",
+        "Japanese": "木更津市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Matsudo",
+        "Japanese": "松戸市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Noda",
+        "Japanese": "野田市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Mobara",
+        "Japanese": "茂原市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Narita",
+        "Japanese": "成田市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Sakura",
+        "Japanese": "佐倉市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Tōgane",
+        "Japanese": "東金市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Narashino",
+        "Japanese": "習志野市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Kashiwa",
+        "Japanese": "柏市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Katsuura",
+        "Japanese": "勝浦市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Ichihara",
+        "Japanese": "市原市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Nagareyama",
+        "Japanese": "流山市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Yachiyo",
+        "Japanese": "八千代市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Abiko",
+        "Japanese": "我孫子市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Kamagaya",
+        "Japanese": "鎌ヶ谷市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Kimitsu",
+        "Japanese": "君津市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Futtsu",
+        "Japanese": "富津市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Urayasu",
+        "Japanese": "浦安市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Yotsukaidō",
+        "Japanese": "四街道市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Sodegaura",
+        "Japanese": "袖ヶ浦市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Yachimata",
+        "Japanese": "八街市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Inzai",
+        "Japanese": "印西市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Shiroi",
+        "Japanese": "白井市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Tomisato",
+        "Japanese": "富里市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Kamogawa",
+        "Japanese": "鴨川市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Asahi",
+        "Japanese": "旭市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Isumi",
+        "Japanese": "いすみ市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Sōsa",
+        "Japanese": "匝瑳市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Minamibōsō",
+        "Japanese": "南房総市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Katori",
+        "Japanese": "香取市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Sanmu",
+        "Japanese": "山武市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Ōamishirasato",
+        "Japanese": "大網白里市",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Matsuyama",
+        "Japanese": "松山市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Niihama",
+        "Japanese": "新居浜市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Shikokuchūō",
+        "Japanese": "四国中央市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Seiyo",
+        "Japanese": "西予市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Tōon",
+        "Japanese": "東温市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Saijō",
+        "Japanese": "西条市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Ōzu",
+        "Japanese": "大洲市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Imabari",
+        "Japanese": "今治市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Yawatahama",
+        "Japanese": "八幡浜市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Iyo",
+        "Japanese": "伊予市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Uwajima",
+        "Japanese": "宇和島市",
+        "Prefecture": "Ehime",
+        "Region": "Shikoku",
+        "ID": "JP-38"
+    },
+    {
+        "City": "Fukui",
+        "Japanese": "福井市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Tsuruga",
+        "Japanese": "敦賀市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Obama",
+        "Japanese": "小浜市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Ōno",
+        "Japanese": "大野市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Katsuyama",
+        "Japanese": "勝山市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Sabae",
+        "Japanese": "鯖江市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Awara",
+        "Japanese": "あわら市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Echizen",
+        "Japanese": "越前市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Sakai",
+        "Japanese": "坂井市",
+        "Prefecture": "Fukui",
+        "Region": "Hokuriku",
+        "ID": "JP-18"
+    },
+    {
+        "City": "Fukuoka",
+        "Japanese": "福岡市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Kurume",
+        "Japanese": "久留米市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Ōmuta",
+        "Japanese": "大牟田市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Nōgata",
+        "Japanese": "直方市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Tagawa",
+        "Japanese": "田川市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Yanagawa",
+        "Japanese": "柳川市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Yame",
+        "Japanese": "八女市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Chikugo",
+        "Japanese": "筑後市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Ōkawa",
+        "Japanese": "大川市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Yukuhashi",
+        "Japanese": "行橋市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Buzen",
+        "Japanese": "豊前市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Nakagawa",
+        "Japanese": "那珂川市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Nakama",
+        "Japanese": "中間市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Kitakyushu",
+        "Japanese": "北九州市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Ogōri",
+        "Japanese": "小郡市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Chikushino",
+        "Japanese": "筑紫野市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Kasuga",
+        "Japanese": "春日市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Ōnojō",
+        "Japanese": "大野城市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Munakata",
+        "Japanese": "宗像市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Dazaifu",
+        "Japanese": "太宰府市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Koga",
+        "Japanese": "古賀市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Fukutsu",
+        "Japanese": "福津市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Ukiha",
+        "Japanese": "うきは市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Miyawaka",
+        "Japanese": "宮若市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Asakura",
+        "Japanese": "朝倉市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Iizuka",
+        "Japanese": "飯塚市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Kama",
+        "Japanese": "嘉麻市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Miyama",
+        "Japanese": "みやま市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Itoshima",
+        "Japanese": "糸島市",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Aizuwakamatsu",
+        "Japanese": "会津若松市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Fukushima",
+        "Japanese": "福島市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Kōriyama",
+        "Japanese": "郡山市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Sukagawa",
+        "Japanese": "須賀川市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Sōma",
+        "Japanese": "相馬市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Iwaki",
+        "Japanese": "いわき市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Tamura",
+        "Japanese": "田村市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Shirakawa",
+        "Japanese": "白河市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Nihonmatsu",
+        "Japanese": "二本松市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Minamisōma",
+        "Japanese": "南相馬市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Date",
+        "Japanese": "伊達市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Kitakata",
+        "Japanese": "喜多方市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Motomiya",
+        "Japanese": "本宮市",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Gifu",
+        "Japanese": "岐阜市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Ōgaki",
+        "Japanese": "大垣市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Takayama",
+        "Japanese": "高山市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Tajimi",
+        "Japanese": "多治見市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Seki",
+        "Japanese": "関市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Nakatsugawa",
+        "Japanese": "中津川市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Mino",
+        "Japanese": "美濃市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Mizunami",
+        "Japanese": "瑞浪市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Hashima",
+        "Japanese": "羽島市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Minokamo",
+        "Japanese": "美濃加茂市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Toki",
+        "Japanese": "土岐市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Kakamigahara",
+        "Japanese": "各務原市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Kani",
+        "Japanese": "可児市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Yamagata",
+        "Japanese": "山県市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Mizuho",
+        "Japanese": "瑞穂市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Hida",
+        "Japanese": "飛騨市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Motosu",
+        "Japanese": "本巣市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Gujō",
+        "Japanese": "郡上市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Gero",
+        "Japanese": "下呂市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Ena",
+        "Japanese": "恵那市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Kaizu",
+        "Japanese": "海津市",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Maebashi",
+        "Japanese": "前橋市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Takasaki",
+        "Japanese": "高崎市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Kiryū",
+        "Japanese": "桐生市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Isesaki",
+        "Japanese": "伊勢崎市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Ōta",
+        "Japanese": "太田市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Numata",
+        "Japanese": "沼田市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Tatebayashi",
+        "Japanese": "館林市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Fujioka",
+        "Japanese": "藤岡市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Shibukawa",
+        "Japanese": "渋川市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Annaka",
+        "Japanese": "安中市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Tomioka",
+        "Japanese": "富岡市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Midori",
+        "Japanese": "みどり市",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Hiroshima",
+        "Japanese": "広島市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Onomichi",
+        "Japanese": "尾道市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Kure",
+        "Japanese": "呉市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Fukuyama",
+        "Japanese": "福山市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Mihara",
+        "Japanese": "三原市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Fuchū",
+        "Japanese": "府中市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Miyoshi",
+        "Japanese": "三次市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Shōbara",
+        "Japanese": "庄原市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Ōtake",
+        "Japanese": "大竹市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Takehara",
+        "Japanese": "竹原市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Higashihiroshima",
+        "Japanese": "東広島市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Hatsukaichi",
+        "Japanese": "廿日市市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Akitakata",
+        "Japanese": "安芸高田市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Etajima",
+        "Japanese": "江田島市",
+        "Prefecture": "Hiroshima",
+        "Region": "Chugoku",
+        "ID": "JP-34"
+    },
+    {
+        "City": "Sapporo",
+        "Japanese": "札幌市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Hakodate",
+        "Japanese": "函館市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Otaru",
+        "Japanese": "小樽市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Asahikawa",
+        "Japanese": "旭川市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Muroran",
+        "Japanese": "室蘭市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Obihiro",
+        "Japanese": "帯広市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Yūbari",
+        "Japanese": "夕張市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Iwamizawa",
+        "Japanese": "岩見沢市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Abashiri",
+        "Japanese": "網走市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Rumoi",
+        "Japanese": "留萌市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Tomakomai",
+        "Japanese": "苫小牧市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Wakkanai",
+        "Japanese": "稚内市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Bibai",
+        "Japanese": "美唄市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Ashibetsu",
+        "Japanese": "芦別市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Ebetsu",
+        "Japanese": "江別市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Akabira",
+        "Japanese": "赤平市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Monbetsu",
+        "Japanese": "紋別市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Mikasa",
+        "Japanese": "三笠市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Nemuro",
+        "Japanese": "根室市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Chitose",
+        "Japanese": "千歳市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Takikawa",
+        "Japanese": "滝川市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Sunagawa",
+        "Japanese": "砂川市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Utashinai",
+        "Japanese": "歌志内市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Fukagawa",
+        "Japanese": "深川市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Furano",
+        "Japanese": "富良野市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Noboribetsu",
+        "Japanese": "登別市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Eniwa",
+        "Japanese": "恵庭市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Date",
+        "Japanese": "伊達市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Kitahiroshima",
+        "Japanese": "北広島市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Ishikari",
+        "Japanese": "石狩市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Shibetsu",
+        "Japanese": "士別市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Kushiro",
+        "Japanese": "釧路市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Hokuto",
+        "Japanese": "北斗市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Kitami",
+        "Japanese": "北見市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Nayoro",
+        "Japanese": "名寄市",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Kobe",
+        "Japanese": "神戸市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Himeji",
+        "Japanese": "姫路市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Amagasaki",
+        "Japanese": "尼崎市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Akashi",
+        "Japanese": "明石市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Nishinomiya",
+        "Japanese": "西宮市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Ashiya",
+        "Japanese": "芦屋市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Itami",
+        "Japanese": "伊丹市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Aioi",
+        "Japanese": "相生市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Toyooka",
+        "Japanese": "豊岡市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Kakogawa",
+        "Japanese": "加古川市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Akō",
+        "Japanese": "赤穂市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Takarazuka",
+        "Japanese": "宝塚市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Miki",
+        "Japanese": "三木市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Takasago",
+        "Japanese": "高砂市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Kawanishi",
+        "Japanese": "川西市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Ono",
+        "Japanese": "小野市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Sanda",
+        "Japanese": "三田市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Kasai",
+        "Japanese": "加西市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Tamba-Sasayama",
+        "Japanese": "丹波篠山市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Yabu",
+        "Japanese": "養父市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Tamba",
+        "Japanese": "丹波市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Minamiawaji",
+        "Japanese": "南あわじ市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Asago",
+        "Japanese": "朝来市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Awaji",
+        "Japanese": "淡路市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Shisō",
+        "Japanese": "宍粟市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Nishiwaki",
+        "Japanese": "西脇市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Tatsuno",
+        "Japanese": "たつの市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Sumoto",
+        "Japanese": "洲本市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Katō",
+        "Japanese": "加東市",
+        "Prefecture": "Hyogo",
+        "Region": "Kansai",
+        "ID": "JP-28"
+    },
+    {
+        "City": "Mito",
+        "Japanese": "水戸市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Hitachi",
+        "Japanese": "日立市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Tsuchiura",
+        "Japanese": "土浦市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Yūki",
+        "Japanese": "結城市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Ryūgasaki",
+        "Japanese": "龍ヶ崎市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Shimotsuma",
+        "Japanese": "下妻市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Jōsō",
+        "Japanese": "常総市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Hitachiōta",
+        "Japanese": "常陸太田市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Takahagi",
+        "Japanese": "高萩市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Kitaibaraki",
+        "Japanese": "北茨城市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Toride",
+        "Japanese": "取手市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Ushiku",
+        "Japanese": "牛久市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Tsukuba",
+        "Japanese": "つくば市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Hitachinaka",
+        "Japanese": "ひたちなか市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Kashima",
+        "Japanese": "鹿嶋市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Itako",
+        "Japanese": "潮来市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Moriya",
+        "Japanese": "守谷市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Hitachiōmiya",
+        "Japanese": "常陸大宮市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Naka",
+        "Japanese": "那珂市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Bandō",
+        "Japanese": "坂東市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Inashiki",
+        "Japanese": "稲敷市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Chikusei",
+        "Japanese": "筑西市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Kasumigaura",
+        "Japanese": "かすみがうら市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Kamisu",
+        "Japanese": "神栖市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Namegata",
+        "Japanese": "行方市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Koga",
+        "Japanese": "古河市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Ishioka",
+        "Japanese": "石岡市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Sakuragawa",
+        "Japanese": "桜川市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Hokota",
+        "Japanese": "鉾田市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Kasama",
+        "Japanese": "笠間市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Tsukubamirai",
+        "Japanese": "つくばみらい市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Omitama",
+        "Japanese": "小美玉市",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Kanazawa",
+        "Japanese": "金沢市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Nonoichi",
+        "Japanese": "野々市市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Nanao",
+        "Japanese": "七尾市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Komatsu",
+        "Japanese": "小松市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Suzu",
+        "Japanese": "珠洲市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Hakui",
+        "Japanese": "羽咋市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Kahoku",
+        "Japanese": "かほく市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Hakusan",
+        "Japanese": "白山市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Nomi",
+        "Japanese": "能美市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Kaga",
+        "Japanese": "加賀市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Wajima",
+        "Japanese": "輪島市",
+        "Prefecture": "Ishikawa",
+        "Region": "Hokuriku",
+        "ID": "JP-17"
+    },
+    {
+        "City": "Morioka",
+        "Japanese": "盛岡市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Kamaishi",
+        "Japanese": "釜石市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Ōfunato",
+        "Japanese": "大船渡市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Rikuzentakata",
+        "Japanese": "陸前高田市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Kitakami",
+        "Japanese": "北上市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Miyako",
+        "Japanese": "宮古市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Hachimantai",
+        "Japanese": "八幡平市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Ichinoseki",
+        "Japanese": "一関市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Tōno",
+        "Japanese": "遠野市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Hanamaki",
+        "Japanese": "花巻市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Ninohe",
+        "Japanese": "二戸市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Ōshū",
+        "Japanese": "奥州市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Kuji",
+        "Japanese": "久慈市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Takizawa",
+        "Japanese": "滝沢市",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Takamatsu",
+        "Japanese": "高松市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Marugame",
+        "Japanese": "丸亀市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Sakaide",
+        "Japanese": "坂出市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Zentsūji",
+        "Japanese": "善通寺市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Sanuki",
+        "Japanese": "さぬき市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Higashikagawa",
+        "Japanese": "東かがわ市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Kan'onji",
+        "Japanese": "観音寺市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Mitoyo",
+        "Japanese": "三豊市",
+        "Prefecture": "Kagawa",
+        "Region": "Shikoku",
+        "ID": "JP-37"
+    },
+    {
+        "City": "Kagoshima",
+        "Japanese": "鹿児島市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Kanoya",
+        "Japanese": "鹿屋市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Makurazaki",
+        "Japanese": "枕崎市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Akune",
+        "Japanese": "阿久根市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Izumi",
+        "Japanese": "出水市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Ibusuki",
+        "Japanese": "指宿市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Minamisatsuma",
+        "Japanese": "南さつま市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Nishinoomote",
+        "Japanese": "西之表市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Tarumizu",
+        "Japanese": "垂水市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Satsumasendai",
+        "Japanese": "薩摩川内市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Hioki",
+        "Japanese": "日置市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Soo",
+        "Japanese": "曽於市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Ichikikushikino",
+        "Japanese": "いちき串木野市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Kirishima",
+        "Japanese": "霧島市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Shibushi",
+        "Japanese": "志布志市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Amami",
+        "Japanese": "奄美市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Minamikyūshū",
+        "Japanese": "南九州市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Isa",
+        "Japanese": "伊佐市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Aira",
+        "Japanese": "姶良市",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Yokohama",
+        "Japanese": "横浜市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Yokosuka",
+        "Japanese": "横須賀市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Kawasaki",
+        "Japanese": "川崎市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Hiratsuka",
+        "Japanese": "平塚市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Kamakura",
+        "Japanese": "鎌倉市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Fujisawa",
+        "Japanese": "藤沢市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Odawara",
+        "Japanese": "小田原市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Chigasaki",
+        "Japanese": "茅ヶ崎市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Zushi",
+        "Japanese": "逗子市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Sagamihara",
+        "Japanese": "相模原市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Miura",
+        "Japanese": "三浦市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Hadano",
+        "Japanese": "秦野市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Atsugi",
+        "Japanese": "厚木市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Yamato",
+        "Japanese": "大和市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Isehara",
+        "Japanese": "伊勢原市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Ebina",
+        "Japanese": "海老名市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Zama",
+        "Japanese": "座間市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Minamiashigara",
+        "Japanese": "南足柄市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Ayase",
+        "Japanese": "綾瀬市",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Kochi",
+        "Japanese": "高知市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Sukumo",
+        "Japanese": "宿毛市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Aki",
+        "Japanese": "安芸市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Tosashimizu",
+        "Japanese": "土佐清水市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Susaki",
+        "Japanese": "須崎市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Tosa",
+        "Japanese": "土佐市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Muroto",
+        "Japanese": "室戸市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Nankoku",
+        "Japanese": "南国市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Shimanto",
+        "Japanese": "四万十市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Kami",
+        "Japanese": "香美市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Kōnan",
+        "Japanese": "香南市",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Kumamoto",
+        "Japanese": "熊本市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Yatsushiro",
+        "Japanese": "八代市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Hitoyoshi",
+        "Japanese": "人吉市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Arao",
+        "Japanese": "荒尾市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Minamata",
+        "Japanese": "水俣市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Tamana",
+        "Japanese": "玉名市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Yamaga",
+        "Japanese": "山鹿市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Kikuchi",
+        "Japanese": "菊池市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Uto",
+        "Japanese": "宇土市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Kami-Amakusa",
+        "Japanese": "上天草市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Uki",
+        "Japanese": "宇城市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Aso",
+        "Japanese": "阿蘇市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Kōshi",
+        "Japanese": "合志市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Amakusa",
+        "Japanese": "天草市",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Kyoto",
+        "Japanese": "京都市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Fukuchiyama",
+        "Japanese": "福知山市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Maizuru",
+        "Japanese": "舞鶴市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Ayabe",
+        "Japanese": "綾部市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Uji",
+        "Japanese": "宇治市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Miyazu",
+        "Japanese": "宮津市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Kameoka",
+        "Japanese": "亀岡市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Jōyō",
+        "Japanese": "城陽市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Mukō",
+        "Japanese": "向日市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Nagaokakyō",
+        "Japanese": "長岡京市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Yawata",
+        "Japanese": "八幡市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Kyōtanabe",
+        "Japanese": "京田辺市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Kyōtango",
+        "Japanese": "京丹後市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Nantan",
+        "Japanese": "南丹市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Kizugawa",
+        "Japanese": "木津川市",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Yokkaichi",
+        "Japanese": "四日市市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Matsusaka",
+        "Japanese": "松阪市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Kuwana",
+        "Japanese": "桑名市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Suzuka",
+        "Japanese": "鈴鹿市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Nabari",
+        "Japanese": "名張市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Owase",
+        "Japanese": "尾鷲市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Kameyama",
+        "Japanese": "亀山市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Toba",
+        "Japanese": "鳥羽市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Inabe",
+        "Japanese": "いなべ市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Shima",
+        "Japanese": "志摩市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Iga",
+        "Japanese": "伊賀市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Ise",
+        "Japanese": "伊勢市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Kumano",
+        "Japanese": "熊野市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Tsu",
+        "Japanese": "津市",
+        "Prefecture": "Mie",
+        "Region": "Kansai",
+        "ID": "JP-24"
+    },
+    {
+        "City": "Sendai",
+        "Japanese": "仙台市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Ishinomaki",
+        "Japanese": "石巻市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Shiogama",
+        "Japanese": "塩竈市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Shiroishi",
+        "Japanese": "白石市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Natori",
+        "Japanese": "名取市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Kakuda",
+        "Japanese": "角田市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Tagajō",
+        "Japanese": "多賀城市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Iwanuma",
+        "Japanese": "岩沼市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Tome",
+        "Japanese": "登米市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Kurihara",
+        "Japanese": "栗原市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Higashimatsushima",
+        "Japanese": "東松島市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Kesennuma",
+        "Japanese": "気仙沼市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Ōsaki",
+        "Japanese": "大崎市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Tomiya",
+        "Japanese": "富谷市",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Miyazaki",
+        "Japanese": "宮崎市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Miyakonojō",
+        "Japanese": "都城市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Nobeoka",
+        "Japanese": "延岡市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Nichinan",
+        "Japanese": "日南市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Kobayashi",
+        "Japanese": "小林市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Hyūga",
+        "Japanese": "日向市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Kushima",
+        "Japanese": "串間市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Saito",
+        "Japanese": "西都市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Ebino",
+        "Japanese": "えびの市",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Matsumoto",
+        "Japanese": "松本市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Okaya",
+        "Japanese": "岡谷市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Suwa",
+        "Japanese": "諏訪市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Suzaka",
+        "Japanese": "須坂市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Komoro",
+        "Japanese": "小諸市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Komagane",
+        "Japanese": "駒ヶ根市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ōmachi",
+        "Japanese": "大町市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Iiyama",
+        "Japanese": "飯山市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Iida",
+        "Japanese": "飯田市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Chino",
+        "Japanese": "茅野市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Shiojiri",
+        "Japanese": "塩尻市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Nagano",
+        "Japanese": "長野市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Chikuma",
+        "Japanese": "千曲市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Tōmi",
+        "Japanese": "東御市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Nakano",
+        "Japanese": "中野市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Saku",
+        "Japanese": "佐久市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Azumino",
+        "Japanese": "安曇野市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ueda",
+        "Japanese": "上田市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ina",
+        "Japanese": "伊那市",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Nagasaki",
+        "Japanese": "長崎市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Sasebo",
+        "Japanese": "佐世保市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Shimabara",
+        "Japanese": "島原市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Ōmura",
+        "Japanese": "大村市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Tsushima",
+        "Japanese": "対馬市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Iki",
+        "Japanese": "壱岐市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Gotō",
+        "Japanese": "五島市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Isahaya",
+        "Japanese": "諫早市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Saikai",
+        "Japanese": "西海市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Hirado",
+        "Japanese": "平戸市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Unzen",
+        "Japanese": "雲仙市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Matsuura",
+        "Japanese": "松浦市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Minamishimabara",
+        "Japanese": "南島原市",
+        "Prefecture": "Nagasaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-42"
+    },
+    {
+        "City": "Nara",
+        "Japanese": "奈良市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Yamatotakada",
+        "Japanese": "大和高田市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Yamatokōriyama",
+        "Japanese": "大和郡山市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Tenri",
+        "Japanese": "天理市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Kashihara",
+        "Japanese": "橿原市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Sakurai",
+        "Japanese": "桜井市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Gojō",
+        "Japanese": "五條市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Gose",
+        "Japanese": "御所市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Ikoma",
+        "Japanese": "生駒市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Kashiba",
+        "Japanese": "香芝市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Katsuragi",
+        "Japanese": "葛城市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Uda",
+        "Japanese": "宇陀市",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Niigata",
+        "Japanese": "新潟市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Nagaoka",
+        "Japanese": "長岡市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Kashiwazaki",
+        "Japanese": "柏崎市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Shibata",
+        "Japanese": "新発田市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Ojiya",
+        "Japanese": "小千谷市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Kamo",
+        "Japanese": "加茂市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Mitsuke",
+        "Japanese": "見附市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Murakami",
+        "Japanese": "村上市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Myōkō",
+        "Japanese": "妙高市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Jōetsu",
+        "Japanese": "上越市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Sado",
+        "Japanese": "佐渡市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Agano",
+        "Japanese": "阿賀野市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Uonuma",
+        "Japanese": "魚沼市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Minamiuonuma",
+        "Japanese": "南魚沼市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Itoigawa",
+        "Japanese": "糸魚川市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Tōkamachi",
+        "Japanese": "十日町市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Sanjō",
+        "Japanese": "三条市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Tainai",
+        "Japanese": "胎内市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Gosen",
+        "Japanese": "五泉市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Tsubame",
+        "Japanese": "燕市",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Ōita",
+        "Japanese": "大分市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Beppu",
+        "Japanese": "別府市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Nakatsu",
+        "Japanese": "中津市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Hita",
+        "Japanese": "日田市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Saiki",
+        "Japanese": "佐伯市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Usuki",
+        "Japanese": "臼杵市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Tsukumi",
+        "Japanese": "津久見市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Taketa",
+        "Japanese": "竹田市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Bungotakada",
+        "Japanese": "豊後高田市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Usa",
+        "Japanese": "宇佐市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Bungo-Ōno",
+        "Japanese": "豊後大野市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Kitsuki",
+        "Japanese": "杵築市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Yufu",
+        "Japanese": "由布市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Kunisaki",
+        "Japanese": "国東市",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Okayama",
+        "Japanese": "岡山市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Kurashiki",
+        "Japanese": "倉敷市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Tsuyama",
+        "Japanese": "津山市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Tamano",
+        "Japanese": "玉野市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Kasaoka",
+        "Japanese": "笠岡市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Ibara",
+        "Japanese": "井原市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Sōja",
+        "Japanese": "総社市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Takahashi",
+        "Japanese": "高梁市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Niimi",
+        "Japanese": "新見市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Bizen",
+        "Japanese": "備前市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Setouchi",
+        "Japanese": "瀬戸内市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Akaiwa",
+        "Japanese": "赤磐市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Maniwa",
+        "Japanese": "真庭市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Mimasaka",
+        "Japanese": "美作市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Asakuchi",
+        "Japanese": "浅口市",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Naha",
+        "Japanese": "那覇市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Ishigaki",
+        "Japanese": "石垣市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Ginowan",
+        "Japanese": "宜野湾市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Urasoe",
+        "Japanese": "浦添市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Nago",
+        "Japanese": "名護市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Itoman",
+        "Japanese": "糸満市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Okinawa",
+        "Japanese": "沖縄市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Tomigusuku",
+        "Japanese": "豊見城市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Uruma",
+        "Japanese": "うるま市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Miyakojima",
+        "Japanese": "宮古島市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Nanjō",
+        "Japanese": "南城市",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Osaka",
+        "Japanese": "大阪市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Sakai",
+        "Japanese": "堺市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Kishiwada",
+        "Japanese": "岸和田市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Toyonaka",
+        "Japanese": "豊中市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Ikeda",
+        "Japanese": "池田市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Suita",
+        "Japanese": "吹田市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Izumiōtsu",
+        "Japanese": "泉大津市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Takatsuki",
+        "Japanese": "高槻市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Kaizuka",
+        "Japanese": "貝塚市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Moriguchi",
+        "Japanese": "守口市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Hirakata",
+        "Japanese": "枚方市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Ibaraki",
+        "Japanese": "茨木市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Yao",
+        "Japanese": "八尾市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Izumisano",
+        "Japanese": "泉佐野市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Tondabayashi",
+        "Japanese": "富田林市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Neyagawa",
+        "Japanese": "寝屋川市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Kawachinagano",
+        "Japanese": "河内長野市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Matsubara",
+        "Japanese": "松原市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Daitō",
+        "Japanese": "大東市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Izumi",
+        "Japanese": "和泉市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Minoh",
+        "Japanese": "箕面市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Kashiwara",
+        "Japanese": "柏原市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Habikino",
+        "Japanese": "羽曳野市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Kadoma",
+        "Japanese": "門真市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Settsu",
+        "Japanese": "摂津市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Takaishi",
+        "Japanese": "高石市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Fujiidera",
+        "Japanese": "藤井寺市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Higashiōsaka",
+        "Japanese": "東大阪市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Sennan",
+        "Japanese": "泉南市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Shijōnawate",
+        "Japanese": "四條畷市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Katano",
+        "Japanese": "交野市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Ōsakasayama",
+        "Japanese": "大阪狭山市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Hannan",
+        "Japanese": "阪南市",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Tosu",
+        "Japanese": "鳥栖市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Imari",
+        "Japanese": "伊万里市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Kashima",
+        "Japanese": "鹿島市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Taku",
+        "Japanese": "多久市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Karatsu",
+        "Japanese": "唐津市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Ogi",
+        "Japanese": "小城市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Saga",
+        "Japanese": "佐賀市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Ureshino",
+        "Japanese": "嬉野市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Takeo",
+        "Japanese": "武雄市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Kanzaki",
+        "Japanese": "神埼市",
+        "Prefecture": "Saga",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-41"
+    },
+    {
+        "City": "Kawagoe",
+        "Japanese": "川越市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kawaguchi",
+        "Japanese": "川口市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Gyōda",
+        "Japanese": "行田市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Chichibu",
+        "Japanese": "秩父市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Tokorozawa",
+        "Japanese": "所沢市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Hannō",
+        "Japanese": "飯能市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kazo",
+        "Japanese": "加須市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Higashimatsuyama",
+        "Japanese": "東松山市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Sayama",
+        "Japanese": "狭山市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Hanyū",
+        "Japanese": "羽生市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kōnosu",
+        "Japanese": "鴻巣市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Ageo",
+        "Japanese": "上尾市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Sōka",
+        "Japanese": "草加市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Koshigaya",
+        "Japanese": "越谷市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Warabi",
+        "Japanese": "蕨市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Toda",
+        "Japanese": "戸田市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Iruma",
+        "Japanese": "入間市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Asaka",
+        "Japanese": "朝霞市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Shiki",
+        "Japanese": "志木市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Wakō",
+        "Japanese": "和光市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Niiza",
+        "Japanese": "新座市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Okegawa",
+        "Japanese": "桶川市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kuki",
+        "Japanese": "久喜市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kitamoto",
+        "Japanese": "北本市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Yashio",
+        "Japanese": "八潮市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Fujimi",
+        "Japanese": "富士見市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Misato",
+        "Japanese": "三郷市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Hasuda",
+        "Japanese": "蓮田市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Sakado",
+        "Japanese": "坂戸市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Satte",
+        "Japanese": "幸手市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Tsurugashima",
+        "Japanese": "鶴ヶ島市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Hidaka",
+        "Japanese": "日高市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Yoshikawa",
+        "Japanese": "吉川市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Saitama",
+        "Japanese": "さいたま市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kumagaya",
+        "Japanese": "熊谷市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Kasukabe",
+        "Japanese": "春日部市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Fujimino",
+        "Japanese": "ふじみ野市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Fukaya",
+        "Japanese": "深谷市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Honjō",
+        "Japanese": "本庄市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Shiraoka",
+        "Japanese": "白岡市",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Ōtsu",
+        "Japanese": "大津市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Hikone",
+        "Japanese": "彦根市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Kusatsu",
+        "Japanese": "草津市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Moriyama",
+        "Japanese": "守山市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Rittō",
+        "Japanese": "栗東市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Kōka",
+        "Japanese": "甲賀市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Yasu",
+        "Japanese": "野洲市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Konan",
+        "Japanese": "湖南市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Takashima",
+        "Japanese": "高島市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Higashiōmi",
+        "Japanese": "東近江市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Maibara",
+        "Japanese": "米原市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Nagahama",
+        "Japanese": "長浜市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Ōmihachiman",
+        "Japanese": "近江八幡市",
+        "Prefecture": "Shiga",
+        "Region": "Kansai",
+        "ID": "JP-25"
+    },
+    {
+        "City": "Matsue",
+        "Japanese": "松江市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Izumo",
+        "Japanese": "出雲市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Masuda",
+        "Japanese": "益田市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Yasugi",
+        "Japanese": "安来市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Gōtsu",
+        "Japanese": "江津市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Unnan",
+        "Japanese": "雲南市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Hamada",
+        "Japanese": "浜田市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Ōda",
+        "Japanese": "大田市",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Shizuoka",
+        "Japanese": "静岡市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Hamamatsu",
+        "Japanese": "浜松市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Numazu",
+        "Japanese": "沼津市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Atami",
+        "Japanese": "熱海市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Mishima",
+        "Japanese": "三島市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Fujinomiya",
+        "Japanese": "富士宮市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Itō",
+        "Japanese": "伊東市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Shimada",
+        "Japanese": "島田市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Iwata",
+        "Japanese": "磐田市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Yaizu",
+        "Japanese": "焼津市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Kakegawa",
+        "Japanese": "掛川市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Fujieda",
+        "Japanese": "藤枝市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Gotemba",
+        "Japanese": "御殿場市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Fukuroi",
+        "Japanese": "袋井市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Fuji",
+        "Japanese": "富士市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Shimoda",
+        "Japanese": "下田市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Susono",
+        "Japanese": "裾野市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Kosai",
+        "Japanese": "湖西市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Izu",
+        "Japanese": "伊豆市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Omaezaki",
+        "Japanese": "御前崎市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Kikugawa",
+        "Japanese": "菊川市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Izunokuni",
+        "Japanese": "伊豆の国市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Makinohara",
+        "Japanese": "牧之原市",
+        "Prefecture": "Shizuoka",
+        "Region": "Chubu",
+        "ID": "JP-22"
+    },
+    {
+        "City": "Utsunomiya",
+        "Japanese": "宇都宮市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Ashikaga",
+        "Japanese": "足利市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Tochigi",
+        "Japanese": "栃木市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Kanuma",
+        "Japanese": "鹿沼市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Oyama",
+        "Japanese": "小山市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Mooka",
+        "Japanese": "真岡市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Ōtawara",
+        "Japanese": "大田原市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Yaita",
+        "Japanese": "矢板市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Nasushiobara",
+        "Japanese": "那須塩原市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Sano",
+        "Japanese": "佐野市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Sakura",
+        "Japanese": "さくら市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Nasukarasuyama",
+        "Japanese": "那須烏山市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Shimotsuke",
+        "Japanese": "下野市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Nikkō",
+        "Japanese": "日光市",
+        "Prefecture": "Tochigi",
+        "Region": "Kanto",
+        "ID": "JP-09"
+    },
+    {
+        "City": "Tokushima",
+        "Japanese": "徳島市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Naruto",
+        "Japanese": "鳴門市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Komatsushima",
+        "Japanese": "小松島市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Anan",
+        "Japanese": "阿南市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Yoshinogawa",
+        "Japanese": "吉野川市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Mima",
+        "Japanese": "美馬市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Awa",
+        "Japanese": "阿波市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Miyoshi",
+        "Japanese": "三好市",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Hachiōji",
+        "Japanese": "八王子市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Tachikawa",
+        "Japanese": "立川市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Musashino",
+        "Japanese": "武蔵野市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Mitaka",
+        "Japanese": "三鷹市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Ōme",
+        "Japanese": "青梅市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Fuchū",
+        "Japanese": "府中市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Akishima",
+        "Japanese": "昭島市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Chōfu",
+        "Japanese": "調布市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Machida",
+        "Japanese": "町田市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Koganei",
+        "Japanese": "小金井市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kodaira",
+        "Japanese": "小平市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Hino",
+        "Japanese": "日野市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Higashimurayama",
+        "Japanese": "東村山市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kokubunji",
+        "Japanese": "国分寺市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kunitachi",
+        "Japanese": "国立市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Fussa",
+        "Japanese": "福生市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Komae",
+        "Japanese": "狛江市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Higashiyamato",
+        "Japanese": "東大和市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kiyose",
+        "Japanese": "清瀬市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Higashikurume",
+        "Japanese": "東久留米市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Musashimurayama",
+        "Japanese": "武蔵村山市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Tama",
+        "Japanese": "多摩市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Inagi",
+        "Japanese": "稲城市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Hamura",
+        "Japanese": "羽村市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Akiruno",
+        "Japanese": "あきる野市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Nishitōkyō",
+        "Japanese": "西東京市",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Tokyo",
+        "Japanese": "東京特別区部",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Adachi",
+        "Japanese": "足立区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Arakawa",
+        "Japanese": "荒川区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Bunkyō",
+        "Japanese": "文京区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Chiyoda",
+        "Japanese": "千代田区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Chūō",
+        "Japanese": "中央区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Edogawa",
+        "Japanese": "江戸川区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Itabashi",
+        "Japanese": "板橋区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Katsushika",
+        "Japanese": "葛飾区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kita",
+        "Japanese": "北区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kōtō",
+        "Japanese": "江東区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Meguro",
+        "Japanese": "目黒区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Minato",
+        "Japanese": "港区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Nakano",
+        "Japanese": "中野区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Nerima",
+        "Japanese": "練馬区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Ōta",
+        "Japanese": "大田区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Setagaya",
+        "Japanese": "世田谷区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Shibuya",
+        "Japanese": "渋谷区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Shinagawa",
+        "Japanese": "品川区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Shinjuku",
+        "Japanese": "新宿区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Suginami",
+        "Japanese": "杉並区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Sumida",
+        "Japanese": "墨田区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Taitō",
+        "Japanese": "台東区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Toshima",
+        "Japanese": "豊島区",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Tottori",
+        "Japanese": "鳥取市",
+        "Prefecture": "Tottori",
+        "Region": "Chugoku",
+        "ID": "JP-31"
+    },
+    {
+        "City": "Yonago",
+        "Japanese": "米子市",
+        "Prefecture": "Tottori",
+        "Region": "Chugoku",
+        "ID": "JP-31"
+    },
+    {
+        "City": "Kurayoshi",
+        "Japanese": "倉吉市",
+        "Prefecture": "Tottori",
+        "Region": "Chugoku",
+        "ID": "JP-31"
+    },
+    {
+        "City": "Sakaiminato",
+        "Japanese": "境港市",
+        "Prefecture": "Tottori",
+        "Region": "Chugoku",
+        "ID": "JP-31"
+    },
+    {
+        "City": "Toyama",
+        "Japanese": "富山市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Uozu",
+        "Japanese": "魚津市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Himi",
+        "Japanese": "氷見市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Namerikawa",
+        "Japanese": "滑川市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Tonami",
+        "Japanese": "砺波市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Oyabe",
+        "Japanese": "小矢部市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Nanto",
+        "Japanese": "南砺市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Takaoka",
+        "Japanese": "高岡市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Imizu",
+        "Japanese": "射水市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Kurobe",
+        "Japanese": "黒部市",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Wakayama",
+        "Japanese": "和歌山市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Kainan",
+        "Japanese": "海南市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Tanabe",
+        "Japanese": "田辺市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Gobō",
+        "Japanese": "御坊市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Arida",
+        "Japanese": "有田市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Shingū",
+        "Japanese": "新宮市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Kinokawa",
+        "Japanese": "紀の川市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Hashimoto",
+        "Japanese": "橋本市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Iwade",
+        "Japanese": "岩出市",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Yamagata",
+        "Japanese": "山形市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Yonezawa",
+        "Japanese": "米沢市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Shinjō",
+        "Japanese": "新庄市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Sagae",
+        "Japanese": "寒河江市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Kaminoyama",
+        "Japanese": "上山市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Murayama",
+        "Japanese": "村山市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Nagai",
+        "Japanese": "長井市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Tendō",
+        "Japanese": "天童市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Higashine",
+        "Japanese": "東根市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Obanazawa",
+        "Japanese": "尾花沢市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Nan'yō",
+        "Japanese": "南陽市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Tsuruoka",
+        "Japanese": "鶴岡市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Sakata",
+        "Japanese": "酒田市",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Ube",
+        "Japanese": "宇部市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Hōfu",
+        "Japanese": "防府市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Kudamatsu",
+        "Japanese": "下松市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Shūnan",
+        "Japanese": "周南市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Hikari",
+        "Japanese": "光市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Shimonoseki",
+        "Japanese": "下関市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Yanai",
+        "Japanese": "柳井市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Hagi",
+        "Japanese": "萩市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Nagato",
+        "Japanese": "長門市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "San'yō-Onoda",
+        "Japanese": "山陽小野田市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Yamaguchi",
+        "Japanese": "山口市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Iwakuni",
+        "Japanese": "岩国市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Mine",
+        "Japanese": "美祢市",
+        "Prefecture": "Yamaguchi",
+        "Region": "Chugoku",
+        "ID": "JP-35"
+    },
+    {
+        "City": "Kōfu",
+        "Japanese": "甲府市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Fujiyoshida",
+        "Japanese": "富士吉田市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Tsuru",
+        "Japanese": "都留市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Ōtsuki",
+        "Japanese": "大月市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Nirasaki",
+        "Japanese": "韮崎市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Minami-Alps",
+        "Japanese": "南アルプス市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Kai",
+        "Japanese": "甲斐市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Fuefuki",
+        "Japanese": "笛吹市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Hokuto",
+        "Japanese": "北杜市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Uenohara",
+        "Japanese": "上野原市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Yamanashi",
+        "Japanese": "山梨市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Kōshū",
+        "Japanese": "甲州市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Chūō",
+        "Japanese": "中央市",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Shinshinotsu",
+        "Japanese": "新篠津村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Shimamaki",
+        "Japanese": "島牧村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Makkari",
+        "Japanese": "真狩村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Rusutsu",
+        "Japanese": "留寿都村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Tomari",
+        "Japanese": "泊村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Kamoenai",
+        "Japanese": "神恵内村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Akaigawa",
+        "Japanese": "赤井川村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Shimukappu",
+        "Japanese": "占冠村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Otoineppu",
+        "Japanese": "音威子府村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Shosanbetsu",
+        "Japanese": "初山別村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Sarufutsu",
+        "Japanese": "猿払村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Nishiokoppe",
+        "Japanese": "西興部村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Nakasatsunai",
+        "Japanese": "中札内村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Sarabetsu",
+        "Japanese": "更別村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Tsurui",
+        "Japanese": "鶴居村",
+        "Prefecture": "Hokkaido",
+        "Region": "Hokkaido",
+        "ID": "JP-01"
+    },
+    {
+        "City": "Yomogita",
+        "Japanese": "蓬田村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Nishimeya",
+        "Japanese": "西目屋村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Inakadate",
+        "Japanese": "田舎館村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Rokkasho",
+        "Japanese": "六ヶ所村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Higashidōri",
+        "Japanese": "東通村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Kazamaura",
+        "Japanese": "風間浦村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Sai",
+        "Japanese": "佐井村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Shingō",
+        "Japanese": "新郷村",
+        "Prefecture": "Aomori",
+        "Region": "Tohoku",
+        "ID": "JP-02"
+    },
+    {
+        "City": "Tanohata",
+        "Japanese": "田野畑村",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Fudai",
+        "Japanese": "普代村",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Noda",
+        "Japanese": "野田村",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Kunohe",
+        "Japanese": "九戸村",
+        "Prefecture": "Iwate",
+        "Region": "Tohoku",
+        "ID": "JP-03"
+    },
+    {
+        "City": "Ōhira",
+        "Japanese": "大衡村",
+        "Prefecture": "Miyagi",
+        "Region": "Tohoku",
+        "ID": "JP-04"
+    },
+    {
+        "City": "Kamikoani",
+        "Japanese": "上小阿仁村",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Ōgata",
+        "Japanese": "大潟村",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Higashinaruse",
+        "Japanese": "東成瀬村",
+        "Prefecture": "Akita",
+        "Region": "Tohoku",
+        "ID": "JP-05"
+    },
+    {
+        "City": "Ōkura",
+        "Japanese": "大蔵村",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Sakegawa",
+        "Japanese": "鮭川村",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Tozawa",
+        "Japanese": "戸沢村",
+        "Prefecture": "Yamagata",
+        "Region": "Tohoku",
+        "ID": "JP-06"
+    },
+    {
+        "City": "Ōtama",
+        "Japanese": "大玉村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Ten'ei",
+        "Japanese": "天栄村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Hinoemata",
+        "Japanese": "檜枝岐村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Kitashiobara",
+        "Japanese": "北塩原村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Yugawa",
+        "Japanese": "湯川村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Shōwa",
+        "Japanese": "昭和村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Nishigō",
+        "Japanese": "西郷村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Izumizaki",
+        "Japanese": "泉崎村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Nakajima",
+        "Japanese": "中島村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Samegawa",
+        "Japanese": "鮫川村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Tamakawa",
+        "Japanese": "玉川村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Hirata",
+        "Japanese": "平田村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Kawauchi",
+        "Japanese": "川内村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Katsurao",
+        "Japanese": "葛尾村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Iitate",
+        "Japanese": "飯舘村",
+        "Prefecture": "Fukushima",
+        "Region": "Tohoku",
+        "ID": "JP-07"
+    },
+    {
+        "City": "Tōkai",
+        "Japanese": "東海村",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Miho",
+        "Japanese": "美浦村",
+        "Prefecture": "Ibaraki",
+        "Region": "Kanto",
+        "ID": "JP-08"
+    },
+    {
+        "City": "Shintō",
+        "Japanese": "榛東村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Ueno",
+        "Japanese": "上野村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Nanmoku",
+        "Japanese": "南牧村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Tsumagoi",
+        "Japanese": "嬬恋村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Takayama",
+        "Japanese": "高山村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Katashina",
+        "Japanese": "片品村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Kawaba",
+        "Japanese": "川場村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Shōwa",
+        "Japanese": "昭和村",
+        "Prefecture": "Gunma",
+        "Region": "Kanto",
+        "ID": "JP-10"
+    },
+    {
+        "City": "Higashichichibu",
+        "Japanese": "東秩父村",
+        "Prefecture": "Saitama",
+        "Region": "Kanto",
+        "ID": "JP-11"
+    },
+    {
+        "City": "Chōsei",
+        "Japanese": "長生村",
+        "Prefecture": "Chiba",
+        "Region": "Kanto",
+        "ID": "JP-12"
+    },
+    {
+        "City": "Hinohara",
+        "Japanese": "檜原村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Toshima",
+        "Japanese": "利島村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Niijima",
+        "Japanese": "新島村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kōzushima",
+        "Japanese": "神津島村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Miyake",
+        "Japanese": "三宅村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Mikurajima",
+        "Japanese": "御蔵島村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Aogashima",
+        "Japanese": "青ヶ島村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Ogasawara",
+        "Japanese": "小笠原村",
+        "Prefecture": "Tokyo",
+        "Region": "Kanto",
+        "ID": "JP-13"
+    },
+    {
+        "City": "Kiyokawa",
+        "Japanese": "清川村",
+        "Prefecture": "Kanagawa",
+        "Region": "Kanto",
+        "ID": "JP-14"
+    },
+    {
+        "City": "Yahiko",
+        "Japanese": "弥彦村",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Kariwa",
+        "Japanese": "刈羽村",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Sekikawa",
+        "Japanese": "関川村",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Awashimaura",
+        "Japanese": "粟島浦村",
+        "Prefecture": "Niigata",
+        "Region": "Hokuriku",
+        "ID": "JP-15"
+    },
+    {
+        "City": "Funahashi",
+        "Japanese": "舟橋村",
+        "Prefecture": "Toyama",
+        "Region": "Hokuriku",
+        "ID": "JP-16"
+    },
+    {
+        "City": "Dōshi",
+        "Japanese": "道志村",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Oshino",
+        "Japanese": "忍野村",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Yamanakako",
+        "Japanese": "山中湖村",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Narusawa",
+        "Japanese": "鳴沢村",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Kosuge",
+        "Japanese": "小菅村",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Tabayama",
+        "Japanese": "丹波山村",
+        "Prefecture": "Yamanashi",
+        "Region": "Chubu",
+        "ID": "JP-19"
+    },
+    {
+        "City": "Kawakami",
+        "Japanese": "川上村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Minamimaki",
+        "Japanese": "南牧村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Minamiaiki",
+        "Japanese": "南相木村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Kitaaiki",
+        "Japanese": "北相木村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Aoki",
+        "Japanese": "青木村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Hara",
+        "Japanese": "原村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Minamiminowa",
+        "Japanese": "南箕輪村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Nakagawa",
+        "Japanese": "中川村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Miyada",
+        "Japanese": "宮田村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Achi",
+        "Japanese": "阿智村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Hiraya",
+        "Japanese": "平谷村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Neba",
+        "Japanese": "根羽村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Shimojō",
+        "Japanese": "下條村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Urugi",
+        "Japanese": "売木村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Tenryū",
+        "Japanese": "天龍村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Yasuoka",
+        "Japanese": "泰阜村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Takagi",
+        "Japanese": "喬木村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Toyooka",
+        "Japanese": "豊丘村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ōshika",
+        "Japanese": "大鹿村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Kiso",
+        "Japanese": "木祖村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ōtaki",
+        "Japanese": "王滝村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ōkuwa",
+        "Japanese": "大桑村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Omi",
+        "Japanese": "麻績村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ikusaka",
+        "Japanese": "生坂村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Yamagata",
+        "Japanese": "山形村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Asahi",
+        "Japanese": "朝日村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Chikuhoku",
+        "Japanese": "筑北村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Matsukawa",
+        "Japanese": "松川村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Hakuba",
+        "Japanese": "白馬村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Otari",
+        "Japanese": "小谷村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Takayama",
+        "Japanese": "高山村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Kijimadaira",
+        "Japanese": "木島平村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Nozawaonsen",
+        "Japanese": "野沢温泉村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Ogawa",
+        "Japanese": "小川村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Sakae",
+        "Japanese": "栄村",
+        "Prefecture": "Nagano",
+        "Region": "Chubu",
+        "ID": "JP-20"
+    },
+    {
+        "City": "Higashishirakawa",
+        "Japanese": "東白川村",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Shirakawa",
+        "Japanese": "白川村",
+        "Prefecture": "Gifu",
+        "Region": "Chubu",
+        "ID": "JP-21"
+    },
+    {
+        "City": "Tobishima",
+        "Japanese": "飛島村",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Toyone",
+        "Japanese": "豊根村",
+        "Prefecture": "Aichi",
+        "Region": "Chubu",
+        "ID": "JP-23"
+    },
+    {
+        "City": "Minamiyamashiro",
+        "Japanese": "南山城村",
+        "Prefecture": "Kyoto",
+        "Region": "Kansai",
+        "ID": "JP-26"
+    },
+    {
+        "City": "Chihayaakasaka",
+        "Japanese": "千早赤阪村",
+        "Prefecture": "Osaka",
+        "Region": "Kansai",
+        "ID": "JP-27"
+    },
+    {
+        "City": "Yamazoe",
+        "Japanese": "山添村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Soni",
+        "Japanese": "曽爾村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Mitsue",
+        "Japanese": "御杖村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Asuka",
+        "Japanese": "明日香村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Kurotaki",
+        "Japanese": "黒滝村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Tenkawa",
+        "Japanese": "天川村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Nosegawa",
+        "Japanese": "野迫川村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Totsukawa",
+        "Japanese": "十津川村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Shimokitayama",
+        "Japanese": "下北山村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Kamikitayama",
+        "Japanese": "上北山村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Kawakami",
+        "Japanese": "川上村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Higashiyoshino",
+        "Japanese": "東吉野村",
+        "Prefecture": "Nara",
+        "Region": "Kansai",
+        "ID": "JP-29"
+    },
+    {
+        "City": "Kitayama",
+        "Japanese": "北山村",
+        "Prefecture": "Wakayama",
+        "Region": "Kansai",
+        "ID": "JP-30"
+    },
+    {
+        "City": "Hiezu",
+        "Japanese": "日吉津村",
+        "Prefecture": "Tottori",
+        "Region": "Chugoku",
+        "ID": "JP-31"
+    },
+    {
+        "City": "Chibu",
+        "Japanese": "知夫村",
+        "Prefecture": "Shimane",
+        "Region": "Chugoku",
+        "ID": "JP-32"
+    },
+    {
+        "City": "Shinjō",
+        "Japanese": "新庄村",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Nishiawakura",
+        "Japanese": "西粟倉村",
+        "Prefecture": "Okayama",
+        "Region": "Chugoku",
+        "ID": "JP-33"
+    },
+    {
+        "City": "Sanagōchi",
+        "Japanese": "佐那河内村",
+        "Prefecture": "Tokushima",
+        "Region": "Shikoku",
+        "ID": "JP-36"
+    },
+    {
+        "City": "Kitagawa",
+        "Japanese": "北川村",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Umaji",
+        "Japanese": "馬路村",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Geisei",
+        "Japanese": "芸西村",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Ōkawa",
+        "Japanese": "大川村",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Hidaka",
+        "Japanese": "日高村",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Mihara",
+        "Japanese": "三原村",
+        "Prefecture": "Kochi",
+        "Region": "Shikoku",
+        "ID": "JP-39"
+    },
+    {
+        "City": "Tōhō",
+        "Japanese": "東峰村",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Aka",
+        "Japanese": "赤村",
+        "Prefecture": "Fukuoka",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-40"
+    },
+    {
+        "City": "Ubuyama",
+        "Japanese": "産山村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Nishihara",
+        "Japanese": "西原村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Minamiaso",
+        "Japanese": "南阿蘇村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Mizukami",
+        "Japanese": "水上村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Sagara",
+        "Japanese": "相良村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Itsuki",
+        "Japanese": "五木村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Yamae",
+        "Japanese": "山江村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Kuma",
+        "Japanese": "球磨村",
+        "Prefecture": "Kumamoto",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-43"
+    },
+    {
+        "City": "Himeshima",
+        "Japanese": "姫島村",
+        "Prefecture": "Oita",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-44"
+    },
+    {
+        "City": "Nishimera",
+        "Japanese": "西米良村",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Morotsuka",
+        "Japanese": "諸塚村",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Shiiba",
+        "Japanese": "椎葉村",
+        "Prefecture": "Miyazaki",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-45"
+    },
+    {
+        "City": "Mishima",
+        "Japanese": "三島村",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Toshima",
+        "Japanese": "十島村",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Yamato",
+        "Japanese": "大和村",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Uken",
+        "Japanese": "宇検村",
+        "Prefecture": "Kagoshima",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-46"
+    },
+    {
+        "City": "Kunigami",
+        "Japanese": "国頭村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Ōgimi",
+        "Japanese": "大宜味村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Higashi",
+        "Japanese": "東村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Nakijin",
+        "Japanese": "今帰仁村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Onna",
+        "Japanese": "恩納村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Ginoza",
+        "Japanese": "宜野座村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Ie",
+        "Japanese": "伊江村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Yomitan",
+        "Japanese": "読谷村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Kitanakagusuku",
+        "Japanese": "北中城村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Nakagusuku",
+        "Japanese": "中城村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Tokashiki",
+        "Japanese": "渡嘉敷村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Zamami",
+        "Japanese": "座間味村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Aguni",
+        "Japanese": "粟国村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Tonaki",
+        "Japanese": "渡名喜村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Minamidaitō",
+        "Japanese": "南大東村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Kitadaitō",
+        "Japanese": "北大東村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Iheya",
+        "Japanese": "伊平屋村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Izena",
+        "Japanese": "伊是名村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    },
+    {
+        "City": "Tarama",
+        "Japanese": "多良間村",
+        "Prefecture": "Okinawa",
+        "Region": "Kyushu-Okinawa",
+        "ID": "JP-47"
+    }
+]
