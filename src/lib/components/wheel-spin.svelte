@@ -34,14 +34,14 @@
 
 	// Create 8 visible segments for the wheel display based on actual regions
 	const wheelSegments = [
-		{ color: '#FF0001', label: '北海道\nHokkaido', region: 'Hokkaido' },        // Red
-		{ color: '#FF8001', label: '東北\nTohoku', region: 'Tohoku' },              // Orange
-		{ color: '#FFE610', label: '関東\nKanto', region: 'Kanto' },               // Yellow
-		{ color: '#80C41C', label: '中部\nChubu', region: 'Chubu' },               // Green
-		{ color: '#4FD6CA', label: '関西\nKansai', region: 'Kansai' },             // Teal
-		{ color: '#3498DB', label: '中国\nChugoku', region: 'Chugoku' },           // Blue
-		{ color: '#6B1687', label: '四国\nShikoku', region: 'Shikoku' },           // Purple
-		{ color: '#E91E63', label: '九州・沖縄\nKyushu\nOkinawa', region: 'Kyushu-Okinawa' } // Pink
+		{ color: '#FF0001', label: ['北海道', 'Hokkaido'], region: 'Hokkaido' },        // Red
+		{ color: '#FF8001', label: ['東北', 'Tohoku'], region: 'Tohoku' },              // Orange
+		{ color: '#FFE610', label: ['関東', 'Kanto'], region: 'Kanto' },               // Yellow
+		{ color: '#80C41C', label: ['中部', 'Chubu'], region: 'Chubu' },               // Green
+		{ color: '#4FD6CA', label: ['関西', 'Kansai'], region: 'Kansai' },             // Teal
+		{ color: '#3498DB', label: ['中国', 'Chugoku'], region: 'Chugoku' },           // Blue
+		{ color: '#6B1687', label: ['四国', 'Shikoku'], region: 'Shikoku' },           // Purple
+		{ color: '#E91E63', label: ['九州・沖縄', 'Kyushu', 'Okinawa'], region: 'Kyushu-Okinawa' } // Pink
 	];
 
 	// Reactive calculations
@@ -161,7 +161,9 @@
 									font-weight="bold"
 									style="text-shadow: 1px 1px 2px rgba(0,0,0,0.8); white-space: pre-line;"
 								>
-									{wheelSegments[idx % wheelSegments.length].label}
+									{#each wheelSegments[idx % wheelSegments.length].label as line, lineIdx}
+										<tspan x={tx} dy={lineIdx === 0 ? "-0.6em" : "1.2em"}>{line}</tspan>
+									{/each}
 								</text>
 							</g>
 						{/each}
