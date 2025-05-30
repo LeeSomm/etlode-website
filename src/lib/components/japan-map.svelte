@@ -214,13 +214,16 @@
 		return regionColor;
 	}
 
-	// Get prefecture stroke - simplified logic
+	// Safari detection
+	const isSafari = typeof navigator !== 'undefined' && /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+	// Get prefecture stroke - simplified logic with Safari compatibility
 	function getPrefectureStroke(prefectureId: string): string {
 		// Any interactive state gets emphasized stroke
 		if (selectedPrefecture === prefectureId || 
 			highlightedPrefecture === prefectureId) {
-			return 'url(#rainbowGradient)'; // Reference to SVG gradient
-			// return '#000000'; // Black - highest contrast against all colors
+			// Safari has issues with SVG gradients in some contexts, use solid color instead
+			return isSafari ? '#ffffff' : 'url(#rainbowGradient)';
 		}	
 		else if (hoveredPrefecture === prefectureId) {
 			return '#000000'; // Black stroke for high contrast
