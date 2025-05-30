@@ -64,7 +64,7 @@
 		align-items: center;
 		height: fit-content;
 		max-width: 75%;
-		position: sticky;
+		/* position: sticky; */
 		top: 2rem;
 	}
 
@@ -120,9 +120,9 @@
 		}
 
 		.wheel-section {
-			height: 65vh; /* Increased from 50vh to provide more space */
-			max-height: 65vh;
-			min-height: 65vh;
+			height: 70vh; /* Increased from 50vh to provide more space */
+			max-height: 70vh;
+			min-height: 70vh;
 			padding-top: 0;
 		}
 	}
