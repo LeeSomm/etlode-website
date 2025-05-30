@@ -19,14 +19,25 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 437.33432 516.01587"
     >
-    
+    <defs>
+		<linearGradient id="rainbowGradient" x1="0%" y1="0%" x2="25%" y2="100%">
+			<stop offset="0%" style="stop-color:#FF0001;stop-opacity:1" />
+			<stop offset="14%" style="stop-color:#FF8001;stop-opacity:1" />
+			<stop offset="28%" style="stop-color:#FFE610;stop-opacity:1" />
+			<stop offset="42%" style="stop-color:#80C41C;stop-opacity:1" />
+			<stop offset="57%" style="stop-color:#4FD6CA;stop-opacity:1" />
+			<stop offset="71%" style="stop-color:#3498DB;stop-opacity:1" />
+			<stop offset="85%" style="stop-color:#6B1687;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#E91E63;stop-opacity:1" />
+		</linearGradient>
+	</defs>
     <path
         d="m 260.23993,277.87889 -0.17,-0.35 0.5,-1.77 -0.86,-1.4 0.11,-1.46 0.46,-1.37 -0.25,-0.32 -0.89,0.36 -1.14,-0.35 0,0 -0.97,-1.57 -0.32,-1.21 0,0 0.22,-2.19 1.69,-2.97 1.28,0.15 1.66,-0.5 1.48,-1.13 -0.02,0.57 1.18,0.87 -0.03,0.65 0.5,0.21 -0.09,0.48 0.27,0.32 0.32,0.15 0.3,-0.21 0.94,0.39 0.52,0.71 0.85,-0.17 0.92,-0.73 0.63,-0.01 0.75,0.47 -0.07,0.24 0.84,0.05 -0.02,0.31 0.99,0.5 1.72,-1.4 0.8,-0.08 0,0 -0.32,0.83 0.64,0.81 -0.01,0.51 1.26,-0.26 0.85,-0.55 1.56,0.3 0.22,0.39 0.84,-0.27 0,0 -0.31,0.98 0.52,0.5 -0.58,0.57 0.08,0.47 -0.46,0.24 -1.46,2 -0.03,1.06 -1.28,1.93 -2.75,1.53 -0.43,1.23 0.16,2.32 0,0 -3.41,0.79 -3.43,1.23 -2.03,0.27 -0.26,-0.21 0.8,-1.71 0.49,0.05 0.25,0.57 2.36,-1.02 0.86,-0.53 -0.1,-0.44 0.45,-0.36 0.48,0.15 0.22,-0.19 0.21,-1.14 -0.57,-0.7 -1.69,-0.31 -0.52,0.46 -0.24,0.93 -0.81,-0.57 -2.13,0.25 -1.42,-1.37 0.31,-1.08 -0.44,-0.19 -0.42,0.59 -0.27,2.22 1.02,0.93 0.15,0.88 -1.69,-0.6 -0.77,-0.73 z"
         id="JP-23"
         fill={getPrefectureColor('JP-23')}
         stroke={getPrefectureStroke('JP-23')}
         stroke-width="1"
-        opacity={getPrefectureOpacity('JP-23')}
+        fill-opacity={getPrefectureOpacity('JP-23')}
         class:cursor-pointer={interactive}
         {...(interactive ? {
             onmouseenter: (e) => handleMouseEnter(e, 'JP-23'),
@@ -45,7 +56,7 @@
         fill={getPrefectureColor('JP-05')}
         stroke={getPrefectureStroke('JP-05')}
         stroke-width="1"
-        opacity={getPrefectureOpacity('JP-05')}
+        fill-opacity={getPrefectureOpacity('JP-05')}
         class:cursor-pointer={interactive}
         {...(interactive ? {
             onmouseenter: (e) => handleMouseEnter(e, 'JP-05'),
@@ -64,7 +75,7 @@
         fill={getPrefectureColor('JP-02')}
         stroke={getPrefectureStroke('JP-02')}
         stroke-width="1"
-        opacity={getPrefectureOpacity('JP-02')}
+        fill-opacity={getPrefectureOpacity('JP-02')}
         class:cursor-pointer={interactive}
         {...(interactive ? {
             onmouseenter: (e) => handleMouseEnter(e, 'JP-02'),
@@ -84,7 +95,7 @@
         fill={getPrefectureColor('JP-12')}
         stroke={getPrefectureStroke('JP-12')}
         stroke-width="1"
-        opacity={getPrefectureOpacity('JP-12')}
+        fill-opacity={getPrefectureOpacity('JP-12')}
         class:cursor-pointer={interactive}
         {...(interactive ? {
             onmouseenter: (e) => handleMouseEnter(e, 'JP-12'),
@@ -103,7 +114,7 @@
         fill={getPrefectureColor('JP-38')}
             stroke={getPrefectureStroke('JP-38')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-38')}
+            fill-opacity={getPrefectureOpacity('JP-38')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-38'),
@@ -122,7 +133,7 @@
         fill={getPrefectureColor('JP-18')}
             stroke={getPrefectureStroke('JP-18')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-18')}
+            fill-opacity={getPrefectureOpacity('JP-18')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-18'),
@@ -141,7 +152,7 @@
         fill={getPrefectureColor('JP-40')}
             stroke={getPrefectureStroke('JP-40')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-40')}
+            fill-opacity={getPrefectureOpacity('JP-40')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-40'),
@@ -160,7 +171,7 @@
         fill={getPrefectureColor('JP-07')}
             stroke={getPrefectureStroke('JP-07')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-07')}
+            fill-opacity={getPrefectureOpacity('JP-07')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-07'),
@@ -179,7 +190,7 @@
         fill={getPrefectureColor('JP-21')}
             stroke={getPrefectureStroke('JP-21')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-21')}
+            fill-opacity={getPrefectureOpacity('JP-21')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-21'),
@@ -198,7 +209,7 @@
         fill={getPrefectureColor('JP-10')}
             stroke={getPrefectureStroke('JP-10')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-10')}
+            fill-opacity={getPrefectureOpacity('JP-10')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-10'),
@@ -217,7 +228,7 @@
         fill={getPrefectureColor('JP-28')}
             stroke={getPrefectureStroke('JP-28')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-28')}
+            fill-opacity={getPrefectureOpacity('JP-28')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-28'),
@@ -236,7 +247,7 @@
         fill={getPrefectureColor('JP-01')}
             stroke={getPrefectureStroke('JP-01')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-01')}
+            fill-opacity={getPrefectureOpacity('JP-01')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-01'),
@@ -255,7 +266,7 @@
         fill={getPrefectureColor('JP-34')}
             stroke={getPrefectureStroke('JP-34')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-34')}
+            fill-opacity={getPrefectureOpacity('JP-34')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-34'),
@@ -274,7 +285,7 @@
         fill={getPrefectureColor('JP-08')}
             stroke={getPrefectureStroke('JP-08')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-08')}
+            fill-opacity={getPrefectureOpacity('JP-08')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-08'),
@@ -293,7 +304,7 @@
         fill={getPrefectureColor('JP-17')}
             stroke={getPrefectureStroke('JP-17')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-17')}
+            fill-opacity={getPrefectureOpacity('JP-17')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-17'),
@@ -312,7 +323,7 @@
         fill={getPrefectureColor('JP-03')}
             stroke={getPrefectureStroke('JP-03')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-03')}
+            fill-opacity={getPrefectureOpacity('JP-03')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-03'),
@@ -331,7 +342,7 @@
         fill={getPrefectureColor('JP-39')}
             stroke={getPrefectureStroke('JP-39')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-39')}
+            fill-opacity={getPrefectureOpacity('JP-39')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-39'),
@@ -350,7 +361,7 @@
         fill={getPrefectureColor('JP-37')}
             stroke={getPrefectureStroke('JP-37')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-37')}
+            fill-opacity={getPrefectureOpacity('JP-37')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-37'),
@@ -369,7 +380,7 @@
         fill={getPrefectureColor('JP-43')}
             stroke={getPrefectureStroke('JP-43')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-43')}
+            fill-opacity={getPrefectureOpacity('JP-43')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-43'),
@@ -388,7 +399,7 @@
         fill={getPrefectureColor('JP-14')}
             stroke={getPrefectureStroke('JP-14')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-14')}
+            fill-opacity={getPrefectureOpacity('JP-14')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-14'),
@@ -407,7 +418,7 @@
         fill={getPrefectureColor('JP-46')}
             stroke={getPrefectureStroke('JP-46')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-46')}
+            fill-opacity={getPrefectureOpacity('JP-46')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-46'),
@@ -426,7 +437,7 @@
         fill={getPrefectureColor('JP-26')}
             stroke={getPrefectureStroke('JP-26')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-26')}
+            fill-opacity={getPrefectureOpacity('JP-26')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-26'),
@@ -445,7 +456,7 @@
         fill={getPrefectureColor('JP-24')}
             stroke={getPrefectureStroke('JP-24')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-24')}
+            fill-opacity={getPrefectureOpacity('JP-24')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-24'),
@@ -464,7 +475,7 @@
         fill={getPrefectureColor('JP-04')}
             stroke={getPrefectureStroke('JP-04')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-04')}
+            fill-opacity={getPrefectureOpacity('JP-04')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-04'),
@@ -483,7 +494,7 @@
         fill={getPrefectureColor('JP-45')}
             stroke={getPrefectureStroke('JP-45')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-45')}
+            fill-opacity={getPrefectureOpacity('JP-45')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-45'),
@@ -502,7 +513,7 @@
         fill={getPrefectureColor('JP-15')}
             stroke={getPrefectureStroke('JP-15')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-15')}
+            fill-opacity={getPrefectureOpacity('JP-15')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-15'),
@@ -521,7 +532,7 @@
         fill={getPrefectureColor('JP-20')}
             stroke={getPrefectureStroke('JP-20')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-20')}
+            fill-opacity={getPrefectureOpacity('JP-20')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-20'),
@@ -540,7 +551,7 @@
         fill={getPrefectureColor('JP-29')}
             stroke={getPrefectureStroke('JP-29')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-29')}
+            fill-opacity={getPrefectureOpacity('JP-29')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-29'),
@@ -559,7 +570,7 @@
         fill={getPrefectureColor('JP-42')}
             stroke={getPrefectureStroke('JP-42')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-42')}
+            fill-opacity={getPrefectureOpacity('JP-42')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-42'),
@@ -578,7 +589,7 @@
         fill={getPrefectureColor('JP-47')}
             stroke={getPrefectureStroke('JP-47')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-47')}
+            fill-opacity={getPrefectureOpacity('JP-47')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-47'),
@@ -597,7 +608,7 @@
         fill={getPrefectureColor('JP-27')}
             stroke={getPrefectureStroke('JP-27')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-27')}
+            fill-opacity={getPrefectureOpacity('JP-27')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-27'),
@@ -616,7 +627,7 @@
         fill={getPrefectureColor('JP-33')}
             stroke={getPrefectureStroke('JP-33')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-33')}
+            fill-opacity={getPrefectureOpacity('JP-33')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-33'),
@@ -635,7 +646,7 @@
         fill={getPrefectureColor('JP-44')}
             stroke={getPrefectureStroke('JP-44')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-44')}
+            fill-opacity={getPrefectureOpacity('JP-44')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-44'),
@@ -654,7 +665,7 @@
         fill={getPrefectureColor('JP-41')}
             stroke={getPrefectureStroke('JP-41')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-41')}
+            fill-opacity={getPrefectureOpacity('JP-41')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-41'),
@@ -673,7 +684,7 @@
         fill={getPrefectureColor('JP-25')}
             stroke={getPrefectureStroke('JP-25')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-25')}
+            fill-opacity={getPrefectureOpacity('JP-25')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-25'),
@@ -692,7 +703,7 @@
         fill={getPrefectureColor('JP-32')}
             stroke={getPrefectureStroke('JP-32')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-32')}
+            fill-opacity={getPrefectureOpacity('JP-32')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-32'),
@@ -711,7 +722,7 @@
         fill={getPrefectureColor('JP-11')}
             stroke={getPrefectureStroke('JP-11')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-11')}
+            fill-opacity={getPrefectureOpacity('JP-11')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-11'),
@@ -730,7 +741,7 @@
         fill={getPrefectureColor('JP-22')}
             stroke={getPrefectureStroke('JP-22')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-22')}
+            fill-opacity={getPrefectureOpacity('JP-22')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-22'),
@@ -749,7 +760,7 @@
         fill={getPrefectureColor('JP-09')}
             stroke={getPrefectureStroke('JP-09')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-09')}
+            fill-opacity={getPrefectureOpacity('JP-09')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-09'),
@@ -768,7 +779,7 @@
         fill={getPrefectureColor('JP-13')}
             stroke={getPrefectureStroke('JP-13')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-13')}
+            fill-opacity={getPrefectureOpacity('JP-13')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-13'),
@@ -787,7 +798,7 @@
         fill={getPrefectureColor('JP-36')}
             stroke={getPrefectureStroke('JP-36')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-36')}
+            fill-opacity={getPrefectureOpacity('JP-36')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-36'),
@@ -806,7 +817,7 @@
         fill={getPrefectureColor('JP-31')}
             stroke={getPrefectureStroke('JP-31')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-31')}
+            fill-opacity={getPrefectureOpacity('JP-31')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-31'),
@@ -825,7 +836,7 @@
         fill={getPrefectureColor('JP-16')}
             stroke={getPrefectureStroke('JP-16')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-16')}
+            fill-opacity={getPrefectureOpacity('JP-16')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-16'),
@@ -844,7 +855,7 @@
         fill={getPrefectureColor('JP-30')}
             stroke={getPrefectureStroke('JP-30')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-30')}
+            fill-opacity={getPrefectureOpacity('JP-30')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-30'),
@@ -863,7 +874,7 @@
         fill={getPrefectureColor('JP-35')}
             stroke={getPrefectureStroke('JP-35')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-35')}
+            fill-opacity={getPrefectureOpacity('JP-35')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-35'),
@@ -882,7 +893,7 @@
         fill={getPrefectureColor('JP-19')}
             stroke={getPrefectureStroke('JP-19')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-19')}
+            fill-opacity={getPrefectureOpacity('JP-19')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-19'),
@@ -901,7 +912,7 @@
         fill={getPrefectureColor('JP-06')}
             stroke={getPrefectureStroke('JP-06')}
             stroke-width="1"
-            opacity={getPrefectureOpacity('JP-06')}
+            fill-opacity={getPrefectureOpacity('JP-06')}
             class:cursor-pointer={interactive}
             {...(interactive ? {
                 onmouseenter: (e) => handleMouseEnter(e, 'JP-06'),

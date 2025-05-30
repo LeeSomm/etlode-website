@@ -10,12 +10,12 @@
 		onPrefectureHover,
 		onPrefectureClick
 	}: {
-		highlightedPrefecture?: string | null;
+		highlightedPrefecture?: string | null; // External highlight (e.g., from data/search)
 		selectedPrefecture?: string | null;
 		interactive?: boolean;
 		showTooltip?: boolean;
-		onPrefectureHover?: (prefecture: string | null) => void;
-		onPrefectureClick?: (prefecture: string) => void;
+		onPrefectureHover?: (prefectureId: string | null) => void;
+		onPrefectureClick?: (prefectureId: string) => void;
 	} = $props();
 
 	// Prefecture mapping (JP codes to prefecture names)
@@ -82,16 +82,16 @@
 	};
 
 
-	// Prefecture to region mapping
-	const prefectureToRegion: Record<string, string> = {
-		'Hokkaido': 'Hokkaido',
-		'Aomori': 'Tohoku', 'Iwate': 'Tohoku', 'Miyagi': 'Tohoku', 'Akita': 'Tohoku', 'Yamagata': 'Tohoku', 'Fukushima': 'Tohoku',
-		'Ibaraki': 'Kanto', 'Tochigi': 'Kanto', 'Gunma': 'Kanto', 'Saitama': 'Kanto', 'Chiba': 'Kanto', 'Tokyo': 'Kanto', 'Kanagawa': 'Kanto',
-		'Niigata': 'Chubu', 'Toyama': 'Chubu', 'Ishikawa': 'Chubu', 'Fukui': 'Chubu', 'Yamanashi': 'Chubu', 'Nagano': 'Chubu', 'Gifu': 'Chubu', 'Shizuoka': 'Chubu', 'Aichi': 'Chubu',
-		'Mie': 'Kansai', 'Shiga': 'Kansai', 'Kyoto': 'Kansai', 'Osaka': 'Kansai', 'Hyogo': 'Kansai', 'Nara': 'Kansai', 'Wakayama': 'Kansai',
-		'Tottori': 'Chugoku', 'Shimane': 'Chugoku', 'Okayama': 'Chugoku', 'Hiroshima': 'Chugoku', 'Yamaguchi': 'Chugoku',
-		'Tokushima': 'Shikoku', 'Kagawa': 'Shikoku', 'Ehime': 'Shikoku', 'Kochi': 'Shikoku',
-		'Fukuoka': 'Kyushu-Okinawa', 'Saga': 'Kyushu-Okinawa', 'Nagasaki': 'Kyushu-Okinawa', 'Kumamoto': 'Kyushu-Okinawa', 'Oita': 'Kyushu-Okinawa', 'Miyazaki': 'Kyushu-Okinawa', 'Kagoshima': 'Kyushu-Okinawa', 'Okinawa': 'Kyushu-Okinawa'
+	// Prefecture ID to region mapping
+	const prefectureIdToRegion: Record<string, string> = {
+		'JP-01': 'Hokkaido',
+		'JP-02': 'Tohoku', 'JP-03': 'Tohoku', 'JP-04': 'Tohoku', 'JP-05': 'Tohoku', 'JP-06': 'Tohoku', 'JP-07': 'Tohoku',
+		'JP-08': 'Kanto', 'JP-09': 'Kanto', 'JP-10': 'Kanto', 'JP-11': 'Kanto', 'JP-12': 'Kanto', 'JP-13': 'Kanto', 'JP-14': 'Kanto',
+		'JP-15': 'Chubu', 'JP-16': 'Chubu', 'JP-17': 'Chubu', 'JP-18': 'Chubu', 'JP-19': 'Chubu', 'JP-20': 'Chubu', 'JP-21': 'Chubu', 'JP-22': 'Chubu', 'JP-23': 'Chubu',
+		'JP-24': 'Kansai', 'JP-25': 'Kansai', 'JP-26': 'Kansai', 'JP-27': 'Kansai', 'JP-28': 'Kansai', 'JP-29': 'Kansai', 'JP-30': 'Kansai',
+		'JP-31': 'Chugoku', 'JP-32': 'Chugoku', 'JP-33': 'Chugoku', 'JP-34': 'Chugoku', 'JP-35': 'Chugoku',
+		'JP-36': 'Shikoku', 'JP-37': 'Shikoku', 'JP-38': 'Shikoku', 'JP-39': 'Shikoku',
+		'JP-40': 'Kyushu-Okinawa', 'JP-41': 'Kyushu-Okinawa', 'JP-42': 'Kyushu-Okinawa', 'JP-43': 'Kyushu-Okinawa', 'JP-44': 'Kyushu-Okinawa', 'JP-45': 'Kyushu-Okinawa', 'JP-46': 'Kyushu-Okinawa', 'JP-47': 'Kyushu-Okinawa'
 	};
 
 	// State - using Svelte 5 reactive state
@@ -104,15 +104,14 @@
 	function handleMouseEnter(event: MouseEvent, prefectureId: string) {
 		if (!interactive) return;
 		
-		const prefecture = prefectureMap[prefectureId];
-		if (prefecture) {
-			hoveredPrefecture = prefecture;
-			highlightedPrefecture = prefecture;
-			onPrefectureHover?.(prefecture);
-			
-			if (showTooltip) {
-				updateTooltipPosition(event);
-			}
+		hoveredPrefecture = prefectureId;
+		onPrefectureHover?.(prefectureId);
+		
+		// Bring hovered prefecture to front, but keep selected on top
+		bringPrefectureToFront(prefectureId);
+		
+		if (showTooltip) {
+			updateTooltipPosition(event);
 		}
 	}
 
@@ -120,7 +119,6 @@
 		if (!interactive) return;
 		
 		hoveredPrefecture = null;
-		highlightedPrefecture = null;
 		onPrefectureHover?.(null);
 	}
 
@@ -132,12 +130,15 @@
 	function handleClick(prefectureId: string) {
 		if (!interactive) return;
 		
-		const prefecture = prefectureMap[prefectureId];
-		if (prefecture && prefecture !== selectedPrefecture) {
-            selectedPrefecture = prefecture;
-		} else if (prefecture === selectedPrefecture) {
-            selectedPrefecture = null; // Deselect if already selected
-        }
+		if (prefectureId !== selectedPrefecture) {
+			selectedPrefecture = prefectureId;
+			onPrefectureClick?.(prefectureId);
+		} else {
+			selectedPrefecture = null; // Deselect if already selected
+		}
+		
+		// Always bring clicked prefecture to front
+		bringPrefectureToFront(prefectureId);
 	}
 
 	function handleKeyDown(event: KeyboardEvent, prefectureId: string) {
@@ -152,57 +153,95 @@
     function updateTooltipPosition(event: MouseEvent) {
         if (!svgElement) return;
         
-        tooltipX = event.clientX;
-        tooltipY = event.clientY;
+        // Use clientX/clientY for viewport-relative positioning
+        // Add offset to prevent tooltip from appearing under cursor
+        tooltipX = event.clientX + 15;
+        tooltipY = event.clientY - 10;
     }
 
-	// Get prefecture color based on state - using $derived for reactivity
-	function getPrefectureColor(prefectureId: string): string {
-		const prefecture = prefectureMap[prefectureId];
-		if (!prefecture) return '#39FF14'; // Neon green for unknown prefectures
+	// Function to bring a prefecture to front by moving it to the end of its parent
+	// Always ensures selected prefecture stays on top
+	function bringPrefectureToFront(prefectureId: string) {
+		if (!svgElement) return;
+		
+		const prefectureElement = svgElement.querySelector(`#${prefectureId}`);
+		if (prefectureElement && prefectureElement.parentNode) {
+			// Move the element to the end of its parent (brings it to front)
+			prefectureElement.parentNode.appendChild(prefectureElement);
+		}
+		
+		// If there's a selected prefecture and it's not the one we just moved,
+		// make sure selected stays on top
+		if (selectedPrefecture && selectedPrefecture !== prefectureId) {
+			const selectedElement = svgElement.querySelector(`#${selectedPrefecture}`);
+			if (selectedElement && selectedElement.parentNode) {
+				selectedElement.parentNode.appendChild(selectedElement);
+			}
+		}
+	}
 
-		// Highlighted prefecture (from external prop)
-		if (highlightedPrefecture === prefecture) {
+	// Get prefecture color based on state - cleaner priority logic
+	function getPrefectureColor(prefectureId: string): string {
+		if (!prefectureMap[prefectureId]) return '#39FF14'; // Neon green for unknown prefectures
+
+		// Priority 1: Selected prefecture (user clicked)
+		if (selectedPrefecture === prefectureId) {
+			return '#000000'; // Black - highest contrast against all colors
+			// Alternative options:
+			// return 'url(#rainbowGradient)'; // Reference to SVG gradient
+			// return '#ffffff'; // White - also high contrast
+			// return '#2d3748'; // Dark gray - softer than black
+			// return '#1a202c'; // Very dark blue-gray
+		}
+
+		// Priority 2: External highlight (from parent component - e.g., search results)
+		if (highlightedPrefecture === prefectureId) {
 			return '#fbbf24'; // Yellow highlight
 		}
 
-		// Selected prefecture - handle both ID and name formats
-		if (selectedPrefecture === prefecture || selectedPrefecture === prefectureId) {
-			return '#dc2626'; // Red selection
+		// Priority 3: Hovered prefecture (user hovering)
+		if (hoveredPrefecture === prefectureId) {
+			const region = prefectureIdToRegion[prefectureId];
+			const regionColor = region ? regionColors[region] : '#6b7280';
+			// Make hovered color brighter/more saturated
+			return regionColor;
 		}
 
-		// Hovered prefecture
-		if (hoveredPrefecture === prefecture) {
-			const region = prefectureToRegion[prefecture];
-			return region ? regionColors[region] : '#6b7280';
-		}
-
-		// Default state - use region color
-		const region = prefectureToRegion[prefecture];
-		return region ? regionColors[region] : '#e5e7eb';
+		// Priority 4: Default state - muted region color
+		const region = prefectureIdToRegion[prefectureId];
+		const regionColor = region ? regionColors[region] : '#e5e7eb';
+		// Make default colors more muted by reducing opacity in the color functions
+		return regionColor;
 	}
 
-	// Get prefecture stroke - using $derived for reactivity
+	// Get prefecture stroke - simplified logic
 	function getPrefectureStroke(prefectureId: string): string {
-		const prefecture = prefectureMap[prefectureId];
-		if (!prefecture) return '#d1d5db';
-
-		if (highlightedPrefecture === prefecture || selectedPrefecture === prefecture || selectedPrefecture === prefectureId || hoveredPrefecture === prefecture) {
-			return '#1f2937'; // Dark gray stroke
+		// Any interactive state gets emphasized stroke
+		if (selectedPrefecture === prefectureId || 
+			highlightedPrefecture === prefectureId) {
+			return 'url(#rainbowGradient)'; // Reference to SVG gradient
+			// return '#000000'; // Black - highest contrast against all colors
+		}	
+		else if (hoveredPrefecture === prefectureId) {
+			return '#000000'; // Black stroke for high contrast
 		}
 
-		return '#d1d5db'; // Default stroke color - light gray
+		return '#2d3748'; // Default stroke color
 	}
 
-	// Get prefecture opacity - using $derived for reactivity
+	// Get prefecture opacity - simplified logic
 	function getPrefectureOpacity(prefectureId: string): number {
-		const prefecture = prefectureMap[prefectureId];
-		if (!prefecture) return 0.7;
-
-		if (highlightedPrefecture === prefecture || selectedPrefecture === prefecture || selectedPrefecture === prefectureId) {
+		// Selected and externally highlighted get full opacity
+		if (selectedPrefecture === prefectureId || highlightedPrefecture === prefectureId) {
 			return 1;
 		}
 
+		// Hovered gets slightly more opacity
+		if (hoveredPrefecture === prefectureId) {
+			return 1;
+		}
+
+		// Default state is more muted
 		return 0.7;
 	}
 </script>
@@ -247,21 +286,23 @@
         class="tooltip" 
         style="left: {tooltipX + 10}px; top: {tooltipY + 5}px;"
     >
-        {hoveredPrefecture}
+        {prefectureMap[hoveredPrefecture]}
     </div>
 {/if}
 
 <style>
 
 	.tooltip {
-		position: absolute;
-		background: rgba(0, 0, 0, 0.8);
+		position: fixed; /* Changed from absolute to fixed for viewport positioning */
+		background: rgba(0, 0, 0, 0.9); /* Slightly more opaque for better visibility */
 		color: white;
 		padding: 0.5rem;
 		border-radius: 0.25rem;
 		font-size: 0.875rem;
 		pointer-events: none;
-		z-index: 10;
+		z-index: 9999; /* Much higher z-index to ensure it appears above everything */
 		white-space: nowrap;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+		border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for definition */
 	}
 </style>

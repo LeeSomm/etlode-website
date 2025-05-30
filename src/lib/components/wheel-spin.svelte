@@ -24,7 +24,7 @@
 	let selectedRegion = $state('');
 
 	// Wheel parameters
-	let r = 200;
+	let r = 160;
 	let cntSlices = 8;
 	let rotation = $state(0);
 	let rotationInc = 0;
@@ -114,7 +114,7 @@
 
 <div class="wheel-spin-container">
     <div class="header">
-		<h1>Japanese Cities Wheel</h1>
+		<h1>Wheel of Japan</h1>
 		<p>Spin the wheel to discover a random Japanese city!</p>
 	</div>
 
@@ -152,7 +152,7 @@
 							<!-- Text content -->
 							<g transform="translate({tx} {ty}) rotate({contentRotation}) translate({-tx} {-ty})">
 								<text 
-									font-size="16" 
+									font-size="15" 
 									x={tx} 
 									y={ty} 
 									text-anchor="middle" 
@@ -162,7 +162,7 @@
 									style="text-shadow: 1px 1px 2px rgba(0,0,0,0.8); white-space: pre-line;"
 								>
 									{#each wheelSegments[idx % wheelSegments.length].label as line, lineIdx}
-										<tspan x={tx} dy={lineIdx === 0 ? "-0.6em" : "1.2em"}>{line}</tspan>
+										<tspan x={tx} dy={lineIdx === 0 ? "-0.4em" : "1.2em"}>{line}</tspan>
 									{/each}
 								</text>
 							</g>
@@ -187,6 +187,7 @@
 			{#if selectedRegion && spinning}
 				<div class="debug-info">Current: {wheelSegments[result % wheelSegments.length].region}</div>
 			{/if}
+			
 		</div>
 
 	</div>
@@ -204,20 +205,20 @@
 				</div>
 			</div>
 		</div>
+	{:else}
+		<div class="info-section">
+			<p>
+				This wheel randomly selects from <strong>{japanCities.length}</strong> Japanese cities and municipalities.
+				<br>Each spin gives you a random city from across all 47 prefectures of Japan!
+			</p>
+		</div>
 	{/if}
-
-	<div class="info-section">
-		<p>
-			This wheel randomly selects from <strong>{japanCities.length}</strong> Japanese cities and municipalities.
-			<br>Each spin gives you a completely random result from across all 47 prefectures of Japan!
-		</p>
-	</div>
 </div>
 
 <style>
 	.wheel-spin-container {
 		width: 100%;
-		padding: 1rem;
+		padding: 0.5rem;
 		text-align: center;
 		color: white;
 		border-radius: 15px;
@@ -230,8 +231,8 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 2rem;
-		margin: 2rem 0;
+		gap: 1rem;
+		margin: 0.5rem 0;
 	}
 
 	.wheel-container {
@@ -244,7 +245,7 @@
 	}
 
 	.header h1 {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		margin: 0;
 		background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
 		-webkit-background-clip: text;
@@ -259,9 +260,9 @@
 	}
 
 	.header p {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		opacity: 0.8;
-		margin-bottom: 2rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.wheel-wrapper {
@@ -280,12 +281,12 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		width: 80px;
-		height: 80px;
+		width: 60px;
+		height: 60px;
 		border-radius: 50%;
-		border: 4px solid #fff;
+		border: 3px solid #fff;
 		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		cursor: pointer;
 		transition: all 0.3s ease;
 		z-index: 10;
@@ -333,10 +334,9 @@
 	}
 
 	.result-container {
-		margin: 2rem auto 0;
+		margin: 1rem auto 0;
 		width: 100%;
-		max-width: 600px;
-		min-height: 200px;
+		max-width: 800px;
 		opacity: 0;
 		transform: translateY(20px);
 		transition: all 0.5s ease;
@@ -353,53 +353,54 @@
 	.result-card {
 		background: rgba(255, 255, 255, 0.1);
 		backdrop-filter: blur(10px);
-		border-radius: 20px;
-		padding: 2rem;
+		border-radius: 15px;
+		padding: 1.5rem;
 		border: 1px solid rgba(255, 255, 255, 0.2);
 		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+		width: 100%;
 	}
 
 	.result-card h3 {
-		font-size: 1.5rem;
-		margin: 0 0 1rem 0;
+		font-size: 1.2rem;
+		margin: 0 0 0.8rem 0;
 		color: #ffd700;
 	}
 
 	.city-info {
-		margin: 1.5rem 0;
+		margin: 1rem 0;
 	}
 
 	.city-name-en {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-weight: bold;
-		margin: 0.5rem 0;
+		margin: 0.3rem 0;
 		color: #fff;
 	}
 
 	.city-name-jp {
-		font-size: 1.8rem;
-		margin: 0.5rem 0;
+		font-size: 1.3rem;
+		margin: 0.3rem 0;
 		color: #4ecdc4;
 		font-weight: 500;
 	}
 
 	.prefecture {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		opacity: 0.8;
-		margin: 0.5rem 0;
+		margin: 0.3rem 0;
 	}
 
 	.region {
-		font-size: 1rem;
+		font-size: 0.9rem;
 		opacity: 0.7;
-		margin: 0.5rem 0;
+		margin: 0.3rem 0;
 		font-style: italic;
 	}
 
 	.info-section {
-		margin: 3rem auto 0;
+		margin: 1rem auto 0;
 		max-width: 800px;
-		padding: 2rem;
+		padding: 1.5rem;
 		background: rgba(255, 255, 255, 0.1);
 		backdrop-filter: blur(10px);
 		border-radius: 15px;
@@ -415,40 +416,48 @@
 	/* Mobile responsiveness */
 	@media (max-width: 768px) {
 		.wheel-spin-container {
-			padding: 0.5rem;
+			padding: 0.25rem;
 		}
 
 		.main-content {
-			gap: 1rem;
-			margin: 1rem 0;
+			gap: 0.5rem;
+			margin: 0.25rem 0;
 		}
 
 		.wheel-svg {
-			width: 280px !important;
-			height: 280px !important;
+			width: 240px !important;
+			height: 240px !important;
 		}
 
 		.header h1 {
-			font-size: 2rem;
+			font-size: 1.8rem;
 		}
 
 		.header p {
-			font-size: 1rem;
-			margin-bottom: 1rem;
+			font-size: 0.9rem;
+			margin-bottom: 0.25rem;
 		}
 
 		.spin-button {
-			width: 60px;
-			height: 60px;
-			font-size: 1.5rem;
+			width: 50px;
+			height: 50px;
+			font-size: 1.3rem;
 		}
 
 		.city-name-en {
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 		}
 
 		.city-name-jp {
-			font-size: 1.3rem;
+			font-size: 1.1rem;
+		}
+
+		.result-card {
+			padding: 1rem;
+		}
+
+		.info-section {
+			padding: 1rem;
 		}
 	}
 </style>
