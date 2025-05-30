@@ -31,7 +31,7 @@
 		<WheelSpin onCitySelected={handleCitySelected} onSpinStarted={handleSpinStarted} />
 	</div>
 	<div class="map-section">
-		<JapanMap interactive={true} selectedPrefecture={selectedPrefectureId} />
+		<JapanMap interactive={true} bind:selectedPrefecture={selectedPrefectureId} />
 	</div>
 </main>
 
