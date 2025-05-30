@@ -63,7 +63,7 @@
 		justify-content: center;
 		align-items: center;
 		height: fit-content;
-		max-width: 75%;
+		/* max-width: 75%; */
 		/* position: sticky; */
 		/* top: 2rem; */
 	}
