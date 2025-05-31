@@ -268,19 +268,20 @@
         } : {})}
     /> -->
 
-<JapanMapSvg 
-    bind:svgElement
-    {getPrefectureColor}
-    {getPrefectureStroke}
-    {getPrefectureOpacity}
-    {handleMouseEnter}
-    {handleMouseLeave}
-    {handleMouseMove}
-    {handleClick}
-    {handleKeyDown}
-    {interactive}
-
-/>
+<div class="japan-map-container">
+    <JapanMapSvg 
+        bind:svgElement
+        {getPrefectureColor}
+        {getPrefectureStroke}
+        {getPrefectureOpacity}
+        {handleMouseEnter}
+        {handleMouseLeave}
+        {handleMouseMove}
+        {handleClick}
+        {handleKeyDown}
+        {interactive}
+    />
+</div>
 
 {#if showTooltip && hoveredPrefecture}
     <div 
@@ -292,6 +293,21 @@
 {/if}
 
 <style>
+	.japan-map-container {
+		width: 100%;
+		max-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	}
+
+	.japan-map-container :global(svg) {
+		width: 100%;
+		height: auto;
+		max-height: 100vh;
+		object-fit: contain;
+	}
 
 	.tooltip {
 		position: fixed; /* Changed from absolute to fixed for viewport positioning */

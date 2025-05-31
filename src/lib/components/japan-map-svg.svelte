@@ -12,13 +12,14 @@
     export let svgElement: SVGElement | undefined = undefined;
 </script>
 
-<!-- Created for MapSVG plugin: http://mapsvg.com -->
-<!-- Modified by Lee Sommerfeldt for Svelte -->
+
 <svg
     bind:this={svgElement}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 437.33432 516.01587"
     >
+    <!-- Created for MapSVG plugin: http://mapsvg.com -->
+    <!-- Modified by Lee Sommerfeldt for Svelte -->
     <defs>
 		<linearGradient id="rainbowGradient" x1="0%" y1="0%" x2="25%" y2="100%">
 			<stop offset="0%" style="stop-color:#FF0001;stop-opacity:1" />
@@ -926,3 +927,4 @@
             } : {})}
         />
 </svg>
+{@html `<!-- Created for MapSVG plugin: http://mapsvg.com | Modified by Lee Sommerfeldt for compatibility with Svelte | CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) -->`}

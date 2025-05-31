@@ -32,6 +32,36 @@
 	let spinning = $state(false);
 	let outerWidth = 12;
 
+	// Dynamic sizing for desktop
+	let wheelSize = $state(320); // Default size
+	let isMobile = $state(false);
+
+	onMount(() => {
+		const updateWheelSize = () => {
+			const vw = window.innerWidth;
+			const vh = window.innerHeight;
+			isMobile = vw <= 1024;
+			
+			if (!isMobile) {
+				// For desktop, use viewport-based sizing with min/max constraints
+				// Use smaller of 50% viewport width or 60% viewport height for bigger wheels
+				const vwSize = vw * 0.50;
+				const vhSize = vh * 0.55;
+				wheelSize = Math.min(Math.max(Math.min(vwSize, vhSize), 400), 800);
+			} else {
+				// Mobile keeps fixed sizing
+				wheelSize = Math.min(vw - 40, 360);
+			}
+		};
+
+		updateWheelSize();
+		window.addEventListener('resize', updateWheelSize);
+		
+		return () => {
+			window.removeEventListener('resize', updateWheelSize);
+		};
+	});
+
 	// Create 8 visible segments for the wheel display based on actual regions
 	const wheelSegments = [
 		{ color: '#FF0001', label: ['北海道', 'Hokkaido'], region: 'Hokkaido' },        // Red
@@ -124,8 +154,8 @@
 				<!-- SVG Wheel -->
 				<svg 
 					viewBox="0 0 {r*2+outerWidth*2} {r*2+outerWidth*2}" 
-					width={r*2+outerWidth*2} 
-					height={r*2+outerWidth*2}
+					width={wheelSize} 
+					height={wheelSize}
 					class="wheel-svg"
 				>
 					<g transform="translate({r+outerWidth} {r+outerWidth}) rotate({rotation}) translate({-r} {-r})">
@@ -192,27 +222,30 @@
 
 	</div>
 
-	<!-- Result Display -->
-	{#if showResult && selectedCity}
-		<div class="result-container" class:show={showResult}>
-			<div class="result-card">
-				<h3>🎊 You got:</h3>
-				<div class="city-info">
-					<div class="city-name-en">{selectedCity.City}</div>
-					<div class="city-name-jp">{selectedCity.Japanese}</div>
-					<div class="prefecture">{selectedCity.Prefecture} Prefecture</div>
-					<div class="region">Region: {selectedCity.Region}</div>
+	<!-- Fixed-height results area to prevent layout shifts -->
+	<div class="results-area">
+		<!-- Result Display -->
+		{#if showResult && selectedCity}
+			<div class="result-container" class:show={showResult}>
+				<div class="result-card">
+					<h3>🎊 You got:</h3>
+					<div class="city-info">
+						<div class="city-name-en">{selectedCity.City}</div>
+						<div class="city-name-jp">{selectedCity.Japanese}</div>
+						<div class="prefecture">{selectedCity.Prefecture} Prefecture</div>
+						<div class="region">Region: {selectedCity.Region}</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	{:else}
-		<div class="info-section">
-			<p>
-				This wheel randomly selects from <strong>{japanCities.length}</strong> Japanese cities and municipalities.
-				<br>Each spin gives you a random city from across all 47 prefectures of Japan!
-			</p>
-		</div>
-	{/if}
+		{:else}
+			<div class="info-section">
+				<p>
+					This wheel randomly selects from <strong>{japanCities.length}</strong> Japanese cities and municipalities.
+					<br>Each spin gives you a random city from across all 47 prefectures of Japan!
+				</p>
+			</div>
+		{/if}
+	</div>
 </div>
 
 <style>
@@ -222,7 +255,7 @@
 		text-align: center;
 		color: white;
 		border-radius: 15px;
-		max-width: 600px;
+		max-width: none; /* Allow container to expand with wheel size */
 		margin: 0 auto;
 	}
 
@@ -230,7 +263,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-start;
 		gap: 1rem;
 		margin: 0.5rem 0;
 	}
@@ -239,18 +272,19 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-start;
 		width: 100%;
-		max-width: 450px;
+		max-width: none; /* Allow wheel to be as large as needed */
 	}
 
 	.header h1 {
-		font-size: 2rem;
+		font-size: 3rem;
 		margin: 0;
 		background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
+		max-height: 12vh;
 	}
 
 	.header h1::before {
@@ -274,6 +308,7 @@
 
 	.wheel-svg {
 		filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.3));
+		transition: width 0.3s ease, height 0.3s ease;
 	}
 
 	.spin-button {
@@ -333,10 +368,19 @@
 		color: #fff;
 	}
 
-	.result-container {
+	.results-area {
+		/* Fixed height container to prevent layout shifts */
+		min-height: 200px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
 		margin: 1rem auto 0;
 		width: 100%;
 		max-width: 800px;
+	}
+
+	.result-container {
+		width: 100%;
 		opacity: 0;
 		transform: translateY(20px);
 		transition: all 0.5s ease;
@@ -354,26 +398,25 @@
 		background: rgba(255, 255, 255, 0.1);
 		backdrop-filter: blur(10px);
 		border-radius: 15px;
-		padding: 1.5rem;
+		padding: 1.0rem;
 		border: 1px solid rgba(255, 255, 255, 0.2);
 		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 		width: 100%;
 	}
 
 	.result-card h3 {
-		font-size: 1.2rem;
-		margin: 0 0 0.8rem 0;
+		font-size: 1.0rem;
 		color: #ffd700;
 	}
 
 	.city-info {
-		margin: 1rem 0;
+		margin: 0.3rem 0;
 	}
 
 	.city-name-en {
 		font-size: 1.5rem;
 		font-weight: bold;
-		margin: 0.3rem 0;
+		/* margin: 0.1rem 0; */
 		color: #fff;
 	}
 
@@ -398,8 +441,7 @@
 	}
 
 	.info-section {
-		margin: 1rem auto 0;
-		max-width: 800px;
+		width: 100%;
 		padding: 1.5rem;
 		background: rgba(255, 255, 255, 0.1);
 		backdrop-filter: blur(10px);
@@ -414,7 +456,7 @@
 	}
 
 	/* Mobile responsiveness */
-	@media (max-width: 768px) {
+	@media (max-width: 1024px) {
 		.wheel-spin-container {
 			padding: 0.25rem;
 		}
@@ -424,17 +466,17 @@
 			margin: 0.25rem 0;
 		}
 
-		.wheel-svg {
-			width: 240px !important;
-			height: 240px !important;
+		.results-area {
+			/* Slightly smaller buffer on mobile */
+			/* min-height: 200px; */
 		}
 
 		.header h1 {
-			font-size: 1.8rem;
+			font-size: 2.5rem;
 		}
 
 		.header p {
-			font-size: 0.9rem;
+			font-size: 1.2rem;
 			margin-bottom: 0.25rem;
 		}
 
