@@ -466,10 +466,10 @@
 			margin: 0.25rem 0;
 		}
 
-		.results-area {
+		/* .results-area { */
 			/* Slightly smaller buffer on mobile */
 			/* min-height: 200px; */
-		}
+		/* } */
 
 		.header h1 {
 			font-size: 2.5rem;

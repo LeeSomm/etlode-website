@@ -6,10 +6,15 @@
 	import { language, setLanguage, t, type LanguageKey } from '$lib/i18n';
 
 	let isMenuOpen = false;
+	let isProjectsDropdownOpen = false;
 	let currentLanguage = 'en';
 	
 	const toggleMenu = () => {
 	  isMenuOpen = !isMenuOpen;
+	};
+
+	const toggleProjectsDropdown = () => {
+		isProjectsDropdownOpen = !isProjectsDropdownOpen;
 	};
 	
 	const switchLanguage = (lang: LanguageKey) => {
@@ -57,24 +62,66 @@
       <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname.includes('/services') ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
       <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname.includes('/about') ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
       <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
+            
+      <!-- Projects Dropdown -->
+      <div class="relative">
+        <button 
+          class="hover:text-teal-400 {page.url.pathname.includes('/congress-trading') || page.url.pathname.includes('/spinthewheel') ? 'text-teal-400' : ''} flex items-center"
+          onclick={toggleProjectsDropdown} 
+        >
+          Projects
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        
+        {#if isProjectsDropdownOpen}
+          <div 
+            class="absolute top-full left-0 mt-2 w-48 bg-gray-900 rounded-md shadow-lg z-50"
+            role="menu"
+            tabindex="-1"
+            aria-label="Project Navigation"
+            onmouseleave={toggleProjectsDropdown}
+          >
+            <div class="py-1">
+              <a
+                href="{base}/congress-trading"
+                role="menuitem"
+                tabindex="0"
+                class="block px-4 py-2 text-sm hover:bg-gray-800 hover:text-teal-400"
+              >
+                Congressional Trading
+              </a>
+              <a
+                href="{base}/spinthewheel"
+                role="menuitem"
+                tabindex="0"
+                class="block px-4 py-2 text-sm hover:bg-gray-800 hover:text-teal-400"
+              >
+                Japan Wheel
+              </a>
+            </div>
+          </div>
+        {/if}
+      </div>
     </div>
     
     <div class="hidden md:flex items-center space-x-4">
       <button 
         class="px-2 py-1 rounded {currentLanguage === 'en' ? 'bg-yellow-400 text-black' : 'text-yellow-400'}"
-        on:click={() => switchLanguage('en')}
+        onclick={() => switchLanguage('en')}
       >
         EN
       </button>
       <button 
         class="px-2 py-1 rounded {currentLanguage === 'ja' ? 'bg-yellow-400 text-black' : 'text-yellow-400'}"
-        on:click={() => switchLanguage('ja')}
+        onclick={() => switchLanguage('ja')}
       >
         日本語
       </button>
     </div>
     
-    <button class="md:hidden text-white" on:click={toggleMenu} aria-label="Toggle menu">
+    <button class="md:hidden text-white" onclick={toggleMenu} aria-label="Toggle menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
@@ -87,18 +134,26 @@
         <a href="{base}/" class="hover:text-teal-400 {page.url.pathname === '/' || page.url.pathname === base+'/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
         <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname.includes('/services') ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
         <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname.includes('/about') ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
+        
+        <!-- Projects section in mobile menu -->
+        <div class="border-l-2 border-teal-400 pl-4">
+          <div class="text-teal-400 font-medium mb-2">Projects</div>
+          <a href="{base}/congress-trading" class="block hover:text-teal-400 {page.url.pathname.includes('/congress-trading') ? 'text-teal-400' : ''} text-sm mb-1">Congressional Trading</a>
+          <a href="{base}/spinthewheel" class="block hover:text-teal-400 {page.url.pathname.includes('/spinthewheel') ? 'text-teal-400' : ''} text-sm">Japan Wheel</a>
+        </div>
+        
         <a href="{base}/faq" class="hover:text-teal-400 {page.url.pathname.includes('/faq') ? 'text-teal-400' : ''}">FAQ</a>
         <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
         <div class="flex space-x-4 pt-2">
           <button 
             class="px-2 py-1 rounded {currentLanguage === 'en' ? 'bg-yellow-400 text-black' : 'text-yellow-400'}"
-            on:click={() => switchLanguage('en')}
+            onclick={() => switchLanguage('en')}
           >
             EN
           </button>
           <button 
             class="px-2 py-1 rounded {currentLanguage === 'ja' ? 'bg-yellow-400 text-black' : 'text-yellow-400'}"
-            on:click={() => switchLanguage('ja')}
+            onclick={() => switchLanguage('ja')}
           >
             日本語
           </button>
@@ -112,7 +167,7 @@
 	<slot />
   {#if showScrollToTop}
     <button 
-      on:click={scrollToTop}
+      onclick={scrollToTop}
       class="fixed bottom-6 right-6 bg-black text-white p-3 rounded-full shadow-lg hover:bg-gray-800 transition-colors"
       aria-label="Scroll to top"
     >
@@ -139,6 +194,14 @@
             <a href="{base}/services" class="text-sm hover:text-teal-400">{$t.navigation.services}</a>
             <a href="{base}/about" class="text-sm hover:text-teal-400">{$t.navigation.about}</a>
             <a href="{base}/contact" class="text-sm hover:text-teal-400">{$t.navigation.contact}</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3 class="font-bold mb-3 text-teal-400">Projects</h3>
+          <nav class="flex flex-col space-y-2">
+            <a href="{base}/congress-trading" class="text-sm hover:text-teal-400">Congressional Trading</a>
+            <a href="{base}/spinthewheel" class="text-sm hover:text-teal-400">Japan Wheel</a>
           </nav>
         </div>
         
