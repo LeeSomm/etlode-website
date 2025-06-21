@@ -154,6 +154,11 @@
 			<div class="text-sm text-gray-300">
 				Last updated: {new Date(tradingData.last_updated).toLocaleString()}
 			</div>
+			<div class="mt-4 text-xs text-gray-400 max-w-2xl mx-auto">
+				<strong>Disclosure:</strong> This is a personal project for educational and informational purposes only. 
+				The data presented may contain errors or omissions and is not warranted to be accurate or complete. 
+				This information should not be used for investment decisions or legal purposes.
+			</div>
 		</div>
 	</div>
 </section>
@@ -217,28 +222,28 @@
 				<table class="w-full">
 					<thead class="bg-gray-50">
 						<tr>
-							<th onclick={() => handleSort('member_name')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('member_name')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
 								Member {getSortIcon('member_name')}
 							</th>
-							<th onclick={() => handleSort('ticker')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('ticker')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 hidden sm:table-cell">
 								Ticker {getSortIcon('ticker')}
 							</th>
-							<th onclick={() => handleSort('asset')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('asset')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
 								Asset {getSortIcon('asset')}
 							</th>
-							<th onclick={() => handleSort('transaction_type')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('transaction_type')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
 								Type {getSortIcon('transaction_type')}
 							</th>
-							<th onclick={() => handleSort('transaction_date')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('transaction_date')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
 								Transaction Date {getSortIcon('transaction_date')}
 							</th>
-							<th onclick={() => handleSort('notification_date')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('notification_date')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 hidden md:table-cell">
 								Filing Date {getSortIcon('notification_date')}
 							</th>
-							<th onclick={() => handleSort('amount')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('amount')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 hidden lg:table-cell">
 								Amount {getSortIcon('amount')}
 							</th>
-							<th onclick={() => handleSort('owner')} class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100">
+							<th onclick={() => handleSort('owner')} class="px-3 sm:px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 hidden lg:table-cell">
 								Owner {getSortIcon('owner')}
 							</th>
 						</tr>
@@ -246,10 +251,15 @@
 					<tbody class="bg-white divide-y divide-gray-200">
 						{#each paginatedTransactions as transaction}
 							<tr class="hover:bg-gray-50">
-								<td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-									{transaction.member_name} ({transaction.district})
+								<td class="px-3 sm:px-6 py-4 text-sm font-medium text-gray-900">
+									<div class="truncate">
+										{transaction.member_name}
+									</div>
+									<div class="text-xs text-gray-500 truncate">
+										({transaction.district})
+									</div>
 								</td>
-								<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+								<td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 hidden sm:table-cell">
 									{#if transaction.ticker}
 										<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
 											{transaction.ticker}
@@ -258,27 +268,54 @@
 										<span class="text-gray-400">-</span>
 									{/if}
 								</td>
-								<td class="px-6 py-4 text-sm text-gray-900 max-w-xs truncate" title={transaction.asset}>
-									{transaction.asset}
+								<td class="px-3 sm:px-6 py-4 text-sm text-gray-900">
+									<!-- Mobile: Show ticker and amount -->
+									<div class="sm:hidden">
+										{#if transaction.ticker}
+											<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">
+												{transaction.ticker}
+											</span>
+										{:else}
+											<span class="text-gray-400 text-xs">No ticker</span>
+										{/if}
+									</div>
+									<!-- Desktop: Show asset name -->
+									<div class="hidden sm:block truncate max-w-[120px] sm:max-w-xs" title={transaction.asset}>
+										{transaction.asset}
+									</div>
+									<!-- Show amount on mobile when hidden in header -->
+									<div class="lg:hidden text-xs text-gray-500 mt-1">
+										{transaction.amount}
+									</div>
 								</td>
-								<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-									<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
+								<td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-center">
+									<span class="inline-flex items-center  px-2 sm:px-2.5 py-0.5 rounded-full text-xs font-medium 
 										{transaction.transaction_type.toLowerCase() === 'purchase' ? 'bg-green-100 text-green-800' : 
 										 transaction.transaction_type.toLowerCase() === 'sale' ? 'bg-red-100 text-red-800' : 
 										 'bg-yellow-100 text-yellow-800'}">
 										{transaction.transaction_type}
 									</span>
+									<!-- Show owner on mobile when hidden in header -->
+									<div class="lg:hidden text-xs text-gray-500 mt-1 truncate">
+										{transaction.owner}
+									</div>
 								</td>
-								<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-									{formatDate(transaction.transaction_date)}
+								<td class="px-3 sm:px-6 py-4 text-sm text-gray-500">
+									<div class="whitespace-nowrap">
+										{formatDate(transaction.transaction_date)}
+									</div>
+									<!-- Show filing date on mobile when hidden in header -->
+									<div class="md:hidden text-xs text-gray-400 mt-1">
+										Filed: {formatDate(transaction.notification_date)}
+									</div>
 								</td>
-								<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+								<td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-500 hidden md:table-cell">
 									{formatDate(transaction.notification_date)}
 								</td>
-								<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+								<td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 hidden lg:table-cell">
 									{transaction.amount}
 								</td>
-								<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+								<td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-500 hidden lg:table-cell">
 									{transaction.owner}
 								</td>
 							</tr>

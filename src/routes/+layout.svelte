@@ -69,7 +69,7 @@
           class="hover:text-teal-400 {page.url.pathname.includes('/congress-trading') || page.url.pathname.includes('/spinthewheel') ? 'text-teal-400' : ''} flex items-center"
           onclick={toggleProjectsDropdown} 
         >
-          Projects
+          {$t.navigation.projects}
           <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
           </svg>
@@ -90,7 +90,7 @@
                 tabindex="0"
                 class="block px-4 py-2 text-sm hover:bg-gray-800 hover:text-teal-400"
               >
-                Congressional Trading
+                {$t.navigation.congressTrading}
               </a>
               <a
                 href="{base}/spinthewheel"
@@ -98,7 +98,7 @@
                 tabindex="0"
                 class="block px-4 py-2 text-sm hover:bg-gray-800 hover:text-teal-400"
               >
-                Japan Wheel
+                {$t.navigation.japanWheel}
               </a>
             </div>
           </div>
@@ -134,16 +134,14 @@
         <a href="{base}/" class="hover:text-teal-400 {page.url.pathname === '/' || page.url.pathname === base+'/' ? 'text-teal-400' : ''}">{$t.navigation.home}</a>
         <a href="{base}/services" class="hover:text-teal-400 {page.url.pathname.includes('/services') ? 'text-teal-400' : ''}">{$t.navigation.services}</a>
         <a href="{base}/about" class="hover:text-teal-400 {page.url.pathname.includes('/about') ? 'text-teal-400' : ''}">{$t.navigation.about}</a>
-        
+        <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
         <!-- Projects section in mobile menu -->
-        <div class="border-l-2 border-teal-400 pl-4">
-          <div class="text-teal-400 font-medium mb-2">Projects</div>
+        <div class="border-l-2 border-teal-400 pl-2">
+          <div class="font-medium mb-2">Projects</div>
           <a href="{base}/congress-trading" class="block hover:text-teal-400 {page.url.pathname.includes('/congress-trading') ? 'text-teal-400' : ''} text-sm mb-1">Congressional Trading</a>
           <a href="{base}/spinthewheel" class="block hover:text-teal-400 {page.url.pathname.includes('/spinthewheel') ? 'text-teal-400' : ''} text-sm">Japan Wheel</a>
         </div>
         
-        <a href="{base}/faq" class="hover:text-teal-400 {page.url.pathname.includes('/faq') ? 'text-teal-400' : ''}">FAQ</a>
-        <a href="{base}/contact" class="hover:text-teal-400 {page.url.pathname.includes('/contact') ? 'text-teal-400' : ''}">{$t.navigation.contact}</a>
         <div class="flex space-x-4 pt-2">
           <button 
             class="px-2 py-1 rounded {currentLanguage === 'en' ? 'bg-yellow-400 text-black' : 'text-yellow-400'}"
@@ -198,10 +196,10 @@
         </div>
 
         <div>
-          <h3 class="font-bold mb-3 text-teal-400">Projects</h3>
+          <h3 class="font-bold mb-3 text-teal-400">{$t.navigation.projects}</h3>
           <nav class="flex flex-col space-y-2">
-            <a href="{base}/congress-trading" class="text-sm hover:text-teal-400">Congressional Trading</a>
-            <a href="{base}/spinthewheel" class="text-sm hover:text-teal-400">Japan Wheel</a>
+            <a href="{base}/congress-trading" class="text-sm hover:text-teal-400">{$t.navigation.congressTrading}</a>
+            <a href="{base}/spinthewheel" class="text-sm hover:text-teal-400">{$t.navigation.japanWheel}</a>
           </nav>
         </div>
         

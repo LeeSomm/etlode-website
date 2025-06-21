@@ -5,7 +5,10 @@ export default {
     home: "Home",
     services: "Services",
     about: "About",
-    contact: "Contact"
+    contact: "Contact",
+    projects: "Projects",
+    congressTrading: "Congressional Trading",
+    japanWheel: "Wheel of Japan",
   },
   footer: {
     tagline: "ET-Lode: Extract, Transform, Load. Enabling AI automation for global businesses.",

@@ -4,6 +4,9 @@ export default {
     services: "サービス",
     about: "会社概要",
     contact: "お問い合わせ",
+    projects: "プロジェクト",
+    congressTrading: "コングレス・トレーディング",
+    japanWheel: "ホイール・オブ・ジャパン"
   },
   footer: {
     tagline: "ET-Lode：抽出、変換、読み込み。グローバルビジネスのためのAI自動化を実現。",
