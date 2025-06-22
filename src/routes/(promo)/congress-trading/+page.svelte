@@ -48,14 +48,16 @@
 		for (const [filingId, filing] of Object.entries(tradingData.processed_filings)) {
 			if (filing.transactions) {
 				filing.transactions.forEach(transaction => {
-					// Remove "Hon. " prefix from member name
-					const cleanName = filing.member_info.name.replace(/^Hon\.\s+/, '');
+					const memberInfo = filing.member_info as { name: string; district: string };
+                    
+                    // Remove "Hon. " prefix from member name
+					const cleanName = memberInfo.name.replace(/^Hon\.\s+/, '');
 					
 					flattenedTransactions.push({
 						...transaction,
 						filing_id: filingId,
 						member_name: cleanName,
-						district: filing.member_info.district,
+						district: memberInfo.district,
 						pdf_url: filing.pdf_url,
 						parsed_at: filing.parsed_at,
 						stock_transaction_count: filing.stock_transaction_count
@@ -257,6 +259,17 @@
 									</div>
 									<div class="text-xs text-gray-500 truncate">
 										({transaction.district})
+									</div>
+									<div class="text-xs mt-1">
+										Filing: 
+                                        <a 
+											href={transaction.pdf_url} 
+											target="_blank" 
+											rel="noopener noreferrer"
+											class="text-teal-600 hover:text-teal-800 underline"
+										>
+											{transaction.filing_id}
+										</a>
 									</div>
 								</td>
 								<td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 hidden sm:table-cell">
