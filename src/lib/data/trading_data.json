@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-06-23T08:00:39.110910",
+  "last_updated": "2025-06-24T08:00:13.781876",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 245,
+    "processed_pdfs": 249,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -33984,6 +33984,212 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20030546": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030546.pdf",
+      "member_info": {
+        "filing_id": "20030546",
+        "name": "Hon. Rob Bresnahan",
+        "district": "PA08"
+      },
+      "stock_transaction_count": 13,
+      "parsed_at": "2025-06-24T08:00:09.427071",
+      "transactions": [
+        {
+          "asset": "3M Company Common Stock",
+          "ticker": "MMM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Arista Networks, Inc. Common Stock",
+          "ticker": "ANET",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/29/2025",
+          "notification_date": "05/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chubb Limited Common Stock",
+          "ticker": "CB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/13/2025",
+          "notification_date": "06/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Elastic N.V. Ordinary Shares",
+          "ticker": "ESTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Guidewire Software, Inc. Common Stock",
+          "ticker": "GWRE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/02/2025",
+          "notification_date": "06/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Nu Holdings Ltd. Class A Ordinary Shares",
+          "ticker": "NU",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/29/2025",
+          "notification_date": "05/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Okta, Inc. - Class A Common Stock",
+          "ticker": "OKTA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/29/2025",
+          "notification_date": "05/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Snowflake Inc. Class A Common Stock",
+          "ticker": "SNOW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tesla, Inc. - Common Stock",
+          "ticker": "TSLA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/23/2025",
+          "notification_date": "05/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Veeva Systems Inc. Class A Common Stock",
+          "ticker": "VEEV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/29/2025",
+          "notification_date": "05/29/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030548": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030548.pdf",
+      "member_info": {
+        "filing_id": "20030548",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-06-24T08:00:10.761599",
+      "transactions": [
+        {
+          "asset": "lululemon athletica inc. - Common Stock",
+          "ticker": "LULU",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/17/2025",
+          "notification_date": "06/18/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Snowflake Inc. Class A Common Stock",
+          "ticker": "SNOW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/17/2025",
+          "notification_date": "06/18/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/17/2025",
+          "notification_date": "06/18/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030174": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf",
+      "member_info": {
+        "filing_id": "20030174",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-06-24T08:00:12.346566",
+      "transactions": []
+    },
+    "20030517": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030517.pdf",
+      "member_info": {
+        "filing_id": "20030517",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-06-24T08:00:13.725784",
+      "transactions": []
     }
   }
 }
