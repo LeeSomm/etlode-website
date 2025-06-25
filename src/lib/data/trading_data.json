@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-06-24T08:00:13.781876",
+  "last_updated": "2025-06-25T08:00:08.537352",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 249,
+    "processed_pdfs": 250,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -34189,6 +34189,17 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2025-06-24T08:00:13.725784",
+      "transactions": []
+    },
+    "20030541": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf",
+      "member_info": {
+        "filing_id": "20030541",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-06-25T08:00:08.477602",
       "transactions": []
     }
   }
