@@ -1,38 +1,38 @@
-# sv
+# ET-Lode Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+The official website for ET-Lode - AI Automation for Global Business.
 
-## Creating a project
+## About ET-Lode
 
-If you're seeing this, you've probably already done this step. Congrats!
+ET-Lode provides custom AI automation solutions with multilingual expertise, specializing in:
+- Multilingual AI Chatbots
+- RAG-Enabled LLM Solutions  
+- Workflow Automation
+- Web Development
+- Social Media Management
+- Japanese-English Translation
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Framework**: SvelteKit
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Deployment**: Static Site Generation
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+## Development
 
 ```bash
-npm run build
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm run dev
+
+# Build for production
+pnpm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Contact
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Visit [etlode.com](https://etlode.com) to learn more about our AI automation services.
