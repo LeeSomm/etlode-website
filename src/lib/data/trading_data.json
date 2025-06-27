@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-06-25T08:00:08.537352",
+  "last_updated": "2025-06-27T08:00:07.670173",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 250,
+    "processed_pdfs": 251,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -34201,6 +34201,38 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-06-25T08:00:08.477602",
       "transactions": []
+    },
+    "20030567": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030567.pdf",
+      "member_info": {
+        "filing_id": "20030567",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-06-27T08:00:07.611045",
+      "transactions": [
+        {
+          "asset": "JP Morgan Chase & Co. Common Stock",
+          "ticker": "JPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/24/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Salesforce, Inc. Common Stock",
+          "ticker": "CRM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/24/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
