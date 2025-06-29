@@ -75,10 +75,6 @@ export const seoConfig = {
   languages: {
     default: 'en',
     supported: ['en', 'ja'],
-    urls: {
-      en: 'https://etlode.com',
-      ja: 'https://etlode.com?lang=ja'
-    }
   }
 };
 
