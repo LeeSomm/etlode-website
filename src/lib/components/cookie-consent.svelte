@@ -5,23 +5,28 @@
 	import { t } from '$lib/i18n';
 	import { base } from '$app/paths';
 
-	
-
-	// Define dataLayer and the gtag function.
-	// if (typeof window !== 'undefined') {
-	// 	window.dataLayer = window.dataLayer || [];
-	// 	function gtag(){window.dataLayer.push(arguments);}
-	// }
-    /** 
+	/** 
 	 * Update gtag consent according to the users choices made in CookieConsent UI
 	 */
 	function updateGtagConsent() {
-		if (typeof window !== 'undefined' && window.gtag) {
-			window.gtag('consent', 'update', {
-				['analytics_storage']: CookieConsent.acceptedService('analytics_storage', 'analytics') ? 'granted' : 'denied',
-			});
-		}
-	}
+        if (typeof window !== 'undefined' && window.gtag) {
+            const consentMode = {
+                'ad_storage': 'denied', // You could make this dynamic too
+                'analytics_storage': CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied',
+                'personalization_storage': 'denied',
+                'functional_storage': 'denied',
+                'security_storage': 'denied',
+            };
+
+            // Update gtag consent
+            window.gtag('consent', 'update', consentMode);
+            
+            // Store in localStorage
+            localStorage.setItem('consentMode', JSON.stringify(consentMode));
+        }
+    }
+
+
 
 	const config: CookieConsent.CookieConsentConfig = {
 		categories: {
@@ -30,7 +35,8 @@
 				readOnly: true
 			},
 			analytics: {
-				autoClear: {
+				enabled: true,
+                autoClear: {
 					cookies: [
 						{
 							name: /^_ga/ // regex: match all cookies starting with '_ga'
@@ -55,7 +61,7 @@
 					// }
 				}
 			},
-			ads: {}
+			// ads: {}
 		},
 
 		onFirstConsent: ({ cookie }) => {
@@ -88,7 +94,7 @@
 		guiOptions: {
 			consentModal: {
 				layout: 'box inline',
-				position: 'bottom left',
+				position: 'bottom right',
 				equalWeightButtons: true,
 				flipButtons: false
 			},
