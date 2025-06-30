@@ -14,7 +14,48 @@ export default {
     tagline: "ET-Lode: Extract, Transform, Load. Enabling AI automation for global businesses.",
     quickLinks: "Quick Links",
     contactHeading: "Contact",
-    allRightsReserved: "All rights reserved."
+    allRightsReserved: "All rights reserved.",
+    privacy: "Privacy",
+    privacyPolicy: "Privacy Policy",
+  },
+  cookieConsent: {
+      consentModal: {
+        title: "We Value Your Privacy",
+        description: "We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. You can manage your cookie preferences at any time.",
+        acceptAllBtn: "Accept All",
+        acceptNecessaryBtn: "Reject Non-Essential",
+        showPreferencesBtn: "Manage Preferences",
+        footer: "Privacy Policy"
+      },
+      preferencesModal: {
+        title: "Manage Cookie Preferences",
+        acceptAllBtn: "Accept All",
+        acceptNecessaryBtn: "Reject Non-Essential",
+        savePreferencesBtn: "Save Preferences",
+        closeIconLabel: "Close",
+        serviceCounterLabel: "Service|Services",
+        sections: [
+          {
+            title: "Your Privacy Choices",
+            description: "You can control how we use cookies and similar technologies. Adjust your preferences below, or click 'Reject Non-Essential' to decline optional cookies. Your choices can be updated anytime via this panel."
+          },
+          {
+            title: "Strictly Necessary",
+            description: "These cookies are essential for the site to function properly and cannot be disabled. They are typically only set in response to actions made by you, such as setting your privacy preferences or logging in.",
+            linkedCategory: "necessary"
+          },
+          {
+            title: "Performance and Analytics",
+            description: "These cookies help us understand how visitors interact with our site by collecting and reporting information anonymously. This helps us improve the performance and user experience.",
+            linkedCategory: "analytics",
+          },
+          {
+            title: "More Information",
+            description: "If you have any questions about our use of cookies or your preferences, please <a href=\"${base}/contact\">contact us</a>."
+          }
+        ]
+      },
+      preferences: "Cookie Preferences"
   },
   terms: {
     extract: "Extract",

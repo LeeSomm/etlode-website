@@ -13,6 +13,47 @@ export default {
     quickLinks: "クイックリンク",
     contactHeading: "お問い合わせ",
     allRightsReserved: "全著作権所有",
+    privacy: "プライバシー",
+    privacyPolicy: "プライバシーポリシー",
+  },
+  cookieConsent: {
+    consentModal: {
+      title: "お客様のプライバシーを尊重します",
+      description: "当サイトでは、閲覧体験の向上、トラフィックの分析、コンテンツの最適化のためにクッキーを使用しています。クッキーの設定はいつでも管理できます。",
+      acceptAllBtn: "すべて許可",
+      acceptNecessaryBtn: "必要最小限のみ許可",
+      showPreferencesBtn: "設定を管理する",
+      footer: "プライバシーポリシー"
+    },
+    preferencesModal: {
+      title: "クッキー設定の管理",
+      acceptAllBtn: "すべて許可",
+      acceptNecessaryBtn: "必要最小限のみ許可",
+      savePreferencesBtn: "設定を保存",
+      closeIconLabel: "閉じる",
+      serviceCounterLabel: "サービス",
+      sections: [
+        {
+          title: "プライバシー設定",
+          description: "当サイトでのクッキーや類似技術の使用について、お客様の希望に基づいて管理できます。下記の設定を変更するか、「必要最小限のみ許可」を選択してオプションクッキーを拒否してください。設定はいつでもこの画面から変更可能です。"
+        },
+        {
+          title: "厳密に必要なクッキー",
+          description: "これらのクッキーはウェブサイトの正常な動作に必要不可欠であり、無効にすることはできません。通常、お客様がプライバシー設定を行ったり、ログインしたりする際にのみ設定されます。",
+          linkedCategory: "necessary"
+        },
+        {
+          title: "パフォーマンスと分析",
+          description: "これらのクッキーは、訪問者が当サイトをどのように利用しているかを匿名で収集・報告することで、サイトのパフォーマンスとユーザー体験の向上に役立ちます。",
+          linkedCategory: "analytics"
+        },
+        {
+          title: "詳細情報",
+          description: "クッキーの使用や設定に関してご不明な点がございましたら、<a href=\"${base}/contact\">こちらからお問い合わせください</a>。"
+        }
+      ]
+    },
+    preferences: "クッキー設定",
   },
   terms: {
     extract: "抽出",

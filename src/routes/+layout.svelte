@@ -4,6 +4,7 @@
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { language, setLanguage, t, type LanguageKey } from '$lib/i18n';
+  import CookieConsent from '$lib/components/cookie-consent.svelte';
 
 	let isMenuOpen = false;
 	let isProjectsDropdownOpen = false;
@@ -175,7 +176,7 @@
     </button>
   {/if}
 </main>
-  
+
 <footer class="bg-black text-white py-8">
   <div class="container mx-auto px-4">
     <div class="flex flex-col md:flex-row justify-between">
@@ -186,7 +187,7 @@
       
       <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 md:pr-8">
         <div>
-          <h3 class="font-bold mb-3 text-teal-400">{$t.footer.quickLinks}</h3>
+          <h3 class="font-bold mb-2 text-teal-400">{$t.footer.quickLinks}</h3>
           <nav class="flex flex-col space-y-2">
             <a href="{base}/" class="text-sm hover:text-teal-400">{$t.navigation.home}</a>
             <a href="{base}/services" class="text-sm hover:text-teal-400">{$t.navigation.services}</a>
@@ -196,7 +197,7 @@
         </div>
 
         <div>
-          <h3 class="font-bold mb-3 text-teal-400">{$t.navigation.projects}</h3>
+          <h3 class="font-bold mb-2 text-teal-400">{$t.navigation.projects}</h3>
           <nav class="flex flex-col space-y-2">
             <a href="{base}/congress-trading" class="text-sm hover:text-teal-400">{$t.navigation.congressTrading}</a>
             <a href="{base}/spinthewheel" class="text-sm hover:text-teal-400">{$t.navigation.japanWheel}</a>
@@ -204,9 +205,17 @@
         </div>
         
         <div>
-          <h3 class="font-bold mb-3 text-teal-400">{$t.footer.contactHeading}</h3>
+          <h3 class="font-bold mb-2 text-teal-400">{$t.footer.contactHeading}</h3>
           <p class="text-sm">Email: <a href="mailto:lee@etlode.com" class="hover:text-teal-400">lee@etlode.com</a></p>
           <p class="text-sm">Phone: +1 (775) 391-8120</p>
+          <br>
+          <h3 class="font-bold mb-2 text-teal-400">{$t.footer.privacy}</h3>
+          <nav class="flex flex-col space-y-2">
+            <a href="{base}/privacy" class="text-sm hover:text-teal-400">{$t.footer.privacyPolicy}</a>
+            <div class="font-normal text-sm hover:text-teal-400">
+              <CookieConsent/>
+            </div>
+          </nav>
         </div>
       </div>
     </div>
