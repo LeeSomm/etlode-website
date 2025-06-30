@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-06-27T08:00:07.670173",
+  "last_updated": "2025-06-30T08:00:07.629407",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 251,
+    "processed_pdfs": 252,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -34230,6 +34230,88 @@
           "transaction_type": "Purchase",
           "transaction_date": "06/11/2025",
           "notification_date": "06/24/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030455": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030455.pdf",
+      "member_info": {
+        "filing_id": "20030455",
+        "name": "Hon. Jared Moskowitz",
+        "district": "FL23"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2025-06-30T08:00:07.570305",
+      "transactions": [
+        {
+          "asset": "HCA Healthcare, Inc. Common Stock",
+          "ticker": "HCA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "HCA Healthcare, Inc. Common Stock",
+          "ticker": "HCA",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Cigna Group Common Stock",
+          "ticker": "CI",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Cigna Group Common Stock",
+          "ticker": "CI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/15/2025",
+          "notification_date": "05/30/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
