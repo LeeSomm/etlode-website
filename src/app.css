@@ -1,3 +1,30 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+
+	#cc-main {
+		/** Use teal as primary color to match site design **/
+		--cc-btn-primary-bg: #14b8a6;
+		--cc-btn-primary-border-color: #14b8a6;
+		--cc-btn-primary-hover-bg: #0d9488;
+		--cc-btn-primary-hover-border-color: #0d9488;
+
+		/** Make toggles match the teal theme **/
+		--cc-toggle-on-bg: var(--cc-btn-primary-bg);
+
+		/** Secondary button styling **/
+		--cc-btn-secondary-bg: transparent;
+		--cc-btn-secondary-color: #14b8a6;
+		--cc-btn-secondary-border-color: #14b8a6;
+		--cc-btn-secondary-hover-bg: #14b8a6;
+		--cc-btn-secondary-hover-color: #ffffff;
+		--cc-btn-secondary-hover-border-color: #14b8a6;
+
+		/** Round the buttons slightly **/
+		--cc-btn-border-radius: 8px;
+
+		/** Modal styling **/
+		--cc-modal-border-radius: 12px;
+		--cc-separator-border-color: #e5e7eb;
+	}

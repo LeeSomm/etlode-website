@@ -94,7 +94,7 @@
 		guiOptions: {
 			consentModal: {
 				layout: 'box inline',
-				position: 'bottom right',
+				position: 'bottom left',
 				equalWeightButtons: true,
 				flipButtons: false
 			},
