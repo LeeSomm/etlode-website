@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-02T08:00:15.833036",
+  "last_updated": "2025-07-03T08:00:09.217173",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 256,
+    "processed_pdfs": 258,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -34811,6 +34811,89 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20030592": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf",
+      "member_info": {
+        "filing_id": "20030592",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2025-07-03T08:00:07.870545",
+      "transactions": [
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "05/26/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Clean Harbors, Inc. Common Stock",
+          "ticker": "CLH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/06/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "STERIS plc",
+          "ticker": "STE",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/06/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030594": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030594.pdf",
+      "member_info": {
+        "filing_id": "20030594",
+        "name": "Hon. Bradley S. Schneider",
+        "district": "IL10"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-03T08:00:09.157549",
+      "transactions": []
     }
   }
 }
