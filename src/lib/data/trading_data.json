@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-04T08:00:17.641763",
+  "last_updated": "2025-07-07T08:00:10.444125",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 260,
+    "processed_pdfs": 262,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -35258,6 +35258,59 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20030610": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf",
+      "member_info": {
+        "filing_id": "20030610",
+        "name": "Hon. John W. Rose",
+        "district": "TN06"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-07-07T08:00:08.955926",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "06/04/2025",
+          "amount": "$1,000,001 - $5,000,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "06/04/2025",
+          "amount": "$250,001 - $500,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "06/04/2025",
+          "amount": "$250,001 - $500,000"
+        }
+      ]
+    },
+    "20030611": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030611.pdf",
+      "member_info": {
+        "filing_id": "20030611",
+        "name": "Hon. John W. Rose",
+        "district": "TN06"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-07T08:00:10.384354",
+      "transactions": []
     }
   }
 }
