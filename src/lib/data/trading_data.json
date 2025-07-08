@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-07T08:00:10.444125",
+  "last_updated": "2025-07-08T08:00:09.401587",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 262,
+    "processed_pdfs": 264,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -35311,6 +35311,69 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-07-07T08:00:10.384354",
       "transactions": []
+    },
+    "20030622": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030622.pdf",
+      "member_info": {
+        "filing_id": "20030622",
+        "name": "Hon. Michael A. Collins Jr",
+        "district": "GA10"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-08T08:00:08.124501",
+      "transactions": []
+    },
+    "20030618": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030618.pdf",
+      "member_info": {
+        "filing_id": "20030618",
+        "name": "Hon. Lloyd Doggett",
+        "district": "TX37"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-07-08T08:00:09.339522",
+      "transactions": [
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/18/2025",
+          "notification_date": "07/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/10/2025",
+          "notification_date": "07/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/10/2025",
+          "notification_date": "07/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PPG Industries, Inc. Common Stock",
+          "ticker": "PPG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/12/2025",
+          "notification_date": "07/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
