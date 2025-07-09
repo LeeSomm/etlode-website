@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-08T08:00:09.401587",
+  "last_updated": "2025-07-09T08:00:20.646723",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 264,
+    "processed_pdfs": 267,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -35374,6 +35374,216 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20030635": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030635.pdf",
+      "member_info": {
+        "filing_id": "20030635",
+        "name": "Hon. Rob Bresnahan",
+        "district": "PA08"
+      },
+      "stock_transaction_count": 18,
+      "parsed_at": "2025-07-09T08:00:13.711452",
+      "transactions": [
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/30/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Applovin Corporation - Class A Common Stock",
+          "ticker": "APP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/06/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Atlassian Corporation - Class A Common Stock",
+          "ticker": "TEAM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Atlassian Corporation - Class A Common Stock",
+          "ticker": "TEAM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Circle Internet Group, Inc. Class A Common Stock",
+          "ticker": "CRCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/24/2025",
+          "notification_date": "06/30/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Coinbase Global, Inc. - Class A Common Stock",
+          "ticker": "COIN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/24/2025",
+          "notification_date": "06/30/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Credo Technology Group Holding Ltd - Ordinary Shares",
+          "ticker": "CRDO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/03/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Datadog, Inc. - Class A Common Stock",
+          "ticker": "DDOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GitLab Inc. - Class A Common Stock",
+          "ticker": "GTLB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GitLab Inc. - Class A Common Stock",
+          "ticker": "GTLB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/06/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ServiceTitan, Inc. - Class A Common Stock",
+          "ticker": "TTAN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Spotify Technology S.A. Ordinary Shares",
+          "ticker": "SPOT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tesla, Inc. - Common Stock",
+          "ticker": "TSLA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Zoom Communications, Inc. - Class A Common Stock",
+          "ticker": "ZM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/06/2025",
+          "notification_date": "06/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Zoom Communications, Inc. - Class A Common Stock",
+          "ticker": "ZM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/25/2025",
+          "notification_date": "06/30/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030632": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030632.pdf",
+      "member_info": {
+        "filing_id": "20030632",
+        "name": "Hon. Earl Leroy Carter",
+        "district": "GA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-09T08:00:15.054850",
+      "transactions": []
+    },
+    "8221173": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221173.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-09T08:00:20.584829",
+      "transactions": []
     }
   }
 }
