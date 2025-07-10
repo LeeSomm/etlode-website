@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-09T08:00:20.646723",
+  "last_updated": "2025-07-10T08:00:18.237494",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 267,
+    "processed_pdfs": 274,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -35584,6 +35584,179 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-07-09T08:00:20.584829",
       "transactions": []
+    },
+    "20030641": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf",
+      "member_info": {
+        "filing_id": "20030641",
+        "name": "Hon. Brandon Gill",
+        "district": "TX26"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-10T08:00:10.419716",
+      "transactions": []
+    },
+    "20030639": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf",
+      "member_info": {
+        "filing_id": "20030639",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-07-10T08:00:11.935872",
+      "transactions": [
+        {
+          "asset": "United States Steel Corporation Common Stock",
+          "ticker": "X",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/03/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "United States Steel Corporation Common Stock",
+          "ticker": "X",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "8221176": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221176.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-10T08:00:13.004476",
+      "transactions": []
+    },
+    "20030637": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030637.pdf",
+      "member_info": {
+        "filing_id": "20030637",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2025-07-10T08:00:14.881552",
+      "transactions": [
+        {
+          "asset": "American Airlines Group, Inc. - Common Stock",
+          "ticker": "AAL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/17/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "American Airlines Group, Inc. - Common Stock",
+          "ticker": "AAL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "American Airlines Group, Inc. - Common Stock",
+          "ticker": "AAL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/02/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/02/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$50,001 - $100,000"
+        }
+      ]
+    },
+    "20030630": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf",
+      "member_info": {
+        "filing_id": "20030630",
+        "name": "Hon. Nancy Pelosi",
+        "district": "CA11"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-07-10T08:00:16.242654",
+      "transactions": [
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/20/2025",
+          "notification_date": "06/20/2025",
+          "amount": "$1,000,001 - $5,000,000"
+        }
+      ]
+    },
+    "8221177": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221177.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-10T08:00:16.861984",
+      "transactions": []
+    },
+    "20030646": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030646.pdf",
+      "member_info": {
+        "filing_id": "20030646",
+        "name": "Hon. Cliff Bentz",
+        "district": "OR02"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-07-10T08:00:18.178841",
+      "transactions": [
+        {
+          "asset": "Amgen Inc. - Common Stock",
+          "ticker": "AMGN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/06/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/06/2025",
+          "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
