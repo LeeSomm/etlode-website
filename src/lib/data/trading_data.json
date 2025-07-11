@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-10T08:00:18.237494",
+  "last_updated": "2025-07-11T08:00:12.958427",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 274,
+    "processed_pdfs": 277,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -35754,6 +35754,362 @@
           "transaction_type": "Purchase",
           "transaction_date": "06/06/2025",
           "notification_date": "07/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030634": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf",
+      "member_info": {
+        "filing_id": "20030634",
+        "name": "Hon. Gilbert Cisneros",
+        "district": "CA31"
+      },
+      "stock_transaction_count": 27,
+      "parsed_at": "2025-07-11T08:00:10.018108",
+      "transactions": [
+        {
+          "asset": "Amdocs Limited - Ordinary Shares",
+          "ticker": "DOX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/30/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Applovin Corporation - Class A Common Stock",
+          "ticker": "APP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/01/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ASML Holding N.V. - New York Registry Shares",
+          "ticker": "ASML",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/27/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boot Barn Holdings, Inc. Common Stock",
+          "ticker": "BOOT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boston Scientific Corporation Common Stock",
+          "ticker": "BSX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boston Scientific Corporation Common Stock",
+          "ticker": "BSX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cadre Holdings, Inc. Common Stock",
+          "ticker": "CDRE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Champion Homes, Inc. Common Stock",
+          "ticker": "SKY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chart Industries, Inc.",
+          "ticker": "GTLS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CoStar Group, Inc. - Common Stock",
+          "ticker": "CSGP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/27/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "CoStar Group, Inc. - Common Stock",
+          "ticker": "CSGP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/30/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CoStar Group, Inc. - Common Stock",
+          "ticker": "CSGP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/25/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dayforce, Inc. Common Stock",
+          "ticker": "DAY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GoDaddy Inc. Class A Common Stock",
+          "ticker": "GDDY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "HealthEquity, Inc. - Common Stock",
+          "ticker": "HQY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Liberty Media Corporation - Series C Liberty Formula One Common Stock",
+          "ticker": "FWONK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NextEra Energy, Inc. Common Stock",
+          "ticker": "NEE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/25/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NXP Semiconductors N.V. - Common Stock",
+          "ticker": "NXPI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/25/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pacific Premier Bancorp Inc - Common Stock",
+          "ticker": "PPBI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PTC Inc. - Common Stock",
+          "ticker": "PTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RBC Bearings Incorporated Common Stock",
+          "ticker": "RBC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Revvity, Inc. Common Stock",
+          "ticker": "RVTY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Seacoast Banking Corporation of Florida - Common Stock",
+          "ticker": "SBCF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SpringWorks Therapeutics, Inc. - common stock",
+          "ticker": "SWTX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/01/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Veracyte, Inc. - Common Stock",
+          "ticker": "VCYT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Willis Towers Watson Public Limited Company - Ordinary Shares",
+          "ticker": "WTW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "XIAOMI CORP",
+          "ticker": "XIACF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/27/2025",
+          "notification_date": "07/08/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030558": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030558.pdf",
+      "member_info": {
+        "filing_id": "20030558",
+        "name": "Hon. Susie Lee",
+        "district": "NV03"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-07-11T08:00:11.468394",
+      "transactions": [
+        {
+          "asset": "Full House Resorts, Inc. - Common Stock",
+          "ticker": "FLL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/13/2025",
+          "notification_date": "06/13/2025",
+          "amount": "$250,001 - $500,000"
+        },
+        {
+          "asset": "Full House Resorts, Inc. - Common Stock",
+          "ticker": "FLL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/13/2025",
+          "notification_date": "06/13/2025",
+          "amount": "$500,001 - $1,000,000"
+        }
+      ]
+    },
+    "20030620": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030620.pdf",
+      "member_info": {
+        "filing_id": "20030620",
+        "name": "Hon. John McGuire",
+        "district": "VA05"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-07-11T08:00:12.900063",
+      "transactions": [
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/30/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ServiceNow, Inc. Common Stock",
+          "ticker": "NOW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "06/27/2025",
+          "notification_date": "07/07/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
