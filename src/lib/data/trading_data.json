@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-15T08:00:12.420362",
+  "last_updated": "2025-07-16T08:00:12.080487",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 280,
+    "processed_pdfs": 283,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36359,6 +36359,50 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20030608": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030608.pdf",
+      "member_info": {
+        "filing_id": "20030608",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-07-16T08:00:08.905320",
+      "transactions": [
+        {
+          "asset": "Intuit Inc. - Common Stock",
+          "ticker": "INTU",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/03/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030579": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030579.pdf",
+      "member_info": {
+        "filing_id": "20030579",
+        "name": "Hon. Mark Dr Green",
+        "district": "TN07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-16T08:00:10.303889",
+      "transactions": []
+    },
+    "20030663": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030663.pdf",
+      "member_info": {
+        "filing_id": "20030663",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-16T08:00:12.014127",
+      "transactions": []
     }
   }
 }
