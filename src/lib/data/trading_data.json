@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-16T08:00:12.080487",
+  "last_updated": "2025-07-17T08:00:12.843481",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 283,
+    "processed_pdfs": 286,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36402,6 +36402,261 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2025-07-16T08:00:12.014127",
+      "transactions": []
+    },
+    "20030621": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030621.pdf",
+      "member_info": {
+        "filing_id": "20030621",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 18,
+      "parsed_at": "2025-07-17T08:00:09.522083",
+      "transactions": [
+        {
+          "asset": "Akamai Technologies, Inc. - Common Stock",
+          "ticker": "AKAM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/25/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Carvana Co. Class A Common Stock",
+          "ticker": "CVNA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chubb Limited Common Stock",
+          "ticker": "CB",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/13/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cloudflare, Inc. Class A Common Stock",
+          "ticker": "NET",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ConocoPhillips Common Stock",
+          "ticker": "COP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/24/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fidelity National Information Services, Inc. Common Stock",
+          "ticker": "FIS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Insmed Incorporated - Common Stock",
+          "ticker": "INSM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/16/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/24/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pfizer, Inc. Common Stock",
+          "ticker": "PFE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/03/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Salesforce, Inc. Common Stock",
+          "ticker": "CRM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/04/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tesla, Inc. - Common Stock",
+          "ticker": "TSLA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/05/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Union Pacific Corporation Common Stock",
+          "ticker": "UNP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/04/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/20/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/25/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/24/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030671": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030671.pdf",
+      "member_info": {
+        "filing_id": "20030671",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-07-17T08:00:11.119678",
+      "transactions": [
+        {
+          "asset": "Danaher Corporation Common Stock",
+          "ticker": "DHR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Prologis, Inc. Common Stock",
+          "ticker": "PLD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/30/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Stryker Corporation Common Stock",
+          "ticker": "SYK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/26/2025",
+          "notification_date": "07/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "WESCO International, Inc. Common Stock",
+          "ticker": "WCC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "07/07/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030673": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030673.pdf",
+      "member_info": {
+        "filing_id": "20030673",
+        "name": "Hon. Greg Steube",
+        "district": "FL17"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-17T08:00:12.782639",
       "transactions": []
     }
   }
