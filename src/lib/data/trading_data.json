@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-18T08:00:07.727632",
+  "last_updated": "2025-07-21T08:00:08.284558",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 287,
+    "processed_pdfs": 288,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36668,6 +36668,17 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2025-07-18T08:00:07.665071",
+      "transactions": []
+    },
+    "20030692": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030692.pdf",
+      "member_info": {
+        "filing_id": "20030692",
+        "name": "Hon. Michael A. Collins Jr",
+        "district": "GA10"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-21T08:00:08.222213",
       "transactions": []
     }
   }
