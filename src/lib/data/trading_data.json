@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-23T08:00:08.567456",
+  "last_updated": "2025-07-24T08:00:09.084422",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 289,
+    "processed_pdfs": 290,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36709,6 +36709,48 @@
           "transaction_type": "Purchase",
           "transaction_date": "07/15/2025",
           "notification_date": "07/16/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030714": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030714.pdf",
+      "member_info": {
+        "filing_id": "20030714",
+        "name": "Hon. August Lee Pfluger II",
+        "district": "TX11"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-07-24T08:00:09.020532",
+      "transactions": [
+        {
+          "asset": "Liberty Media Corporation - Series C Liberty Live Common Stock",
+          "ticker": "LLYVK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/01/2025",
+          "notification_date": "07/11/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SiriusXM Holdings Inc. - Common Stock",
+          "ticker": "SIRI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/01/2025",
+          "notification_date": "07/11/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walt Disney Company",
+          "ticker": "DIS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/01/2025",
+          "notification_date": "07/11/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
