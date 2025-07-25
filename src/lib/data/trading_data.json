@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-24T08:00:09.084422",
+  "last_updated": "2025-07-25T08:00:11.267156",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 290,
+    "processed_pdfs": 292,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36754,6 +36754,165 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20030551": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf",
+      "member_info": {
+        "filing_id": "20030551",
+        "name": "Hon. James French Hill",
+        "district": "AR02"
+      },
+      "stock_transaction_count": 14,
+      "parsed_at": "2025-07-25T08:00:10.277314",
+      "transactions": [
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Blackstone Inc. Common Stock",
+          "ticker": "BX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Fortrea Holdings Inc. - Common Stock",
+          "ticker": "FTRE",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Lazard, Inc. Common Stock",
+          "ticker": "LAZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Loews Corporation Common Stock",
+          "ticker": "L",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Regions Financial Corporation Common Stock",
+          "ticker": "RF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Simmons First National Corporation - Common Stock",
+          "ticker": "SFNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Spectrum Brands Holdings, Inc. Common Stock",
+          "ticker": "SPB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Vitesse Energy, Inc. Common Stock",
+          "ticker": "VTS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/30/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Wells Fargo & Company Common Stock",
+          "ticker": "WFC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "White Mountains Insurance Group, Ltd. Common Stock",
+          "ticker": "WTM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/23/2025",
+          "notification_date": "06/23/2025",
+          "amount": "$50,001 - $100,000"
+        }
+      ]
+    },
+    "9115546": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115546.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-25T08:00:11.204222",
+      "transactions": []
     }
   }
 }
