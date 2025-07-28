@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-25T08:00:11.267156",
+  "last_updated": "2025-07-28T08:00:47.844372",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 292,
+    "processed_pdfs": 296,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36913,6 +36913,88 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-07-25T08:00:11.204222",
       "transactions": []
+    },
+    "20030730": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030730.pdf",
+      "member_info": {
+        "filing_id": "20030730",
+        "name": "Hon. Robert E. Latta",
+        "district": "OH05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-07-28T08:00:43.766059",
+      "transactions": [
+        {
+          "asset": "Farmers & Merchants Bancorp, Inc.",
+          "ticker": "FMAO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/20/2025",
+          "notification_date": "07/21/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030742": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
+      "member_info": {
+        "filing_id": "20030742",
+        "name": "Hon. Max Miller",
+        "district": "OH07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-28T08:00:45.362999",
+      "transactions": []
+    },
+    "9115549": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115549.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-07-28T08:00:46.311533",
+      "transactions": []
+    },
+    "20030600": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030600.pdf",
+      "member_info": {
+        "filing_id": "20030600",
+        "name": "Hon. Debbie Wasserman Schultz",
+        "district": "FL25"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-07-28T08:00:47.780273",
+      "transactions": [
+        {
+          "asset": "AngioDynamics, Inc. - Common Stock",
+          "ticker": "ANGO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/27/2025",
+          "notification_date": "06/28/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AngioDynamics, Inc. - Common Stock",
+          "ticker": "ANGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/16/2025",
+          "notification_date": "07/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ViaSat, Inc. - Common Stock",
+          "ticker": "VSAT",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/18/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
