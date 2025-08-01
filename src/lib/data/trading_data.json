@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-07-28T08:00:47.844372",
+  "last_updated": "2025-08-01T08:00:07.438268",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 296,
+    "processed_pdfs": 297,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -36993,6 +36993,48 @@
           "transaction_date": "07/18/2025",
           "notification_date": "07/18/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030778": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030778.pdf",
+      "member_info": {
+        "filing_id": "20030778",
+        "name": "Hon. Scott Scott Franklin",
+        "district": "FL18"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-08-01T08:00:07.372950",
+      "transactions": [
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/22/2025",
+          "notification_date": "07/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "07/22/2025",
+          "notification_date": "07/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/22/2025",
+          "notification_date": "07/23/2025",
+          "amount": "$50,001 - $100,000"
         }
       ]
     }
