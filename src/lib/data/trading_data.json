@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-01T08:00:07.438268",
+  "last_updated": "2025-08-04T08:00:09.772573",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 297,
+    "processed_pdfs": 299,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -37037,6 +37037,28 @@
           "amount": "$50,001 - $100,000"
         }
       ]
+    },
+    "20030746": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030746.pdf",
+      "member_info": {
+        "filing_id": "20030746",
+        "name": "Hon. Donald Sternoff Beyer Jr",
+        "district": "VA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-04T08:00:08.282158",
+      "transactions": []
+    },
+    "20030802": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030802.pdf",
+      "member_info": {
+        "filing_id": "20030802",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-04T08:00:09.707842",
+      "transactions": []
     }
   }
 }
