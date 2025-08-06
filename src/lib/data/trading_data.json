@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-05T08:00:07.699987",
+  "last_updated": "2025-08-06T08:00:14.049626",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 300,
+    "processed_pdfs": 303,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -37081,6 +37081,251 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20030832": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030832.pdf",
+      "member_info": {
+        "filing_id": "20030832",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 8,
+      "parsed_at": "2025-08-06T08:00:09.787227",
+      "transactions": [
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CDW Corporation - Common Stock",
+          "ticker": "CDW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Entegris, Inc. - Common Stock",
+          "ticker": "ENTG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Entegris, Inc. - Common Stock",
+          "ticker": "ENTG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "07/28/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "IDEXX Laboratories, Inc. - Common Stock",
+          "ticker": "IDXX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PTC Inc. - Common Stock",
+          "ticker": "PTC",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/11/2025",
+          "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030824": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf",
+      "member_info": {
+        "filing_id": "20030824",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 13,
+      "parsed_at": "2025-08-06T08:00:12.470138",
+      "transactions": [
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/14/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/18/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/21/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/22/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/29/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/30/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Harley-Davidson, Inc. Common Stock",
+          "ticker": "HOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/30/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/29/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Krispy Kreme, Inc. - Common Stock",
+          "ticker": "DNUT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/29/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Krispy Kreme, Inc. - Common Stock",
+          "ticker": "DNUT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/30/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/21/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/16/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/29/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20030756": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030756.pdf",
+      "member_info": {
+        "filing_id": "20030756",
+        "name": "Hon. Seth Moulton",
+        "district": "MA06"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-06T08:00:13.986612",
+      "transactions": []
     }
   }
 }
