@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-07T08:00:16.352798",
+  "last_updated": "2025-08-08T08:00:08.735577",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 306,
+    "processed_pdfs": 307,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -37946,6 +37946,13 @@
       "member_info": {},
       "stock_transaction_count": 0,
       "parsed_at": "2025-08-07T08:00:16.287634",
+      "transactions": []
+    },
+    "9115575": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115575.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-08T08:00:08.668135",
       "transactions": []
     }
   }
