@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-11T08:00:16.405373",
+  "last_updated": "2025-08-12T08:00:19.352420",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 310,
+    "processed_pdfs": 317,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -38177,6 +38177,288 @@
           "transaction_date": "08/08/2025",
           "notification_date": "08/08/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030850": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030850.pdf",
+      "member_info": {
+        "filing_id": "20030850",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-08-12T08:00:10.490218",
+      "transactions": [
+        {
+          "asset": "Charles Schwab Corporation",
+          "ticker": "SCHW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/10/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20030716": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf",
+      "member_info": {
+        "filing_id": "20030716",
+        "name": "Hon. James Comer",
+        "district": "KY01"
+      },
+      "stock_transaction_count": 10,
+      "parsed_at": "2025-08-12T08:00:12.264608",
+      "transactions": [
+        {
+          "asset": "Arista Networks, Inc. Common Stock",
+          "ticker": "ANET",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Churchill Downs, Incorporated - Common Stock",
+          "ticker": "CHDN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dover Corporation Common Stock",
+          "ticker": "DOV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marvell Technology, Inc. - Common Stock",
+          "ticker": "MRVL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PayPal Holdings, Inc. - Common Stock",
+          "ticker": "PYPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Salesforce, Inc. Common Stock",
+          "ticker": "CRM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "VeriSign, Inc. - Common Stock",
+          "ticker": "VRSN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "07/22/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030889": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030889.pdf",
+      "member_info": {
+        "filing_id": "20030889",
+        "name": "Hon. Brandon Gill",
+        "district": "TX26"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-12T08:00:13.528319",
+      "transactions": []
+    },
+    "20030848": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf",
+      "member_info": {
+        "filing_id": "20030848",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2025-08-12T08:00:15.405804",
+      "transactions": [
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/18/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Independence Realty Trust, Inc. Common Stock",
+          "ticker": "IRT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/16/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Natera, Inc. - Common Stock",
+          "ticker": "NTRA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/22/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SpringWorks Therapeutics, Inc. - common stock",
+          "ticker": "SWTX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/02/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/14/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walmart Inc. Common Stock",
+          "ticker": "WMT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/28/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030875": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf",
+      "member_info": {
+        "filing_id": "20030875",
+        "name": "Hon. Laurel Lee",
+        "district": "FL15"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-08-12T08:00:16.677763",
+      "transactions": [
+        {
+          "asset": "2000128986 SP Warner Bros. Discovery, Inc. - Series A Common Stock",
+          "ticker": "WBD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/29/2024",
+          "notification_date": "01/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030876": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030876.pdf",
+      "member_info": {
+        "filing_id": "20030876",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-12T08:00:18.130152",
+      "transactions": []
+    },
+    "20030869": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030869.pdf",
+      "member_info": {
+        "filing_id": "20030869",
+        "name": "Hon. Shri Thanedar",
+        "district": "MI13"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-08-12T08:00:19.287297",
+      "transactions": [
+        {
+          "asset": "MicroStrategy Incorporated - Class A Common Stock",
+          "ticker": "MSTR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/01/2024",
+          "notification_date": "07/01/2024",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
