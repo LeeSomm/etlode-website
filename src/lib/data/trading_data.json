@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-14T08:01:19.358459",
+  "last_updated": "2025-08-15T08:00:18.224153",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 326,
+    "processed_pdfs": 330,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -45648,6 +45648,494 @@
           "transaction_type": "Sale",
           "transaction_date": "07/31/2024",
           "notification_date": "08/11/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030901": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030901.pdf",
+      "member_info": {
+        "filing_id": "20030901",
+        "name": "Hon. Gilbert Cisneros",
+        "district": "CA31"
+      },
+      "stock_transaction_count": 22,
+      "parsed_at": "2025-08-15T08:00:11.793570",
+      "transactions": [
+        {
+          "asset": "Avantor, Inc. Common Stock",
+          "ticker": "AVTR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/23/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boston Scientific Corporation Common Stock",
+          "ticker": "BSX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/31/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CoStar Group, Inc. - Common Stock",
+          "ticker": "CSGP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/31/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CoStar Group, Inc. - Common Stock",
+          "ticker": "CSGP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Daiichi Sankyo Co Ltd Ordinary Shares",
+          "ticker": "DSKYF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dayforce, Inc. Common Stock",
+          "ticker": "DAY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/31/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "General Mills, Inc. Common Stock",
+          "ticker": "GIS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/03/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gulfport Energy Corporation Common Shares",
+          "ticker": "GPOR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/07/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gulfport Energy Corporation Common Shares",
+          "ticker": "GPOR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/18/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Insmed Incorporated - Common Stock",
+          "ticker": "INSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/07/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kellanova Common Stock",
+          "ticker": "K",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Magnolia Oil & Gas Corporation Class A Common Stock",
+          "ticker": "MGY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/07/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Medpace Holdings, Inc. - Common Stock",
+          "ticker": "MEDP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/24/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PTC Inc. - Common Stock",
+          "ticker": "PTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ralliant Corporation Common Stock",
+          "ticker": "RAL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Revvity, Inc. Common Stock",
+          "ticker": "RVTY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/23/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Rio Tinto Plc Common Stock",
+          "ticker": "RIO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/03/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Robinhood Markets, Inc. - Class A Common Stock",
+          "ticker": "HOOD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/09/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SIEMENS ENERGY AG",
+          "ticker": "SMEGF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/03/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Southwest Airlines Company Common Stock",
+          "ticker": "LUV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/03/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ultragenyx Pharmaceutical Inc. - Common Stock",
+          "ticker": "RARE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/15/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "W.R. Berkley Corporation Common Stock",
+          "ticker": "WRB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/31/2025",
+          "notification_date": "08/13/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030918": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030918.pdf",
+      "member_info": {
+        "filing_id": "20030918",
+        "name": "Hon. Scott Scott Franklin",
+        "district": "FL18"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2025-08-15T08:00:13.865517",
+      "transactions": [
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Novo Nordisk A S Common Stock",
+          "ticker": "NVO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Novo Nordisk A S Common Stock",
+          "ticker": "NVO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Novo Nordisk A S Common Stock",
+          "ticker": "NVO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Novo Nordisk A S Common Stock",
+          "ticker": "NVO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030924": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030924.pdf",
+      "member_info": {
+        "filing_id": "20030924",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-08-15T08:00:15.344244",
+      "transactions": [
+        {
+          "asset": "AbbVie Inc. Common Stock",
+          "ticker": "ABBV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "08/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030909": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf",
+      "member_info": {
+        "filing_id": "20030909",
+        "name": "Hon. Julie Johnson",
+        "district": "TX32"
+      },
+      "stock_transaction_count": 12,
+      "parsed_at": "2025-08-15T08:00:18.150304",
+      "transactions": [
+        {
+          "asset": "BlackRock, Inc. Common Stock",
+          "ticker": "BLK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/22/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CME Group Inc. - Class A Common Stock",
+          "ticker": "CME",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/22/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/29/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Packaging Corporation of America Common Stock",
+          "ticker": "PKG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/22/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Packaging Corporation of America Common Stock",
+          "ticker": "PKG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Parker-Hannifin Corporation Common Stock",
+          "ticker": "PH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/25/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Philip Morris International Inc Common Stock",
+          "ticker": "PM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/22/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Seagate Technology Holdings PLC - Ordinary Shares",
+          "ticker": "STX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/29/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Bank of New York Mellon Corporation Common Stock",
+          "ticker": "BK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/18/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "07/24/2025",
+          "notification_date": "08/04/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
