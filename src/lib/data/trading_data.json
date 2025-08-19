@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-18T08:00:08.696026",
+  "last_updated": "2025-08-19T08:00:12.328267",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 331,
+    "processed_pdfs": 334,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -46149,6 +46149,46 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2025-08-18T08:00:08.621451",
+      "transactions": []
+    },
+    "9115616": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115616.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-19T08:00:09.229798",
+      "transactions": []
+    },
+    "20030929": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030929.pdf",
+      "member_info": {
+        "filing_id": "20030929",
+        "name": "Hon. Debbie Wasserman Schultz",
+        "district": "FL25"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-08-19T08:00:10.667950",
+      "transactions": [
+        {
+          "asset": "Stratasys, Ltd. - Common Stock",
+          "ticker": "SSYS",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/16/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030933": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030933.pdf",
+      "member_info": {
+        "filing_id": "20030933",
+        "name": "Hon. Rudy C. Yakym III",
+        "district": "IN02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-19T08:00:12.252921",
       "transactions": []
     }
   }
