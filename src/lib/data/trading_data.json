@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-21T08:00:45.712215",
+  "last_updated": "2025-08-22T08:00:07.779295",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 339,
+    "processed_pdfs": 340,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -47666,6 +47666,28 @@
           "transaction_type": "Purchase",
           "transaction_date": "09/26/2024",
           "notification_date": "08/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030952": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030952.pdf",
+      "member_info": {
+        "filing_id": "20030952",
+        "name": "Hon. Andrew Garbarino",
+        "district": "NY02"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-08-22T08:00:07.700362",
+      "transactions": [
+        {
+          "asset": "Gap, Inc.",
+          "ticker": "GAP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/21/2025",
+          "notification_date": "08/21/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
