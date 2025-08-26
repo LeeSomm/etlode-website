@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-22T08:00:07.779295",
+  "last_updated": "2025-08-26T08:00:15.964110",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 340,
+    "processed_pdfs": 343,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -47689,6 +47689,371 @@
           "transaction_date": "08/21/2025",
           "notification_date": "08/21/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030857": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030857.pdf",
+      "member_info": {
+        "filing_id": "20030857",
+        "name": "Hon. Rob Bresnahan",
+        "district": "PA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-26T08:00:09.907367",
+      "transactions": []
+    },
+    "20030860": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030860.pdf",
+      "member_info": {
+        "filing_id": "20030860",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 32,
+      "parsed_at": "2025-08-26T08:00:14.286247",
+      "transactions": [
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Arm Holdings plc - American Depositary Shares",
+          "ticker": "ARM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/17/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Church & Dwight Company, Inc. Common Stock",
+          "ticker": "CHD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Church & Dwight Company, Inc. Common Stock",
+          "ticker": "CHD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Church & Dwight Company, Inc. Common Stock",
+          "ticker": "CHD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Church & Dwight Company, Inc. Common Stock",
+          "ticker": "CHD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eli Lilly and Company Common Stock",
+          "ticker": "LLY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/21/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eli Lilly and Company Common Stock",
+          "ticker": "LLY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fomento Economico Mexicano S.A.B. de C.V. Common Stock",
+          "ticker": "FMX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/21/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fomento Economico Mexicano S.A.B. de C.V. Common Stock",
+          "ticker": "FMX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "07/17/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KKR & Co. Inc. Common Stock",
+          "ticker": "KKR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KKR & Co. Inc. Common Stock",
+          "ticker": "KKR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KKR & Co. Inc. Common Stock",
+          "ticker": "KKR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "04/04/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palo Alto Networks, Inc.",
+          "ticker": "PANW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palo Alto Networks, Inc.",
+          "ticker": "PANW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "T-Mobile US, Inc.",
+          "ticker": "TMUS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/03/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "T-Mobile US, Inc.",
+          "ticker": "TMUS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "T-Mobile US, Inc.",
+          "ticker": "TMUS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Williams Companies, Inc.",
+          "ticker": "WMB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/17/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Williams Companies, Inc.",
+          "ticker": "WMB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Williams Companies, Inc.",
+          "ticker": "WMB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "04/23/2025",
+          "notification_date": "08/03/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030822": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030822.pdf",
+      "member_info": {
+        "filing_id": "20030822",
+        "name": "Hon. Susie Lee",
+        "district": "NV03"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-08-26T08:00:15.886462",
+      "transactions": [
+        {
+          "asset": "Full House Resorts, Inc. - Common Stock",
+          "ticker": "FLL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/23/2025",
+          "notification_date": "07/23/2025",
+          "amount": "$500,001 - $1,000,000"
         }
       ]
     }
