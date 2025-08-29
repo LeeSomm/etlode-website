@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-28T08:00:09.472516",
+  "last_updated": "2025-08-29T08:00:10.271296",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 344,
+    "processed_pdfs": 346,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -48078,6 +48078,24 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20030989": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030989.pdf",
+      "member_info": {
+        "filing_id": "20030989",
+        "name": "Hon. Max Miller",
+        "district": "OH07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-29T08:00:09.222344",
+      "transactions": []
+    },
+    "9115623": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115623.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-08-29T08:00:10.194477",
+      "transactions": []
     }
   }
 }
