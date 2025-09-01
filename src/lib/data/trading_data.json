@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-08-29T08:00:10.271296",
+  "last_updated": "2025-09-01T08:00:15.370534",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 346,
+    "processed_pdfs": 350,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -48096,6 +48096,192 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-08-29T08:00:10.194477",
       "transactions": []
+    },
+    "20030998": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030998.pdf",
+      "member_info": {
+        "filing_id": "20030998",
+        "name": "Hon. Rob Bresnahan",
+        "district": "PA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-01T08:00:09.759460",
+      "transactions": []
+    },
+    "20030955": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030955.pdf",
+      "member_info": {
+        "filing_id": "20030955",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-01T08:00:11.450763",
+      "transactions": []
+    },
+    "20030996": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030996.pdf",
+      "member_info": {
+        "filing_id": "20030996",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 12,
+      "parsed_at": "2025-09-01T08:00:13.585131",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exelon Corporation",
+          "ticker": "EXC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "FedEx Corporation Common Stock",
+          "ticker": "FDX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "MercadoLibre, Inc. - Common Stock",
+          "ticker": "MELI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Merck & Company, Inc. Common Stock",
+          "ticker": "MRK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morgan Stanley Common Stock",
+          "ticker": "MS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Novo Nordisk A S Common Stock",
+          "ticker": "NVO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ryman Hospitality Properties, Inc.",
+          "ticker": "RHP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Southern Company",
+          "ticker": "SO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/28/2025",
+          "notification_date": "08/29/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20031001": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031001.pdf",
+      "member_info": {
+        "filing_id": "20031001",
+        "name": "Hon. Judy Chu",
+        "district": "CA28"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-09-01T08:00:15.294170",
+      "transactions": [
+        {
+          "asset": "Astrana Health Inc. - Common Stock",
+          "ticker": "ASTH",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Astrana Health Inc. - Common Stock",
+          "ticker": "ASTH",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$100,001 - $250,000"
+        }
+      ]
     }
   }
 }
