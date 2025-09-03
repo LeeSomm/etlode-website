@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-02T08:00:08.138755",
+  "last_updated": "2025-09-03T08:00:13.180168",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 351,
+    "processed_pdfs": 353,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -48293,6 +48293,390 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-09-02T08:00:08.054376",
       "transactions": []
+    },
+    "20031013": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031013.pdf",
+      "member_info": {
+        "filing_id": "20031013",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 15,
+      "parsed_at": "2025-09-03T08:00:09.636952",
+      "transactions": [
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/25/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Clean Harbors, Inc. Common Stock",
+          "ticker": "CLH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Core & Main, Inc. Class A Common Stock",
+          "ticker": "CNM",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/04/2025",
+          "notification_date": "09/08/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Core & Main, Inc. Class A Common Stock",
+          "ticker": "CNM",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/11/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Dayforce, Inc. Common Stock",
+          "ticker": "DAY",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "IDEXX Laboratories, Inc. - Common Stock",
+          "ticker": "IDXX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/21/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Martin Marietta Materials, Inc. Common Stock",
+          "ticker": "MLM",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morningstar, Inc. - Common Stock",
+          "ticker": "MORN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/02/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "PTC Inc. - Common Stock",
+          "ticker": "PTC",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Viking Holdings Ltd Ordinary Shares",
+          "ticker": "VIK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "08/13/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030782": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf",
+      "member_info": {
+        "filing_id": "20030782",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 21,
+      "parsed_at": "2025-09-03T08:00:13.101166",
+      "transactions": [
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eli Lilly and Company Common Stock",
+          "ticker": "LLY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/14/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Eli Lilly and Company Common Stock",
+          "ticker": "LLY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/14/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Installed Building Products, Inc. Common Stock",
+          "ticker": "IBP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Installed Building Products, Inc. Common Stock",
+          "ticker": "IBP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/07/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marathon Petroleum Corporation Common Stock",
+          "ticker": "MPC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marathon Petroleum Corporation Common Stock",
+          "ticker": "MPC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marathon Petroleum Corporation Common Stock",
+          "ticker": "MPC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/14/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Medpace Holdings, Inc. - Common Stock",
+          "ticker": "MEDP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "07/23/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "07/18/2025",
+          "notification_date": "07/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Prologis, Inc. Common Stock",
+          "ticker": "PLD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/14/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Prologis, Inc. Common Stock",
+          "ticker": "PLD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Salesforce, Inc. Common Stock",
+          "ticker": "CRM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Vertex Pharmaceuticals Incorporated - Common Stock",
+          "ticker": "VRTX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/19/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
