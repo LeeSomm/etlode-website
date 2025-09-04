@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-03T08:00:13.180168",
+  "last_updated": "2025-09-04T08:00:15.153734",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 353,
+    "processed_pdfs": 355,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -48675,6 +48675,540 @@
           "transaction_date": "08/13/2025",
           "notification_date": "08/19/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20031017": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031017.pdf",
+      "member_info": {
+        "filing_id": "20031017",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 35,
+      "parsed_at": "2025-09-04T08:00:11.822773",
+      "transactions": [
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/14/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/06/2025",
+          "notification_date": "08/07/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/20/2025",
+          "notification_date": "08/21/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/22/2025",
+          "notification_date": "08/25/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/22/2025",
+          "notification_date": "08/25/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Palantir Technologies Inc. - Class A Common Stock",
+          "ticker": "PLTR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "08/14/2025",
+          "amount": "$250,001 - $500,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "08/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "08/18/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20031020": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031020.pdf",
+      "member_info": {
+        "filing_id": "20031020",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2025-09-04T08:00:15.071431",
+      "transactions": [
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/08/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Centene Corporation Common Stock",
+          "ticker": "CNC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/12/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/13/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/08/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/13/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/11/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Krispy Kreme, Inc. - Common Stock",
+          "ticker": "DNUT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Krispy Kreme, Inc. - Common Stock",
+          "ticker": "DNUT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/08/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/15/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
