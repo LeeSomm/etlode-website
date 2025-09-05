@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-04T08:00:15.153734",
+  "last_updated": "2025-09-05T08:00:10.557575",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 355,
+    "processed_pdfs": 357,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -49208,6 +49208,39 @@
           "transaction_type": "Sale",
           "transaction_date": "08/01/2025",
           "notification_date": "09/02/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20031014": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031014.pdf",
+      "member_info": {
+        "filing_id": "20031014",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-05T08:00:08.782583",
+      "transactions": []
+    },
+    "20030894": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030894.pdf",
+      "member_info": {
+        "filing_id": "20030894",
+        "name": "Hon. Donald W. Norcross",
+        "district": "NJ01"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-09-05T08:00:10.478992",
+      "transactions": [
+        {
+          "asset": "Toronto Dominion Bank",
+          "ticker": "TD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/04/2024",
+          "notification_date": "08/07/2025",
           "amount": "$15,001 - $50,000"
         }
       ]
