@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-05T08:00:10.557575",
+  "last_updated": "2025-09-08T08:00:12.453971",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 357,
+    "processed_pdfs": 360,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -49244,6 +49244,137 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20032038": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032038.pdf",
+      "member_info": {
+        "filing_id": "20032038",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2025-09-08T08:00:09.565518",
+      "transactions": [
+        {
+          "asset": "Deckers Outdoor Corporation",
+          "ticker": "DECK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Deckers Outdoor Corporation",
+          "ticker": "DECK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Howmet Aerospace Inc. Common Stock",
+          "ticker": "HWM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/07/2025",
+          "notification_date": "09/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20031032": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031032.pdf",
+      "member_info": {
+        "filing_id": "20031032",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2025-09-08T08:00:11.354297",
+      "transactions": [
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/12/2025",
+          "notification_date": "09/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Natera, Inc. - Common Stock",
+          "ticker": "NTRA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/22/2025",
+          "notification_date": "09/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SYSMEX CORP UNSP ASDR",
+          "ticker": "SSMXY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/21/2025",
+          "notification_date": "09/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/12/2025",
+          "notification_date": "09/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/01/2025",
+          "notification_date": "09/04/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "9115635": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115635.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-08T08:00:12.346592",
+      "transactions": []
     }
   }
 }
