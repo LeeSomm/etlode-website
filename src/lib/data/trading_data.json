@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-08T08:00:12.453971",
+  "last_updated": "2025-09-10T08:00:11.053267",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 360,
+    "processed_pdfs": 362,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -49375,6 +49375,60 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-09-08T08:00:12.346592",
       "transactions": []
+    },
+    "20032040": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032040.pdf",
+      "member_info": {
+        "filing_id": "20032040",
+        "name": "Hon. Virginia Foxx",
+        "district": "NC05"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-09-10T08:00:08.993572",
+      "transactions": [
+        {
+          "asset": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+          "ticker": "ARLP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Hercules Capital, Inc. Common Stock",
+          "ticker": "HTGC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/19/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032051": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032051.pdf",
+      "member_info": {
+        "filing_id": "20032051",
+        "name": "Hon. Laura Friedman",
+        "district": "CA30"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-09-10T08:00:10.971539",
+      "transactions": [
+        {
+          "asset": "Walt Disney Company",
+          "ticker": "DIS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/26/2025",
+          "notification_date": "08/31/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
