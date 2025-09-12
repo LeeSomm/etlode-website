@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-11T08:00:08.495067",
+  "last_updated": "2025-09-12T08:00:20.205951",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 363,
+    "processed_pdfs": 367,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -49448,6 +49448,764 @@
           "transaction_type": "Sale",
           "transaction_date": "07/28/2025",
           "notification_date": "08/11/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032066": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032066.pdf",
+      "member_info": {
+        "filing_id": "20032066",
+        "name": "Hon. Julie Johnson",
+        "district": "TX32"
+      },
+      "stock_transaction_count": 61,
+      "parsed_at": "2025-09-12T08:00:14.555281",
+      "transactions": [
+        {
+          "asset": "3M Company Common Stock",
+          "ticker": "MMM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AbbVie Inc. Common Stock",
+          "ticker": "ABBV",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Air Products and Chemicals, Inc. Common Stock",
+          "ticker": "APD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Express Company Common Stock",
+          "ticker": "AXP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Analog Devices, Inc. - Common Stock",
+          "ticker": "ADI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Arthur J. Gallagher & Co. Common Stock",
+          "ticker": "AJG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Bank of America Corporation Common Stock",
+          "ticker": "BAC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BlackRock, Inc. Common Stock",
+          "ticker": "BLK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/11/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Blackstone Inc. Common Stock",
+          "ticker": "BX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Bristol-Myers Squibb Company Common Stock",
+          "ticker": "BMY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Capital One Financial Corporation Common Stock",
+          "ticker": "COF",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Charles Schwab Corporation",
+          "ticker": "SCHW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CME Group Inc. - Class A Common Stock",
+          "ticker": "CME",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CME Group Inc. - Class A Common Stock",
+          "ticker": "CME",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/11/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CMS Energy Corporation Common Stock",
+          "ticker": "CMS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ConocoPhillips Common Stock",
+          "ticker": "COP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Deere & Company Common Stock",
+          "ticker": "DE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dover Corporation Common Stock",
+          "ticker": "DOV",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eaton Corporation, PLC Ordinary Shares",
+          "ticker": "ETN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eli Lilly and Company Common Stock",
+          "ticker": "LLY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "EOG Resources, Inc. Common Stock",
+          "ticker": "EOG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fidelity National Information Services, Inc. Common Stock",
+          "ticker": "FIS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "General Dynamics Corporation Common Stock",
+          "ticker": "GD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Medtronic plc. Ordinary Shares",
+          "ticker": "MDT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Merck & Company, Inc. Common Stock",
+          "ticker": "MRK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mondelez International, Inc. - Class A Common Stock",
+          "ticker": "MDLZ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morgan Stanley Common Stock",
+          "ticker": "MS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NextEra Energy, Inc. Common Stock",
+          "ticker": "NEE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Norfolk Southern Corporation Common Stock",
+          "ticker": "NSC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NXP Semiconductors N.V. - Common Stock",
+          "ticker": "NXPI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Packaging Corporation of America Common Stock",
+          "ticker": "PKG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Packaging Corporation of America Common Stock",
+          "ticker": "PKG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Parker-Hannifin Corporation Common Stock",
+          "ticker": "PH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Philip Morris International Inc Common Stock",
+          "ticker": "PM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PNC Financial Services Group, Inc.",
+          "ticker": "PNC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Republic Services, Inc. Common Stock",
+          "ticker": "RSG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RTX Corporation Common Stock",
+          "ticker": "RTX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Seagate Technology Holdings PLC - Ordinary Shares",
+          "ticker": "STX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Texas Instruments Incorporated - Common Stock",
+          "ticker": "TXN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Bank of New York Mellon Corporation Common Stock",
+          "ticker": "BK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Cigna Group Common Stock",
+          "ticker": "CI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "TJX Companies, Inc.",
+          "ticker": "TJX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Union Pacific Corporation Common Stock",
+          "ticker": "UNP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walmart Inc. Common Stock",
+          "ticker": "WMT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Wells Fargo & Company Common Stock",
+          "ticker": "WFC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Xcel Energy Inc.",
+          "ticker": "XEL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "08/14/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "9115642": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115642.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-12T08:00:16.129527",
+      "transactions": []
+    },
+    "9115641": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115641.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-12T08:00:17.626883",
+      "transactions": []
+    },
+    "20032061": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032061.pdf",
+      "member_info": {
+        "filing_id": "20032061",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 11,
+      "parsed_at": "2025-09-12T08:00:20.125644",
+      "transactions": [
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Thermo Fisher Scientific Inc Common Stock",
+          "ticker": "TMO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Thermo Fisher Scientific Inc Common Stock",
+          "ticker": "TMO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Thermo Fisher Scientific Inc Common Stock",
+          "ticker": "TMO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Thermo Fisher Scientific Inc Common Stock",
+          "ticker": "TMO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/19/2025",
+          "notification_date": "08/17/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
