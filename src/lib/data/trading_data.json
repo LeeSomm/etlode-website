@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-16T08:00:08.314707",
+  "last_updated": "2025-09-17T08:00:08.934768",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 374,
+    "processed_pdfs": 375,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -54610,6 +54610,48 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-09-16T08:00:08.224181",
       "transactions": []
+    },
+    "20032094": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032094.pdf",
+      "member_info": {
+        "filing_id": "20032094",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-09-17T08:00:08.846790",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Salesforce, Inc. Common Stock",
+          "ticker": "CRM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
