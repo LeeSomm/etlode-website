@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-17T08:00:08.934768",
+  "last_updated": "2025-09-18T08:00:15.002592",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 375,
+    "processed_pdfs": 377,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -54649,6 +54649,430 @@
           "transaction_type": "Purchase",
           "transaction_date": "09/03/2025",
           "notification_date": "09/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032091": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032091.pdf",
+      "member_info": {
+        "filing_id": "20032091",
+        "name": "Hon. Dan Newhouse",
+        "district": "WA04"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2025-09-18T08:00:10.740843",
+      "transactions": [
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AMETEK, Inc.",
+          "ticker": "AME",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Applied Materials, Inc. - Common Stock",
+          "ticker": "AMAT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Automatic Data Processing, Inc. - Common Stock",
+          "ticker": "ADP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BlackRock, Inc. Common Stock",
+          "ticker": "BLK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ConocoPhillips Common Stock",
+          "ticker": "COP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "General Mills, Inc. Common Stock",
+          "ticker": "GIS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ONEOK, Inc. Common Stock",
+          "ticker": "OKE",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Prologis, Inc. Common Stock",
+          "ticker": "PLD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ross Stores, Inc. - Common Stock",
+          "ticker": "ROST",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RTX Corporation Common Stock",
+          "ticker": "RTX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "S&P Global Inc. Common Stock",
+          "ticker": "SPGI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Target Corporation Common Stock",
+          "ticker": "TGT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/18/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20030699": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030699.pdf",
+      "member_info": {
+        "filing_id": "20030699",
+        "name": "Hon. Richard Dean Dr McCormick",
+        "district": "GA06"
+      },
+      "stock_transaction_count": 24,
+      "parsed_at": "2025-09-18T08:00:14.915319",
+      "transactions": [
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Air Products and Chemicals, Inc. Common Stock",
+          "ticker": "APD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Tower Corporation",
+          "ticker": "AMT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Water Works Company, Inc. Common Stock",
+          "ticker": "AWK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Analog Devices, Inc. - Common Stock",
+          "ticker": "ADI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Automatic Data Processing, Inc. - Common Stock",
+          "ticker": "ADP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BlackRock, Inc. Common Stock",
+          "ticker": "BLK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cisco Systems, Inc. - Common Stock",
+          "ticker": "CSCO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Costco Wholesale Corporation - Common Stock",
+          "ticker": "COST",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Emerson Electric Company Common Stock",
+          "ticker": "EMR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Illinois Tool Works Inc. Common Stock",
+          "ticker": "ITW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intercontinental Exchange Inc. Common Stock",
+          "ticker": "ICE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "L3Harris Technologies, Inc. Common Stock",
+          "ticker": "LHX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Medtronic plc. Ordinary Shares",
+          "ticker": "MDT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NextEra Energy, Inc. Common Stock",
+          "ticker": "NEE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Realty Income Corporation Common Stock",
+          "ticker": "O",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walmart Inc. Common Stock",
+          "ticker": "WMT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/15/2023",
+          "notification_date": "04/10/2023",
           "amount": "$1,001 - $15,000"
         }
       ]
