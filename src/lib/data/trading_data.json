@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-18T08:00:15.002592",
+  "last_updated": "2025-09-19T08:00:08.033577",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 377,
+    "processed_pdfs": 378,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -55073,6 +55073,68 @@
           "transaction_type": "Purchase",
           "transaction_date": "03/15/2023",
           "notification_date": "04/10/2023",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032089": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032089.pdf",
+      "member_info": {
+        "filing_id": "20032089",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2025-09-19T08:00:07.943169",
+      "transactions": [
+        {
+          "asset": "Amcor plc Ordinary Shares",
+          "ticker": "AMCR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/15/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Canadian Pacific Kansas City Limited Common Shares",
+          "ticker": "CP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/22/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Check Point Software Technologies Ltd. - Ordinary Shares",
+          "ticker": "CHKP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/04/2025",
+          "notification_date": "09/02/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/25/2025",
+          "notification_date": "09/09/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Stryker Corporation Common Stock",
+          "ticker": "SYK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "08/25/2025",
+          "notification_date": "09/09/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
