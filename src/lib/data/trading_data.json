@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-19T08:00:08.033577",
+  "last_updated": "2025-09-24T08:00:09.657706",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 378,
+    "processed_pdfs": 379,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -55135,6 +55135,48 @@
           "transaction_type": "Sale",
           "transaction_date": "08/25/2025",
           "notification_date": "09/09/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20031023": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031023.pdf",
+      "member_info": {
+        "filing_id": "20031023",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-09-24T08:00:09.568661",
+      "transactions": [
+        {
+          "asset": "Doximity, Inc. Class A Common Stock",
+          "ticker": "DOCS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/25/2025",
+          "notification_date": "09/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "08/13/2025",
+          "notification_date": "09/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "08/13/2025",
+          "notification_date": "09/03/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
