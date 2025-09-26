@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-24T08:00:09.657706",
+  "last_updated": "2025-09-26T08:00:18.589399",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 379,
+    "processed_pdfs": 386,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -55180,6 +55180,55 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "9115670": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115670.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:10.730496",
+      "transactions": []
+    },
+    "9115671": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115671.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:12.413481",
+      "transactions": []
+    },
+    "9115676": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115676.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:13.816686",
+      "transactions": []
+    },
+    "9115664": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115664.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:15.005085",
+      "transactions": []
+    },
+    "9115677": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115677.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:16.295260",
+      "transactions": []
+    },
+    "9115662": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115662.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:17.507367",
+      "transactions": []
+    },
+    "9115665": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115665.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-26T08:00:18.504655",
+      "transactions": []
     }
   }
 }
