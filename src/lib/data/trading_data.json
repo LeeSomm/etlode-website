@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-26T08:00:18.589399",
+  "last_updated": "2025-09-29T08:00:11.096094",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 386,
+    "processed_pdfs": 388,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -55229,6 +55229,129 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-09-26T08:00:18.504655",
       "transactions": []
+    },
+    "20032102": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032102.pdf",
+      "member_info": {
+        "filing_id": "20032102",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-09-29T08:00:08.903532",
+      "transactions": []
+    },
+    "20032174": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032174.pdf",
+      "member_info": {
+        "filing_id": "20032174",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 10,
+      "parsed_at": "2025-09-29T08:00:11.005067",
+      "transactions": [
+        {
+          "asset": "Adobe Inc. - Common Stock",
+          "ticker": "ADBE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amgen Inc. - Common Stock",
+          "ticker": "AMGN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ASML Holding N.V. - New York Registry Shares",
+          "ticker": "ASML",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CrowdStrike Holdings, Inc. - Class A Common Stock",
+          "ticker": "CRWD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Digital Realty Trust, Inc. Common Stock",
+          "ticker": "DLR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Duke Energy Corporation",
+          "ticker": "DUK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "iShares Bitcoin Trust ETF - iShares Bitcoin Trust ETF",
+          "ticker": "IBIT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morgan Stanley Common Stock",
+          "ticker": "MS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
