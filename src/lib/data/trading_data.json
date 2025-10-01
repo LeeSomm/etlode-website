@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-09-29T08:00:11.096094",
+  "last_updated": "2025-10-01T08:00:11.788857",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 388,
+    "processed_pdfs": 389,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -55349,6 +55349,218 @@
           "transaction_type": "Purchase",
           "transaction_date": "09/11/2025",
           "notification_date": "09/12/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032106": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032106.pdf",
+      "member_info": {
+        "filing_id": "20032106",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 20,
+      "parsed_at": "2025-10-01T08:00:11.697482",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/03/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/03/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/10/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/10/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/03/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/10/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/10/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "09/03/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Opendoor Technologies Inc - Common Stock",
+          "ticker": "OPEN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/19/2025",
+          "notification_date": "09/19/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/18/2025",
+          "notification_date": "09/18/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/17/2025",
+          "notification_date": "09/17/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "QUALCOMM Incorporated - Common Stock",
+          "ticker": "QCOM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/10/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Uber Technologies, Inc. Common Stock",
+          "ticker": "UBER",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/10/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
