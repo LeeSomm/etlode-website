@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-01T08:00:11.788857",
+  "last_updated": "2025-10-02T08:00:13.705083",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 389,
+    "processed_pdfs": 391,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -55564,6 +55564,28 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20032200": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032200.pdf",
+      "member_info": {
+        "filing_id": "20032200",
+        "name": "Hon. Donald Sternoff Beyer Jr",
+        "district": "VA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-02T08:00:11.656361",
+      "transactions": []
+    },
+    "20032191": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032191.pdf",
+      "member_info": {
+        "filing_id": "20032191",
+        "name": "Hon. Neal Patrick MD, Facs Dunn",
+        "district": "FL02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-02T08:00:13.613862",
+      "transactions": []
     }
   }
 }
