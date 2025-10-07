@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-06T08:00:31.745434",
+  "last_updated": "2025-10-07T08:00:14.824971",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 394,
+    "processed_pdfs": 398,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -56365,6 +56365,174 @@
           "transaction_date": "09/17/2025",
           "notification_date": "10/02/2025",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20032233": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032233.pdf",
+      "member_info": {
+        "filing_id": "20032233",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 8,
+      "parsed_at": "2025-10-07T08:00:09.835849",
+      "transactions": [
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dayforce, Inc. Common Stock",
+          "ticker": "DAY",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "09/11/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nasdaq, Inc. - Common Stock",
+          "ticker": "NDAQ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/19/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Somnigroup International Inc. Common Stock",
+          "ticker": "SGI",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "09/19/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "STERIS plc",
+          "ticker": "STE",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "STERIS plc",
+          "ticker": "STE",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/11/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Middleby Corporation - Common Stock",
+          "ticker": "MIDD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032215": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032215.pdf",
+      "member_info": {
+        "filing_id": "20032215",
+        "name": "Hon. Virginia Foxx",
+        "district": "NC05"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-10-07T08:00:11.576243",
+      "transactions": [
+        {
+          "asset": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+          "ticker": "ARLP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Hercules Capital, Inc. Common Stock",
+          "ticker": "HTGC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20032087": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032087.pdf",
+      "member_info": {
+        "filing_id": "20032087",
+        "name": "Hon. Debbie Wasserman Schultz",
+        "district": "FL25"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-07T08:00:13.177661",
+      "transactions": [
+        {
+          "asset": "Berry Corporation",
+          "ticker": "BRY",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "09/15/2025",
+          "notification_date": "09/16/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032230": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032230.pdf",
+      "member_info": {
+        "filing_id": "20032230",
+        "name": "Hon. Debbie Wasserman Schultz",
+        "district": "FL25"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-07T08:00:14.733856",
+      "transactions": [
+        {
+          "asset": "Berry Corporation",
+          "ticker": "BRY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/15/2025",
+          "notification_date": "09/16/2025",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
