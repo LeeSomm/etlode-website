@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-07T08:00:14.824971",
+  "last_updated": "2025-10-08T08:00:18.146914",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 398,
+    "processed_pdfs": 402,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -56532,6 +56532,504 @@
           "transaction_type": "Sale",
           "transaction_date": "09/15/2025",
           "notification_date": "09/16/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032204": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032204.pdf",
+      "member_info": {
+        "filing_id": "20032204",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-08T08:00:09.778096",
+      "transactions": [
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/12/2025",
+          "notification_date": "10/02/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032234": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032234.pdf",
+      "member_info": {
+        "filing_id": "20032234",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 17,
+      "parsed_at": "2025-10-08T08:00:12.664746",
+      "transactions": [
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chipotle Mexican Grill, Inc. Common Stock",
+          "ticker": "CMG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chipotle Mexican Grill, Inc. Common Stock",
+          "ticker": "CMG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fiserv, Inc. Common Stock",
+          "ticker": "FI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fiserv, Inc. Common Stock",
+          "ticker": "FI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortinet, Inc. - Common Stock",
+          "ticker": "FTNT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortinet, Inc. - Common Stock",
+          "ticker": "FTNT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "IDEXX Laboratories, Inc. - Common Stock",
+          "ticker": "IDXX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "IDEXX Laboratories, Inc. - Common Stock",
+          "ticker": "IDXX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Molina Healthcare Inc Common Stock",
+          "ticker": "MOH",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Molina Healthcare Inc Common Stock",
+          "ticker": "MOH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tradeweb Markets Inc. - Class A Common Stock",
+          "ticker": "TW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tradeweb Markets Inc. - Class A Common Stock",
+          "ticker": "TW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/04/2025",
+          "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032242": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032242.pdf",
+      "member_info": {
+        "filing_id": "20032242",
+        "name": "Hon. Julie Johnson",
+        "district": "TX32"
+      },
+      "stock_transaction_count": 20,
+      "parsed_at": "2025-10-08T08:00:15.830972",
+      "transactions": [
+        {
+          "asset": "A.O. Smith Corporation Common Stock",
+          "ticker": "AOS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ameren Corporation Common Stock",
+          "ticker": "AEE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Colgate-Palmolive Company Common Stock",
+          "ticker": "CL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "DaVita Inc. Common Stock",
+          "ticker": "DVA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "DBA Sempra Common Stock",
+          "ticker": "SRE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Equinix, Inc. - Common Stock",
+          "ticker": "EQIX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/16/2025",
+          "notification_date": "10/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Honeywell International Inc.",
+          "ticker": "HON",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KeyCorp Common Stock",
+          "ticker": "KEY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "LyondellBasell Industries NV Ordinary Shares Class A",
+          "ticker": "LYB",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McCormick & Company, Incorporated Common Stock",
+          "ticker": "MKC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Molson Coors Beverage Company Class B Common Stock",
+          "ticker": "TAP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Monster Beverage Corporation - Common Stock",
+          "ticker": "MNST",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paycom Software, Inc. Common Stock",
+          "ticker": "PAYC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Rollins, Inc. Common Stock",
+          "ticker": "ROL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Cigna Group Common Stock",
+          "ticker": "CI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UDR, Inc. Common Stock",
+          "ticker": "UDR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "WEC Energy Group, Inc. Common Stock",
+          "ticker": "WEC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Xcel Energy Inc.",
+          "ticker": "XEL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032236": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032236.pdf",
+      "member_info": {
+        "filing_id": "20032236",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2025-10-08T08:00:18.052115",
+      "transactions": [
+        {
+          "asset": "American Electric Power Company, Inc.",
+          "ticker": "AEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kroger Company",
+          "ticker": "KR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kroger Company",
+          "ticker": "KR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/03/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
