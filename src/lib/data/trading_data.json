@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-08T08:00:18.146914",
+  "last_updated": "2025-10-09T08:00:13.497592",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 402,
+    "processed_pdfs": 405,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -57030,6 +57030,91 @@
           "transaction_type": "Purchase",
           "transaction_date": "09/22/2025",
           "notification_date": "10/03/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032254": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032254.pdf",
+      "member_info": {
+        "filing_id": "20032254",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-09T08:00:09.671695",
+      "transactions": []
+    },
+    "20032250": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032250.pdf",
+      "member_info": {
+        "filing_id": "20032250",
+        "name": "Hon. Laura Friedman",
+        "district": "CA30"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-09T08:00:11.406993",
+      "transactions": [
+        {
+          "asset": "Paramount Skydance Corporation - Class B Common Stock",
+          "ticker": "PSKY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/10/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032255": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032255.pdf",
+      "member_info": {
+        "filing_id": "20032255",
+        "name": "Hon. Richard Dean Dr McCormick",
+        "district": "GA06"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-10-09T08:00:13.407418",
+      "transactions": [
+        {
+          "asset": "BlackRock, Inc. Common Stock",
+          "ticker": "BLK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "L3Harris Technologies, Inc. Common Stock",
+          "ticker": "LHX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/08/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/09/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/18/2025",
+          "notification_date": "10/08/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
