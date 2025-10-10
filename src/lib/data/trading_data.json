@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-09T08:00:13.497592",
+  "last_updated": "2025-10-10T08:00:20.690562",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 405,
+    "processed_pdfs": 406,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -57115,6 +57115,1608 @@
           "transaction_type": "Sale",
           "transaction_date": "09/18/2025",
           "notification_date": "10/08/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032211": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032211.pdf",
+      "member_info": {
+        "filing_id": "20032211",
+        "name": "Hon. Valerie Hoyle",
+        "district": "OR04"
+      },
+      "stock_transaction_count": 159,
+      "parsed_at": "2025-10-10T08:00:20.595680",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amdocs Limited - Ordinary Shares",
+          "ticker": "DOX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amphenol Corporation Common Stock",
+          "ticker": "APH",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apollo Global Management, Inc.",
+          "ticker": "APO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Applovin Corporation - Class A Common Stock",
+          "ticker": "APP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ares Management Corporation Class A Common Stock",
+          "ticker": "ARES",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Arista Networks, Inc. Common Stock",
+          "ticker": "ANET",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Arthur J. Gallagher & Co. Common Stock",
+          "ticker": "AJG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AstraZeneca PLC - American Depositary Shares",
+          "ticker": "AZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AutoZone, Inc. Common Stock",
+          "ticker": "AZO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Bank of America Corporation Common Stock",
+          "ticker": "BAC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BlackRock, Inc. Common Stock",
+          "ticker": "BLK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boeing Company",
+          "ticker": "BA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Booking Holdings Inc. - Common Stock",
+          "ticker": "BKNG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boston Scientific Corporation Common Stock",
+          "ticker": "BSX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown Forman Inc Class B Common Stock",
+          "ticker": "BF.B",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "C.H. Robinson Worldwide, Inc. - Common Stock",
+          "ticker": "CHRW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cadence Design Systems, Inc. - Common Stock",
+          "ticker": "CDNS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Canadian Natural Resources Limited Common Stock",
+          "ticker": "CNQ",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Capital One Financial Corporation Common Stock",
+          "ticker": "COF",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Celestica, Inc. Common Stock",
+          "ticker": "CLS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Charles Schwab Corporation",
+          "ticker": "SCHW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cintas Corporation - Common Stock",
+          "ticker": "CTAS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cisco Systems, Inc. - Common Stock",
+          "ticker": "CSCO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CME Group Inc. - Class A Common Stock",
+          "ticker": "CME",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Coca-Cola Company",
+          "ticker": "KO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ConocoPhillips Common Stock",
+          "ticker": "COP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CONSTELLATION SFTWRE INC",
+          "ticker": "CNSWF",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Costco Wholesale Corporation - Common Stock",
+          "ticker": "COST",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CRH PLC Ordinary Shares",
+          "ticker": "CRH",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Crown Castle Inc. Common Stock",
+          "ticker": "CCI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Crown Holdings, Inc.",
+          "ticker": "CCK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CSX Corporation",
+          "ticker": "CSX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CVS Health Corporation Common Stock",
+          "ticker": "CVS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Deere & Company Common Stock",
+          "ticker": "DE",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Diageo plc Common Stock",
+          "ticker": "DEO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eaton Corporation, PLC Ordinary Shares",
+          "ticker": "ETN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Elanco Animal Health Incorporated Common Stock",
+          "ticker": "ELAN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eli Lilly and Company Common Stock",
+          "ticker": "LLY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Emerson Electric Company Common Stock",
+          "ticker": "EMR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eversource Energy",
+          "ticker": "ES",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "FedEx Corporation Common Stock",
+          "ticker": "FDX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ferguson Enterprises Inc. Common Stock",
+          "ticker": "FERG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "FIRST QUANTUM MINERALS",
+          "ticker": "FQVLF",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GE Aerospace Common Stock",
+          "ticker": "GE",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GE Vernova Inc. Common Stock",
+          "ticker": "GEV",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gen Digital Inc. - Common Stock",
+          "ticker": "GEN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gilead Sciences, Inc. - Common Stock",
+          "ticker": "GILD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GoDaddy Inc. Class A Common Stock",
+          "ticker": "GDDY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GSK plc American Depositary Shares",
+          "ticker": "GSK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "H&R Block, Inc. Common Stock",
+          "ticker": "HRB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Haleon plc American Depositary Shares",
+          "ticker": "HLN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Heico Corporation Common Stock",
+          "ticker": "HEI.A",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Hilton Worldwide Holdings Inc. Common Stock",
+          "ticker": "HLT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Imperial Oil Limited Common Stock",
+          "ticker": "IMO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "JP Morgan Chase & Co. Common Stock",
+          "ticker": "JPM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kenvue Inc. Common Stock",
+          "ticker": "KVUE",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Keurig Dr Pepper Inc.",
+          "ticker": "KDP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KKR & Co. Inc. Common Stock",
+          "ticker": "KKR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KLA Corporation - Common Stock",
+          "ticker": "KLAC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kroger Company",
+          "ticker": "KR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "L3Harris Technologies, Inc. Common Stock",
+          "ticker": "LHX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lennar Corporation Class A Common Stock",
+          "ticker": "LEN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Linde plc - Ordinary Shares",
+          "ticker": "LIN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lockheed Martin Corporation Common Stock",
+          "ticker": "LMT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lowe s Companies, Inc. Common Stock",
+          "ticker": "LOW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "lululemon athletica inc. - Common Stock",
+          "ticker": "LULU",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "LVMH Moet Hennessy Louis Vuitton Unsponsored American Depositary Receipt",
+          "ticker": "LVMUY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "LVMH Moet Hennessy Louis Vuitton Unsponsored American Depositary Receipt",
+          "ticker": "LVMUY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "M&T Bank Corporation Common Stock",
+          "ticker": "MTB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marriott International - Class A Common Stock",
+          "ticker": "MAR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marsh & McLennan Companies, Inc. Common Stock",
+          "ticker": "MMC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Martin Marietta Materials, Inc. Common Stock",
+          "ticker": "MLM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marvell Technology, Inc. - Common Stock",
+          "ticker": "MRVL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mastercard Incorporated Common Stock",
+          "ticker": "MA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "MercadoLibre, Inc. - Common Stock",
+          "ticker": "MELI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Merck & Company, Inc. Common Stock",
+          "ticker": "MRK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Micron Technology, Inc. - Common Stock",
+          "ticker": "MU",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Mondelez International, Inc. - Class A Common Stock",
+          "ticker": "MDLZ",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Moody s Corporation Common Stock",
+          "ticker": "MCO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morgan Stanley Common Stock",
+          "ticker": "MS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mosaic Company",
+          "ticker": "MOS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Motorola Solutions, Inc. Common Stock",
+          "ticker": "MSI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "National Grid Transco, PLC National Grid PLC",
+          "ticker": "NGG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Newmont Corporation",
+          "ticker": "NEM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nike, Inc. Common Stock",
+          "ticker": "NKE",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Norfolk Southern Corporation Common Stock",
+          "ticker": "NSC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Northern Trust Corporation - Common Stock",
+          "ticker": "NTRS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Northrop Grumman Corporation Common Stock",
+          "ticker": "NOC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nutrien Ltd. Common Shares",
+          "ticker": "NTR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "NXP Semiconductors N.V. - Common Stock",
+          "ticker": "NXPI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "O Reilly Automotive, Inc. - Common Stock",
+          "ticker": "ORLY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pacific Gas & Electric Co. Common Stock",
+          "ticker": "PCG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PayPal Holdings, Inc. - Common Stock",
+          "ticker": "PYPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pentair plc. Ordinary Share",
+          "ticker": "PNR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PNC Financial Services Group, Inc.",
+          "ticker": "PNC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "QUALCOMM Incorporated - Common Stock",
+          "ticker": "QCOM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Quanta Services, Inc. Common Stock",
+          "ticker": "PWR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Regal Rexnord Corporation Common Stock",
+          "ticker": "RRX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Republic Services, Inc. Common Stock",
+          "ticker": "RSG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Roblox Corporation Class A Common Stock",
+          "ticker": "RBLX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ross Stores, Inc. - Common Stock",
+          "ticker": "ROST",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "S&P Global Inc. Common Stock",
+          "ticker": "SPGI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Salesforce, Inc. Common Stock",
+          "ticker": "CRM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SAP SE ADS",
+          "ticker": "SAP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SharkNinja, Inc. Ordinary Shares",
+          "ticker": "SN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Shell PLC American Depositary Shares",
+          "ticker": "SHEL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sherwin-Williams Company",
+          "ticker": "SHW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Simon Property Group, Inc. Common Stock",
+          "ticker": "SPG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Southern Company",
+          "ticker": "SO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Spotify Technology S.A. Ordinary Shares",
+          "ticker": "SPOT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/10/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Starbucks Corporation - Common Stock",
+          "ticker": "SBUX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Target Corporation Common Stock",
+          "ticker": "TGT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tesla, Inc. - Common Stock",
+          "ticker": "TSLA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Bank of New York Mellon Corporation Common Stock",
+          "ticker": "BK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Cigna Group Common Stock",
+          "ticker": "CI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Hartford Insurance Group, Inc. Common Stock",
+          "ticker": "HIG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Travelers Companies, Inc. Common Stock",
+          "ticker": "TRV",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Thermo Fisher Scientific Inc Common Stock",
+          "ticker": "TMO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Trane Technologies plc",
+          "ticker": "TT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tyson Foods, Inc. Common Stock",
+          "ticker": "TSN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "U.S. Bancorp Common Stock",
+          "ticker": "USB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Uber Technologies, Inc. Common Stock",
+          "ticker": "UBER",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UCB SA UNSP ADR",
+          "ticker": "UCBJY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ulta Beauty, Inc. - Common Stock",
+          "ticker": "ULTA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Rentals, Inc. Common Stock",
+          "ticker": "URI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "US Foods Holding Corp. Common Stock",
+          "ticker": "USFD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Verisk Analytics, Inc. - Common Stock",
+          "ticker": "VRSK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walt Disney Company",
+          "ticker": "DIS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Waste Connections, Inc. Common Shares",
+          "ticker": "WCN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Watsco, Inc. Common Stock",
+          "ticker": "WSO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Wells Fargo & Company Common Stock",
+          "ticker": "WFC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Westinghouse Air Brake Technologies Corporation Common Stock",
+          "ticker": "WAB",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Willis Towers Watson Public Limited Company - Ordinary Shares",
+          "ticker": "WTW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "09/23/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
