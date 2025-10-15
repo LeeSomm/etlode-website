@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-14T08:00:09.600078",
+  "last_updated": "2025-10-15T08:00:13.063379",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 411,
+    "processed_pdfs": 413,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -59313,6 +59313,109 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-10-14T08:00:09.505885",
       "transactions": []
+    },
+    "20032276": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf",
+      "member_info": {
+        "filing_id": "20032276",
+        "name": "Hon. Rob Bresnahan",
+        "district": "PA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-15T08:00:10.620856",
+      "transactions": []
+    },
+    "20032269": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf",
+      "member_info": {
+        "filing_id": "20032269",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 8,
+      "parsed_at": "2025-10-15T08:00:12.972321",
+      "transactions": [
+        {
+          "asset": "Danaher Corporation Common Stock",
+          "ticker": "DHR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "10/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Franco-Nevada Corporation",
+          "ticker": "FNV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "10/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Franklin Resources, Inc. Common Stock",
+          "ticker": "BEN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/03/2025",
+          "notification_date": "10/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intercontinental Exchange Inc. Common Stock",
+          "ticker": "ICE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/25/2025",
+          "notification_date": "10/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/12/2025",
+          "notification_date": "09/19/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/15/2025",
+          "notification_date": "10/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/12/2025",
+          "notification_date": "09/19/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Stryker Corporation Common Stock",
+          "ticker": "SYK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "09/12/2025",
+          "notification_date": "09/19/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
