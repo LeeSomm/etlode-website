@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-15T08:00:13.063379",
+  "last_updated": "2025-10-16T08:00:15.376485",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 413,
+    "processed_pdfs": 417,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -59416,6 +59416,229 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20032246": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf",
+      "member_info": {
+        "filing_id": "20032246",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 10,
+      "parsed_at": "2025-10-16T08:00:10.597146",
+      "transactions": [
+        {
+          "asset": "Commvault Systems, Inc. - Common Stock",
+          "ticker": "CVLT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/23/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Diageo plc Common Stock",
+          "ticker": "DEO",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Independence Realty Trust, Inc. Common Stock",
+          "ticker": "IRT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intuitive Surgical, Inc. - Common Stock",
+          "ticker": "ISRG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/03/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "M3 INC UNSP ADR",
+          "ticker": "MTHRY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/30/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Natera, Inc. - Common Stock",
+          "ticker": "NTRA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SYSMEX CORP UNSP ASDR",
+          "ticker": "SSMXY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tandem Diabetes Care, Inc. - Common Stock",
+          "ticker": "TNDM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/22/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Baldwin Insurance Group, Inc. - Class A Common Stock",
+          "ticker": "BWIN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/23/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/11/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032284": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf",
+      "member_info": {
+        "filing_id": "20032284",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-10-16T08:00:12.491732",
+      "transactions": [
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/26/2025",
+          "notification_date": "09/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/26/2025",
+          "notification_date": "09/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Masimo Corporation - Common Stock",
+          "ticker": "MASI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/26/2025",
+          "notification_date": "09/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "09/26/2025",
+          "notification_date": "09/29/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20032232": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032232.pdf",
+      "member_info": {
+        "filing_id": "20032232",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-10-16T08:00:14.280991",
+      "transactions": [
+        {
+          "asset": "Arm Holdings plc - American Depositary Shares",
+          "ticker": "ARM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/02/2025",
+          "notification_date": "10/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "09/03/2025",
+          "notification_date": "10/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Robinhood Markets, Inc. - Class A Common Stock",
+          "ticker": "HOOD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/05/2025",
+          "notification_date": "10/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tenet Healthcare Corporation Common Stock",
+          "ticker": "THC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "09/03/2025",
+          "notification_date": "10/06/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "9115686": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115686.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-16T08:00:15.280968",
+      "transactions": []
     }
   }
 }
