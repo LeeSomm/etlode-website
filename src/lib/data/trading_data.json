@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-21T08:00:10.735770",
+  "last_updated": "2025-10-22T08:00:08.668053",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 422,
+    "processed_pdfs": 423,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -59861,6 +59861,58 @@
           "transaction_date": "10/14/2025",
           "notification_date": "10/20/2025",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033321": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf",
+      "member_info": {
+        "filing_id": "20033321",
+        "name": "Hon. Thomas Suozzi",
+        "district": "NY03"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-10-22T08:00:08.567768",
+      "transactions": [
+        {
+          "asset": "INTL PAPER CO 4 C PR",
+          "ticker": "INPAP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/14/2025",
+          "notification_date": "10/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NextEra Energy, Inc. Common Stock",
+          "ticker": "NEE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/14/2025",
+          "notification_date": "10/16/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walmart Inc. Common Stock",
+          "ticker": "WMT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/14/2025",
+          "notification_date": "10/16/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Weyerhaeuser Company Common Stock",
+          "ticker": "WY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/14/2025",
+          "notification_date": "10/16/2025",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
