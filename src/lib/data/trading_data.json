@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-23T08:00:20.370812",
+  "last_updated": "2025-10-27T08:00:10.234336",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 426,
+    "processed_pdfs": 428,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -60887,6 +60887,50 @@
           "transaction_type": "Sale",
           "transaction_date": "09/11/2025",
           "notification_date": "10/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033337": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033337.pdf",
+      "member_info": {
+        "filing_id": "20033337",
+        "name": "Hon. Nancy Pelosi",
+        "district": "CA11"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-27T08:00:08.614635",
+      "transactions": [
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "10/22/2025",
+          "amount": "$100,001 - $250,000"
+        }
+      ]
+    },
+    "20033320": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033320.pdf",
+      "member_info": {
+        "filing_id": "20033320",
+        "name": "Hon. Debbie Wasserman Schultz",
+        "district": "FL25"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-27T08:00:10.131220",
+      "transactions": [
+        {
+          "asset": "AngioDynamics, Inc. - Common Stock",
+          "ticker": "ANGO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/20/2025",
+          "notification_date": "10/21/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
