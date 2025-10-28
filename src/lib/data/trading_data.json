@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-27T08:00:10.234336",
+  "last_updated": "2025-10-28T08:00:07.950191",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 428,
+    "processed_pdfs": 429,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -60931,6 +60931,28 @@
           "transaction_type": "Sale",
           "transaction_date": "10/20/2025",
           "notification_date": "10/21/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033346": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033346.pdf",
+      "member_info": {
+        "filing_id": "20033346",
+        "name": "Hon. Robert E. Latta",
+        "district": "OH05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-10-28T08:00:07.851064",
+      "transactions": [
+        {
+          "asset": "Farmers & Merchants Bancorp, Inc.",
+          "ticker": "FMAO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/20/2025",
+          "notification_date": "10/26/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
