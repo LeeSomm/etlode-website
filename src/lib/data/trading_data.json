@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-28T08:00:07.950191",
+  "last_updated": "2025-10-29T08:00:13.601106",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 429,
+    "processed_pdfs": 432,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -60956,6 +60956,176 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20033360": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033360.pdf",
+      "member_info": {
+        "filing_id": "20033360",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 14,
+      "parsed_at": "2025-10-29T08:00:10.345797",
+      "transactions": [
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amgen Inc. - Common Stock",
+          "ticker": "AMGN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Blackstone Inc. Common Stock",
+          "ticker": "BX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cardinal Health, Inc. Common Stock",
+          "ticker": "CAH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "iShares Bitcoin Trust ETF - iShares Bitcoin Trust ETF",
+          "ticker": "IBIT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kinder Morgan, Inc. Common Stock",
+          "ticker": "KMI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "MercadoLibre, Inc. - Common Stock",
+          "ticker": "MELI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Occidental Petroleum Corporation Common Stock",
+          "ticker": "OXY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palo Alto Networks, Inc.",
+          "ticker": "PANW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20032187": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032187.pdf",
+      "member_info": {
+        "filing_id": "20032187",
+        "name": "Hon. Max Miller",
+        "district": "OH07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-29T08:00:12.239814",
+      "transactions": []
+    },
+    "8221212": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221212.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-29T08:00:13.504043",
+      "transactions": []
     }
   }
 }
