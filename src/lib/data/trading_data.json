@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-29T08:00:13.601106",
+  "last_updated": "2025-10-31T08:00:14.330836",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 432,
+    "processed_pdfs": 435,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61126,6 +61126,131 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-10-29T08:00:13.504043",
       "transactions": []
+    },
+    "20033335": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033335.pdf",
+      "member_info": {
+        "filing_id": "20033335",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-10-31T08:00:10.203582",
+      "transactions": []
+    },
+    "20033370": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033370.pdf",
+      "member_info": {
+        "filing_id": "20033370",
+        "name": "Hon. Dwight Evans",
+        "district": "PA03"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-10-31T08:00:12.006381",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/14/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Kyndryl Holdings, Inc. Common Stock",
+          "ticker": "KD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/14/2025",
+          "amount": "$224"
+        }
+      ]
+    },
+    "20033326": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033326.pdf",
+      "member_info": {
+        "filing_id": "20033326",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2025-10-31T08:00:14.232290",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/10/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/10/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "CoreWeave, Inc. - Class A Common Stock",
+          "ticker": "CRWV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/10/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CoreWeave, Inc. - Class A Common Stock",
+          "ticker": "CRWV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "10/09/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "IREN Limited - Ordinary Shares",
+          "ticker": "IREN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/10/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "IREN Limited - Ordinary Shares",
+          "ticker": "IREN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/10/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palantir Technologies Inc. - Class A Common Stock",
+          "ticker": "PLTR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "10/10/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
