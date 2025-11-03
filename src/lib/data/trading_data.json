@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-10-31T08:00:14.330836",
+  "last_updated": "2025-11-03T08:00:12.778724",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 435,
+    "processed_pdfs": 437,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61251,6 +61251,28 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20033325": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf",
+      "member_info": {
+        "filing_id": "20033325",
+        "name": "Hon. Donald Sternoff Beyer Jr",
+        "district": "VA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-03T08:00:10.344544",
+      "transactions": []
+    },
+    "20033379": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033379.pdf",
+      "member_info": {
+        "filing_id": "20033379",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-03T08:00:12.680403",
+      "transactions": []
     }
   }
 }
