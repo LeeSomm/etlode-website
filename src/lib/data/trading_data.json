@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-03T08:00:12.778724",
+  "last_updated": "2025-11-04T08:00:10.998324",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 437,
+    "processed_pdfs": 439,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61273,6 +61273,69 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-11-03T08:00:12.680403",
       "transactions": []
+    },
+    "20033394": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033394.pdf",
+      "member_info": {
+        "filing_id": "20033394",
+        "name": "Hon. Thomas Suozzi",
+        "district": "NY03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-04T08:00:08.903360",
+      "transactions": []
+    },
+    "20033395": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033395.pdf",
+      "member_info": {
+        "filing_id": "20033395",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-11-04T08:00:10.898686",
+      "transactions": [
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/30/2025",
+          "notification_date": "10/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/30/2025",
+          "notification_date": "10/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/30/2025",
+          "notification_date": "10/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/30/2025",
+          "notification_date": "10/31/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
