@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-04T08:00:10.998324",
+  "last_updated": "2025-11-05T08:00:13.012389",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 439,
+    "processed_pdfs": 442,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61336,6 +61336,200 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20033408": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033408.pdf",
+      "member_info": {
+        "filing_id": "20033408",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2025-11-05T08:00:09.867192",
+      "transactions": [
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/16/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/29/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortune Brands Innovations, Inc. Common Stock",
+          "ticker": "FBIN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortune Brands Innovations, Inc. Common Stock",
+          "ticker": "FBIN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/29/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "IDEXX Laboratories, Inc. - Common Stock",
+          "ticker": "IDXX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/16/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Labcorp Holdings Inc. Common Stock",
+          "ticker": "LH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/29/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Labcorp Holdings Inc. Common Stock",
+          "ticker": "LH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nasdaq, Inc. - Common Stock",
+          "ticker": "NDAQ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nasdaq, Inc. - Common Stock",
+          "ticker": "NDAQ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/01/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Teledyne Technologies Incorporated Common Stock",
+          "ticker": "TDY",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Middleby Corporation - Common Stock",
+          "ticker": "MIDD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033402": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033402.pdf",
+      "member_info": {
+        "filing_id": "20033402",
+        "name": "Hon. Chellie Pingree",
+        "district": "ME01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-05T08:00:11.329314",
+      "transactions": []
+    },
+    "20033403": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033403.pdf",
+      "member_info": {
+        "filing_id": "20033403",
+        "name": "Hon. Ann Wagner",
+        "district": "MO02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-05T08:00:12.913893",
+      "transactions": []
     }
   }
 }
