@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-05T08:00:13.012389",
+  "last_updated": "2025-11-07T08:00:15.427867",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 442,
+    "processed_pdfs": 446,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61529,6 +61529,61 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2025-11-05T08:00:12.913893",
+      "transactions": []
+    },
+    "20033428": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033428.pdf",
+      "member_info": {
+        "filing_id": "20033428",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-07T08:00:10.290256",
+      "transactions": [
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/06/2025",
+          "notification_date": "11/07/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033425": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033425.pdf",
+      "member_info": {
+        "filing_id": "20033425",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-07T08:00:11.873978",
+      "transactions": []
+    },
+    "20033427": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033427.pdf",
+      "member_info": {
+        "filing_id": "20033427",
+        "name": "Hon. Pete Sessions",
+        "district": "TX17"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-07T08:00:13.497881",
+      "transactions": []
+    },
+    "20033393": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf",
+      "member_info": {
+        "filing_id": "20033393",
+        "name": "Hon. Katherine M. Clark",
+        "district": "MA05"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-07T08:00:15.326470",
       "transactions": []
     }
   }
