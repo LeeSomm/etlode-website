@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-10T08:00:07.724885",
+  "last_updated": "2025-11-11T08:00:10.694322",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 447,
+    "processed_pdfs": 449,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61591,6 +61591,65 @@
       "member_info": {},
       "stock_transaction_count": 0,
       "parsed_at": "2025-11-10T08:00:07.626696",
+      "transactions": []
+    },
+    "20033409": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf",
+      "member_info": {
+        "filing_id": "20033409",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-11-11T08:00:09.286924",
+      "transactions": [
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/08/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Robinhood Markets, Inc. - Class A Common Stock",
+          "ticker": "HOOD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/08/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Shopify Inc. - Class A Subordinate Voting Shares",
+          "ticker": "SHOP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/08/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Shopify Inc. - Class A Subordinate Voting Shares",
+          "ticker": "SHOP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/06/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "8221228": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221228.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-11T08:00:10.593449",
       "transactions": []
     }
   }
