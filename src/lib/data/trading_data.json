@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-11T08:00:10.694322",
+  "last_updated": "2025-11-12T08:00:11.236997",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 449,
+    "processed_pdfs": 451,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61651,6 +61651,129 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-11-11T08:00:10.593449",
       "transactions": []
+    },
+    "20033447": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf",
+      "member_info": {
+        "filing_id": "20033447",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-12T08:00:08.992186",
+      "transactions": []
+    },
+    "20033413": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033413.pdf",
+      "member_info": {
+        "filing_id": "20033413",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 10,
+      "parsed_at": "2025-11-12T08:00:11.130868",
+      "transactions": [
+        {
+          "asset": "Genprex, Inc. - Common Stock",
+          "ticker": "GNPX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/29/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/24/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/08/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/14/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Krispy Kreme, Inc. - Common Stock",
+          "ticker": "DNUT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "LGI Homes, Inc. - Common Stock",
+          "ticker": "LGIH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/30/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/10/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
