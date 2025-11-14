@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-13T08:00:11.707930",
+  "last_updated": "2025-11-14T08:00:14.219489",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 453,
+    "processed_pdfs": 457,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61897,6 +61897,74 @@
           "amount": "$100,001 - $250,000"
         }
       ]
+    },
+    "20033415": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033415.pdf",
+      "member_info": {
+        "filing_id": "20033415",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-14T08:00:10.133159",
+      "transactions": [
+        {
+          "asset": "Church & Dwight Company, Inc. Common Stock",
+          "ticker": "CHD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "10/10/2025",
+          "notification_date": "11/05/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033462": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033462.pdf",
+      "member_info": {
+        "filing_id": "20033462",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-11-14T08:00:11.752309",
+      "transactions": [
+        {
+          "asset": "Automatic Data Processing, Inc. - Common Stock",
+          "ticker": "ADP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/12/2025",
+          "notification_date": "11/13/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/12/2025",
+          "notification_date": "11/13/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "8221231": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221231.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-14T08:00:13.148554",
+      "transactions": []
+    },
+    "8221233": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221233.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-14T08:00:14.120734",
+      "transactions": []
     }
   }
 }
