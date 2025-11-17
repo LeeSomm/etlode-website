@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-14T08:00:14.219489",
+  "last_updated": "2025-11-17T08:00:15.389460",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 457,
+    "processed_pdfs": 460,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -61964,6 +61964,301 @@
       "member_info": {},
       "stock_transaction_count": 0,
       "parsed_at": "2025-11-14T08:00:14.120734",
+      "transactions": []
+    },
+    "20033458": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf",
+      "member_info": {
+        "filing_id": "20033458",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 10,
+      "parsed_at": "2025-11-17T08:00:10.620887",
+      "transactions": [
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/27/2025",
+          "notification_date": "10/28/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Boston Scientific Corporation Common Stock",
+          "ticker": "BSX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "CSX Corporation",
+          "ticker": "CSX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Eaton Corporation, PLC Ordinary Shares",
+          "ticker": "ETN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/06/2025",
+          "notification_date": "10/07/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/23/2025",
+          "notification_date": "10/24/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McDonald s Corporation Common Stock",
+          "ticker": "MCD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/23/2025",
+          "notification_date": "10/24/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "O Reilly Automotive, Inc. - Common Stock",
+          "ticker": "ORLY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Seagate Technology Holdings PLC - Ordinary Shares",
+          "ticker": "STX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033420": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033420.pdf",
+      "member_info": {
+        "filing_id": "20033420",
+        "name": "Hon. Julie Johnson",
+        "district": "TX32"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2025-11-17T08:00:13.729606",
+      "transactions": [
+        {
+          "asset": "Alaska Air Group, Inc. Common Stock",
+          "ticker": "ALK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/27/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Carrier Global Corporation Common Stock",
+          "ticker": "CARR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/06/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Carrier Global Corporation Common Stock",
+          "ticker": "CARR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Danaher Corporation Common Stock",
+          "ticker": "DHR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Deere & Company Common Stock",
+          "ticker": "DE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "F5, Inc. - Common Stock",
+          "ticker": "FFIV",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fiserv, Inc. Common Stock",
+          "ticker": "FI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/06/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gen Digital Inc. - Common Stock",
+          "ticker": "GEN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kroger Company",
+          "ticker": "KR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/06/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Parker-Hannifin Corporation Common Stock",
+          "ticker": "PH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/08/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Parker-Hannifin Corporation Common Stock",
+          "ticker": "PH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PNC Financial Services Group, Inc.",
+          "ticker": "PNC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Weyerhaeuser Company Common Stock",
+          "ticker": "WY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/06/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033472": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033472.pdf",
+      "member_info": {
+        "filing_id": "20033472",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-17T08:00:15.289654",
       "transactions": []
     }
   }
