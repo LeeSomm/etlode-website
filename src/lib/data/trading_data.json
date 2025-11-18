@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-17T08:00:15.389460",
+  "last_updated": "2025-11-18T08:00:13.401473",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 460,
+    "processed_pdfs": 463,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -62260,6 +62260,102 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-11-17T08:00:15.289654",
       "transactions": []
+    },
+    "20033476": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033476.pdf",
+      "member_info": {
+        "filing_id": "20033476",
+        "name": "Hon. Brandon Gill",
+        "district": "TX26"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-18T08:00:09.908667",
+      "transactions": [
+        {
+          "asset": "iShares Bitcoin Trust ETF",
+          "ticker": "IBIT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/29/2025",
+          "notification_date": "10/29/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033398": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033398.pdf",
+      "member_info": {
+        "filing_id": "20033398",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-11-18T08:00:11.687233",
+      "transactions": [
+        {
+          "asset": "3M Company Common Stock",
+          "ticker": "MMM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/20/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intercontinental Exchange Inc. Common Stock",
+          "ticker": "ICE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "10/16/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NetEase, Inc. - American Depositary Shares, each representing 5 ordinary shares",
+          "ticker": "NTES",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NICE Ltd - American Depositary Shares each representing one Ordinary Share",
+          "ticker": "NICE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033474": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033474.pdf",
+      "member_info": {
+        "filing_id": "20033474",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-18T08:00:13.302173",
+      "transactions": [
+        {
+          "asset": "Fiserv, Inc.",
+          "ticker": "FISV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/31/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
