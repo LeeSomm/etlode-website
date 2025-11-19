@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-18T08:00:13.401473",
+  "last_updated": "2025-11-19T08:00:29.312656",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 463,
+    "processed_pdfs": 468,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -62354,6 +62354,1446 @@
           "transaction_date": "10/31/2025",
           "notification_date": "11/03/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033492": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033492.pdf",
+      "member_info": {
+        "filing_id": "20033492",
+        "name": "Hon. Jake Auchincloss",
+        "district": "MA04"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-19T08:00:10.574006",
+      "transactions": [
+        {
+          "asset": "State Street Corporation Common Stock",
+          "ticker": "STT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "11/17/2025",
+          "notification_date": "11/17/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033455": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033455.pdf",
+      "member_info": {
+        "filing_id": "20033455",
+        "name": "Hon. Gilbert Cisneros",
+        "district": "CA31"
+      },
+      "stock_transaction_count": 106,
+      "parsed_at": "2025-11-19T08:00:22.001368",
+      "transactions": [
+        {
+          "asset": "AeroVironment, Inc. - Common Stock",
+          "ticker": "AVAV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AJINOMOTO CO INC",
+          "ticker": "AJINF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ALIBABA GROUP HOLDING LTD",
+          "ticker": "BABAF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Allianz SE ADS",
+          "ticker": "AZSEY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amdocs Limited - Ordinary Shares",
+          "ticker": "DOX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "APi Group Corporation Common Stock",
+          "ticker": "APG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "APi Group Corporation Common Stock",
+          "ticker": "APG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Applovin Corporation - Class A Common Stock",
+          "ticker": "APP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Applovin Corporation - Class A Common Stock",
+          "ticker": "APP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Arista Networks, Inc. Common Stock",
+          "ticker": "ANET",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Artivion, Inc. Common Stock",
+          "ticker": "AORT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AstraZeneca PLC - American Depositary Shares",
+          "ticker": "AZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Azenta, Inc. - Common Stock",
+          "ticker": "AZTA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Barclays Plc Ord Ordinary Shares",
+          "ticker": "BCLYF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Bloom Energy Corporation Class A Common Stock",
+          "ticker": "BE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Boston Scientific Corporation Common Stock",
+          "ticker": "BSX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Bristol-Myers Squibb Company Common Stock",
+          "ticker": "BMY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cameco Corporation Common Stock",
+          "ticker": "CCJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Caterpillar, Inc. Common Stock",
+          "ticker": "CAT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cloudflare, Inc. Class A Common Stock",
+          "ticker": "NET",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cohen & Steers Inc Common Stock",
+          "ticker": "CNS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/30/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Coinbase Global, Inc. - Class A Common Stock",
+          "ticker": "COIN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Coinbase Global, Inc. - Class A Common Stock",
+          "ticker": "COIN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Columbia Banking System, Inc. - Common Stock",
+          "ticker": "COLB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Commvault Systems, Inc. - Common Stock",
+          "ticker": "CVLT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Commvault Systems, Inc. - Common Stock",
+          "ticker": "CVLT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ConAgra Brands, Inc. Common Stock",
+          "ticker": "CAG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CoStar Group, Inc. - Common Stock",
+          "ticker": "CSGP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Costco Wholesale Corporation - Common Stock",
+          "ticker": "COST",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Credo Technology Group Holding Ltd - Ordinary Shares",
+          "ticker": "CRDO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/30/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cytokinetics, Incorporated - Common Stock",
+          "ticker": "CYTK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dbs Group Holdings Ltd Ord Ordinary Shares",
+          "ticker": "DBSDF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/22/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Eaton Corporation, PLC Ordinary Shares",
+          "ticker": "ETN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Edison International Common Stock",
+          "ticker": "EIX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Enerpac Tool Group Corp. Common Stock",
+          "ticker": "EPAC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/30/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ferrari N.V. Common Shares",
+          "ticker": "RACE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Flex Ltd. - Ordinary Shares",
+          "ticker": "FLEX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Flex Ltd. - Ordinary Shares",
+          "ticker": "FLEX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Freeport-McMoRan, Inc. Common Stock",
+          "ticker": "FCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GoDaddy Inc. Class A Common Stock",
+          "ticker": "GDDY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/16/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "GoDaddy Inc. Class A Common Stock",
+          "ticker": "GDDY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GoDaddy Inc. Class A Common Stock",
+          "ticker": "GDDY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/14/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GoDaddy Inc. Class A Common Stock",
+          "ticker": "GDDY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Hermes Intl",
+          "ticker": "HESAF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Iberdrola SA Bilbao Ordinary Shares",
+          "ticker": "IBDSF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Insmed Incorporated - Common Stock",
+          "ticker": "INSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "JP Morgan Chase & Co. Common Stock",
+          "ticker": "JPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KKR & Co. Inc. Common Stock",
+          "ticker": "KKR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mastercard Incorporated Common Stock",
+          "ticker": "MA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Medpace Holdings, Inc. - Common Stock",
+          "ticker": "MEDP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "MercadoLibre, Inc. - Common Stock",
+          "ticker": "MELI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mitsubishi Heavy Industries Ltd Ordinary Shares",
+          "ticker": "MHVYF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mitsubishi UFJ Financial Group Inc Ordinary Shares",
+          "ticker": "MBFJF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "MongoDB, Inc. - Class A Common Stock",
+          "ticker": "MDB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morgan Stanley Common Stock",
+          "ticker": "MS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NINTENDO CO LTD ORD",
+          "ticker": "NTDOF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NXP Semiconductors N.V. - Common Stock",
+          "ticker": "NXPI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Oracle Corporation Common Stock",
+          "ticker": "ORCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palantir Technologies Inc. - Class A Common Stock",
+          "ticker": "PLTR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Phreesia, Inc. Common Stock",
+          "ticker": "PHR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Quanta Services, Inc. Common Stock",
+          "ticker": "PWR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Rheinmetall Ag Ordinary Shares",
+          "ticker": "RNMBF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Robinhood Markets, Inc. - Class A Common Stock",
+          "ticker": "HOOD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SAP SE ADS",
+          "ticker": "SAP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SCHNEIDER ELECTRIC SA",
+          "ticker": "SBGSF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ServiceNow, Inc. Common Stock",
+          "ticker": "NOW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SIEMENS ENERGY AG",
+          "ticker": "SMEGF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Skyward Specialty Insurance Group, Inc. - Common Stock",
+          "ticker": "SKWD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "StandardAero, Inc. Common Stock",
+          "ticker": "SARO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/14/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "StandardAero, Inc. Common Stock",
+          "ticker": "SARO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/02/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "StandardAero, Inc. Common Stock",
+          "ticker": "SARO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sterling Infrastructure, Inc. - Common Stock",
+          "ticker": "STRL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sterling Infrastructure, Inc. - Common Stock",
+          "ticker": "STRL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/30/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Stryker Corporation Common Stock",
+          "ticker": "SYK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Supernus Pharmaceuticals, Inc. - Common Stock",
+          "ticker": "SUPN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Synopsys, Inc. - Common Stock",
+          "ticker": "SNPS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "TENCENT HLDIGS LTD",
+          "ticker": "TCTZF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tesla, Inc. - Common Stock",
+          "ticker": "TSLA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Baldwin Insurance Group, Inc. - Class A Common Stock",
+          "ticker": "BWIN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Descartes Systems Group Inc. - Common Stock",
+          "ticker": "DSGX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Uber Technologies, Inc. Common Stock",
+          "ticker": "UBER",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UFP Industries, Inc. - Common Stock",
+          "ticker": "UFPI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/30/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UNICREDITO SPA ORD NEW",
+          "ticker": "UNCFF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Vertiv Holdings, LLC Class A Common Stock",
+          "ticker": "VRT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walmart Inc. Common Stock",
+          "ticker": "WMT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Wheaton Precious Metals Corp Common Shares",
+          "ticker": "WPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/17/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Workday, Inc. - Class A Common Stock",
+          "ticker": "WDAY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/14/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Workday, Inc. - Class A Common Stock",
+          "ticker": "WDAY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/15/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Workday, Inc. - Class A Common Stock",
+          "ticker": "WDAY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/07/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "XIAOMI CORP",
+          "ticker": "XIACF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/21/2025",
+          "notification_date": "11/12/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033491": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033491.pdf",
+      "member_info": {
+        "filing_id": "20033491",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 18,
+      "parsed_at": "2025-11-19T08:00:25.110561",
+      "transactions": [
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Carnival Corporation Common Stock",
+          "ticker": "CCL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Carnival Corporation Common Stock",
+          "ticker": "CCL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chipotle Mexican Grill, Inc. Common Stock",
+          "ticker": "CMG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chipotle Mexican Grill, Inc. Common Stock",
+          "ticker": "CMG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortinet, Inc. - Common Stock",
+          "ticker": "FTNT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortinet, Inc. - Common Stock",
+          "ticker": "FTNT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Howmet Aerospace Inc. Common Stock",
+          "ticker": "HWM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/23/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Howmet Aerospace Inc. Common Stock",
+          "ticker": "HWM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "10/23/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tradeweb Markets Inc. - Class A Common Stock",
+          "ticker": "TW",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tradeweb Markets Inc. - Class A Common Stock",
+          "ticker": "TW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/09/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/24/2025",
+          "notification_date": "11/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033495": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033495.pdf",
+      "member_info": {
+        "filing_id": "20033495",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 11,
+      "parsed_at": "2025-11-19T08:00:27.666156",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Electric Power Company, Inc.",
+          "ticker": "AEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Electric Power Company, Inc.",
+          "ticker": "AEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/11/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Installed Building Products, Inc. Common Stock",
+          "ticker": "IBP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Installed Building Products, Inc. Common Stock",
+          "ticker": "IBP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Progressive Corporation",
+          "ticker": "PGR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RPM International Inc. Common Stock",
+          "ticker": "RPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/11/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/12/2025",
+          "notification_date": "11/14/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033490": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033490.pdf",
+      "member_info": {
+        "filing_id": "20033490",
+        "name": "Hon. Scott DesJarlais",
+        "district": "TN04"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2025-11-19T08:00:29.218715",
+      "transactions": [
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/30/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "United Parcel Service, Inc. Common Stock",
+          "ticker": "UPS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "10/30/2025",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
