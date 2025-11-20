@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-19T08:00:29.312656",
+  "last_updated": "2025-11-20T08:00:16.612600",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 468,
+    "processed_pdfs": 473,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -63794,6 +63794,105 @@
           "transaction_date": "10/28/2025",
           "notification_date": "10/30/2025",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033493": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033493.pdf",
+      "member_info": {
+        "filing_id": "20033493",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2025-11-20T08:00:11.296944",
+      "transactions": [
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/13/2025",
+          "notification_date": "11/13/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Celestica, Inc. Common Stock",
+          "ticker": "CLS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "11/03/2025",
+          "amount": "$100,001 - $250,000"
+        }
+      ]
+    },
+    "8221237": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221237.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-20T08:00:12.396530",
+      "transactions": []
+    },
+    "20033505": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033505.pdf",
+      "member_info": {
+        "filing_id": "20033505",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-20T08:00:13.879200",
+      "transactions": []
+    },
+    "8221238": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221238.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-11-20T08:00:14.887075",
+      "transactions": []
+    },
+    "20033416": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033416.pdf",
+      "member_info": {
+        "filing_id": "20033416",
+        "name": "Hon. Michael Patrick Guest",
+        "district": "MS03"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-20T08:00:16.510814",
+      "transactions": [
+        {
+          "asset": "Monolithic Power Systems, Inc. - Common Stock",
+          "ticker": "MPWR",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/20/2025",
+          "notification_date": "11/05/2025",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
