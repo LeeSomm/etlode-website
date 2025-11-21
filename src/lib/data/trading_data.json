@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-11-20T08:00:16.612600",
+  "last_updated": "2025-11-21T08:00:09.060509",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 473,
+    "processed_pdfs": 474,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -63893,6 +63893,28 @@
           "transaction_date": "10/20/2025",
           "notification_date": "11/05/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033488": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033488.pdf",
+      "member_info": {
+        "filing_id": "20033488",
+        "name": "Hon. Peter Allen Stauber",
+        "district": "MN08"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-11-21T08:00:08.955375",
+      "transactions": [
+        {
+          "asset": "Newell Brands Inc.",
+          "ticker": "NWL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "10/27/2025",
+          "notification_date": "10/28/2025",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
