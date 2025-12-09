@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-08T08:00:14.425197",
+  "last_updated": "2025-12-09T08:00:12.925520",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 484,
+    "processed_pdfs": 487,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -69302,6 +69302,101 @@
           "transaction_type": "Purchase",
           "transaction_date": "12/03/2025",
           "notification_date": "12/05/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033604": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf",
+      "member_info": {
+        "filing_id": "20033604",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2025-12-09T08:00:09.475766",
+      "transactions": [
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/20/2025",
+          "notification_date": "12/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "EMCOR Group, Inc. Common Stock",
+          "ticker": "EME",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "11/17/2025",
+          "notification_date": "12/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Labcorp Holdings Inc. Common Stock",
+          "ticker": "LH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/17/2025",
+          "notification_date": "12/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/03/2025",
+          "notification_date": "12/01/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Quanta Services, Inc. Common Stock",
+          "ticker": "PWR",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "11/17/2025",
+          "notification_date": "12/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033587": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033587.pdf",
+      "member_info": {
+        "filing_id": "20033587",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-12-09T08:00:11.247624",
+      "transactions": []
+    },
+    "20033581": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033581.pdf",
+      "member_info": {
+        "filing_id": "20033581",
+        "name": "Hon. Debbie Wasserman Schultz",
+        "district": "FL25"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-12-09T08:00:12.817744",
+      "transactions": [
+        {
+          "asset": "Innovex International, Inc. Common Stock",
+          "ticker": "INVX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "11/25/2025",
+          "notification_date": "11/26/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
