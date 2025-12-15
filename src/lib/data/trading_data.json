@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-12T08:00:15.935826",
+  "last_updated": "2025-12-15T08:00:08.166033",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 495,
+    "processed_pdfs": 496,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -70382,6 +70382,17 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2025-12-12T08:00:15.828713",
+      "transactions": []
+    },
+    "20033575": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033575.pdf",
+      "member_info": {
+        "filing_id": "20033575",
+        "name": "Hon. Jefferson Shreve",
+        "district": "IN06"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-12-15T08:00:08.054373",
       "transactions": []
     }
   }
