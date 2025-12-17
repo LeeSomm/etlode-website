@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-16T08:00:27.445869",
+  "last_updated": "2025-12-17T08:00:10.492773",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 499,
+    "processed_pdfs": 501,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -72123,6 +72123,28 @@
       "member_info": {},
       "stock_transaction_count": 0,
       "parsed_at": "2025-12-16T08:00:26.971456",
+      "transactions": []
+    },
+    "20033649": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033649.pdf",
+      "member_info": {
+        "filing_id": "20033649",
+        "name": "Hon. Marjorie Taylor Greene",
+        "district": "GA14"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-12-17T08:00:08.829646",
+      "transactions": []
+    },
+    "20033628": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033628.pdf",
+      "member_info": {
+        "filing_id": "20033628",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-12-17T08:00:10.382072",
       "transactions": []
     }
   }
