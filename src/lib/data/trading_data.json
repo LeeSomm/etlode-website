@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-18T08:00:09.303303",
+  "last_updated": "2025-12-19T08:00:08.659137",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 502,
+    "processed_pdfs": 503,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -72306,6 +72306,48 @@
           "transaction_date": "12/11/2025",
           "notification_date": "12/11/2025",
           "amount": "$50,001 - $100,000"
+        }
+      ]
+    },
+    "20033659": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033659.pdf",
+      "member_info": {
+        "filing_id": "20033659",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2025-12-19T08:00:08.545712",
+      "transactions": [
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/20/2025",
+          "notification_date": "12/05/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Stryker Corporation Common Stock",
+          "ticker": "SYK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/20/2025",
+          "notification_date": "12/05/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Texas Instruments Incorporated - Common Stock",
+          "ticker": "TXN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/26/2025",
+          "notification_date": "12/03/2025",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
