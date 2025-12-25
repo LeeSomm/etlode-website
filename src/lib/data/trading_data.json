@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-24T08:00:10.513680",
+  "last_updated": "2025-12-25T08:00:08.899330",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 510,
+    "processed_pdfs": 511,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -72597,6 +72597,28 @@
       "stock_transaction_count": 0,
       "parsed_at": "2025-12-24T08:00:10.400272",
       "transactions": []
+    },
+    "20033691": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033691.pdf",
+      "member_info": {
+        "filing_id": "20033691",
+        "name": "Hon. Ed Case",
+        "district": "HI01"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2025-12-25T08:00:08.782535",
+      "transactions": [
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/01/2025",
+          "notification_date": "12/01/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
