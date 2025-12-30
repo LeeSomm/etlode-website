@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-25T08:00:08.899330",
+  "last_updated": "2025-12-30T08:00:13.256412",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 511,
+    "processed_pdfs": 513,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -72619,6 +72619,109 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20033576": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033576.pdf",
+      "member_info": {
+        "filing_id": "20033576",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 8,
+      "parsed_at": "2025-12-30T08:00:10.819297",
+      "transactions": [
+        {
+          "asset": "BHP Group Limited American Depositary Shares",
+          "ticker": "BHP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/19/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CSW Industrials, Inc. Common Stock",
+          "ticker": "CSW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "11/17/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "DASSAULT SYSTEMES SA ADR",
+          "ticker": "DASTY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/21/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Edwards Lifesciences Corporation Common Stock",
+          "ticker": "EW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/19/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fidelity National Information Services, Inc. Common Stock",
+          "ticker": "FIS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/19/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/19/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "HubSpot, Inc. Common Stock",
+          "ticker": "HUBS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/19/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "KKR & Co. Inc. Common Stock",
+          "ticker": "KKR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "11/19/2025",
+          "notification_date": "12/04/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033694": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033694.pdf",
+      "member_info": {
+        "filing_id": "20033694",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2025-12-30T08:00:13.134377",
+      "transactions": []
     }
   }
 }
