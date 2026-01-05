@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-02T08:00:08.099785",
+  "last_updated": "2026-01-05T08:00:15.071375",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 515,
+    "processed_pdfs": 519,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -72743,6 +72743,101 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-01-02T08:00:07.982336",
+      "transactions": []
+    },
+    "20033714": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033714.pdf",
+      "member_info": {
+        "filing_id": "20033714",
+        "name": "Hon. Donald Sternoff Beyer Jr",
+        "district": "VA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-05T08:00:09.277962",
+      "transactions": []
+    },
+    "20033713": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033713.pdf",
+      "member_info": {
+        "filing_id": "20033713",
+        "name": "Hon. Lloyd Doggett",
+        "district": "TX37"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2026-01-05T08:00:11.202989",
+      "transactions": [
+        {
+          "asset": "Coca-Cola Company",
+          "ticker": "KO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/15/2025",
+          "notification_date": "01/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/18/2025",
+          "notification_date": "01/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/12/2025",
+          "notification_date": "01/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/09/2025",
+          "notification_date": "01/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PPG Industries, Inc. Common Stock",
+          "ticker": "PPG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/12/2025",
+          "notification_date": "01/02/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033709": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033709.pdf",
+      "member_info": {
+        "filing_id": "20033709",
+        "name": "Hon. Jefferson Shreve",
+        "district": "IN06"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-05T08:00:12.933440",
+      "transactions": []
+    },
+    "20033718": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+      "member_info": {
+        "filing_id": "20033718",
+        "name": "Hon. Ann Wagner",
+        "district": "MO02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-05T08:00:14.952809",
       "transactions": []
     }
   }
