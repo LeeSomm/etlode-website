@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-05T08:00:15.071375",
+  "last_updated": "2026-01-06T08:00:11.087847",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 519,
+    "processed_pdfs": 521,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -72839,6 +72839,190 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-01-05T08:00:14.952809",
       "transactions": []
+    },
+    "20033737": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033737.pdf",
+      "member_info": {
+        "filing_id": "20033737",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 15,
+      "parsed_at": "2026-01-06T08:00:09.278698",
+      "transactions": [
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/12/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CDW Corporation - Common Stock",
+          "ticker": "CDW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CDW Corporation - Common Stock",
+          "ticker": "CDW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Clean Harbors, Inc. Common Stock",
+          "ticker": "CLH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/03/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Live Nation Entertainment, Inc. Common Stock",
+          "ticker": "LYV",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Martin Marietta Materials, Inc. Common Stock",
+          "ticker": "MLM",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PTC Inc. - Common Stock",
+          "ticker": "PTC",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PTC Inc. - Common Stock",
+          "ticker": "PTC",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Quanta Services, Inc. Common Stock",
+          "ticker": "PWR",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Teledyne Technologies Incorporated Common Stock",
+          "ticker": "TDY",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/12/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033734": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033734.pdf",
+      "member_info": {
+        "filing_id": "20033734",
+        "name": "Hon. Virginia Foxx",
+        "district": "NC05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-06T08:00:10.971268",
+      "transactions": [
+        {
+          "asset": "Ellington Financial Inc. Common Stock",
+          "ticker": "EFC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/30/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
