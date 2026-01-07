@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-06T08:00:11.087847",
+  "last_updated": "2026-01-07T08:00:07.700755",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 521,
+    "processed_pdfs": 522,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -73023,6 +73023,17 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20033738": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033738.pdf",
+      "member_info": {
+        "filing_id": "20033738",
+        "name": "Hon. Zoe Lofgren",
+        "district": "CA18"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-07T08:00:07.582154",
+      "transactions": []
     }
   }
 }
