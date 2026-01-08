@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-07T08:00:07.700755",
+  "last_updated": "2026-01-08T08:00:19.806024",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 522,
+    "processed_pdfs": 528,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -73034,6 +73034,166 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-01-07T08:00:07.582154",
       "transactions": []
+    },
+    "20033747": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033747.pdf",
+      "member_info": {
+        "filing_id": "20033747",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-01-08T08:00:11.202487",
+      "transactions": [
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/04/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/04/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comfort Systems USA, Inc. Common Stock",
+          "ticker": "FIX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/04/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Comfort Systems USA, Inc. Common Stock",
+          "ticker": "FIX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/04/2025",
+          "notification_date": "01/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033763": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033763.pdf",
+      "member_info": {
+        "filing_id": "20033763",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-08T08:00:12.876449",
+      "transactions": []
+    },
+    "20033746": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033746.pdf",
+      "member_info": {
+        "filing_id": "20033746",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2026-01-08T08:00:14.587821",
+      "transactions": [
+        {
+          "asset": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+          "ticker": "CBRL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/31/2025",
+          "notification_date": "01/03/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Genprex, Inc. - Common Stock",
+          "ticker": "GNPX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/18/2025",
+          "notification_date": "01/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Harley-Davidson, Inc. Common Stock",
+          "ticker": "HOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/18/2025",
+          "notification_date": "01/03/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033736": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033736.pdf",
+      "member_info": {
+        "filing_id": "20033736",
+        "name": "Hon. Lisa McClain",
+        "district": "MI09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-08T08:00:16.301876",
+      "transactions": []
+    },
+    "20033758": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033758.pdf",
+      "member_info": {
+        "filing_id": "20033758",
+        "name": "Hon. David Rouzer",
+        "district": "NC07"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-08T08:00:17.986281",
+      "transactions": [
+        {
+          "asset": "Boeing Company",
+          "ticker": "BA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/09/2025",
+          "notification_date": "12/09/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033759": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033759.pdf",
+      "member_info": {
+        "filing_id": "20033759",
+        "name": "Hon. David Rouzer",
+        "district": "NC07"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-08T08:00:19.684788",
+      "transactions": [
+        {
+          "asset": "2000152831 Boeing Company",
+          "ticker": "BA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/09/2025",
+          "notification_date": "12/09/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
