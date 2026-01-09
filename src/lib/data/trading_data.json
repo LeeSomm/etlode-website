@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-08T08:00:19.806024",
+  "last_updated": "2026-01-09T08:00:07.791756",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 528,
+    "processed_pdfs": 529,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -73192,6 +73192,78 @@
           "transaction_date": "12/09/2025",
           "notification_date": "12/09/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033739": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033739.pdf",
+      "member_info": {
+        "filing_id": "20033739",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-01-09T08:00:07.673261",
+      "transactions": [
+        {
+          "asset": "MercadoLibre, Inc. - Common Stock",
+          "ticker": "MELI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/10/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/08/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Palantir Technologies Inc. - Class A Common Stock",
+          "ticker": "PLTR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/22/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Robinhood Markets, Inc. - Class A Common Stock",
+          "ticker": "HOOD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/22/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Shopify Inc. - Class A Subordinate Voting Shares",
+          "ticker": "SHOP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/08/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Tenet Healthcare Corporation Common Stock",
+          "ticker": "THC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/10/2025",
+          "notification_date": "01/05/2026",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
