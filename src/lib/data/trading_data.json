@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-09T08:00:07.791756",
+  "last_updated": "2026-01-12T08:00:12.028774",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 529,
+    "processed_pdfs": 532,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -73264,6 +73264,50 @@
           "transaction_date": "12/10/2025",
           "notification_date": "01/05/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033780": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033780.pdf",
+      "member_info": {
+        "filing_id": "20033780",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-12T08:00:08.540473",
+      "transactions": []
+    },
+    "20033695": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033695.pdf",
+      "member_info": {
+        "filing_id": "20033695",
+        "name": "Hon. Doris O. Matsui",
+        "district": "CA07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-12T08:00:10.287823",
+      "transactions": []
+    },
+    "20033755": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033755.pdf",
+      "member_info": {
+        "filing_id": "20033755",
+        "name": "Hon. Linda T. Sanchez",
+        "district": "CA38"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-12T08:00:11.912606",
+      "transactions": [
+        {
+          "asset": "Cisco Systems, Inc. - Common Stock",
+          "ticker": "CSCO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "10/28/2025",
+          "notification_date": "12/27/2025",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
