@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-14T08:00:24.075235",
+  "last_updated": "2026-01-15T08:00:20.367622",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 536,
+    "processed_pdfs": 541,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -76474,6 +76474,275 @@
           "transaction_date": "11/19/2024",
           "notification_date": "08/11/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033754": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033754.pdf",
+      "member_info": {
+        "filing_id": "20033754",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2026-01-15T08:00:10.344822",
+      "transactions": [
+        {
+          "asset": "Bank OZK - 4.625 Series A Non- Cumulative Perpetual Preferred Stock",
+          "ticker": "OZKAP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/17/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Cohen & Steers Total Return Realty Fund, Inc. Common Stock",
+          "ticker": "RFI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/17/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/17/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/17/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Morgan Stanley Common Stock",
+          "ticker": "MS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/17/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$50,001 - $100,000"
+        }
+      ]
+    },
+    "20033756": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033756.pdf",
+      "member_info": {
+        "filing_id": "20033756",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 9,
+      "parsed_at": "2026-01-15T08:00:12.684662",
+      "transactions": [
+        {
+          "asset": "Air Products and Chemicals, Inc. Common Stock",
+          "ticker": "APD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/08/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Cheniere Energy, Inc. Common Stock",
+          "ticker": "LNG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/12/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Commvault Systems, Inc. - Common Stock",
+          "ticker": "CVLT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "M3 INC UNSP ADR",
+          "ticker": "MTHRY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
+          "ticker": "SE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ServiceNow, Inc. Common Stock",
+          "ticker": "NOW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/17/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SYSMEX CORP UNSP ASDR",
+          "ticker": "SSMXY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/05/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Uber Technologies, Inc. Common Stock",
+          "ticker": "UBER",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/11/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Utz Brands Inc Class A Common Stock",
+          "ticker": "UTZ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/08/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033814": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033814.pdf",
+      "member_info": {
+        "filing_id": "20033814",
+        "name": "Hon. Rick Larsen",
+        "district": "WA02"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-01-15T08:00:15.025511",
+      "transactions": [
+        {
+          "asset": "Darden Restaurants, Inc. Common Stock",
+          "ticker": "DRI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/07/2026",
+          "notification_date": "01/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Essex Property Trust, Inc. Common Stock",
+          "ticker": "ESS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/07/2026",
+          "notification_date": "01/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/07/2026",
+          "notification_date": "01/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Mondelez International, Inc. - Class A Common Stock",
+          "ticker": "MDLZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/07/2026",
+          "notification_date": "01/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Verisk Analytics, Inc. - Common Stock",
+          "ticker": "VRSK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/07/2026",
+          "notification_date": "01/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Waste Management, Inc. Common Stock",
+          "ticker": "WM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/07/2026",
+          "notification_date": "01/09/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033800": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033800.pdf",
+      "member_info": {
+        "filing_id": "20033800",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-15T08:00:18.637364",
+      "transactions": []
+    },
+    "20033803": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033803.pdf",
+      "member_info": {
+        "filing_id": "20033803",
+        "name": "Hon. James D Jordan",
+        "district": "OH04"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-15T08:00:20.250540",
+      "transactions": [
+        {
+          "asset": "Central Bancshares, Inc. New",
+          "ticker": "CBSI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "10/27/2025",
+          "notification_date": "10/27/2025",
+          "amount": "$50,001 - $100,000"
         }
       ]
     }
