@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-16T08:00:21.182981",
+  "last_updated": "2026-01-19T08:00:17.000484",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 545,
+    "processed_pdfs": 549,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -77643,6 +77643,173 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20033732": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033732.pdf",
+      "member_info": {
+        "filing_id": "20033732",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2026-01-19T08:00:10.118957",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/26/2025",
+          "notification_date": "12/26/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "IREN Limited - Ordinary Shares",
+          "ticker": "IREN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/26/2025",
+          "notification_date": "12/26/2025",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Opendoor Technologies Inc - Common Stock",
+          "ticker": "OPEN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/26/2025",
+          "notification_date": "12/26/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033821": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033821.pdf",
+      "member_info": {
+        "filing_id": "20033821",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-19T08:00:12.352569",
+      "transactions": [
+        {
+          "asset": "SUNRISE COMMS AG ADR A",
+          "ticker": "SNREY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "01/16/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033760": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033760.pdf",
+      "member_info": {
+        "filing_id": "20033760",
+        "name": "Hon. Jared Moskowitz",
+        "district": "FL23"
+      },
+      "stock_transaction_count": 8,
+      "parsed_at": "2026-01-19T08:00:14.798143",
+      "transactions": [
+        {
+          "asset": "Atmos Energy Corporation Common Stock",
+          "ticker": "ATO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "McKesson Corporation Common Stock",
+          "ticker": "MCK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Public Service Enterprise Group Incorporated Common Stock",
+          "ticker": "PEG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Southern Company",
+          "ticker": "SO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/02/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033815": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033815.pdf",
+      "member_info": {
+        "filing_id": "20033815",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-19T08:00:16.874077",
+      "transactions": []
     }
   }
 }
