@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-19T08:00:17.000484",
+  "last_updated": "2026-01-21T08:00:13.592503",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 549,
+    "processed_pdfs": 552,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -77809,6 +77809,80 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-01-19T08:00:16.874077",
+      "transactions": []
+    },
+    "20033840": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033840.pdf",
+      "member_info": {
+        "filing_id": "20033840",
+        "name": "Hon. Michael A. Collins Jr",
+        "district": "GA10"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-21T08:00:09.446739",
+      "transactions": []
+    },
+    "20033830": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033830.pdf",
+      "member_info": {
+        "filing_id": "20033830",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-01-21T08:00:11.563284",
+      "transactions": [
+        {
+          "asset": "ASHTED GRP PLC S ADR",
+          "ticker": "ASHGY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Exchange",
+          "transaction_date": "12/10/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "ASHTED GRP PLC S ADR",
+          "ticker": "ASHGY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Exchange",
+          "transaction_date": "12/10/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "ASHTED GRP PLC S ADR",
+          "ticker": "ASHGY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Exchange",
+          "transaction_date": "12/10/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ASHTED GRP PLC S ADR",
+          "ticker": "ASHGY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Exchange",
+          "transaction_date": "12/10/2025",
+          "notification_date": "01/07/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033804": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033804.pdf",
+      "member_info": {
+        "filing_id": "20033804",
+        "name": "Hon. August Lee Pfluger II",
+        "district": "TX11"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-21T08:00:13.469548",
       "transactions": []
     }
   }
