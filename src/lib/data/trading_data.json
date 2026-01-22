@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-21T08:00:13.592503",
+  "last_updated": "2026-01-22T08:00:08.824460",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 552,
+    "processed_pdfs": 553,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -77884,6 +77884,108 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-01-21T08:00:13.469548",
       "transactions": []
+    },
+    "20033845": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033845.pdf",
+      "member_info": {
+        "filing_id": "20033845",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 9,
+      "parsed_at": "2026-01-22T08:00:08.698461",
+      "transactions": [
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadcom Inc. - Common Stock",
+          "ticker": "AVGO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/09/2026",
+          "notification_date": "01/15/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
