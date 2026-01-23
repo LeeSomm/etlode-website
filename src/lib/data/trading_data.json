@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-22T08:00:08.824460",
+  "last_updated": "2026-01-23T08:00:08.342153",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 553,
+    "processed_pdfs": 554,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -77984,6 +77984,28 @@
           "transaction_date": "01/09/2026",
           "notification_date": "01/15/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033829": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033829.pdf",
+      "member_info": {
+        "filing_id": "20033829",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-23T08:00:08.218293",
+      "transactions": [
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "12/23/2025",
+          "notification_date": "12/24/2025",
+          "amount": "$250,001 - $500,000"
         }
       ]
     }
