@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-23T08:00:08.342153",
+  "last_updated": "2026-01-26T08:00:20.849413",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 554,
+    "processed_pdfs": 559,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78006,6 +78006,275 @@
           "transaction_date": "12/23/2025",
           "notification_date": "12/24/2025",
           "amount": "$250,001 - $500,000"
+        }
+      ]
+    },
+    "20033835": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033835.pdf",
+      "member_info": {
+        "filing_id": "20033835",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-01-26T08:00:11.460956",
+      "transactions": []
+    },
+    "20033661": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf",
+      "member_info": {
+        "filing_id": "20033661",
+        "name": "Hon. James French Hill",
+        "district": "AR02"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-01-26T08:00:13.517833",
+      "transactions": [
+        {
+          "asset": "Kyndryl Holdings, Inc. Common Stock",
+          "ticker": "KD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/31/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pfizer, Inc. Common Stock",
+          "ticker": "PFE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/31/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "SFL Corporation Ltd",
+          "ticker": "SFL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/31/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Solventum Corporation Common Stock",
+          "ticker": "SOLV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/31/2025",
+          "notification_date": "12/31/2025",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033857": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033857.pdf",
+      "member_info": {
+        "filing_id": "20033857",
+        "name": "Hon. Robert E. Latta",
+        "district": "OH05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-26T08:00:15.183853",
+      "transactions": [
+        {
+          "asset": "Farmers & Merchants Bancorp, Inc.",
+          "ticker": "FMAO",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/20/2026",
+          "notification_date": "01/21/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033856": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033856.pdf",
+      "member_info": {
+        "filing_id": "20033856",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-01-26T08:00:17.433731",
+      "transactions": [
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/09/2026",
+          "notification_date": "01/22/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+          "ticker": "CBRL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/05/2026",
+          "notification_date": "01/22/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/31/2025",
+          "notification_date": "01/22/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Hyster-Yale, Inc. Class A common stock",
+          "ticker": "HY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/05/2026",
+          "notification_date": "01/22/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033725": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+      "member_info": {
+        "filing_id": "20033725",
+        "name": "Hon. Nancy Pelosi",
+        "district": "CA11"
+      },
+      "stock_transaction_count": 12,
+      "parsed_at": "2026-01-26T08:00:20.729130",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/16/2026",
+          "notification_date": "01/16/2026",
+          "amount": "$500,001 - $1,000,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/30/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$1,000,001 - $5,000,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/24/2025",
+          "notification_date": "12/24/2025",
+          "amount": "$1,000,001 - $5,000,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/16/2026",
+          "notification_date": "01/16/2026",
+          "amount": "$500,001 - $1,000,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/24/2025",
+          "notification_date": "12/24/2025",
+          "amount": "$5,000,001 - $25,000,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/30/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$5,000,001 - $25,000,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/24/2025",
+          "notification_date": "12/24/2025",
+          "amount": "$1,000,001 - $5,000,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/16/2026",
+          "notification_date": "01/16/2026",
+          "amount": "$250,001 - $500,000"
+        },
+        {
+          "asset": "PayPal Holdings, Inc. - Common Stock",
+          "ticker": "PYPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/30/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$250,001 - $500,000"
+        },
+        {
+          "asset": "Versant Media Group, Inc. - Class A Common Stock",
+          "ticker": "VSNT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Exchange",
+          "transaction_date": "01/02/2026",
+          "notification_date": "01/02/2026",
+          "amount": "$15"
+        },
+        {
+          "asset": "Vistra Corp. Common Stock",
+          "ticker": "VST",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/16/2026",
+          "notification_date": "01/16/2026",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Walt Disney Company",
+          "ticker": "DIS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "12/30/2025",
+          "notification_date": "12/30/2025",
+          "amount": "$1,000,001 - $5,000,000"
         }
       ]
     }
