@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-26T08:00:20.849413",
+  "last_updated": "2026-01-27T08:00:08.173991",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 559,
+    "processed_pdfs": 560,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78275,6 +78275,38 @@
           "transaction_date": "12/30/2025",
           "notification_date": "12/30/2025",
           "amount": "$1,000,001 - $5,000,000"
+        }
+      ]
+    },
+    "20033813": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033813.pdf",
+      "member_info": {
+        "filing_id": "20033813",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-01-27T08:00:08.046945",
+      "transactions": [
+        {
+          "asset": "Fluor Corporation Common Stock",
+          "ticker": "FLR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/29/2025",
+          "notification_date": "01/14/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Northrop Grumman Corporation Common Stock",
+          "ticker": "NOC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "12/29/2025",
+          "notification_date": "01/14/2026",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
