@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-27T08:00:08.173991",
+  "last_updated": "2026-01-29T08:00:07.406425",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 560,
+    "processed_pdfs": 561,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78307,6 +78307,28 @@
           "transaction_date": "12/29/2025",
           "notification_date": "01/14/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20033877": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033877.pdf",
+      "member_info": {
+        "filing_id": "20033877",
+        "name": "Hon. Dale Whitney Strong",
+        "district": "AL05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-01-29T08:00:07.280967",
+      "transactions": [
+        {
+          "asset": "IREN Limited - Ordinary Shares",
+          "ticker": "IREN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/28/2026",
+          "notification_date": "01/28/2026",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
