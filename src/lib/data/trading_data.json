@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-01-30T08:00:07.372216",
+  "last_updated": "2026-02-02T08:00:08.039536",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 562,
+    "processed_pdfs": 563,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78341,6 +78341,17 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-01-30T08:00:07.241056",
+      "transactions": []
+    },
+    "20033903": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033903.pdf",
+      "member_info": {
+        "filing_id": "20033903",
+        "name": "Hon. Donald Sternoff Beyer Jr",
+        "district": "VA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-02T08:00:07.913156",
       "transactions": []
     }
   }
