@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-03T08:00:16.908927",
+  "last_updated": "2026-02-04T08:00:08.634371",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 566,
+    "processed_pdfs": 567,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78886,6 +78886,78 @@
           "transaction_type": "Purchase",
           "transaction_date": "01/16/2026",
           "notification_date": "01/30/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033858": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033858.pdf",
+      "member_info": {
+        "filing_id": "20033858",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-02-04T08:00:08.507363",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/12/2026",
+          "notification_date": "01/12/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/20/2026",
+          "notification_date": "01/20/2026",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "IREN Limited - Ordinary Shares",
+          "ticker": "IREN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/20/2026",
+          "notification_date": "01/20/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/20/2026",
+          "notification_date": "01/20/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/20/2026",
+          "notification_date": "01/20/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/08/2026",
+          "notification_date": "01/08/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
