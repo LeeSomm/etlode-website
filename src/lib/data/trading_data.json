@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-05T08:00:08.305157",
+  "last_updated": "2026-02-06T08:00:10.469154",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 568,
+    "processed_pdfs": 569,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78971,6 +78971,17 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-05T08:00:08.179065",
+      "transactions": []
+    },
+    "20033927": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033927.pdf",
+      "member_info": {
+        "filing_id": "20033927",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-06T08:00:10.338822",
       "transactions": []
     }
   }
