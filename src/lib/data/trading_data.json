@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-06T08:00:10.469154",
+  "last_updated": "2026-02-09T08:00:12.598633",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 569,
+    "processed_pdfs": 571,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -78982,6 +78982,49 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-06T08:00:10.338822",
+      "transactions": []
+    },
+    "20033947": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033947.pdf",
+      "member_info": {
+        "filing_id": "20033947",
+        "name": "Hon. Virginia Foxx",
+        "district": "NC05"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-02-09T08:00:10.483018",
+      "transactions": [
+        {
+          "asset": "Hercules Capital, Inc. Common Stock",
+          "ticker": "HTGC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/12/2026",
+          "notification_date": "02/01/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Public Storage Common Stock",
+          "ticker": "PSA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/12/2026",
+          "notification_date": "02/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033946": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033946.pdf",
+      "member_info": {
+        "filing_id": "20033946",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-09T08:00:12.472161",
       "transactions": []
     }
   }
