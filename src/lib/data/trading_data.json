@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-09T08:00:12.598633",
+  "last_updated": "2026-02-10T08:00:11.888972",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 571,
+    "processed_pdfs": 574,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -79025,6 +79025,42 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-09T08:00:12.472161",
+      "transactions": []
+    },
+    "20033889": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033889.pdf",
+      "member_info": {
+        "filing_id": "20033889",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-02-10T08:00:08.826501",
+      "transactions": [
+        {
+          "asset": "Sony Group Corporation American Depositary Shares",
+          "ticker": "SONY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/26/2026",
+          "notification_date": "01/21/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "8221321": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221321.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-10T08:00:09.954774",
+      "transactions": []
+    },
+    "8221322": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221322.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-10T08:00:11.747332",
       "transactions": []
     }
   }
