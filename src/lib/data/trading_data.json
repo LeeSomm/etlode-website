@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-10T08:00:11.888972",
+  "last_updated": "2026-02-11T08:00:07.630938",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 574,
+    "processed_pdfs": 575,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -79062,6 +79062,58 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-10T08:00:11.747332",
       "transactions": []
+    },
+    "20033956": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033956.pdf",
+      "member_info": {
+        "filing_id": "20033956",
+        "name": "Hon. John McGuire",
+        "district": "VA05"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-02-11T08:00:07.502592",
+      "transactions": [
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/21/2026",
+          "notification_date": "02/06/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/30/2026",
+          "notification_date": "02/06/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/30/2026",
+          "notification_date": "02/06/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Walmart Inc. - Common Stock",
+          "ticker": "WMT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/20/2026",
+          "notification_date": "02/06/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
