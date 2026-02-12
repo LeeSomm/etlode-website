@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-11T08:00:07.630938",
+  "last_updated": "2026-02-12T08:00:13.030902",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 575,
+    "processed_pdfs": 578,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -79114,6 +79114,56 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "8221326": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221326.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-12T08:00:09.002267",
+      "transactions": []
+    },
+    "20033920": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033920.pdf",
+      "member_info": {
+        "filing_id": "20033920",
+        "name": "Hon. August Lee Pfluger II",
+        "district": "TX11"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-02-12T08:00:11.007208",
+      "transactions": [
+        {
+          "asset": "Fidelity National Financial, Inc. Common Stock",
+          "ticker": "FNF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/12/2026",
+          "notification_date": "02/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SiriusXM Holdings Inc. - Common Stock",
+          "ticker": "SIRI",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "01/13/2026",
+          "notification_date": "02/02/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033964": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033964.pdf",
+      "member_info": {
+        "filing_id": "20033964",
+        "name": "Hon. Lisa McClain",
+        "district": "MI09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-12T08:00:12.901836",
+      "transactions": []
     }
   }
 }
