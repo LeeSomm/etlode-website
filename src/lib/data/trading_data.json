@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-12T08:00:13.030902",
+  "last_updated": "2026-02-13T08:00:13.646775",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 578,
+    "processed_pdfs": 581,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -79163,6 +79163,80 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-12T08:00:12.901836",
+      "transactions": []
+    },
+    "20033981": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033981.pdf",
+      "member_info": {
+        "filing_id": "20033981",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-02-13T08:00:09.758848",
+      "transactions": [
+        {
+          "asset": "Howmet Aerospace Inc. Common Stock",
+          "ticker": "HWM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "02/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Parker-Hannifin Corporation Common Stock",
+          "ticker": "PH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "02/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "02/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/08/2026",
+          "notification_date": "02/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033991": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033991.pdf",
+      "member_info": {
+        "filing_id": "20033991",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-13T08:00:11.666440",
+      "transactions": []
+    },
+    "20033989": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033989.pdf",
+      "member_info": {
+        "filing_id": "20033989",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-13T08:00:13.519450",
       "transactions": []
     }
   }
