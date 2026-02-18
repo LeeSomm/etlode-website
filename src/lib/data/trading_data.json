@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-16T08:00:19.741662",
+  "last_updated": "2026-02-18T08:00:18.820864",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 582,
+    "processed_pdfs": 587,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -80647,6 +80647,150 @@
           "transaction_type": "Purchase",
           "transaction_date": "02/03/2026",
           "notification_date": "02/11/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033945": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033945.pdf",
+      "member_info": {
+        "filing_id": "20033945",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2026-02-18T08:00:11.038869",
+      "transactions": [
+        {
+          "asset": "American Water Works Company, Inc. Common Stock",
+          "ticker": "AWK",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/14/2026",
+          "notification_date": "02/04/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/14/2026",
+          "notification_date": "02/04/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "S&P Global Inc. Common Stock",
+          "ticker": "SPGI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/14/2026",
+          "notification_date": "02/04/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "8221332": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221332.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-18T08:00:12.338999",
+      "transactions": []
+    },
+    "20034016": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034016.pdf",
+      "member_info": {
+        "filing_id": "20034016",
+        "name": "Hon. Daniel Meuser",
+        "district": "PA09"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-02-18T08:00:14.479545",
+      "transactions": [
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/14/2026",
+          "notification_date": "02/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/30/2026",
+          "notification_date": "02/11/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034013": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034013.pdf",
+      "member_info": {
+        "filing_id": "20034013",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-18T08:00:16.510108",
+      "transactions": []
+    },
+    "20033944": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033944.pdf",
+      "member_info": {
+        "filing_id": "20033944",
+        "name": "Hon. Michael Patrick Guest",
+        "district": "MS03"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-02-18T08:00:18.694708",
+      "transactions": [
+        {
+          "asset": "Chord Energy Corporation - Common Stock",
+          "ticker": "CHRD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/09/2026",
+          "notification_date": "02/04/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Dynatrace, Inc. Common Stock",
+          "ticker": "DT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/09/2026",
+          "notification_date": "02/04/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "EVOLUTION AB UNSP ADR",
+          "ticker": "EVVTY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/09/2026",
+          "notification_date": "02/04/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "OTC Markets Group Inc. Common Stock Class A",
+          "ticker": "OTCM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "01/09/2026",
+          "notification_date": "02/04/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
