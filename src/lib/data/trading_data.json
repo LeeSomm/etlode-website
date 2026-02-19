@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-18T08:00:18.820864",
+  "last_updated": "2026-02-19T08:00:08.038665",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 587,
+    "processed_pdfs": 588,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -80794,6 +80794,17 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034012": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034012.pdf",
+      "member_info": {
+        "filing_id": "20034012",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-19T08:00:07.907106",
+      "transactions": []
     }
   }
 }
