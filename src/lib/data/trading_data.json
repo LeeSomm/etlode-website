@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-19T08:00:08.038665",
+  "last_updated": "2026-02-20T08:00:11.491971",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 588,
+    "processed_pdfs": 590,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -80805,6 +80805,100 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-19T08:00:07.907106",
       "transactions": []
+    },
+    "20034024": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034024.pdf",
+      "member_info": {
+        "filing_id": "20034024",
+        "name": "Hon. Jake Auchincloss",
+        "district": "MA04"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-02-20T08:00:09.162105",
+      "transactions": [
+        {
+          "asset": "State Street Corporation Common Stock",
+          "ticker": "STT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/17/2026",
+          "notification_date": "02/17/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034025": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034025.pdf",
+      "member_info": {
+        "filing_id": "20034025",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-02-20T08:00:11.360481",
+      "transactions": [
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/29/2026",
+          "notification_date": "02/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "General Motors Company Common Stock",
+          "ticker": "GM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/07/2026",
+          "notification_date": "02/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/23/2026",
+          "notification_date": "02/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/23/2026",
+          "notification_date": "02/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/23/2026",
+          "notification_date": "02/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Stryker Corporation Common Stock",
+          "ticker": "SYK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "01/23/2026",
+          "notification_date": "02/05/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
