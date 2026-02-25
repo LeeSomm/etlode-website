@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-24T08:00:13.748166",
+  "last_updated": "2026-02-25T08:00:11.129732",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 596,
+    "processed_pdfs": 598,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -81249,6 +81249,89 @@
           "amount": "$50,001 - $100,000"
         }
       ]
+    },
+    "20034018": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034018.pdf",
+      "member_info": {
+        "filing_id": "20034018",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-02-25T08:00:09.033576",
+      "transactions": [
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/03/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/03/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/12/2026",
+          "notification_date": "02/12/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/03/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/03/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Micron Technology, Inc. - Common Stock",
+          "ticker": "MU",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/03/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$100,001 - $250,000"
+        }
+      ]
+    },
+    "20034010": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034010.pdf",
+      "member_info": {
+        "filing_id": "20034010",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-25T08:00:10.996622",
+      "transactions": []
     }
   }
 }
