@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-02-26T08:00:08.513907",
+  "last_updated": "2026-02-27T08:00:10.855368",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 599,
+    "processed_pdfs": 601,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -81342,6 +81342,89 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-02-26T08:00:08.384069",
+      "transactions": []
+    },
+    "20033930": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033930.pdf",
+      "member_info": {
+        "filing_id": "20033930",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-02-27T08:00:08.731142",
+      "transactions": [
+        {
+          "asset": "Gilead Sciences, Inc. - Common Stock",
+          "ticker": "GILD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/27/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intercontinental Exchange Inc. Common Stock",
+          "ticker": "ICE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "01/26/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NESTLE S.A S ADR",
+          "ticker": "NSRGY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "01/26/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Schneider National, Inc. Common Stock",
+          "ticker": "SNDR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "01/26/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ServiceNow, Inc. Common Stock",
+          "ticker": "NOW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "01/30/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Uber Technologies, Inc. Common Stock",
+          "ticker": "UBER",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "01/30/2026",
+          "notification_date": "02/03/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034068": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034068.pdf",
+      "member_info": {
+        "filing_id": "20034068",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-02-27T08:00:10.724596",
       "transactions": []
     }
   }
