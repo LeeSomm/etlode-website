@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-02T08:00:08.327488",
+  "last_updated": "2026-03-03T08:00:10.735358",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 602,
+    "processed_pdfs": 604,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -81436,6 +81436,39 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-03-02T08:00:08.189575",
+      "transactions": []
+    },
+    "20034095": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034095.pdf",
+      "member_info": {
+        "filing_id": "20034095",
+        "name": "Hon. Virginia Foxx",
+        "district": "NC05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-03-03T08:00:08.761703",
+      "transactions": [
+        {
+          "asset": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+          "ticker": "ARLP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/13/2026",
+          "notification_date": "02/13/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034082": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034082.pdf",
+      "member_info": {
+        "filing_id": "20034082",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-03T08:00:10.604057",
       "transactions": []
     }
   }
