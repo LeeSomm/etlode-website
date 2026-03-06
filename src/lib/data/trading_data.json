@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-05T08:00:08.392390",
+  "last_updated": "2026-03-06T08:00:17.031581",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 606,
+    "processed_pdfs": 610,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -81513,6 +81513,61 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20034119": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034119.pdf",
+      "member_info": {
+        "filing_id": "20034119",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-06T08:00:10.800330",
+      "transactions": []
+    },
+    "20034132": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034132.pdf",
+      "member_info": {
+        "filing_id": "20034132",
+        "name": "Hon. Lloyd Doggett",
+        "district": "TX37"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-03-06T08:00:12.778095",
+      "transactions": [
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/17/2026",
+          "notification_date": "03/04/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034128": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034128.pdf",
+      "member_info": {
+        "filing_id": "20034128",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-06T08:00:14.793566",
+      "transactions": []
+    },
+    "20034123": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034123.pdf",
+      "member_info": {
+        "filing_id": "20034123",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-06T08:00:16.900902",
+      "transactions": []
     }
   }
 }
