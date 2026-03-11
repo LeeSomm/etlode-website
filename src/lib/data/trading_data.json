@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-10T08:00:17.533506",
+  "last_updated": "2026-03-11T08:00:13.261243",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 614,
+    "processed_pdfs": 616,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -82803,6 +82803,520 @@
           "transaction_type": "Sale",
           "transaction_date": "03/09/2026",
           "notification_date": "03/09/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034159": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034159.pdf",
+      "member_info": {
+        "filing_id": "20034159",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 44,
+      "parsed_at": "2026-03-11T08:00:10.848986",
+      "transactions": [
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/24/2026",
+          "notification_date": "03/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/13/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/02/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BJ s Wholesale Club Holdings, Inc. Common Stock",
+          "ticker": "BJ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/09/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/06/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "C.H. Robinson Worldwide, Inc. - Common Stock",
+          "ticker": "CHRW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/13/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "C.H. Robinson Worldwide, Inc. - Common Stock",
+          "ticker": "CHRW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/06/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "C.H. Robinson Worldwide, Inc. - Common Stock",
+          "ticker": "CHRW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "C.H. Robinson Worldwide, Inc. - Common Stock",
+          "ticker": "CHRW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/09/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CDW Corporation - Common Stock",
+          "ticker": "CDW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/24/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Clean Harbors, Inc. Common Stock",
+          "ticker": "CLH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/23/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "EMCOR Group, Inc. Common Stock",
+          "ticker": "EME",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/27/2026",
+          "notification_date": "03/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "EMCOR Group, Inc. Common Stock",
+          "ticker": "EME",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/04/2026",
+          "notification_date": "03/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Entegris, Inc. - Common Stock",
+          "ticker": "ENTG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/09/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Entegris, Inc. - Common Stock",
+          "ticker": "ENTG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/23/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortune Brands Innovations, Inc. Common Stock",
+          "ticker": "FBIN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/24/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/24/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/11/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/23/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Jones Lang LaSalle Incorporated Common Stock",
+          "ticker": "JLL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/27/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Labcorp Holdings Inc. Common Stock",
+          "ticker": "LH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/11/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Labcorp Holdings Inc. Common Stock",
+          "ticker": "LH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/04/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morningstar, Inc. - Common Stock",
+          "ticker": "MORN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/06/2026",
+          "notification_date": "03/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morningstar, Inc. - Common Stock",
+          "ticker": "MORN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/19/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morningstar, Inc. - Common Stock",
+          "ticker": "MORN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/25/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nasdaq, Inc. - Common Stock",
+          "ticker": "NDAQ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/27/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/23/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/24/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Rollins, Inc. Common Stock",
+          "ticker": "ROL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/20/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Rollins, Inc. Common Stock",
+          "ticker": "ROL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Rollins, Inc. Common Stock",
+          "ticker": "ROL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/13/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Somnigroup International Inc. Common Stock",
+          "ticker": "SGI",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/09/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "STERIS plc",
+          "ticker": "STE",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/06/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Middleby Corporation - Common Stock",
+          "ticker": "MIDD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/06/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "The Middleby Corporation - Common Stock",
+          "ticker": "MIDD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/11/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Middleby Corporation - Common Stock",
+          "ticker": "MIDD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/17/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Middleby Corporation - Common Stock",
+          "ticker": "MIDD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/10/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Viking Holdings Ltd Ordinary Shares",
+          "ticker": "VIK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/11/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Viking Holdings Ltd Ordinary Shares",
+          "ticker": "VIK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/09/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Viking Holdings Ltd Ordinary Shares",
+          "ticker": "VIK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/03/2026",
+          "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034156": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034156.pdf",
+      "member_info": {
+        "filing_id": "20034156",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2026-03-11T08:00:13.125720",
+      "transactions": [
+        {
+          "asset": "Arthur J. Gallagher & Co. Common Stock",
+          "ticker": "AJG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/08/2026",
+          "notification_date": "03/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Arthur J. Gallagher & Co. Common Stock",
+          "ticker": "AJG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/08/2026",
+          "notification_date": "03/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Arthur J. Gallagher & Co. Common Stock",
+          "ticker": "AJG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/08/2026",
+          "notification_date": "03/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Magnum Ice Cream Company N.V. Ordinary Shares",
+          "ticker": "MICC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/08/2026",
+          "notification_date": "03/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Magnum Ice Cream Company N.V. Ordinary Shares",
+          "ticker": "MICC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/08/2026",
+          "notification_date": "03/08/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
