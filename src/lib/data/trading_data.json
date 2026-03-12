@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-11T08:00:13.261243",
+  "last_updated": "2026-03-12T08:00:14.429277",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 616,
+    "processed_pdfs": 620,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -83320,6 +83320,79 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034133": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf",
+      "member_info": {
+        "filing_id": "20034133",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-03-12T08:00:09.882397",
+      "transactions": [
+        {
+          "asset": "Intuit Inc. - Common Stock",
+          "ticker": "INTU",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "02/19/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intuit Inc. - Common Stock",
+          "ticker": "INTU",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Kinder Morgan, Inc. Common Stock",
+          "ticker": "KMI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/19/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/19/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "8221358": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221358.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-12T08:00:11.607361",
+      "transactions": []
+    },
+    "8221359": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221359.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-12T08:00:13.026855",
+      "transactions": []
+    },
+    "8221360": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221360.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-12T08:00:14.297492",
+      "transactions": []
     }
   }
 }
