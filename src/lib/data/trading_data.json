@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-13T08:00:22.297869",
+  "last_updated": "2026-03-16T08:00:13.506255",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 625,
+    "processed_pdfs": 628,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -83928,6 +83928,61 @@
           "transaction_type": "Purchase",
           "transaction_date": "02/17/2026",
           "notification_date": "03/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034084": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034084.pdf",
+      "member_info": {
+        "filing_id": "20034084",
+        "name": "Hon. Jefferson Shreve",
+        "district": "IN06"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-16T08:00:09.736441",
+      "transactions": []
+    },
+    "20034176": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034176.pdf",
+      "member_info": {
+        "filing_id": "20034176",
+        "name": "Hon. Ed Case",
+        "district": "HI01"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-03-16T08:00:11.462678",
+      "transactions": [
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/12/2026",
+          "notification_date": "03/10/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034160": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034160.pdf",
+      "member_info": {
+        "filing_id": "20034160",
+        "name": "Hon. Pramila Jayapal",
+        "district": "WA07"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-03-16T08:00:13.367574",
+      "transactions": [
+        {
+          "asset": "Newell Brands Inc.",
+          "ticker": "NWL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "10/31/2023",
+          "notification_date": "05/13/2024",
           "amount": "$1,001 - $15,000"
         }
       ]
