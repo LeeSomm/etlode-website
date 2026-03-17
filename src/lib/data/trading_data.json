@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-16T08:00:13.506255",
+  "last_updated": "2026-03-17T08:00:12.055587",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 628,
+    "processed_pdfs": 630,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -83986,6 +83986,189 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034130": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034130.pdf",
+      "member_info": {
+        "filing_id": "20034130",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2026-03-17T08:00:09.923940",
+      "transactions": [
+        {
+          "asset": "Carvana Co. Class A Common Stock",
+          "ticker": "CVNA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cloudflare, Inc. Class A Common Stock",
+          "ticker": "NET",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/04/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cummins Inc. Common Stock",
+          "ticker": "CMI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/04/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/02/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fair Isaac Corporation Common Stock",
+          "ticker": "FICO",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/04/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Federal Signal Corporation Common Stock",
+          "ticker": "FSS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/26/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GE Vernova Inc. Common Stock",
+          "ticker": "GEV",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Infineon Technologies AG",
+          "ticker": "IFNNY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/27/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intuit Inc. - Common Stock",
+          "ticker": "INTU",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/20/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Merck & Company, Inc. Common Stock",
+          "ticker": "MRK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/04/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/02/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Monster Beverage Corporation - Common Stock",
+          "ticker": "MNST",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/02/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palo Alto Networks, Inc.",
+          "ticker": "PANW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/27/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "UnitedHealth Group Incorporated Common Stock",
+          "ticker": "UNH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/05/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034177": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034177.pdf",
+      "member_info": {
+        "filing_id": "20034177",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-17T08:00:11.911262",
+      "transactions": []
     }
   }
 }
