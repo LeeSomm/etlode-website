@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-17T08:00:12.055587",
+  "last_updated": "2026-03-18T08:00:16.413597",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 630,
+    "processed_pdfs": 634,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84169,6 +84169,153 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-03-17T08:00:11.911262",
       "transactions": []
+    },
+    "20034114": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034114.pdf",
+      "member_info": {
+        "filing_id": "20034114",
+        "name": "Hon. Neal Patrick MD, Facs Dunn",
+        "district": "FL02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-18T08:00:09.768209",
+      "transactions": []
+    },
+    "20034179": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf",
+      "member_info": {
+        "filing_id": "20034179",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-03-18T08:00:11.779784",
+      "transactions": [
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/12/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/12/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034190": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034190.pdf",
+      "member_info": {
+        "filing_id": "20034190",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-03-18T08:00:14.104533",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/03/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "First Citizens BancShares, Inc. - Class A Common Stock",
+          "ticker": "FCNCA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/05/2026",
+          "notification_date": "03/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Linde plc - Ordinary Shares",
+          "ticker": "LIN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/18/2026",
+          "notification_date": "03/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Waters Corporation Common Stock",
+          "ticker": "WAT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/13/2026",
+          "notification_date": "03/03/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034188": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf",
+      "member_info": {
+        "filing_id": "20034188",
+        "name": "Hon. Thomas Suozzi",
+        "district": "NY03"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-03-18T08:00:16.273469",
+      "transactions": [
+        {
+          "asset": "Advanced Micro Devices, Inc. - Common Stock",
+          "ticker": "AMD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "02/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "02/19/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Palantir Technologies Inc. - Class A Common Stock",
+          "ticker": "PLTR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "02/19/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "United Rentals, Inc. Common Stock",
+          "ticker": "URI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/18/2026",
+          "notification_date": "02/19/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
