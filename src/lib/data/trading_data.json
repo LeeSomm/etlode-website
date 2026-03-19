@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-18T08:00:16.413597",
+  "last_updated": "2026-03-19T08:00:13.927716",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 634,
+    "processed_pdfs": 637,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84314,6 +84314,50 @@
           "transaction_date": "02/18/2026",
           "notification_date": "02/19/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034202": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034202.pdf",
+      "member_info": {
+        "filing_id": "20034202",
+        "name": "Hon. Rob Bresnahan",
+        "district": "PA08"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-19T08:00:09.755501",
+      "transactions": []
+    },
+    "20034178": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034178.pdf",
+      "member_info": {
+        "filing_id": "20034178",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-19T08:00:11.737349",
+      "transactions": []
+    },
+    "20034054": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034054.pdf",
+      "member_info": {
+        "filing_id": "20034054",
+        "name": "Hon. August Lee Pfluger II",
+        "district": "TX11"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-03-19T08:00:13.790089",
+      "transactions": [
+        {
+          "asset": "Warner Bros. Discovery, Inc. - Series A Common Stock",
+          "ticker": "WBD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/10/2026",
+          "notification_date": "02/23/2026",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
