@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-19T08:00:13.927716",
+  "last_updated": "2026-03-23T08:00:16.043246",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 637,
+    "processed_pdfs": 641,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84360,6 +84360,153 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "9115704": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115704.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-23T08:00:09.241720",
+      "transactions": []
+    },
+    "9115711": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115711.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-23T08:00:10.469825",
+      "transactions": []
+    },
+    "20034207": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034207.pdf",
+      "member_info": {
+        "filing_id": "20034207",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 11,
+      "parsed_at": "2026-03-23T08:00:13.225038",
+      "transactions": [
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/11/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fifth Third Bancorp - Common Stock",
+          "ticker": "FITB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/11/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Installed Building Products, Inc. Common Stock",
+          "ticker": "IBP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marathon Petroleum Corporation Common Stock",
+          "ticker": "MPC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/11/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Marathon Petroleum Corporation Common Stock",
+          "ticker": "MPC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/11/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Parker-Hannifin Corporation Common Stock",
+          "ticker": "PH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RPM International Inc. Common Stock",
+          "ticker": "RPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/12/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RPM International Inc. Common Stock",
+          "ticker": "RPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/11/2026",
+          "notification_date": "03/19/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034195": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034195.pdf",
+      "member_info": {
+        "filing_id": "20034195",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-23T08:00:15.902955",
+      "transactions": []
     }
   }
 }
