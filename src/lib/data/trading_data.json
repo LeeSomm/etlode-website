@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-25T08:00:07.876662",
+  "last_updated": "2026-03-26T08:00:07.562916",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 642,
+    "processed_pdfs": 643,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84596,6 +84596,28 @@
           "transaction_type": "Purchase",
           "transaction_date": "03/13/2026",
           "notification_date": "03/13/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034223": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034223.pdf",
+      "member_info": {
+        "filing_id": "20034223",
+        "name": "Hon. Warren Davidson",
+        "district": "OH08"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-03-26T08:00:07.426033",
+      "transactions": [
+        {
+          "asset": "GE HealthCare Technologies Inc. - Common Stock",
+          "ticker": "GEHC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/23/2026",
+          "notification_date": "03/23/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
