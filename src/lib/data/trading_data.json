@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-26T08:00:07.562916",
+  "last_updated": "2026-03-27T08:00:07.472085",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 643,
+    "processed_pdfs": 644,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84621,6 +84621,17 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034167": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034167.pdf",
+      "member_info": {
+        "filing_id": "20034167",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-27T08:00:07.334484",
+      "transactions": []
     }
   }
 }
