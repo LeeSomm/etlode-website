@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-27T08:00:07.472085",
+  "last_updated": "2026-03-31T08:00:11.396650",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 644,
+    "processed_pdfs": 646,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84632,6 +84632,59 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-03-27T08:00:07.334484",
       "transactions": []
+    },
+    "20034247": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034247.pdf",
+      "member_info": {
+        "filing_id": "20034247",
+        "name": "Hon. Max Miller",
+        "district": "OH07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-03-31T08:00:09.271460",
+      "transactions": []
+    },
+    "20034129": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034129.pdf",
+      "member_info": {
+        "filing_id": "20034129",
+        "name": "Hon. Jared Moskowitz",
+        "district": "FL23"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2026-03-31T08:00:11.257870",
+      "transactions": [
+        {
+          "asset": "Roper Technologies, Inc.",
+          "ticker": "ROP",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/27/2026",
+          "notification_date": "02/28/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Roper Technologies, Inc.",
+          "ticker": "ROP",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "02/27/2026",
+          "notification_date": "02/28/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Roper Technologies, Inc.",
+          "ticker": "ROP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/27/2026",
+          "notification_date": "02/28/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
