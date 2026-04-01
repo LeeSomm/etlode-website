@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-31T08:00:11.396650",
+  "last_updated": "2026-04-01T08:00:09.295993",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 646,
+    "processed_pdfs": 647,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84682,6 +84682,88 @@
           "transaction_type": "Sale",
           "transaction_date": "02/27/2026",
           "notification_date": "02/28/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034201": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf",
+      "member_info": {
+        "filing_id": "20034201",
+        "name": "Hon. Mark Alford",
+        "district": "MO04"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2026-04-01T08:00:09.151951",
+      "transactions": [
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PayPal Holdings, Inc. - Common Stock",
+          "ticker": "PYPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SPDR S&P 500 Buyback ETF",
+          "ticker": "SPYB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SPDR S&P 500 Buyback ETF",
+          "ticker": "SPYB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/16/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
