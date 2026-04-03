@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-01T08:00:09.295993",
+  "last_updated": "2026-04-03T08:00:11.895208",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 647,
+    "processed_pdfs": 649,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84764,6 +84764,49 @@
           "transaction_type": "Sale",
           "transaction_date": "03/16/2026",
           "notification_date": "03/16/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034213": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034213.pdf",
+      "member_info": {
+        "filing_id": "20034213",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-03T08:00:09.667592",
+      "transactions": []
+    },
+    "20034280": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034280.pdf",
+      "member_info": {
+        "filing_id": "20034280",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-04-03T08:00:11.750366",
+      "transactions": [
+        {
+          "asset": "Installed Building Products, Inc. Common Stock",
+          "ticker": "IBP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2026",
+          "notification_date": "03/25/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kroger Company",
+          "ticker": "KR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/24/2026",
+          "notification_date": "03/25/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
