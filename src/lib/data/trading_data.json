@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-03T08:00:11.895208",
+  "last_updated": "2026-04-06T08:00:12.239805",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 649,
+    "processed_pdfs": 651,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -84807,6 +84807,200 @@
           "transaction_type": "Sale",
           "transaction_date": "03/24/2026",
           "notification_date": "03/25/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034262": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf",
+      "member_info": {
+        "filing_id": "20034262",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2026-04-06T08:00:10.253271",
+      "transactions": [
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$250,001 - $500,000"
+        },
+        {
+          "asset": "Becton, Dickinson and Company Common Stock",
+          "ticker": "BDX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Blackrock MuniAssets Fund, Inc Common Stock",
+          "ticker": "MUA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Cognizant Technology Solutions Corporation - Class A Common Stock",
+          "ticker": "CTSH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Exact Sciences Corporation - Common Stock",
+          "ticker": "EXAS",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "03/24/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ICON plc - Ordinary Shares",
+          "ticker": "ICLR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/05/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "Invesco Ltd Common Stock",
+          "ticker": "IVZ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "IQVIA Holdings, Inc. Common Stock",
+          "ticker": "IQV",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Kenvue Inc. Common Stock",
+          "ticker": "KVUE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/17/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Medtronic plc. Ordinary Shares",
+          "ticker": "MDT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/20/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Progress Software Corporation - Common Stock",
+          "ticker": "PRGS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/16/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "Prologis, Inc. Common Stock",
+          "ticker": "PLD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/20/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "SmartStop Self Storage REIT, Inc. Common Stock",
+          "ticker": "SMA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/18/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$500,001 - $1,000,000"
+        },
+        {
+          "asset": "T. Rowe Price Group, Inc. - Common Stock",
+          "ticker": "TROW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/20/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Texas Instruments Incorporated - Common Stock",
+          "ticker": "TXN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/18/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$500,001 - $1,000,000"
+        }
+      ]
+    },
+    "20034158": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034158.pdf",
+      "member_info": {
+        "filing_id": "20034158",
+        "name": "Hon. Daniel Meuser",
+        "district": "PA09"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-04-06T08:00:12.095316",
+      "transactions": [
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "02/25/2026",
+          "notification_date": "03/09/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
