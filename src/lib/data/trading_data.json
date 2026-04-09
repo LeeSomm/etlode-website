@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-08T08:00:48.554689",
+  "last_updated": "2026-04-09T08:00:19.577498",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 659,
+    "processed_pdfs": 663,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -86978,6 +86978,309 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034297": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034297.pdf",
+      "member_info": {
+        "filing_id": "20034297",
+        "name": "Hon. Byron Donalds",
+        "district": "FL19"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-04-09T08:00:11.556503",
+      "transactions": [
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/20/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Netflix, Inc. - Common Stock",
+          "ticker": "NFLX",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/20/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PayPal Holdings, Inc. - Common Stock",
+          "ticker": "PYPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "PayPal Holdings, Inc. - Common Stock",
+          "ticker": "PYPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/20/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "The Trade Desk, Inc. - Class A Common Stock",
+          "ticker": "TTD",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "03/20/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034305": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034305.pdf",
+      "member_info": {
+        "filing_id": "20034305",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2026-04-09T08:00:15.058243",
+      "transactions": [
+        {
+          "asset": "Air Products and Chemicals, Inc. Common Stock",
+          "ticker": "APD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/05/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Alcon Inc. Ordinary Shares",
+          "ticker": "ALC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/12/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CBIZ, Inc. Common Stock",
+          "ticker": "CBZ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/05/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Columbia Banking System, Inc. - Common Stock",
+          "ticker": "COLB",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/05/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Crown Castle Inc. Common Stock",
+          "ticker": "CCI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "EEN ENERGY HLDGS UNSP ADR",
+          "ticker": "XNGSY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fabrinet Ordinary Shares",
+          "ticker": "FN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "First Watch Restaurant Group, Inc. - Common Stock",
+          "ticker": "FWRG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/05/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "HDFC Bank Limited Common Stock",
+          "ticker": "HDB",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/12/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Infineon Technologies AG",
+          "ticker": "IFNNY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/12/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intapp, Inc. - Common Stock",
+          "ticker": "INTA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/12/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "La-Z-Boy Incorporated Common Stock",
+          "ticker": "LZB",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/12/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NetEase, Inc. - American Depositary Shares, each representing 5 ordinary shares",
+          "ticker": "NTES",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/05/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Phreesia, Inc. Common Stock",
+          "ticker": "PHR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/05/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
+          "ticker": "SE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/10/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ServiceNow, Inc. Common Stock",
+          "ticker": "NOW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/06/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034301": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034301.pdf",
+      "member_info": {
+        "filing_id": "20034301",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-04-09T08:00:17.410718",
+      "transactions": [
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/09/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BP p.l.c. Common Stock",
+          "ticker": "BP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/20/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "BP p.l.c. Common Stock",
+          "ticker": "BP",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "O Reilly Automotive, Inc. - Common Stock",
+          "ticker": "ORLY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "9115726": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115726.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-09T08:00:19.434844",
+      "transactions": []
     }
   }
 }
