@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-10T08:00:07.823404",
+  "last_updated": "2026-04-14T08:00:10.995648",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 664,
+    "processed_pdfs": 666,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87287,6 +87287,109 @@
       "member_info": {},
       "stock_transaction_count": 0,
       "parsed_at": "2026-04-10T08:00:07.679160",
+      "transactions": []
+    },
+    "20034327": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034327.pdf",
+      "member_info": {
+        "filing_id": "20034327",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 8,
+      "parsed_at": "2026-04-14T08:00:08.925754",
+      "transactions": [
+        {
+          "asset": "Amcor plc Ordinary Shares",
+          "ticker": "AMCR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/31/2026",
+          "notification_date": "04/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Chubb Limited Common Stock",
+          "ticker": "CB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "First Citizens BancShares, Inc. - Class A Common Stock",
+          "ticker": "FCNCA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Johnson & Johnson Common Stock",
+          "ticker": "JNJ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Linde plc - Ordinary Shares",
+          "ticker": "LIN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pepsico, Inc.",
+          "ticker": "PEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "S&P Global Inc. Common Stock",
+          "ticker": "SPGI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Waters Corporation Common Stock",
+          "ticker": "WAT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/10/2026",
+          "notification_date": "04/03/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034307": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034307.pdf",
+      "member_info": {
+        "filing_id": "20034307",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-14T08:00:10.852685",
       "transactions": []
     }
   }
