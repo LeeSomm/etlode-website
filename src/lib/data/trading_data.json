@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-15T08:00:08.502501",
+  "last_updated": "2026-04-16T08:00:12.771993",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 667,
+    "processed_pdfs": 669,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87411,6 +87411,180 @@
           "transaction_date": "03/18/2026",
           "notification_date": "04/14/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034351": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034351.pdf",
+      "member_info": {
+        "filing_id": "20034351",
+        "name": "Hon. Rick Larsen",
+        "district": "WA02"
+      },
+      "stock_transaction_count": 9,
+      "parsed_at": "2026-04-16T08:00:10.190867",
+      "transactions": [
+        {
+          "asset": "American Express Company Common Stock",
+          "ticker": "AXP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Water Works Company, Inc. Common Stock",
+          "ticker": "AWK",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Broadridge Financial Solutions, Inc. Common Stock",
+          "ticker": "BR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Carrier Global Corporation Common Stock",
+          "ticker": "CARR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Caseys General Stores, Inc. - Common Stock",
+          "ticker": "CASY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NextEra Energy, Inc. Common Stock",
+          "ticker": "NEE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sonida Senior Living, Inc. Common Stock",
+          "ticker": "SNDA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Westinghouse Air Brake Technologies Corporation Common Stock",
+          "ticker": "WAB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034348": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034348.pdf",
+      "member_info": {
+        "filing_id": "20034348",
+        "name": "Hon. August Lee Pfluger II",
+        "district": "TX11"
+      },
+      "stock_transaction_count": 6,
+      "parsed_at": "2026-04-16T08:00:12.628002",
+      "transactions": [
+        {
+          "asset": "Amerco - Series N Non-Voting",
+          "ticker": "UHALB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Dorchester Minerals, L.P. - Common Units Representing Limited Partnership Interests",
+          "ticker": "DMLP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Enterprise Products Partners L.P. Common Stock",
+          "ticker": "EPD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
+          "ticker": "KRP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Viper Energy, Inc. - Class A Common Stock",
+          "ticker": "VNOM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/13/2026",
+          "notification_date": "03/31/2026",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
