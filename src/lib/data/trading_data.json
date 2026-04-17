@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-16T08:00:12.771993",
+  "last_updated": "2026-04-17T08:00:11.803975",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 669,
+    "processed_pdfs": 671,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87585,6 +87585,50 @@
           "transaction_date": "03/13/2026",
           "notification_date": "03/31/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034346": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034346.pdf",
+      "member_info": {
+        "filing_id": "20034346",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-04-17T08:00:09.648510",
+      "transactions": [
+        {
+          "asset": "iShares Bitcoin Trust ETF",
+          "ticker": "IBIT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/04/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$100,001 - $250,000"
+        }
+      ]
+    },
+    "20034311": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034311.pdf",
+      "member_info": {
+        "filing_id": "20034311",
+        "name": "Hon. Jennifer McClellan",
+        "district": "VA04"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-04-17T08:00:11.654005",
+      "transactions": [
+        {
+          "asset": "Verizon Communications Inc. Common Stock",
+          "ticker": "VZ",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$100,001 - $250,000"
         }
       ]
     }
