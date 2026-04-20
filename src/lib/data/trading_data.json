@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-17T08:00:11.803975",
+  "last_updated": "2026-04-20T08:00:07.555919",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 671,
+    "processed_pdfs": 672,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87631,6 +87631,17 @@
           "amount": "$100,001 - $250,000"
         }
       ]
+    },
+    "20034355": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034355.pdf",
+      "member_info": {
+        "filing_id": "20034355",
+        "name": "Hon. Laura Friedman",
+        "district": "CA30"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-20T08:00:07.414363",
+      "transactions": []
     }
   }
 }
