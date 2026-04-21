@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-20T08:00:07.555919",
+  "last_updated": "2026-04-21T08:00:16.901078",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 672,
+    "processed_pdfs": 676,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87642,6 +87642,104 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-04-20T08:00:07.414363",
       "transactions": []
+    },
+    "20034379": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034379.pdf",
+      "member_info": {
+        "filing_id": "20034379",
+        "name": "Hon. Dwight Evans",
+        "district": "PA03"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-04-21T08:00:10.581660",
+      "transactions": [
+        {
+          "asset": "Micron Technology, Inc. - Common Stock",
+          "ticker": "MU",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/06/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034357": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034357.pdf",
+      "member_info": {
+        "filing_id": "20034357",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-04-21T08:00:12.737913",
+      "transactions": [
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/09/2026",
+          "notification_date": "04/09/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034384": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf",
+      "member_info": {
+        "filing_id": "20034384",
+        "name": "Hon. Terri A. Sewell",
+        "district": "AL07"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-04-21T08:00:14.710457",
+      "transactions": [
+        {
+          "asset": "GE HealthCare Technologies Inc. - Common Stock",
+          "ticker": "GEHC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/25/2026",
+          "notification_date": "03/26/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tapestry, Inc. Common Stock",
+          "ticker": "TPR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/25/2026",
+          "notification_date": "03/26/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034359": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034359.pdf",
+      "member_info": {
+        "filing_id": "20034359",
+        "name": "Hon. Daniel Meuser",
+        "district": "PA09"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-04-21T08:00:16.756226",
+      "transactions": [
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "03/25/2026",
+          "notification_date": "04/14/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
