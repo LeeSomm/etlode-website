@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-21T08:00:16.901078",
+  "last_updated": "2026-04-22T08:00:10.080089",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 676,
+    "processed_pdfs": 677,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87738,6 +87738,258 @@
           "transaction_date": "03/25/2026",
           "notification_date": "04/14/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20033993": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033993.pdf",
+      "member_info": {
+        "filing_id": "20033993",
+        "name": "Hon. Maria Elvira Salazar",
+        "district": "FL27"
+      },
+      "stock_transaction_count": 24,
+      "parsed_at": "2026-04-22T08:00:09.933916",
+      "transactions": [
+        {
+          "asset": "Amgen Inc. - Common Stock",
+          "ticker": "AMGN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Boeing Company",
+          "ticker": "BA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Boeing Company",
+          "ticker": "BA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cisco Systems, Inc. - Common Stock",
+          "ticker": "CSCO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cisco Systems, Inc. - Common Stock",
+          "ticker": "CSCO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Citigroup, Inc. Common Stock",
+          "ticker": "C",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Citigroup, Inc. Common Stock",
+          "ticker": "C",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Corning Incorporated Common Stock",
+          "ticker": "GLW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Corning Incorporated Common Stock",
+          "ticker": "GLW",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "FedEx Corporation Common Stock",
+          "ticker": "FDX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "FedEx Corporation Common Stock",
+          "ticker": "FDX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/25/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GE Aerospace Common Stock",
+          "ticker": "GE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Honeywell International Inc.",
+          "ticker": "HON",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "NVR, Inc. Common Stock",
+          "ticker": "NVR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Peloton Interactive, Inc. - Common Stock",
+          "ticker": "PTON",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Peloton Interactive, Inc. - Common Stock",
+          "ticker": "PTON",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "RH Common Stock",
+          "ticker": "RH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "RH Common Stock",
+          "ticker": "RH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Ulta Beauty, Inc. - Common Stock",
+          "ticker": "ULTA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "United Rentals, Inc. Common Stock",
+          "ticker": "URI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/25/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Venture Global, Inc. Class A common stock",
+          "ticker": "VG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Whirlpool Corporation Common Stock",
+          "ticker": "WHR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "03/19/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
