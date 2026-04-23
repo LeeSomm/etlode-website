@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-22T08:00:10.080089",
+  "last_updated": "2026-04-23T08:00:07.510592",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 677,
+    "processed_pdfs": 678,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -87992,6 +87992,13 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "9115762": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115762.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-23T08:00:07.317396",
+      "transactions": []
     }
   }
 }
