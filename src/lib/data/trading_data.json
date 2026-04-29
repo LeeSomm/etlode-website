@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-24T08:00:07.928890",
+  "last_updated": "2026-04-29T08:00:20.254860",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 679,
+    "processed_pdfs": 684,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -88019,6 +88019,102 @@
           "transaction_date": "04/20/2026",
           "notification_date": "04/20/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034368": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034368.pdf",
+      "member_info": {
+        "filing_id": "20034368",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-29T08:00:11.798972",
+      "transactions": []
+    },
+    "20034400": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034400.pdf",
+      "member_info": {
+        "filing_id": "20034400",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-29T08:00:13.782044",
+      "transactions": []
+    },
+    "20034416": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034416.pdf",
+      "member_info": {
+        "filing_id": "20034416",
+        "name": "Hon. Debbie Dingell",
+        "district": "MI06"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-29T08:00:15.860084",
+      "transactions": []
+    },
+    "20034419": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034419.pdf",
+      "member_info": {
+        "filing_id": "20034419",
+        "name": "Hon. Max Miller",
+        "district": "OH07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-29T08:00:18.032838",
+      "transactions": []
+    },
+    "20034424": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034424.pdf",
+      "member_info": {
+        "filing_id": "20034424",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-04-29T08:00:20.108663",
+      "transactions": [
+        {
+          "asset": "Cracker Barrel Old Country Store, Inc. - Common Stock",
+          "ticker": "CBRL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/01/2026",
+          "notification_date": "04/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Harley-Davidson, Inc. Common Stock",
+          "ticker": "HOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/07/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "LGI Homes, Inc. - Common Stock",
+          "ticker": "LGIH",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/26/2026",
+          "notification_date": "04/07/2026",
+          "amount": "$100,001 - $250,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "03/24/2026",
+          "notification_date": "04/24/2026",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
