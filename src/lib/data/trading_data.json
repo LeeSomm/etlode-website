@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-29T08:00:20.254860",
+  "last_updated": "2026-04-30T08:00:08.278245",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 684,
+    "processed_pdfs": 685,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -88117,6 +88117,17 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20034342": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034342.pdf",
+      "member_info": {
+        "filing_id": "20034342",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-04-30T08:00:08.131840",
+      "transactions": []
     }
   }
 }
