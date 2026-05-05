@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-01T08:00:21.696283",
+  "last_updated": "2026-05-05T08:00:10.887996",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 689,
+    "processed_pdfs": 691,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -88844,6 +88844,28 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-01T08:00:21.550115",
+      "transactions": []
+    },
+    "20034315": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034315.pdf",
+      "member_info": {
+        "filing_id": "20034315",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-05T08:00:08.819418",
+      "transactions": []
+    },
+    "20034462": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf",
+      "member_info": {
+        "filing_id": "20034462",
+        "name": "Hon. Ann Wagner",
+        "district": "MO02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-05T08:00:10.745780",
       "transactions": []
     }
   }
