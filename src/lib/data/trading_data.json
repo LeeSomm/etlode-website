@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-05T08:00:10.887996",
+  "last_updated": "2026-05-06T08:00:11.538268",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 691,
+    "processed_pdfs": 693,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -88866,6 +88866,28 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-05T08:00:10.745780",
+      "transactions": []
+    },
+    "20034461": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034461.pdf",
+      "member_info": {
+        "filing_id": "20034461",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-06T08:00:09.049636",
+      "transactions": []
+    },
+    "20034300": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034300.pdf",
+      "member_info": {
+        "filing_id": "20034300",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-06T08:00:11.392091",
       "transactions": []
     }
   }
