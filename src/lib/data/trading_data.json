@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-06T08:00:11.538268",
+  "last_updated": "2026-05-07T08:00:11.639092",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 693,
+    "processed_pdfs": 695,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -88889,6 +88889,270 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-06T08:00:11.392091",
       "transactions": []
+    },
+    "20034487": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034487.pdf",
+      "member_info": {
+        "filing_id": "20034487",
+        "name": "Hon. April McClain Delaney",
+        "district": "MD06"
+      },
+      "stock_transaction_count": 23,
+      "parsed_at": "2026-05-07T08:00:09.700068",
+      "transactions": [
+        {
+          "asset": "Bio-Techne Corp - Common Stock",
+          "ticker": "TECH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/08/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Brown & Brown, Inc. Common Stock",
+          "ticker": "BRO",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/17/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "C.H. Robinson Worldwide, Inc. - Common Stock",
+          "ticker": "CHRW",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Clean Harbors, Inc. Common Stock",
+          "ticker": "CLH",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/30/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Entegris, Inc. - Common Stock",
+          "ticker": "ENTG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/15/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fortune Brands Innovations, Inc. Common Stock",
+          "ticker": "FBIN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Markel Group Inc. Common Stock",
+          "ticker": "MKL",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/30/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morningstar, Inc. - Common Stock",
+          "ticker": "MORN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/16/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Morningstar, Inc. - Common Stock",
+          "ticker": "MORN",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/17/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Nasdaq, Inc. - Common Stock",
+          "ticker": "NDAQ",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Packaging Corporation of America Common Stock",
+          "ticker": "PKG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/29/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Packaging Corporation of America Common Stock",
+          "ticker": "PKG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/16/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Paychex, Inc. - Common Stock",
+          "ticker": "PAYX",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/21/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Service Corporation International Common Stock",
+          "ticker": "SCI",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/30/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "STERIS plc",
+          "ticker": "STE",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/30/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/29/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/16/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/20/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/15/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Transdigm Group Incorporated Common Stock",
+          "ticker": "TDG",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/17/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Viking Holdings Ltd Ordinary Shares",
+          "ticker": "VIK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/20/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Viking Holdings Ltd Ordinary Shares",
+          "ticker": "VIK",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "04/16/2026",
+          "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034486": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034486.pdf",
+      "member_info": {
+        "filing_id": "20034486",
+        "name": "Hon. Lloyd Doggett",
+        "district": "TX37"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-05-07T08:00:11.494549",
+      "transactions": [
+        {
+          "asset": "Coca-Cola Company",
+          "ticker": "KO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/01/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
