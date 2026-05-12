@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-11T08:00:51.542865",
+  "last_updated": "2026-05-12T08:00:08.484081",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 713,
+    "processed_pdfs": 714,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -90499,6 +90499,17 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-11T08:00:51.398853",
+      "transactions": []
+    },
+    "20034528": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034528.pdf",
+      "member_info": {
+        "filing_id": "20034528",
+        "name": "Hon. Chip Roy",
+        "district": "TX21"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-12T08:00:08.334734",
       "transactions": []
     }
   }
