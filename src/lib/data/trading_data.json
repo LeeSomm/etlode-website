@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-12T08:00:08.484081",
+  "last_updated": "2026-05-13T08:00:12.419347",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 714,
+    "processed_pdfs": 717,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -90511,6 +90511,42 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-12T08:00:08.334734",
       "transactions": []
+    },
+    "9115821": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115821.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-13T08:00:08.788859",
+      "transactions": []
+    },
+    "9115822": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115822.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-13T08:00:10.398679",
+      "transactions": []
+    },
+    "20034542": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034542.pdf",
+      "member_info": {
+        "filing_id": "20034542",
+        "name": "Hon. Richard Dean Dr McCormick",
+        "district": "GA06"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-05-13T08:00:12.271586",
+      "transactions": [
+        {
+          "asset": "American Tower Corporation",
+          "ticker": "AMT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/17/2026",
+          "notification_date": "05/07/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
