@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-14T08:00:11.504515",
+  "last_updated": "2026-05-15T08:00:08.355839",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 719,
+    "processed_pdfs": 720,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -90678,6 +90678,28 @@
           "transaction_type": "Purchase",
           "transaction_date": "04/15/2026",
           "notification_date": "05/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034563": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034563.pdf",
+      "member_info": {
+        "filing_id": "20034563",
+        "name": "Hon. Laura Friedman",
+        "district": "CA30"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-05-15T08:00:08.201988",
+      "transactions": [
+        {
+          "asset": "Hologic, Inc. - Common Stock",
+          "ticker": "HOLX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/08/2026",
+          "notification_date": "05/03/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
