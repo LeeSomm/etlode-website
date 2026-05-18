@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-15T08:00:08.355839",
+  "last_updated": "2026-05-18T08:00:14.077180",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 720,
+    "processed_pdfs": 723,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -90700,6 +90700,112 @@
           "transaction_type": "Sale",
           "transaction_date": "04/08/2026",
           "notification_date": "05/03/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034452": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034452.pdf",
+      "member_info": {
+        "filing_id": "20034452",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-05-18T08:00:09.889170",
+      "transactions": [
+        {
+          "asset": "2000154444 SONY FINL GROUP INC U ADR",
+          "ticker": "SFGYY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "12/26/2025",
+          "notification_date": "01/21/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034556": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf",
+      "member_info": {
+        "filing_id": "20034556",
+        "name": "Hon. Dwight Evans",
+        "district": "PA03"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2026-05-18T08:00:12.016761",
+      "transactions": [
+        {
+          "asset": "American Tower Corporation",
+          "ticker": "AMT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/11/2026",
+          "notification_date": "05/14/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "2000152177 CVS Health Corporation Common Stock",
+          "ticker": "CVS",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "11/21/2025",
+          "notification_date": "12/05/2025",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/07/2026",
+          "notification_date": "05/14/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Quanta Services, Inc. Common Stock",
+          "ticker": "PWR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/07/2026",
+          "notification_date": "05/14/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Thermo Fisher Scientific Inc Common Stock",
+          "ticker": "TMO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/07/2026",
+          "notification_date": "05/14/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034581": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034581.pdf",
+      "member_info": {
+        "filing_id": "20034581",
+        "name": "Hon. Valerie Hoyle",
+        "district": "OR04"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-05-18T08:00:13.922536",
+      "transactions": [
+        {
+          "asset": "LPL Financial Holdings Inc. - Common Stock",
+          "ticker": "LPLA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "04/02/2025",
+          "notification_date": "09/11/2025",
           "amount": "$1,001 - $15,000"
         }
       ]
