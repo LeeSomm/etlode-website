@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-18T08:00:14.077180",
+  "last_updated": "2026-05-19T08:00:16.902228",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 723,
+    "processed_pdfs": 726,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -90807,6 +90807,150 @@
           "transaction_date": "04/02/2025",
           "notification_date": "09/11/2025",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034417": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034417.pdf",
+      "member_info": {
+        "filing_id": "20034417",
+        "name": "Hon. William R. Keating",
+        "district": "MA09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-19T08:00:10.236490",
+      "transactions": []
+    },
+    "20034579": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034579.pdf",
+      "member_info": {
+        "filing_id": "20034579",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-19T08:00:14.195388",
+      "transactions": []
+    },
+    "20034522": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034522.pdf",
+      "member_info": {
+        "filing_id": "20034522",
+        "name": "Hon. Brian Babin",
+        "district": "TX36"
+      },
+      "stock_transaction_count": 11,
+      "parsed_at": "2026-05-19T08:00:16.744441",
+      "transactions": [
+        {
+          "asset": "D B A Compass Diversified Holdings Shares of Beneficial Interest",
+          "ticker": "CODI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Enbridge Inc Common Stock",
+          "ticker": "ENB",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Energy Transfer LP Common Units",
+          "ticker": "ET",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "FTAI Aviation Ltd. - Common Stock",
+          "ticker": "FTAI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$50,001 - $100,000"
+        },
+        {
+          "asset": "FTAI Infrastructure Inc. - Common Stock",
+          "ticker": "FIP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Huntington Ingalls Industries, Inc. Common Stock",
+          "ticker": "HII",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Iamgold Corporation Ordinary Shares",
+          "ticker": "IAG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Range Resources Corporation Common Stock",
+          "ticker": "RRC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "SOUTH32 LTD SPNS ADR",
+          "ticker": "SOUHY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "WESTSHORE TERM INVST CP",
+          "ticker": "WTSHF",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Wheaton Precious Metals Corp Common Shares",
+          "ticker": "WPM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
