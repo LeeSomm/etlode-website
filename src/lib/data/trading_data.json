@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-19T08:00:16.902228",
+  "last_updated": "2026-05-20T08:00:15.252237",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 726,
+    "processed_pdfs": 729,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -90951,6 +90951,321 @@
           "transaction_date": "05/05/2026",
           "notification_date": "05/08/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034589": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034589.pdf",
+      "member_info": {
+        "filing_id": "20034589",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-20T08:00:09.262551",
+      "transactions": []
+    },
+    "20034585": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034585.pdf",
+      "member_info": {
+        "filing_id": "20034585",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 25,
+      "parsed_at": "2026-05-20T08:00:13.102511",
+      "transactions": [
+        {
+          "asset": "3M Company Common Stock",
+          "ticker": "MMM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/28/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/27/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/23/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ally Financial Inc. Common Stock",
+          "ticker": "ALLY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "CBIZ, Inc. Common Stock",
+          "ticker": "CBZ",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/06/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Darden Restaurants, Inc. Common Stock",
+          "ticker": "DRI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Dollar Tree, Inc. - Common Stock",
+          "ticker": "DLTR",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "First Watch Restaurant Group, Inc. - Common Stock",
+          "ticker": "FWRG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/06/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Ford Motor Company Common Stock",
+          "ticker": "F",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Freeport-McMoRan, Inc. Common Stock",
+          "ticker": "FCX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/15/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/16/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Goldman Sachs Group, Inc.",
+          "ticker": "GS",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "HDFC Bank Limited Common Stock",
+          "ticker": "HDB",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/13/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Home Depot, Inc.",
+          "ticker": "HD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intapp, Inc. - Common Stock",
+          "ticker": "INTA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/13/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "MarketAxess Holdings, Inc. - Common Stock",
+          "ticker": "MKTX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Martin Marietta Materials, Inc. Common Stock",
+          "ticker": "MLM",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "NetEase, Inc. - American Depositary Shares, each representing 5 ordinary shares",
+          "ticker": "NTES",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/06/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Performance Food Group Company Common Stock",
+          "ticker": "PFGC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "ServiceNow, Inc. Common Stock",
+          "ticker": "NOW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Synchrony Financial Common Stock",
+          "ticker": "SYF",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Tractor Supply Company - Common Stock",
+          "ticker": "TSCO",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Valley National Bancorp",
+          "ticker": "VLY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/09/2026",
+          "notification_date": "05/05/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034587": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034587.pdf",
+      "member_info": {
+        "filing_id": "20034587",
+        "name": "Hon. Tim Moore",
+        "district": "NC14"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2026-05-20T08:00:15.108429",
+      "transactions": [
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/18/2026",
+          "notification_date": "05/18/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Intercontinental Hotels Group American Depositary Shares",
+          "ticker": "IHG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/07/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "ROLLS ROYCE HLDGS S ADR",
+          "ticker": "RYCEY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/07/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
