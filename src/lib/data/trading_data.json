@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-20T08:00:15.252237",
+  "last_updated": "2026-05-21T08:00:13.050277",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 729,
+    "processed_pdfs": 732,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91266,6 +91266,71 @@
           "transaction_date": "05/07/2026",
           "notification_date": "05/08/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034607": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034607.pdf",
+      "member_info": {
+        "filing_id": "20034607",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-21T08:00:09.066034",
+      "transactions": []
+    },
+    "20034547": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034547.pdf",
+      "member_info": {
+        "filing_id": "20034547",
+        "name": "Hon. Daniel Meuser",
+        "district": "PA09"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-05-21T08:00:10.900211",
+      "transactions": [
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/12/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034498": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034498.pdf",
+      "member_info": {
+        "filing_id": "20034498",
+        "name": "Hon. Sara Jacobs",
+        "district": "CA51"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-05-21T08:00:12.902094",
+      "transactions": [
+        {
+          "asset": "QUALCOMM Incorporated - Common Stock",
+          "ticker": "QCOM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/06/2026",
+          "notification_date": "05/06/2026",
+          "amount": "$500,001 - $1,000,000"
+        },
+        {
+          "asset": "QUALCOMM Incorporated - Common Stock",
+          "ticker": "QCOM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/07/2026",
+          "notification_date": "05/07/2026",
+          "amount": "$500,001 - $1,000,000"
         }
       ]
     }
