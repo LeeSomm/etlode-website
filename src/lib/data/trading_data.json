@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-21T08:00:13.050277",
+  "last_updated": "2026-05-22T08:00:08.295578",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 732,
+    "processed_pdfs": 733,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91333,6 +91333,17 @@
           "amount": "$500,001 - $1,000,000"
         }
       ]
+    },
+    "20034520": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034520.pdf",
+      "member_info": {
+        "filing_id": "20034520",
+        "name": "Hon. Kelly Louise Morrison",
+        "district": "MN03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-05-22T08:00:08.146600",
+      "transactions": []
     }
   }
 }
