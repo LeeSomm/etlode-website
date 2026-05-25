@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-22T08:00:08.295578",
+  "last_updated": "2026-05-25T08:00:11.638984",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 733,
+    "processed_pdfs": 735,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91344,6 +91344,100 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-22T08:00:08.146600",
       "transactions": []
+    },
+    "20034622": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034622.pdf",
+      "member_info": {
+        "filing_id": "20034622",
+        "name": "Hon. Jake Auchincloss",
+        "district": "MA04"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-05-25T08:00:09.147436",
+      "transactions": [
+        {
+          "asset": "State Street Corporation Common Stock",
+          "ticker": "STT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/18/2026",
+          "notification_date": "05/18/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "State Street Corporation Common Stock",
+          "ticker": "STT",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/18/2026",
+          "notification_date": "05/18/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034616": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034616.pdf",
+      "member_info": {
+        "filing_id": "20034616",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2026-05-25T08:00:11.478954",
+      "transactions": [
+        {
+          "asset": "Analog Devices, Inc. - Common Stock",
+          "ticker": "ADI",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/29/2026",
+          "notification_date": "05/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "First Citizens BancShares, Inc. - Class A Common Stock",
+          "ticker": "FCNCA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/14/2026",
+          "notification_date": "05/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "nVent Electric plc Ordinary Shares",
+          "ticker": "NVT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/15/2026",
+          "notification_date": "05/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Take-Two Interactive Software, Inc. - Common Stock",
+          "ticker": "TTWO",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/21/2026",
+          "notification_date": "05/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Texas Instruments Incorporated - Common Stock",
+          "ticker": "TXN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/14/2026",
+          "notification_date": "05/17/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
