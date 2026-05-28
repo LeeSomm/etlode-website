@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-27T08:00:08.482217",
+  "last_updated": "2026-05-28T08:00:09.416815",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 736,
+    "processed_pdfs": 737,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91449,6 +91449,68 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-05-27T08:00:08.327506",
       "transactions": []
+    },
+    "20034519": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034519.pdf",
+      "member_info": {
+        "filing_id": "20034519",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 5,
+      "parsed_at": "2026-05-28T08:00:09.260367",
+      "transactions": [
+        {
+          "asset": "O Reilly Automotive, Inc. - Common Stock",
+          "ticker": "ORLY",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Simon Property Group, Inc. Common Stock",
+          "ticker": "SPG",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "04/20/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Tenet Healthcare Corporation Common Stock",
+          "ticker": "THC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/20/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Tenet Healthcare Corporation Common Stock",
+          "ticker": "THC",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "04/15/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Visa Inc.",
+          "ticker": "V",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "04/24/2026",
+          "notification_date": "05/08/2026",
+          "amount": "$50,001 - $100,000"
+        }
+      ]
     }
   }
 }
