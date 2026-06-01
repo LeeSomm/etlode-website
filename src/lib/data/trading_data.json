@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-29T08:00:09.778983",
+  "last_updated": "2026-06-01T08:00:11.381371",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 738,
+    "processed_pdfs": 740,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91640,6 +91640,39 @@
           "transaction_type": "Purchase",
           "transaction_date": "05/15/2026",
           "notification_date": "05/28/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034651": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034651.pdf",
+      "member_info": {
+        "filing_id": "20034651",
+        "name": "Hon. Max Miller",
+        "district": "OH07"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-01T08:00:09.317990",
+      "transactions": []
+    },
+    "20034668": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034668.pdf",
+      "member_info": {
+        "filing_id": "20034668",
+        "name": "Hon. Ed Case",
+        "district": "HI01"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-01T08:00:11.228969",
+      "transactions": [
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/14/2026",
+          "notification_date": "05/31/2026",
           "amount": "$1,001 - $15,000"
         }
       ]
