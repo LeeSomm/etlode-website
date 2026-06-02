@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-01T08:00:11.381371",
+  "last_updated": "2026-06-02T08:00:12.093653",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 740,
+    "processed_pdfs": 742,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91674,6 +91674,110 @@
           "transaction_date": "05/14/2026",
           "notification_date": "05/31/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034099": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034099.pdf",
+      "member_info": {
+        "filing_id": "20034099",
+        "name": "Hon. Christian D. Menefee",
+        "district": "TX18"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2026-06-02T08:00:10.049582",
+      "transactions": [
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/10/2026",
+          "notification_date": "02/10/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "02/10/2026",
+          "notification_date": "02/10/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/10/2026",
+          "notification_date": "03/10/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Pinterest, Inc. Class A Common Stock",
+          "ticker": "PINS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/28/2026",
+          "notification_date": "05/28/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Pinterest, Inc. Class A Common Stock",
+          "ticker": "PINS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "06/11/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Pinterest, Inc. Class A Common Stock",
+          "ticker": "PINS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "02/17/2026",
+          "notification_date": "03/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Pinterest, Inc. Class A Common Stock",
+          "ticker": "PINS",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "02/23/2026",
+          "notification_date": "02/23/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034562": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034562.pdf",
+      "member_info": {
+        "filing_id": "20034562",
+        "name": "Hon. Daniel Webster",
+        "district": "FL11"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-02T08:00:11.928878",
+      "transactions": [
+        {
+          "asset": "Rexford Industrial Realty, Inc. Common Stock",
+          "ticker": "REXR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "02/26/2025",
+          "notification_date": "03/01/2025",
+          "amount": "$15,001 - $50,000"
         }
       ]
     }
