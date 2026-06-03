@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-02T08:00:12.093653",
+  "last_updated": "2026-06-03T08:00:11.604692",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 742,
+    "processed_pdfs": 744,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91780,6 +91780,39 @@
           "amount": "$15,001 - $50,000"
         }
       ]
+    },
+    "20034670": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034670.pdf",
+      "member_info": {
+        "filing_id": "20034670",
+        "name": "Hon. Virginia Foxx",
+        "district": "NC05"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-03T08:00:09.161543",
+      "transactions": [
+        {
+          "asset": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+          "ticker": "ARLP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/15/2026",
+          "notification_date": "06/01/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034695": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034695.pdf",
+      "member_info": {
+        "filing_id": "20034695",
+        "name": "Hon. Kevin Hern",
+        "district": "OK01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-03T08:00:11.447281",
+      "transactions": []
     }
   }
 }
