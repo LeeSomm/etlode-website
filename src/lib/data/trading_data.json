@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-03T08:00:11.604692",
+  "last_updated": "2026-06-04T08:00:16.029287",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 744,
+    "processed_pdfs": 747,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -91813,6 +91813,362 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-06-03T08:00:11.447281",
       "transactions": []
+    },
+    "20034591": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034591.pdf",
+      "member_info": {
+        "filing_id": "20034591",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-04T08:00:09.725478",
+      "transactions": [
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/14/2026",
+          "notification_date": "05/14/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034693": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf",
+      "member_info": {
+        "filing_id": "20034693",
+        "name": "Hon. Josh Gottheimer",
+        "district": "NJ05"
+      },
+      "stock_transaction_count": 16,
+      "parsed_at": "2026-06-04T08:00:13.158643",
+      "transactions": [
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/27/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AbbVie Inc. Common Stock",
+          "ticker": "ABBV",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Advanced Micro Devices, Inc.",
+          "ticker": "AMD",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/05/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Analog Devices, Inc. - Common Stock",
+          "ticker": "ADI",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/19/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/04/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Berkshire Hathaway Inc. New Common Stock",
+          "ticker": "BRK.B",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/04/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Fabrinet Ordinary Shares",
+          "ticker": "FN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/01/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intuit Inc. - Common Stock",
+          "ticker": "INTU",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/22/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lumentum Holdings Inc. - Common Stock",
+          "ticker": "LITE",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/22/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Micron Technology, Inc. - Common Stock",
+          "ticker": "MU",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/21/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NESTLE S.A S ADR",
+          "ticker": "NSRGY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/14/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NESTLE S.A S ADR",
+          "ticker": "NSRGY",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/05/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Palo Alto Networks, Inc.",
+          "ticker": "PANW",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/14/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Sandisk Corporation - Common Stock When-Issued",
+          "ticker": "SNDK",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/07/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tri Pointe Homes, Inc. Common Stock",
+          "ticker": "TPH",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/15/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Twilio Inc. Class A Common Stock",
+          "ticker": "TWLO",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/04/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034660": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034660.pdf",
+      "member_info": {
+        "filing_id": "20034660",
+        "name": "Hon. Tim Walberg",
+        "district": "MI05"
+      },
+      "stock_transaction_count": 15,
+      "parsed_at": "2026-06-04T08:00:15.882519",
+      "transactions": [
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Bank of America Corporation Common Stock",
+          "ticker": "BAC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Boeing Company",
+          "ticker": "BA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Caterpillar, Inc. Common Stock",
+          "ticker": "CAT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Chevron Corporation Common Stock",
+          "ticker": "CVX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Eaton Corporation, PLC Ordinary Shares",
+          "ticker": "ETN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "FS Specialty Lending Fund Common Shares of Beneficial Interest",
+          "ticker": "FSSL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "FS Specialty Lending Fund Common Shares of Beneficial Interest",
+          "ticker": "FSSL",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "06/01/2026",
+          "notification_date": "06/01/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Jacobs Solutions Inc. Common Stock",
+          "ticker": "J",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "L3Harris Technologies, Inc. Common Stock",
+          "ticker": "LHX",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Lockheed Martin Corporation Common Stock",
+          "ticker": "LMT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Under Armour, Inc. Class C Common Stock",
+          "ticker": "UA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Under Armour, Inc. Class C Common Stock",
+          "ticker": "UA",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "02/10/2026",
+          "notification_date": "05/29/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Wells Fargo & Company Common Stock",
+          "ticker": "WFC",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Purchase",
+          "transaction_date": "02/07/2025",
+          "notification_date": "05/29/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
