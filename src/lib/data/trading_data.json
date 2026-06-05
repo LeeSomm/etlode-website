@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-04T08:00:16.029287",
+  "last_updated": "2026-06-05T08:00:11.173036",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 747,
+    "processed_pdfs": 749,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -92167,6 +92167,50 @@
           "transaction_date": "02/07/2025",
           "notification_date": "05/29/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034712": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034712.pdf",
+      "member_info": {
+        "filing_id": "20034712",
+        "name": "Hon. Lloyd Doggett",
+        "district": "TX37"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-05T08:00:09.162021",
+      "transactions": [
+        {
+          "asset": "Procter & Gamble Company",
+          "ticker": "PG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/15/2026",
+          "notification_date": "06/04/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034552": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034552.pdf",
+      "member_info": {
+        "filing_id": "20034552",
+        "name": "Hon. Susie Lee",
+        "district": "NV03"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-05T08:00:11.020509",
+      "transactions": [
+        {
+          "asset": "Full House Resorts, Inc. - Common Stock",
+          "ticker": "FLL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "04/21/2026",
+          "notification_date": "05/13/2026",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
