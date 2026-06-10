@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-09T08:00:20.342182",
+  "last_updated": "2026-06-10T08:00:11.883646",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 758,
+    "processed_pdfs": 760,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94044,6 +94044,28 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034747": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034747.pdf",
+      "member_info": {
+        "filing_id": "20034747",
+        "name": "Hon. Thomas Suozzi",
+        "district": "NY03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-10T08:00:09.408198",
+      "transactions": []
+    },
+    "20034496": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034496.pdf",
+      "member_info": {
+        "filing_id": "20034496",
+        "name": "Hon. Sheri Biggs",
+        "district": "SC03"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-10T08:00:11.713364",
+      "transactions": []
     }
   }
 }
