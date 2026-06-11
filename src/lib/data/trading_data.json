@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-10T08:00:11.883646",
+  "last_updated": "2026-06-11T08:00:18.859655",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 760,
+    "processed_pdfs": 765,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94066,6 +94066,85 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-06-10T08:00:11.713364",
       "transactions": []
+    },
+    "20034727": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf",
+      "member_info": {
+        "filing_id": "20034727",
+        "name": "Hon. Suzan K. DelBene",
+        "district": "WA01"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-11T08:00:11.925802",
+      "transactions": []
+    },
+    "9116142": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116142.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-11T08:00:13.664116",
+      "transactions": []
+    },
+    "9116141": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116141.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-11T08:00:15.014825",
+      "transactions": []
+    },
+    "20034748": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034748.pdf",
+      "member_info": {
+        "filing_id": "20034748",
+        "name": "Hon. John McGuire",
+        "district": "VA05"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-06-11T08:00:16.901950",
+      "transactions": [
+        {
+          "asset": "Dell Technologies Inc. Class C Common Stock",
+          "ticker": "DELL",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "06/04/2026",
+          "notification_date": "06/04/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/04/2026",
+          "notification_date": "06/04/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034762": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034762.pdf",
+      "member_info": {
+        "filing_id": "20034762",
+        "name": "Hon. Chip Roy",
+        "district": "TX21"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-11T08:00:18.706939",
+      "transactions": [
+        {
+          "asset": "Atlas Energy Solutions Inc. Common Stock",
+          "ticker": "AESI",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/13/2026",
+          "notification_date": "05/13/2026",
+          "amount": "$100,001 - $250,000"
+        }
+      ]
     }
   }
 }
