@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-11T08:00:18.859655",
+  "last_updated": "2026-06-12T08:00:10.591728",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 765,
+    "processed_pdfs": 767,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94145,6 +94145,45 @@
           "amount": "$100,001 - $250,000"
         }
       ]
+    },
+    "20034767": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034767.pdf",
+      "member_info": {
+        "filing_id": "20034767",
+        "name": "Hon. Mike Kelly",
+        "district": "PA16"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-06-12T08:00:09.179261",
+      "transactions": [
+        {
+          "asset": "Bristol-Myers Squibb Company Common Stock",
+          "ticker": "BMY",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/07/2026",
+          "notification_date": "06/10/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "Comcast Corporation - Class A Common Stock",
+          "ticker": "CMCSA",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/07/2026",
+          "notification_date": "06/10/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "9116146": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116146.pdf",
+      "member_info": {},
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-12T08:00:10.435958",
+      "transactions": []
     }
   }
 }
