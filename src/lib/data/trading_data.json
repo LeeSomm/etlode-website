@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-12T08:00:10.591728",
+  "last_updated": "2026-06-15T08:00:14.409265",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 767,
+    "processed_pdfs": 770,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94183,6 +94183,131 @@
       "member_info": {},
       "stock_transaction_count": 0,
       "parsed_at": "2026-06-12T08:00:10.435958",
+      "transactions": []
+    },
+    "20034706": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034706.pdf",
+      "member_info": {
+        "filing_id": "20034706",
+        "name": "Hon. Julie Johnson",
+        "district": "TX32"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-06-15T08:00:09.932578",
+      "transactions": [
+        {
+          "asset": "Abbott Laboratories Common Stock",
+          "ticker": "ABT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/12/2026",
+          "notification_date": "06/03/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/12/2026",
+          "notification_date": "06/03/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034780": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034780.pdf",
+      "member_info": {
+        "filing_id": "20034780",
+        "name": "Hon. David J. Taylor",
+        "district": "OH02"
+      },
+      "stock_transaction_count": 7,
+      "parsed_at": "2026-06-15T08:00:12.456642",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "American Electric Power Company, Inc.",
+          "ticker": "AEP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amgen Inc. - Common Stock",
+          "ticker": "AMGN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "AT&T Inc.",
+          "ticker": "T",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Kroger Company",
+          "ticker": "KR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Lam Research Corporation - Common Stock",
+          "ticker": "LRCX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/05/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20020055": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20020055.pdf",
+      "member_info": {
+        "filing_id": "20020055",
+        "name": "Hon. Nicholas Begich III",
+        "district": "AK00"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-15T08:00:14.252475",
       "transactions": []
     }
   }
