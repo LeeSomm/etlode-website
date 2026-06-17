@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-15T08:00:14.409265",
+  "last_updated": "2026-06-17T08:00:18.046321",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 770,
+    "processed_pdfs": 774,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94309,6 +94309,223 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-06-15T08:00:14.252475",
       "transactions": []
+    },
+    "20034740": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034740.pdf",
+      "member_info": {
+        "filing_id": "20034740",
+        "name": "Hon. Richard W. Allen",
+        "district": "GA12"
+      },
+      "stock_transaction_count": 3,
+      "parsed_at": "2026-06-17T08:00:11.244734",
+      "transactions": [
+        {
+          "asset": "Accenture plc Class A Ordinary Shares",
+          "ticker": "ACN",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/08/2026",
+          "notification_date": "06/08/2026",
+          "amount": "$15,001 - $50,000"
+        },
+        {
+          "asset": "American Express Company Common Stock",
+          "ticker": "AXP",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/08/2026",
+          "notification_date": "06/08/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+          "ticker": "TSM",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/08/2026",
+          "notification_date": "06/08/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034796": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034796.pdf",
+      "member_info": {
+        "filing_id": "20034796",
+        "name": "Hon. Steve Cohen",
+        "district": "TN09"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-17T08:00:13.119169",
+      "transactions": []
+    },
+    "20034688": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034688.pdf",
+      "member_info": {
+        "filing_id": "20034688",
+        "name": "Hon. Jonathan Jackson",
+        "district": "IL01"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-17T08:00:15.013335",
+      "transactions": [
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Joint",
+          "owner_code": "JT",
+          "transaction_type": "Sale",
+          "transaction_date": "05/12/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034807": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034807.pdf",
+      "member_info": {
+        "filing_id": "20034807",
+        "name": "Hon. Matthew Robert Van Epps",
+        "district": "TN07"
+      },
+      "stock_transaction_count": 13,
+      "parsed_at": "2026-06-17T08:00:17.896014",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class A Common Stock",
+          "ticker": "GOOGL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Amazon.com, Inc. - Common Stock",
+          "ticker": "AMZN",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Apple Inc. - Common Stock",
+          "ticker": "AAPL",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Exxon Mobil Corporation Common Stock",
+          "ticker": "XOM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GE Aerospace Common Stock",
+          "ticker": "GE",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "GE Vernova Inc. Common Stock",
+          "ticker": "GEV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "International Business Machines Corporation Common Stock",
+          "ticker": "IBM",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Meta Platforms, Inc. - Class A Common Stock",
+          "ticker": "META",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "NVIDIA Corporation - Common Stock",
+          "ticker": "NVDA",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Southwest Airlines Company Common Stock",
+          "ticker": "LUV",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Tapestry, Inc. Common Stock",
+          "ticker": "TPR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/16/2026",
+          "notification_date": "06/17/2026",
+          "amount": "$15,001 - $50,000"
+        }
+      ]
     }
   }
 }
