@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-17T08:00:18.046321",
+  "last_updated": "2026-06-19T08:00:08.513159",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 774,
+    "processed_pdfs": 775,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94524,6 +94524,58 @@
           "transaction_date": "06/16/2026",
           "notification_date": "06/17/2026",
           "amount": "$15,001 - $50,000"
+        }
+      ]
+    },
+    "20034783": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034783.pdf",
+      "member_info": {
+        "filing_id": "20034783",
+        "name": "Hon. Thomas H. Kean Jr",
+        "district": "NJ07"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-06-19T08:00:08.353000",
+      "transactions": [
+        {
+          "asset": "Amcor plc Ordinary Shares",
+          "ticker": "AMCR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/14/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Becton, Dickinson and Company Common Stock",
+          "ticker": "BDX",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/21/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Check Point Software Technologies Ltd. - Ordinary Shares",
+          "ticker": "CHKP",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/01/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "EQT Corporation Common Stock",
+          "ticker": "EQT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/01/2026",
+          "notification_date": "06/02/2026",
+          "amount": "$1,001 - $15,000"
         }
       ]
     }
