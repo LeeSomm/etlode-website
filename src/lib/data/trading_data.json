@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-19T08:00:08.513159",
+  "last_updated": "2026-06-22T08:00:12.833426",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 775,
+    "processed_pdfs": 777,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94578,6 +94578,69 @@
           "amount": "$1,001 - $15,000"
         }
       ]
+    },
+    "20034749": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034749.pdf",
+      "member_info": {
+        "filing_id": "20034749",
+        "name": "Hon. Jared Moskowitz",
+        "district": "FL23"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-06-22T08:00:09.041117",
+      "transactions": [
+        {
+          "asset": "Cencora, Inc. Common Stock",
+          "ticker": "COR",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Sale",
+          "transaction_date": "05/06/2026",
+          "notification_date": "05/31/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Cencora, Inc. Common Stock",
+          "ticker": "COR",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "05/06/2026",
+          "notification_date": "05/31/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gilead Sciences, Inc. - Common Stock",
+          "ticker": "GILD",
+          "owner": "Dependent Child",
+          "owner_code": "DC",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/06/2026",
+          "notification_date": "05/31/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Gilead Sciences, Inc. - Common Stock",
+          "ticker": "GILD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "05/06/2026",
+          "notification_date": "05/31/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034784": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034784.pdf",
+      "member_info": {
+        "filing_id": "20034784",
+        "name": "Hon. Scott H. Peters",
+        "district": "CA50"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-22T08:00:12.680112",
+      "transactions": []
     }
   }
 }
