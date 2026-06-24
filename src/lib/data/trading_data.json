@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-22T08:00:12.833426",
+  "last_updated": "2026-06-24T08:00:11.649110",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 777,
+    "processed_pdfs": 779,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94640,6 +94640,28 @@
       },
       "stock_transaction_count": 0,
       "parsed_at": "2026-06-22T08:00:12.680112",
+      "transactions": []
+    },
+    "20034815": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034815.pdf",
+      "member_info": {
+        "filing_id": "20034815",
+        "name": "Hon. Neal Patrick MD, Facs Dunn",
+        "district": "FL02"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-24T08:00:09.459714",
+      "transactions": []
+    },
+    "20034836": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034836.pdf",
+      "member_info": {
+        "filing_id": "20034836",
+        "name": "Hon. Nancy Pelosi",
+        "district": "CA11"
+      },
+      "stock_transaction_count": 0,
+      "parsed_at": "2026-06-24T08:00:11.486008",
       "transactions": []
     }
   }
