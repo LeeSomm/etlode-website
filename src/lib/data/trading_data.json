@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-24T08:00:11.649110",
+  "last_updated": "2026-06-25T08:00:07.836735",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 779,
+    "processed_pdfs": 780,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94663,6 +94663,38 @@
       "stock_transaction_count": 0,
       "parsed_at": "2026-06-24T08:00:11.486008",
       "transactions": []
+    },
+    "20034851": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034851.pdf",
+      "member_info": {
+        "filing_id": "20034851",
+        "name": "Hon. Dwight Evans",
+        "district": "PA03"
+      },
+      "stock_transaction_count": 2,
+      "parsed_at": "2026-06-25T08:00:07.677472",
+      "transactions": [
+        {
+          "asset": "General Dynamics Corporation Common Stock",
+          "ticker": "GD",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/10/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Intel Corporation - Common Stock",
+          "ticker": "INTC",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Sale",
+          "transaction_date": "06/10/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
     }
   }
 }
