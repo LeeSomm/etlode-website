@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-25T08:00:07.836735",
+  "last_updated": "2026-06-29T08:00:11.304435",
   "pending_processing": [],
   "summary": {
     "total_pdfs": 0,
-    "processed_pdfs": 780,
+    "processed_pdfs": 782,
     "pending_pdfs": 0
   },
   "processed_filings": {
@@ -94693,6 +94693,80 @@
           "transaction_date": "06/10/2026",
           "notification_date": "06/11/2026",
           "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034800": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034800.pdf",
+      "member_info": {
+        "filing_id": "20034800",
+        "name": "Cleo Fields",
+        "district": "LA06"
+      },
+      "stock_transaction_count": 4,
+      "parsed_at": "2026-06-29T08:00:09.271374",
+      "transactions": [
+        {
+          "asset": "Alphabet Inc. - Class C Capital Stock",
+          "ticker": "GOOG",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/15/2026",
+          "notification_date": "06/15/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Microsoft Corporation - Common Stock",
+          "ticker": "MSFT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/11/2026",
+          "notification_date": "06/11/2026",
+          "amount": "$1,001 - $15,000"
+        },
+        {
+          "asset": "Quantinuum Inc. - Class A Common Stock",
+          "ticker": "QNT",
+          "owner": "Self",
+          "owner_code": "",
+          "transaction_type": "Purchase",
+          "transaction_date": "06/04/2026",
+          "notification_date": "06/04/2026",
+          "amount": "$1,001 - $15,000"
+        }
+      ]
+    },
+    "20034717": {
+      "pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034717.pdf",
+      "member_info": {
+        "filing_id": "20034717",
+        "name": "Hon. Greg Stanton",
+        "district": "AZ04"
+      },
+      "stock_transaction_count": 1,
+      "parsed_at": "2026-06-29T08:00:11.105461",
+      "transactions": [
+        {
+          "asset": "TRULIEVE CANNABIS CORP",
+          "ticker": "TCNNF",
+          "owner": "Spouse",
+          "owner_code": "SP",
+          "transaction_type": "Sale",
+          "transaction_date": "05/28/2026",
+          "notification_date": "05/28/2026",
+          "amount": "$100,001 - $250,000"
         }
       ]
     }
